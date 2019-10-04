@@ -1,0 +1,133 @@
+Kind,Name,File,CountLineCode,Cyclomatic,SumCyclomatic
+Class,"AbiTest",AbiTest.h,31,,6
+File,"AbiTest.cpp",AbiTest.cpp,85,,12
+File,"AbiTest.h",AbiTest.h,7,,0
+Public Function,"AbiTest::AbiTest",AbiTest.cpp,3,1,
+Public Function,"AbiTest::doTests",AbiTest.cpp,18,4,
+Public Virtual Function,"AbiTest::~AbiTest",AbiTest.cpp,3,1,
+Static Function,"AbiTest_RemoveFromMethods",AbiTest.cpp,9,1,
+Static Function,"AbiTest_invoke",AbiTest.cpp,10,1,
+Static Function,"AbiTest_registerMethod",AbiTest.cpp,13,1,
+Class,"FL_DocLayout",fl_BlockLayout.t.cpp,23,,4
+Public Function,"FL_DocLayout::FL_DocLayout",fl_BlockLayout.t.cpp,5,1,
+Public Function,"FL_DocLayout::setSpellQueueHead",fl_BlockLayout.t.cpp,4,1,
+Public Function,"FL_DocLayout::setSpellQueueTail",fl_BlockLayout.t.cpp,4,1,
+Public Const Function,"FL_DocLayout::spellQueueHead",fl_BlockLayout.t.cpp,4,1,
+Class,"IE_MailMerge_TH",ie_mailmerge.t.cpp,8,,1
+Public Static Function,"IE_MailMerge_TH::getSniffers",ie_mailmerge.t.cpp,4,1,
+Class,"IE_MergeSniffer_TH",ie_mailmerge.t.cpp,4,,0
+Struct,"TF_TableDesc",ie_Table.t.cpp,5,,0
+Class,"TF_TableListener",ie_Table.t.cpp,75,,12
+Public Function,"TF_TableListener::TF_TableListener",ie_Table.t.cpp,5,1,
+Public Virtual Function,"TF_TableListener::change",ie_Table.t.cpp,5,1,
+Public Virtual Function,"TF_TableListener::insertStrux",ie_Table.t.cpp,10,1,
+Public Virtual Function,"TF_TableListener::populate",ie_Table.t.cpp,5,1,
+Public Virtual Function,"TF_TableListener::populateStrux",ie_Table.t.cpp,34,6,
+Public Virtual Function,"TF_TableListener::signal",ie_Table.t.cpp,4,1,
+Public Const Function,"TF_TableListener::tables",ie_Table.t.cpp,4,1,
+Class,"TF_Test",tf_test.h,29,,1
+Public Static Function,"TF_Test::start_check",tf_test.h,3,1,
+Function,"UT_UUIDGenerator__test",ut_uuid.t.cpp,57,12,
+Static Function,"_tftest_main___COUNTER__",pp_AttrProp.t.cpp,17,1,
+Static Function,"_tftest_main___COUNTER__",pp_AttrProp.t.cpp,16,1,
+Static Function,"_tftest_main___COUNTER__",ut_option.t.cpp,35,5,
+Static Function,"_tftest_main___COUNTER__",pf_Fragments.t.cpp,3,1,
+Static Function,"_tftest_main___COUNTER__",ut_types.t.cpp,19,1,
+Static Function,"_tftest_main___COUNTER__",fl_AutoNum.t.cpp,25,1,
+Static Function,"_tftest_main___COUNTER__",ut_std_string.t.cpp,34,1,
+Static Function,"_tftest_main___COUNTER__",ut_std_string.t.cpp,9,1,
+Static Function,"_tftest_main___COUNTER__",ut_std_string.t.cpp,21,1,
+Static Function,"_tftest_main___COUNTER__",ut_locale.t.cpp,22,2,
+Static Function,"_tftest_main___COUNTER__",ie_Table.t.cpp,27,2,
+Static Function,"_tftest_main___COUNTER__",xap_UnixWidget.t.cpp,14,1,
+Static Function,"_tftest_main___COUNTER__",ut_uuid.t.cpp,13,1,
+Static Function,"_tftest_main___COUNTER__",ut_bytebuf.t.cpp,27,1,
+Static Function,"_tftest_main___COUNTER__",ut_string.t.cpp,34,1,
+Static Function,"_tftest_main___COUNTER__",ut_misc.t.cpp,19,1,
+Static Function,"_tftest_main___COUNTER__",ut_misc.t.cpp,12,1,
+Static Function,"_tftest_main___COUNTER__",pp_AttrProp.t.cpp,12,1,
+Static Function,"_tftest_main___COUNTER__",pp_AttrProp.t.cpp,12,1,
+Static Function,"_tftest_main___COUNTER__",pp_AttrProp.t.cpp,13,1,
+Static Function,"_tftest_main___COUNTER__",pp_AttrProp.t.cpp,17,1,
+Static Function,"_tftest_main___COUNTER__",pp_PropertyMap.t.cpp,18,1,
+Static Function,"_tftest_main___COUNTER__",pt_PieceTable.t.cpp,14,1,
+Static Function,"_tftest_main___COUNTER__",ie_mailmerge.t.cpp,19,2,
+Static Function,"_tftest_main___COUNTER__",ie_mailmerge.t.cpp,9,1,
+Static Function,"_tftest_main___COUNTER__",ut_string_class.t.cpp,39,1,
+Static Function,"_tftest_main___COUNTER__",ut_vector.t.cpp,3,1,
+Static Function,"_tftest_main___COUNTER__",ut_vector.t.cpp,34,1,
+Static Function,"_tftest_main___COUNTER__",ut_string_class.t.cpp,22,1,
+Static Function,"_tftest_main___COUNTER__",pp_AttrProp.t.cpp,15,1,
+Static Function,"_tftest_main___COUNTER__",pp_AttrProp.t.cpp,13,1,
+Static Function,"_tftest_main___COUNTER__",pp_AttrProp.t.cpp,11,1,
+Static Function,"_tftest_main___COUNTER__",pp_AttrProp.t.cpp,24,1,
+Static Function,"_tftest_main___COUNTER__",pp_AttrProp.t.cpp,16,1,
+Static Function,"_tftest_main___COUNTER__",pp_AttrProp.t.cpp,16,1,
+Static Function,"_tftest_main___COUNTER__",pp_AttrProp.t.cpp,19,1,
+Static Function,"_tftest_main___COUNTER__",pp_AttrProp.t.cpp,18,1,
+Static Function,"_tftest_main___COUNTER__",pp_AttrProp.t.cpp,28,1,
+Static Function,"_tftest_main___COUNTER__",pp_AttrProp.t.cpp,22,1,
+Static Function,"_tftest_main___COUNTER__",pp_AttrProp.t.cpp,16,1,
+Static Function,"_tftest_main___COUNTER__",ut_std_string.t.cpp,13,1,
+Static Function,"_tftest_main___COUNTER__",ut_std_string.t.cpp,19,1,
+Static Function,"_tftest_main___COUNTER__",ut_std_string.t.cpp,8,1,
+Static Function,"_tftest_main___COUNTER__",ut_string_class.t.cpp,31,1,
+Function,"abi_plugin_register",AbiTest.cpp,11,1,
+Function,"abi_plugin_supports_version",AbiTest.cpp,5,1,
+Function,"abi_plugin_unregister",AbiTest.cpp,11,1,
+File,"all_test.h",all_test.h,0,,0
+File,"all_test_unix.h",all_test_unix.h,0,,0
+File,"content.xml",content.xml,166,0,0
+File,"current.xml",current.xml,0,0,0
+File,"fl_AutoNum.t.cpp",fl_AutoNum.t.cpp,38,,2
+Class,"fl_BlockLayout",fl_BlockLayout.t.cpp,58,,9
+File,"fl_BlockLayout.t.cpp",fl_BlockLayout.t.cpp,208,,48
+Public Function,"fl_BlockLayout::dequeueFromSpellCheck",fl_BlockLayout.t.cpp,16,3,
+Public Function,"fl_BlockLayout::enqueueToSpellCheckAfter",fl_BlockLayout.t.cpp,18,3,
+Public Function,"fl_BlockLayout::fl_BlockLayout",fl_BlockLayout.t.cpp,6,1,
+Public Const Function,"fl_BlockLayout::nextToSpell",fl_BlockLayout.t.cpp,4,1,
+Public Const Function,"fl_BlockLayout::prevToSpell",fl_BlockLayout.t.cpp,4,1,
+File,"fl_TestRoutines.cpp",fl_TestRoutines.cpp,0,,0
+File,"fp_TestRoutines.cpp",fp_TestRoutines.cpp,0,,0
+File,"fv_View_TestRoutines.cpp",fv_View_TestRoutines.cpp,0,,0
+File,"ie_Table.t.cpp",ie_Table.t.cpp,111,,14
+File,"ie_mailmerge.t.cpp",ie_mailmerge.t.cpp,42,,4
+Function,"init_platform",test_main.cpp,3,1,
+Function,"main",fl_BlockLayout.t.cpp,126,35,
+Function,"main",main.cpp,7,1,
+File,"main.cpp",main.cpp,16,,1
+Function,"makeDocument",fl_AutoNum.t.cpp,9,1,
+File,"manifest.xml",manifest.xml,11,0,0
+File,"meta.xml",meta.xml,11,0,0
+File,"pd_Document_TestRoutines.cpp",pd_Document_TestRoutines.cpp,0,,0
+File,"pf_Frag_TestRoutines.cpp",pf_Frag_TestRoutines.cpp,0,,0
+File,"pf_Fragments.t.cpp",pf_Fragments.t.cpp,3,,1
+File,"pf_Frags_TestRoutines.cpp",pf_Frags_TestRoutines.cpp,0,,0
+File,"pp_AttrProp.t.cpp",pp_AttrProp.t.cpp,310,,17
+File,"pp_PropertyMap.t.cpp",pp_PropertyMap.t.cpp,18,,1
+File,"pt_PT_TestRoutines.cpp",pt_PT_TestRoutines.cpp,0,,0
+File,"pt_PieceTable.t.cpp",pt_PieceTable.t.cpp,14,,1
+File,"px_CH_TestRoutines.cpp",px_CH_TestRoutines.cpp,0,,0
+File,"px_CR_TestRoutines.cpp",px_CR_TestRoutines.cpp,0,,0
+Static Function,"s_cmp_hash",ut_uuid.t.cpp,4,1,
+File,"settings.xml",settings.xml,2,0,0
+File,"styles.xml",styles.xml,2,0,0
+Function,"terminate_platform",test_main.cpp,3,1,
+File,"test_main.cpp",test_main.cpp,6,,2
+Struct,"test_record",ut_uuid.t.cpp,5,,0
+File,"tf_test.cpp",tf_test.cpp,0,,0
+File,"tf_test.h",tf_test.h,29,,1
+File,"ut_base64_TestRoutines.cpp",ut_base64_TestRoutines.cpp,0,,0
+File,"ut_bytebuf.t.cpp",ut_bytebuf.t.cpp,27,,1
+File,"ut_locale.t.cpp",ut_locale.t.cpp,22,,2
+File,"ut_misc.t.cpp",ut_misc.t.cpp,31,,2
+File,"ut_option.t.cpp",ut_option.t.cpp,35,,5
+File,"ut_std_string.t.cpp",ut_std_string.t.cpp,104,,6
+File,"ut_string.t.cpp",ut_string.t.cpp,34,,1
+File,"ut_string_class.t.cpp",ut_string_class.t.cpp,92,,3
+File,"ut_test.cpp",ut_test.cpp,0,,0
+File,"ut_test.h",ut_test.h,0,,0
+File,"ut_types.t.cpp",ut_types.t.cpp,19,,1
+File,"ut_uuid.t.cpp",ut_uuid.t.cpp,79,,14
+File,"ut_vector.t.cpp",ut_vector.t.cpp,37,,2
+File,"xap_UnixWidget.t.cpp",xap_UnixWidget.t.cpp,14,,1

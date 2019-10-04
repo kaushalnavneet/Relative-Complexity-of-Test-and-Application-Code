@@ -1,0 +1,1649 @@
+Kind,Name,File,CountLineCode,Cyclomatic,SumCyclomatic
+File,"00a-Basics-Pitches.html",00a-Basics-Pitches.html,0,0,0
+File,"00a-Basics-Pitches.xml",00a-Basics-Pitches.xml,1259,0,0
+File,"00b-Basics-Intervals.html",00b-Basics-Intervals.html,0,0,0
+File,"00b-Basics-Intervals.xml",00b-Basics-Intervals.xml,902,0,0
+File,"00c-Basics-Durations.html",00c-Basics-Durations.html,0,0,0
+File,"00c-Basics-Durations.xml",00c-Basics-Durations.xml,444,0,0
+File,"00d-Basics-RestDurations.html",00d-Basics-RestDurations.html,0,0,0
+File,"00d-Basics-RestDurations.xml",00d-Basics-RestDurations.xml,181,0,0
+File,"00e-Basics-PitchedRests-PJB.html",00e-Basics-PitchedRests-PJB.html,0,0,0
+File,"00e-Basics-PitchedRests-PJB.xml",00e-Basics-PitchedRests-PJB.xml,60,0,0
+File,"00f-Basics-Clefs.html",00f-Basics-Clefs.html,0,0,0
+File,"00f-Basics-Clefs.xml",00f-Basics-Clefs.xml,367,0,0
+File,"00g-Basics-Keys.html",00g-Basics-Keys.html,0,0,0
+File,"00g-Basics-Keys.xml",00g-Basics-Keys.xml,807,0,0
+File,"00h-Basics-TimeSignatures.html",00h-Basics-TimeSignatures.html,0,0,0
+File,"00h-Basics-TimeSignatures.xml",00h-Basics-TimeSignatures.xml,212,0,0
+File,"00i-Basics-NoKeyOrClef.html",00i-Basics-NoKeyOrClef.html,0,0,0
+File,"00i-Basics-NoKeyOrClef.xml",00i-Basics-NoKeyOrClef.xml,42,0,0
+File,"00j-Basics-NoTime-PJB.html",00j-Basics-NoTime-PJB.html,0,0,0
+File,"00j-Basics-NoTime-PJB.xml",00j-Basics-NoTime-PJB.xml,38,0,0
+File,"00k-Basics-Backup.html",00k-Basics-Backup.html,0,0,0
+File,"00k-Basics-Backup.xml",00k-Basics-Backup.xml,66,0,0
+File,"00l-Basics-MultiMeasureRests.html",00l-Basics-MultiMeasureRests.html,0,0,0
+File,"00l-Basics-MultiMeasureRests.xml",00l-Basics-MultiMeasureRests.xml,276,0,0
+File,"00l-Basics-Tie-PJB.html",00l-Basics-Tie-PJB.html,0,0,0
+File,"00l-Basics-Tie-PJB.xml",00l-Basics-Tie-PJB.xml,41,0,0
+File,"01a-Chord-Rosegarden.html",01a-Chord-Rosegarden.html,0,0,0
+File,"01a-Chord-Rosegarden.xml",01a-Chord-Rosegarden.xml,68,0,0
+File,"01b-Chords-Rosegarden.html",01b-Chords-Rosegarden.html,0,0,0
+File,"01b-Chords-Rosegarden.xml",01b-Chords-Rosegarden.xml,192,0,0
+File,"01c-Chords-Rosegarden.html",01c-Chords-Rosegarden.html,0,0,0
+File,"01c-Chords-Rosegarden.xml",01c-Chords-Rosegarden.xml,265,0,0
+File,"01d-Chords-SchubertStabatMater.html",01d-Chords-SchubertStabatMater.html,0,0,0
+File,"01d-Chords-SchubertStabatMater.xml",01d-Chords-SchubertStabatMater.xml,172,0,0
+File,"01e-Chords-PickupMeasures.html",01e-Chords-PickupMeasures.html,0,0,0
+File,"01e-Chords-PickupMeasures.xml",01e-Chords-PickupMeasures.xml,86,0,0
+File,"02a-Notations-MusicXML.html",02a-Notations-MusicXML.html,0,0,0
+File,"02a-Notations-MusicXML.xml",02a-Notations-MusicXML.xml,1201,0,0
+File,"02b-Articulations-Texts-PJB.html",02b-Articulations-Texts-PJB.html,0,0,0
+File,"02b-Articulations-Texts-PJB.xml",02b-Articulations-Texts-PJB.xml,106,0,0
+File,"02c-MultipleNotationChildren-RFK.html",02c-MultipleNotationChildren-RFK.html,0,0,0
+File,"02c-MultipleNotationChildren-RFK.xml",02c-MultipleNotationChildren-RFK.xml,100,0,0
+File,"02d-Arpeggio.html",02d-Arpeggio.html,0,0,0
+File,"02d-Arpeggio.xml",02d-Arpeggio.xml,240,0,0
+File,"03a-Directions-MusicXML.html",03a-Directions-MusicXML.html,0,0,0
+File,"03a-Directions-MusicXML.xml",03a-Directions-MusicXML.xml,762,0,0
+File,"03b-AccordionRegistrations-MusicXML.html",03b-AccordionRegistrations-MusicXML.html,0,0,0
+File,"03b-AccordionRegistrations-MusicXML.xml",03b-AccordionRegistrations-MusicXML.xml,343,0,0
+File,"03c-MetronomeMarks.html",03c-MetronomeMarks.html,0,0,0
+File,"03c-MetronomeMarks.xml",03c-MetronomeMarks.xml,176,0,0
+File,"04a-Spanners-Finale.html",04a-Spanners-Finale.html,0,0,0
+File,"04a-Spanners-Finale.xml",04a-Spanners-Finale.xml,675,0,0
+File,"04b-Glissando.html",04b-Glissando.html,0,0,0
+File,"04b-Glissando.xml",04b-Glissando.xml,313,0,0
+File,"04c-Spanners-Noteedit.html",04c-Spanners-Noteedit.html,0,0,0
+File,"04c-Spanners-Noteedit.xml",04c-Spanners-Noteedit.xml,280,0,0
+File,"04d-Spanners-JScore.html",04d-Spanners-JScore.html,0,0,0
+File,"04d-Spanners-JScore.xml",04d-Spanners-JScore.xml,401,0,0
+File,"04e-OctaveShifts-Finale.html",04e-OctaveShifts-Finale.html,0,0,0
+File,"04e-OctaveShifts-Finale.xml",04e-OctaveShifts-Finale.xml,196,0,0
+File,"05a-HeaderQuotes-Finale.html",05a-HeaderQuotes-Finale.html,0,0,0
+File,"05a-HeaderQuotes-Finale.xml",05a-HeaderQuotes-Finale.xml,32,0,0
+File,"06a-Lyrics-Finale.html",06a-Lyrics-Finale.html,0,0,0
+File,"06a-Lyrics-Finale.xml",06a-Lyrics-Finale.xml,154,0,0
+File,"06b-MultipleLyrics-Finale.html",06b-MultipleLyrics-Finale.html,0,0,0
+File,"06b-MultipleLyrics-Finale.xml",06b-MultipleLyrics-Finale.xml,207,0,0
+File,"06c-Lyrics-Pianostaff-Finale.html",06c-Lyrics-Pianostaff-Finale.html,0,0,0
+File,"06c-Lyrics-Pianostaff-Finale.xml",06c-Lyrics-Pianostaff-Finale.xml,288,0,0
+File,"06d-Lyrics-Melisma-Finale.html",06d-Lyrics-Melisma-Finale.html,0,0,0
+File,"06d-Lyrics-Melisma-Finale.xml",06d-Lyrics-Melisma-Finale.xml,185,0,0
+File,"06e-Lyrics-Chords-Finale.html",06e-Lyrics-Chords-Finale.html,0,0,0
+File,"06e-Lyrics-Chords-Finale.xml",06e-Lyrics-Chords-Finale.xml,148,0,0
+File,"06f-Lyrics-GracedNotes-Finale.html",06f-Lyrics-GracedNotes-Finale.html,0,0,0
+File,"06f-Lyrics-GracedNotes-Finale.xml",06f-Lyrics-GracedNotes-Finale.xml,229,0,0
+File,"06g-Lyrics-NameNumber.html",06g-Lyrics-NameNumber.html,0,0,0
+File,"06g-Lyrics-NameNumber.xml",06g-Lyrics-NameNumber.xml,111,0,0
+File,"06h-Lyrics-BeamsMelismata.html",06h-Lyrics-BeamsMelismata.html,0,0,0
+File,"06h-Lyrics-BeamsMelismata.xml",06h-Lyrics-BeamsMelismata.xml,297,0,0
+File,"08a-Partorder-Rosegarden.html",08a-Partorder-Rosegarden.html,0,0,0
+File,"08a-Partorder-Rosegarden.xml",08a-Partorder-Rosegarden.xml,210,0,0
+File,"08b-StaffGroups-Finale.html",08b-StaffGroups-Finale.html,0,0,0
+File,"08b-StaffGroups-Finale.xml",08b-StaffGroups-Finale.xml,1762,0,0
+File,"08c-More-than-10-parts-Rosegarden.html",08c-More-than-10-parts-Rosegarden.html,0,0,0
+File,"08c-More-than-10-parts-Rosegarden.xml",08c-More-than-10-parts-Rosegarden.xml,590,0,0
+File,"08d-NestedPartsBrackets-Finale.html",08d-NestedPartsBrackets-Finale.html,0,0,0
+File,"08d-NestedPartsBrackets-Finale.xml",08d-NestedPartsBrackets-Finale.xml,327,0,0
+File,"08e-LinebrokenInstrumentNames-Finale.html",08e-LinebrokenInstrumentNames-Finale.html,0,0,0
+File,"08e-LinebrokenInstrumentNames-Finale.xml",08e-LinebrokenInstrumentNames-Finale.xml,302,0,0
+File,"08f-PianoStaff-PJB.html",08f-PianoStaff-PJB.html,0,0,0
+File,"08f-PianoStaff-PJB.xml",08f-PianoStaff-PJB.xml,43,0,0
+File,"08g-OverlappingPartGroups-Finale.html",08g-OverlappingPartGroups-Finale.html,0,0,0
+File,"08g-OverlappingPartGroups-Finale.xml",08g-OverlappingPartGroups-Finale.xml,221,0,0
+File,"09a-SimpleRepeat-Finale.html",09a-SimpleRepeat-Finale.html,0,0,0
+File,"09a-SimpleRepeat-Finale.xml",09a-SimpleRepeat-Finale.xml,63,0,0
+File,"09b-RepeatWithAlternatives-Finale.html",09b-RepeatWithAlternatives-Finale.html,0,0,0
+File,"09b-RepeatWithAlternatives-Finale.xml",09b-RepeatWithAlternatives-Finale.xml,103,0,0
+File,"09c-Barlines-Finale.html",09c-Barlines-Finale.html,0,0,0
+File,"09c-Barlines-Finale.xml",09c-Barlines-Finale.xml,160,0,0
+File,"09d-RepeatMultipleTimes-Finale.html",09d-RepeatMultipleTimes-Finale.html,0,0,0
+File,"09d-RepeatMultipleTimes-Finale.xml",09d-RepeatMultipleTimes-Finale.xml,115,0,0
+File,"09e-Alternatives-Finale.html",09e-Alternatives-Finale.html,0,0,0
+File,"09e-Alternatives-Finale.xml",09e-Alternatives-Finale.xml,167,0,0
+File,"09f-Repeats-Finale.html",09f-Repeats-Finale.html,0,0,0
+File,"09f-Repeats-Finale.xml",09f-Repeats-Finale.xml,159,0,0
+File,"09g-Endings-Finale.html",09g-Endings-Finale.html,0,0,0
+File,"09g-Endings-Finale.xml",09g-Endings-Finale.xml,98,0,0
+File,"09h-RepeatsNoEndBar-Finale.html",09h-RepeatsNoEndBar-Finale.html,0,0,0
+File,"09h-RepeatsNoEndBar-Finale.xml",09h-RepeatsNoEndBar-Finale.xml,72,0,0
+File,"09i-MidmeasureBarline.html",09i-MidmeasureBarline.html,0,0,0
+File,"09i-MidmeasureBarline.xml",09i-MidmeasureBarline.xml,69,0,0
+File,"09j-Midmeasure-Clef-Finale.html",09j-Midmeasure-Clef-Finale.html,0,0,0
+File,"09j-Midmeasure-Clef-Finale.xml",09j-Midmeasure-Clef-Finale.xml,108,0,0
+File,"09k-Upbeats-ImplicitMeasures-Finale.html",09k-Upbeats-ImplicitMeasures-Finale.html,0,0,0
+File,"09k-Upbeats-ImplicitMeasures-Finale.xml",09k-Upbeats-ImplicitMeasures-Finale.xml,143,0,0
+File,"09l-PickupMeasure-SecondVoiceMessup.html",09l-PickupMeasure-SecondVoiceMessup.html,0,0,0
+File,"09l-PickupMeasure-SecondVoiceMessup.xml",09l-PickupMeasure-SecondVoiceMessup.xml,92,0,0
+File,"10a-TwoVoicesOnStaff-Finale.html",10a-TwoVoicesOnStaff-Finale.html,0,0,0
+File,"10a-TwoVoicesOnStaff-Finale.xml",10a-TwoVoicesOnStaff-Finale.xml,286,0,0
+File,"12a-TripletsDuration-NoBracket-PJB.html",12a-TripletsDuration-NoBracket-PJB.html,0,0,0
+File,"12a-TripletsDuration-NoBracket-PJB.xml",12a-TripletsDuration-NoBracket-PJB.xml,194,0,0
+File,"12b-Tuplets-Finale.html",12b-Tuplets-Finale.html,0,0,0
+File,"12b-Tuplets-Finale.xml",12b-Tuplets-Finale.xml,511,0,0
+File,"13a-GraceNotes-Finale.html",13a-GraceNotes-Finale.html,0,0,0
+File,"13a-GraceNotes-Finale.xml",13a-GraceNotes-Finale.xml,353,0,0
+File,"13b-ChordAsGraceNote-Finale.html",13b-ChordAsGraceNote-Finale.html,0,0,0
+File,"13b-ChordAsGraceNote-Finale.xml",13b-ChordAsGraceNote-Finale.xml,133,0,0
+File,"14a-MultistaffClefDynamics-Finale.html",14a-MultistaffClefDynamics-Finale.html,0,0,0
+File,"14a-MultistaffClefDynamics-Finale.xml",14a-MultistaffClefDynamics-Finale.xml,411,0,0
+File,"14b-DifferentKeys-PJB.html",14b-DifferentKeys-PJB.html,0,0,0
+File,"14b-DifferentKeys-PJB.xml",14b-DifferentKeys-PJB.xml,46,0,0
+File,"14b-DifferentKeysAfterBackup-PJB.html",14b-DifferentKeysAfterBackup-PJB.html,0,0,0
+File,"14b-DifferentKeysAfterBackup-PJB.xml",14b-DifferentKeysAfterBackup-PJB.xml,46,0,0
+File,"14c-StaffChange-Finale.html",14c-StaffChange-Finale.html,0,0,0
+File,"14c-StaffChange-Finale.xml",14c-StaffChange-Finale.xml,358,0,0
+File,"15a-Percussion-Finale.html",15a-Percussion-Finale.html,0,0,0
+File,"15a-Percussion-Finale.xml",15a-Percussion-Finale.xml,179,0,0
+File,"17a-Chords-Finale.html",17a-Chords-Finale.html,0,0,0
+File,"17a-Chords-Finale.xml",17a-Chords-Finale.xml,200,0,0
+File,"17b-Fretboards-Finale.html",17b-Fretboards-Finale.html,0,0,0
+File,"17b-Fretboards-Finale.xml",17b-Fretboards-Finale.xml,227,0,0
+File,"17c-ChordsFrets-Finale.html",17c-ChordsFrets-Finale.html,0,0,0
+File,"17c-ChordsFrets-Finale.xml",17c-ChordsFrets-Finale.xml,438,0,0
+File,"17d-ChordsFretsOnMultistaff-Finale.html",17d-ChordsFretsOnMultistaff-Finale.html,0,0,0
+File,"17d-ChordsFretsOnMultistaff-Finale.xml",17d-ChordsFretsOnMultistaff-Finale.xml,616,0,0
+File,"17e-TabStaves-Finale.html",17e-TabStaves-Finale.html,0,0,0
+File,"17e-TabStaves-Finale.xml",17e-TabStaves-Finale.xml,1619,0,0
+File,"17f-AllChordTypes.html",17f-AllChordTypes.html,0,0,0
+File,"17f-AllChordTypes.xml",17f-AllChordTypes.xml,581,0,0
+File,"18a-FiguredBass.html",18a-FiguredBass.html,0,0,0
+File,"18a-FiguredBass.xml",18a-FiguredBass.xml,100,0,0
+File,"19a-PageLayout-PrintMusic.html",19a-PageLayout-PrintMusic.html,0,0,0
+File,"19a-PageLayout-PrintMusic.xml",19a-PageLayout-PrintMusic.xml,98,0,0
+File,"99a-Sibelius5-IgnoreBeaming.html",99a-Sibelius5-IgnoreBeaming.html,0,0,0
+File,"99a-Sibelius5-IgnoreBeaming.xml",99a-Sibelius5-IgnoreBeaming.xml,94,0,0
+File,"99b-Lyrics-BeamsMelismata-IgnoreBeams.html",99b-Lyrics-BeamsMelismata-IgnoreBeams.html,0,0,0
+File,"99b-Lyrics-BeamsMelismata-IgnoreBeams.xml",99b-Lyrics-BeamsMelismata-IgnoreBeams.xml,302,0,0
+Public Const Function,"MTest::compareFiles",testutils.cpp,20,2,
+Public Function,"MTest::initMTest",testutils.cpp,16,1,
+Public Function,"MTest::readCreatedScore",testutils.cpp,42,11,
+Public Function,"MTest::readScore",testutils.cpp,5,1,
+Public Function,"MTest::saveCompareMimeData",testutils.cpp,5,1,
+Public Function,"MTest::saveCompareMusicXmlScore",testutils.cpp,5,1,
+Public Const Function,"MTest::saveCompareScore",testutils.cpp,6,2,
+Public Function,"MTest::saveMimeData",testutils.cpp,8,2,
+Public Function,"MTest::saveMusicXml",testutils.cpp,4,1,
+Public Function,"MTest::savePdf",testutils.cpp,39,7,
+Public Const Function,"MTest::saveScore",testutils.cpp,5,1,
+Public Function,"MTest::writeReadElement",testutils.cpp,16,1,
+Class,"Ms::MTest",testutils.h,20,,0
+Class,"Openmscore",mscoreapi.h,10,,3
+Class,"Openmscore",openscore.h,10,,3
+Private Const Function,"Openmscore::currentScore",openscore.h,1,1,
+Private Const Function,"Openmscore::currentScore",mscoreapi.h,1,1,
+Private Function,"Openmscore::getLocaleISOCode",openscore.h,1,1,
+Private Function,"Openmscore::getLocaleISOCode",mscoreapi.h,1,1,
+Private Function,"Openmscore::newFile",openscore.h,1,1,
+Private Function,"Openmscore::newFile",mscoreapi.h,1,1,
+Class,"Openscore",mscoreapi.h,10,,0
+Class,"Openscore",openscore.h,10,,0
+Function,"Q_LOGGING_CATEGORY",testutils.cpp,38,1,
+Struct,"StaffCheckData",tst_remove.cpp,4,,0
+Class,"TestAlbum",tst_album.cpp,81,,7
+Private Function,"TestAlbum::album01",tst_album.cpp,9,1,
+Private Function,"TestAlbum::album_105621",tst_album.cpp,9,1,
+Private Function,"TestAlbum::album_105641",tst_album.cpp,9,1,
+Private Function,"TestAlbum::album_105716",tst_album.cpp,19,1,
+Private Function,"TestAlbum::album_76101",tst_album.cpp,9,1,
+Private Function,"TestAlbum::album_78521",tst_album.cpp,10,1,
+Public Function,"TestAlbum::initTestCase",tst_album.cpp,4,1,
+Class,"TestBarline",tst_barline.cpp,207,,22
+Private Function,"TestBarline::barline01",tst_barline.cpp,32,7,
+Private Function,"TestBarline::barline02",tst_barline.cpp,26,2,
+Private Function,"TestBarline::barline03",tst_barline.cpp,18,2,
+Private Function,"TestBarline::barline04",tst_barline.cpp,22,2,
+Private Function,"TestBarline::barline05",tst_barline.cpp,28,2,
+Private Function,"TestBarline::barline06",tst_barline.cpp,31,4,
+Private Function,"TestBarline::barline179726",tst_barline.cpp,33,2,
+Public Function,"TestBarline::initTestCase",tst_barline.cpp,4,1,
+Class,"TestBeam",tst_beam.cpp,29,,13
+Private Function,"TestBeam::beam",tst_beam.cpp,7,1,
+Private Function,"TestBeam::beam2",tst_beam.cpp,1,1,
+Private Function,"TestBeam::beam23",tst_beam.cpp,1,1,
+Private Function,"TestBeam::beamA",tst_beam.cpp,1,1,
+Private Function,"TestBeam::beamB",tst_beam.cpp,1,1,
+Private Function,"TestBeam::beamC",tst_beam.cpp,1,1,
+Private Function,"TestBeam::beamD",tst_beam.cpp,1,1,
+Private Function,"TestBeam::beamDir",tst_beam.cpp,1,1,
+Private Function,"TestBeam::beamE",tst_beam.cpp,1,1,
+Private Function,"TestBeam::beamF",tst_beam.cpp,1,1,
+Private Function,"TestBeam::beamG",tst_beam.cpp,1,1,
+Private Function,"TestBeam::beamS0",tst_beam.cpp,1,1,
+Public Function,"TestBeam::initTestCase",tst_beam.cpp,4,1,
+Class,"TestBenchmark",tst_benchmark.cpp,47,,5
+Private Function,"TestBenchmark::benchmark1",tst_benchmark.cpp,6,1,
+Private Function,"TestBenchmark::benchmark2",tst_benchmark.cpp,7,1,
+Private Function,"TestBenchmark::benchmark3",tst_benchmark.cpp,10,1,
+Private Function,"TestBenchmark::benchmark4",tst_benchmark.cpp,8,1,
+Public Function,"TestBenchmark::initTestCase",tst_benchmark.cpp,4,1,
+Class,"TestBiab",tst_biab.cpp,28,,3
+Private Function,"TestBiab::biab",tst_biab.cpp,11,1,
+Private Function,"TestBiab::biab_data",tst_biab.cpp,5,1,
+Public Function,"TestBiab::initTestCase",tst_biab.cpp,4,1,
+Class,"TestBreath",tst_breath.cpp,37,,4
+Private Function,"TestBreath::breath",tst_breath.cpp,26,3,
+Public Function,"TestBreath::initTestCase",tst_breath.cpp,4,1,
+Class,"TestBwwIO",tst_bww_io.cpp,53,,18
+Public Function,"TestBwwIO::IoTest",tst_bww_io.cpp,13,1,
+Public Function,"TestBwwIO::IoTestRef",tst_bww_io.cpp,13,1,
+Private Function,"TestBwwIO::beams",tst_bww_io.cpp,1,1,
+Private Function,"TestBwwIO::doublings",tst_bww_io.cpp,1,1,
+Private Function,"TestBwwIO::doublingsShort",tst_bww_io.cpp,1,1,
+Private Function,"TestBwwIO::duration",tst_bww_io.cpp,1,1,
+Private Function,"TestBwwIO::graces",tst_bww_io.cpp,1,1,
+Private Function,"TestBwwIO::hello",tst_bww_io.cpp,1,1,
+Public Function,"TestBwwIO::initTestCase",tst_bww_io.cpp,4,1,
+Private Function,"TestBwwIO::midMeasureRepeat",tst_bww_io.cpp,1,1,
+Private Function,"TestBwwIO::noTimeSig1",tst_bww_io.cpp,1,1,
+Private Function,"TestBwwIO::noTimeSig2",tst_bww_io.cpp,1,1,
+Private Function,"TestBwwIO::notes",tst_bww_io.cpp,1,1,
+Private Function,"TestBwwIO::repeats",tst_bww_io.cpp,1,1,
+Private Function,"TestBwwIO::tempo120",tst_bww_io.cpp,1,1,
+Private Function,"TestBwwIO::tempo60",tst_bww_io.cpp,1,1,
+Private Function,"TestBwwIO::tieTriplets",tst_bww_io.cpp,1,1,
+Private Function,"TestBwwIO::triplets",tst_bww_io.cpp,1,1,
+Class,"TestCapellaIO",tst_capella_io.cpp,52,,27
+Private Function,"TestCapellaIO::capReadTest",tst_capella_io.cpp,8,1,
+Private Function,"TestCapellaIO::capTest1",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capTest2",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capTest3",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capTest4",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capTest5",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capTest6",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capTest7",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capTest8",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capTestTuplet2",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capxReadTest",tst_capella_io.cpp,8,1,
+Private Function,"TestCapellaIO::capxTest1",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capxTest2",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capxTest3",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capxTest4",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capxTest5",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capxTest6",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capxTest7",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capxTestBarline",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capxTestPianoG4G5",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capxTestScaleC4C5",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capxTestSlurTie",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capxTestText1",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capxTestTuplet1",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capxTestTuplet2",tst_capella_io.cpp,1,1,
+Private Function,"TestCapellaIO::capxTestVolta1",tst_capella_io.cpp,1,1,
+Public Function,"TestCapellaIO::initTestCase",tst_capella_io.cpp,4,1,
+Class,"TestChordSymbol",tst_chordsymbol.cpp,127,,10
+Public Function,"TestChordSymbol::initTestCase",tst_chordsymbol.cpp,4,1,
+Private Function,"TestChordSymbol::testAddLink",tst_chordsymbol.cpp,13,1,
+Private Function,"TestChordSymbol::testAddPart",tst_chordsymbol.cpp,13,1,
+Private Function,"TestChordSymbol::testClear",tst_chordsymbol.cpp,9,1,
+Private Function,"TestChordSymbol::testExtend",tst_chordsymbol.cpp,10,1,
+Private Function,"TestChordSymbol::testNoSystem",tst_chordsymbol.cpp,31,1,
+Private Function,"TestChordSymbol::testTranspose",tst_chordsymbol.cpp,9,1,
+Private Function,"TestChordSymbol::testTransposePart",tst_chordsymbol.cpp,9,1,
+Private Function,"TestChordSymbol::test_post",tst_chordsymbol.cpp,8,1,
+Private Function,"TestChordSymbol::test_pre",tst_chordsymbol.cpp,7,1,
+Class,"TestClef",tst_clef.cpp,31,,3
+Private Function,"TestClef::clef1",tst_clef.cpp,6,1,
+Private Function,"TestClef::clef2",tst_clef.cpp,13,1,
+Public Function,"TestClef::initTestCase",tst_clef.cpp,4,1,
+Class,"TestClefCourtesy",tst_clef_courtesy.cpp,121,,7
+Private Function,"TestClefCourtesy::clef_courtesy01",tst_clef_courtesy.cpp,23,1,
+Private Function,"TestClefCourtesy::clef_courtesy02",tst_clef_courtesy.cpp,36,3,
+Private Function,"TestClefCourtesy::clef_courtesy03",tst_clef_courtesy.cpp,20,1,
+Private Function,"TestClefCourtesy::clef_courtesy_78196",tst_clef_courtesy.cpp,28,1,
+Public Function,"TestClefCourtesy::initTestCase",tst_clef_courtesy.cpp,4,1,
+Class,"TestCompat114",tst_compat114.cpp,51,,3
+Private Function,"TestCompat114::compat",tst_compat114.cpp,11,1,
+Private Function,"TestCompat114::compat_data",tst_compat114.cpp,28,1,
+Public Function,"TestCompat114::initTestCase",tst_compat114.cpp,4,1,
+Class,"TestCompat206",tst_compat206.cpp,35,,17
+Private Function,"TestCompat206::accidentals",tst_compat206.cpp,1,1,
+Private Function,"TestCompat206::ambitus",tst_compat206.cpp,1,1,
+Private Function,"TestCompat206::articulations",tst_compat206.cpp,1,1,
+Private Function,"TestCompat206::articulationsDouble",tst_compat206.cpp,1,1,
+Private Function,"TestCompat206::breath",tst_compat206.cpp,1,1,
+Private Function,"TestCompat206::brlines",tst_compat206.cpp,1,1,
+Private Function,"TestCompat206::clefs",tst_compat206.cpp,1,1,
+Private Function,"TestCompat206::compat",tst_compat206.cpp,9,1,
+Private Function,"TestCompat206::drumset",tst_compat206.cpp,1,1,
+Private Function,"TestCompat206::fermata",tst_compat206.cpp,1,1,
+Private Function,"TestCompat206::hairpin",tst_compat206.cpp,1,1,
+Public Function,"TestCompat206::initTestCase",tst_compat206.cpp,4,1,
+Private Function,"TestCompat206::intrumentNameAlign",tst_compat206.cpp,1,1,
+Private Function,"TestCompat206::lidEmptyText",tst_compat206.cpp,1,1,
+Private Function,"TestCompat206::markers",tst_compat206.cpp,1,1,
+Private Function,"TestCompat206::noteheads",tst_compat206.cpp,1,1,
+Private Function,"TestCompat206::tuplets",tst_compat206.cpp,1,1,
+Class,"TestConcertPitchBenchmark",tst_concertpitchbenchmark.cpp,21,,2
+Private Function,"TestConcertPitchBenchmark::benchmark",tst_concertpitchbenchmark.cpp,10,1,
+Public Function,"TestConcertPitchBenchmark::initTestCase",tst_concertpitchbenchmark.cpp,4,1,
+Class,"TestCopyPaste",tst_copypaste.cpp,273,,33
+Private Function,"TestCopyPaste::copyPaste2Voice",tst_copypaste.cpp,26,1,
+Private Function,"TestCopyPaste::copyPaste2Voice2",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copyPaste2Voice3",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copyPaste2Voice4",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copyPaste2Voice5",tst_copypaste.cpp,27,1,
+Private Function,"TestCopyPaste::copyPasteOnlySecondVoice",tst_copypaste.cpp,25,1,
+Private Function,"TestCopyPaste::copyPastePartial",tst_copypaste.cpp,23,1,
+Private Function,"TestCopyPaste::copyPasteShortTremolo",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copyPasteTuplet01",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copyPasteTuplet02",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copypaste",tst_copypaste.cpp,30,2,
+Private Function,"TestCopyPaste::copypaste01",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copypaste02",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copypaste03",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copypaste04",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copypaste05",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copypaste06",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copypaste08",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copypaste09",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copypaste10",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copypaste11",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copypaste12",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copypaste19",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copypaste22",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copypaste23",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copypaste24",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copypaste2Voice6",tst_copypaste.cpp,28,1,
+Private Function,"TestCopyPaste::copypastestaff",tst_copypaste.cpp,23,1,
+Private Function,"TestCopyPaste::copypastestaff50",tst_copypaste.cpp,1,1,
+Private Function,"TestCopyPaste::copypastetuplet",tst_copypaste.cpp,24,1,
+Private Function,"TestCopyPaste::copypastevoice",tst_copypaste.cpp,26,1,
+Public Function,"TestCopyPaste::initTestCase",tst_copypaste.cpp,4,1,
+Class,"TestCopyPasteSymbolList",tst_copypastesymbollist.cpp,77,,15
+Private Function,"TestCopyPasteSymbolList::copypaste",tst_copypastesymbollist.cpp,8,1,
+Private Function,"TestCopyPasteSymbolList::copypasteArticulation",tst_copypastesymbollist.cpp,1,1,
+Private Function,"TestCopyPasteSymbolList::copypasteArticulationRest",tst_copypastesymbollist.cpp,1,1,
+Private Function,"TestCopyPasteSymbolList::copypasteChordNames",tst_copypastesymbollist.cpp,1,1,
+Private Function,"TestCopyPasteSymbolList::copypasteChordNames1",tst_copypastesymbollist.cpp,1,1,
+Private Function,"TestCopyPasteSymbolList::copypasteFiguredBass",tst_copypastesymbollist.cpp,1,1,
+Private Function,"TestCopyPasteSymbolList::copypasteLyrics",tst_copypastesymbollist.cpp,1,1,
+Private Function,"TestCopyPasteSymbolList::copypasteRange",tst_copypastesymbollist.cpp,1,1,
+Private Function,"TestCopyPasteSymbolList::copypasteRange1",tst_copypastesymbollist.cpp,1,1,
+Private Function,"TestCopyPasteSymbolList::copypastecommon",tst_copypastesymbollist.cpp,25,3,
+Private Function,"TestCopyPasteSymbolList::copypastedifferentvoice",tst_copypastesymbollist.cpp,11,1,
+Private Function,"TestCopyPasteSymbolList::copypastepart",tst_copypastesymbollist.cpp,11,1,
+Public Function,"TestCopyPasteSymbolList::initTestCase",tst_copypastesymbollist.cpp,4,1,
+Class,"TestCursor",tst_cursor.cpp,31,,2
+Public Function,"TestCursor::initTestCase",tst_cursor.cpp,4,1,
+Private Function,"TestCursor::testAddNoteTickUpdate",tst_cursor.cpp,20,1,
+Class,"TestDurationType",tst_durationtype.cpp,74,,9
+Private Function,"TestDurationType::decDurationDotted",tst_durationtype.cpp,16,2,
+Private Function,"TestDurationType::doubleDuration",tst_durationtype.cpp,14,2,
+Private Function,"TestDurationType::halfDuration",tst_durationtype.cpp,14,2,
+Private Function,"TestDurationType::incDurationDotted",tst_durationtype.cpp,16,2,
+Public Function,"TestDurationType::initTestCase",tst_durationtype.cpp,4,1,
+Class,"TestDynamic",tst_dynamic.cpp,77,,2
+Public Function,"TestDynamic::initTestCase",tst_dynamic.cpp,4,1,
+Private Function,"TestDynamic::test1",tst_dynamic.cpp,66,1,
+Class,"TestEarlymusic",tst_earlymusic.cpp,54,,2
+Private Function,"TestEarlymusic::earlymusic01",tst_earlymusic.cpp,43,1,
+Public Function,"TestEarlymusic::initTestCase",tst_earlymusic.cpp,4,1,
+Class,"TestElement",tst_element.cpp,71,,2
+Public Function,"TestElement::testIds",tst_element.cpp,66,2,
+Class,"TestExchangevoices",tst_exchangevoices.cpp,64,,6
+Private Function,"TestExchangevoices::glissandi",tst_exchangevoices.cpp,14,1,
+Public Function,"TestExchangevoices::initTestCase",tst_exchangevoices.cpp,4,1,
+Private Function,"TestExchangevoices::slurs",tst_exchangevoices.cpp,14,1,
+Private Function,"TestExchangevoices::undoChangeVoice",tst_exchangevoices.cpp,23,3,
+Class,"TestGuitarPro",tst_guitarpro.cpp,106,,88
+Private Function,"TestGuitarPro::gp3CapoFret",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp3DottedGliss",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp3Tempo",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp3Volta",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp3copyright",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp4Brush",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp4CapoFret",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp4Centered",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp4FadeIn",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp4Fingering",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp4Keysig",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp4LetRing",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp4PalmMute",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp4PickUpDown",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp4ShiftSlide",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp4SlideInAbove",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp4Tempo",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp4Volta",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp4copyright",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp5BasicBend",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp5Brush",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp5CapoFret",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp5Centered",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp5FadeIn",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp5Fingering",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp5Keysig",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp5LetRing",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp5PalmMute",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp5PickUpDown",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp5TapSlapPop",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp5Tempo",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp5Vibrato",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp5Volta",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp5copyright",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gp6UncompletedMeasure",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpDottedTuplets",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpDoubleBar",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpDynamic",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpGhostNote",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpGraceNote",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpHeavyAccent",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpReadTest",tst_guitarpro.cpp,9,1,
+Private Function,"TestGuitarPro::gpSforzato",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpSlur",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpSlurNoteMask",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpTestIrrTuplet",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpTremolos",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpTrill",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxArpeggio",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxArtHarmonic",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxBrush",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxCentered",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxClefs",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxCopyright",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxCrecDim",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxDeadNote",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxFingering",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxFreeTime",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxLetRing",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxMordents",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxMultiVoices",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxOttava1",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxOttava2",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxOttava3",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxOttava4",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxOttava5",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxPalmMute",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxPickUpDown",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxRepeatBar",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxRepeats",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxSforzato",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxSlur",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxSlur3M",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxSlurHS",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxSlurSH",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxSlurV",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxTapSlapPop",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxText",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxTremolos",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxTrill",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxTuplets",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxTuplets2",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxTurn",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxVibrato",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxVolumeSwell",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::gpxWah",tst_guitarpro.cpp,1,1,
+Private Function,"TestGuitarPro::highPitch",tst_guitarpro.cpp,1,1,
+Public Function,"TestGuitarPro::initTestCase",tst_guitarpro.cpp,4,1,
+Class,"TestHairpin",tst_hairpin.cpp,23,,2
+Private Function,"TestHairpin::hairpin",tst_hairpin.cpp,12,1,
+Public Function,"TestHairpin::initTestCase",tst_hairpin.cpp,4,1,
+Class,"TestImplodeExplode",tst_implodeExplode.cpp,111,,7
+Private Function,"TestImplodeExplode::implode1",tst_implodeExplode.cpp,19,1,
+Public Function,"TestImplodeExplode::initTestCase",tst_implodeExplode.cpp,4,1,
+Private Function,"TestImplodeExplode::undoExplode",tst_implodeExplode.cpp,20,1,
+Private Function,"TestImplodeExplode::undoExplode1",tst_implodeExplode.cpp,8,1,
+Private Function,"TestImplodeExplode::undoExplodeVoices",tst_implodeExplode.cpp,8,1,
+Private Function,"TestImplodeExplode::undoImplode",tst_implodeExplode.cpp,20,1,
+Private Function,"TestImplodeExplode::undoImplodeVoice",tst_implodeExplode.cpp,20,1,
+Class,"TestImportMidi",tst_importmidi.cpp,821,,122
+Private Function,"TestImportMidi::LHRH_2melodies",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::LHRH_Acid",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::LHRH_Nontuplet",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::LHRH_Tuplet",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::LHRH_octave",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::chordBigError",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::chordCollect",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::chordLegato",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::chordSmallError",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::chordVeryShort",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::clefMelody",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::clefPrev",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::clefTied",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::division",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::dontSimplify",tst_importmidi.cpp,12,1,
+Private Function,"TestImportMidi::findChordInBar",tst_importmidi.cpp,38,1,
+Private Function,"TestImportMidi::findLongestUncommonGroup",tst_importmidi.cpp,43,1,
+Private Function,"TestImportMidi::findOnTimeRegularError",tst_importmidi.cpp,12,1,
+Private Function,"TestImportMidi::findTupletApproximation",tst_importmidi.cpp,63,1,
+Private Function,"TestImportMidi::findTupletNumbers",tst_importmidi.cpp,23,1,
+Private Function,"TestImportMidi::human4_4",tst_importmidi.cpp,13,1,
+Private Function,"TestImportMidi::humanTempo",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::im1",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::im2",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::im3",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::im4",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::im5",tst_importmidi.cpp,1,1,
+Public Function,"TestImportMidi::initTestCase",tst_importmidi.cpp,4,1,
+Private Function,"TestImportMidi::instrument3StaffOrgan",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::instrumentChannels",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::instrumentClef",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::instrumentGrand",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::instrumentGrand2",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::isSimpleDuration",tst_importmidi.cpp,22,1,
+Private Function,"TestImportMidi::isTupletAllowed",tst_importmidi.cpp,54,1,
+Private Function,"TestImportMidi::lyricsTime0",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::lyricsVoice1",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::maxLevelBetween",tst_importmidi.cpp,108,1,
+Private Function,"TestImportMidi::meterCentralLongNote",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::meterCentralLongRest",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::meterChordExample",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::meterDotTie",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::meterDotsExample1",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::meterDotsExample2",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::meterDotsExample3",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::meterFirst2_8thRestsCompound",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::meterHalfRest3_4",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::meterLastQuarterRestCompound",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::meterRests",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::meterTimeSig4_4",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::meterTwoBeatsOver",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::metertimeSig12_8",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::metertimeSig15_8",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::metertimeSig9_8",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::metricDivisionsOfTuplet",tst_importmidi.cpp,24,1,
+Private Const Function,"TestImportMidi::mf",tst_importmidi.cpp,9,1,
+Private Const Function,"TestImportMidi::midiFilePath",tst_importmidi.cpp,5,1,
+Private Const Function,"TestImportMidi::midiFilePath",tst_importmidi.cpp,4,1,
+Private Function,"TestImportMidi::minDuration",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::noTempoText",tst_importmidi.cpp,9,1,
+Private Function,"TestImportMidi::percDrums",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::percNoGrandStaff",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::percRemoveTies",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::percRespectBeat",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::percShortNotes",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::percTriplet",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::percTupletSimplify",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::percTupletSimplify2",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::percTupletVoice",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::pickupMeasure",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::pickupMeasureLong",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::pickupMeasureTurnOff",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::quantDotted4th",tst_importmidi.cpp,10,1,
+Private Function,"TestImportMidi::separateTupletVoices",tst_importmidi.cpp,90,7,
+Private Function,"TestImportMidi::simplification",tst_importmidi.cpp,12,1,
+Private Function,"TestImportMidi::simplify16thStaccato",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::simplify32ndStaccato",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::simplify4thDottedTied",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::simplify8thDont",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::simplify8thDottedNoStaccato",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::simplifyDotted3_4",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::simplifyStaccato9_8",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::simplifyTripletStaccato",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::staffSplit",tst_importmidi.cpp,12,1,
+Private Function,"TestImportMidi::swingClef",tst_importmidi.cpp,15,1,
+Private Function,"TestImportMidi::swingShuffle",tst_importmidi.cpp,14,1,
+Private Function,"TestImportMidi::swingTriplets",tst_importmidi.cpp,14,1,
+Private Function,"TestImportMidi::testGuiTracksModel",tst_importmidi.cpp,30,1,
+Private Function,"TestImportMidi::timesigChanges",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::tuplet16th8th",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::tuplet2Voices3_5Tuplets",tst_importmidi.cpp,11,1,
+Private Function,"TestImportMidi::tuplet2VoicesTupletNon",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::tuplet3_4",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::tuplet3_5_7tuplets",tst_importmidi.cpp,13,1,
+Private Function,"TestImportMidi::tuplet5_5TupletsRests",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::tuplet7Staccato",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::tupletDuplet",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::tupletMars",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::tupletNonuplet3_4",tst_importmidi.cpp,10,1,
+Private Function,"TestImportMidi::tupletNonuplet4_4",tst_importmidi.cpp,10,1,
+Private Function,"TestImportMidi::tupletOffTimeOtherBar",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::tupletOffTimeOtherBar2",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::tupletQuadruplet",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::tupletSeptuplet",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::tupletTied3_5",tst_importmidi.cpp,10,1,
+Private Function,"TestImportMidi::tupletTied3_5_2",tst_importmidi.cpp,10,1,
+Private Function,"TestImportMidi::tupletTriplet",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::tupletTripletFirstTied",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::tupletTripletFirstTied2",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::tupletTripletLastTied",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::tupletTripletsMixed",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::voiceSeparation",tst_importmidi.cpp,12,1,
+Private Function,"TestImportMidi::voiceSeparationAcid",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::voiceSeparationCentral",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::voiceSeparationIntersect",tst_importmidi.cpp,1,1,
+Private Function,"TestImportMidi::voiceSeparationTuplet",tst_importmidi.cpp,1,1,
+Class,"TestInstrumentChange",tst_instrumentchange.cpp,104,,8
+Public Function,"TestInstrumentChange::initTestCase",tst_instrumentchange.cpp,4,1,
+Private Function,"TestInstrumentChange::testAdd",tst_instrumentchange.cpp,13,1,
+Private Function,"TestInstrumentChange::testChange",tst_instrumentchange.cpp,15,1,
+Private Function,"TestInstrumentChange::testCopy",tst_instrumentchange.cpp,15,1,
+Private Function,"TestInstrumentChange::testDelete",tst_instrumentchange.cpp,10,1,
+Private Function,"TestInstrumentChange::testMixer",tst_instrumentchange.cpp,21,1,
+Private Function,"TestInstrumentChange::test_post",tst_instrumentchange.cpp,8,1,
+Private Function,"TestInstrumentChange::test_pre",tst_instrumentchange.cpp,6,1,
+Class,"TestJoin",tst_join.cpp,64,,14
+Public Function,"TestJoin::initTestCase",tst_join.cpp,4,1,
+Private Function,"TestJoin::join",tst_join.cpp,12,1,
+Private Function,"TestJoin::join",tst_join.cpp,14,2,
+Private Function,"TestJoin::join01",tst_join.cpp,1,1,
+Private Function,"TestJoin::join02",tst_join.cpp,1,1,
+Private Function,"TestJoin::join03",tst_join.cpp,1,1,
+Private Function,"TestJoin::join04",tst_join.cpp,1,1,
+Private Function,"TestJoin::join05",tst_join.cpp,1,1,
+Private Function,"TestJoin::join06",tst_join.cpp,1,1,
+Private Function,"TestJoin::join07",tst_join.cpp,1,1,
+Private Function,"TestJoin::join08",tst_join.cpp,1,1,
+Private Function,"TestJoin::join1",tst_join.cpp,17,2,
+Class,"TestKeySig",tst_keysig.cpp,75,,5
+Private Function,"TestKeySig::concertPitch",tst_keysig.cpp,8,1,
+Public Function,"TestKeySig::initTestCase",tst_keysig.cpp,4,1,
+Private Function,"TestKeySig::keysig",tst_keysig.cpp,44,2,
+Private Function,"TestKeySig::keysig_78216",tst_keysig.cpp,10,1,
+Class,"TestLayoutElements",tst_layout_elements.cpp,27,,6
+Public Function,"TestLayoutElements::initTestCase",tst_layout_elements.cpp,4,1,
+Private Function,"TestLayoutElements::tstLayoutAll",tst_layout_elements.cpp,12,3,
+Private Function,"TestLayoutElements::tstLayoutElements",tst_layout_elements.cpp,1,1,
+Private Function,"TestLayoutElements::tstLayoutMoonlight",tst_layout_elements.cpp,1,1,
+Class,"TestLinks",tst_links.cpp,306,,7
+Public Function,"TestLinks::initTestCase",tst_links.cpp,4,1,
+Private Function,"TestLinks::test3LinkedParts_99796",tst_links.cpp,59,1,
+Private Function,"TestLinks::test3LinkedSameScore_99796",tst_links.cpp,75,1,
+Private Function,"TestLinks::test4LinkedParts_94911",tst_links.cpp,87,3,
+Private Function,"TestLinks::test5LinkedParts_94911",tst_links.cpp,71,1,
+Class,"TestMeasure",tst_measure.cpp,252,,16
+Private Function,"TestMeasure::checkMeasure",tst_measure.cpp,21,1,
+Private Function,"TestMeasure::deleteLast",tst_measure.cpp,11,1,
+Private Function,"TestMeasure::gap",tst_measure.cpp,35,1,
+Public Function,"TestMeasure::initTestCase",tst_measure.cpp,4,1,
+Private Function,"TestMeasure::insertBfClefChange",tst_measure.cpp,24,1,
+Private Function,"TestMeasure::insertBfKeyChange",tst_measure.cpp,24,1,
+Private Function,"TestMeasure::insertMeasureBegin",tst_measure.cpp,10,1,
+Private Function,"TestMeasure::insertMeasureEnd",tst_measure.cpp,9,1,
+Private Function,"TestMeasure::insertMeasureMiddle",tst_measure.cpp,10,1,
+Private Function,"TestMeasure::spanner_A",tst_measure.cpp,11,1,
+Private Function,"TestMeasure::spanner_B",tst_measure.cpp,11,1,
+Private Function,"TestMeasure::spanner_C",tst_measure.cpp,11,1,
+Private Function,"TestMeasure::spanner_D",tst_measure.cpp,11,1,
+Private Function,"TestMeasure::spanner_a",tst_measure.cpp,10,1,
+Private Function,"TestMeasure::spanner_b",tst_measure.cpp,10,1,
+Private Function,"TestMeasure::undoDelInitialVBox_269919",tst_measure.cpp,19,1,
+Class,"TestMidi",tst_midi.cpp,190,,13
+Private Function,"TestMidi::events",tst_midi.cpp,30,2,
+Private Function,"TestMidi::events_data",tst_midi.cpp,37,1,
+Public Function,"TestMidi::initTestCase",tst_midi.cpp,4,1,
+Private Function,"TestMidi::midi01",tst_midi.cpp,29,1,
+Private Function,"TestMidi::midi02",tst_midi.cpp,28,1,
+Private Function,"TestMidi::midi03",tst_midi.cpp,29,1,
+Private Function,"TestMidi::midi184376ExportMidiInitialKeySig",tst_midi.cpp,6,1,
+Private Function,"TestMidi::midiArpeggio",tst_midi.cpp,1,1,
+Private Function,"TestMidi::midiBendsExport1",tst_midi.cpp,1,1,
+Private Function,"TestMidi::midiBendsExport2",tst_midi.cpp,1,1,
+Private Function,"TestMidi::midiExportTestRef",tst_midi.cpp,11,1,
+Private Function,"TestMidi::midiPortExport",tst_midi.cpp,1,1,
+Class,"TestMidiMapping",tst_midimapping.cpp,120,,30
+Public Function,"TestMidiMapping::initTestCase",tst_midimapping.cpp,4,1,
+Private Function,"TestMidiMapping::midiMapping1",tst_midimapping.cpp,1,1,
+Private Function,"TestMidiMapping::midiMapping10",tst_midimapping.cpp,1,1,
+Private Function,"TestMidiMapping::midiMapping11",tst_midimapping.cpp,1,1,
+Private Function,"TestMidiMapping::midiMapping12",tst_midimapping.cpp,1,1,
+Private Function,"TestMidiMapping::midiMapping13",tst_midimapping.cpp,1,1,
+Private Function,"TestMidiMapping::midiMapping14",tst_midimapping.cpp,1,1,
+Private Function,"TestMidiMapping::midiMapping15",tst_midimapping.cpp,1,1,
+Private Function,"TestMidiMapping::midiMapping16",tst_midimapping.cpp,1,1,
+Private Function,"TestMidiMapping::midiMapping17",tst_midimapping.cpp,1,1,
+Private Function,"TestMidiMapping::midiMapping18",tst_midimapping.cpp,1,1,
+Private Function,"TestMidiMapping::midiMapping2",tst_midimapping.cpp,1,1,
+Private Function,"TestMidiMapping::midiMapping3",tst_midimapping.cpp,1,1,
+Private Function,"TestMidiMapping::midiMapping4",tst_midimapping.cpp,1,1,
+Private Function,"TestMidiMapping::midiMapping5",tst_midimapping.cpp,1,1,
+Private Function,"TestMidiMapping::midiMapping6",tst_midimapping.cpp,1,1,
+Private Function,"TestMidiMapping::midiMapping7",tst_midimapping.cpp,1,1,
+Private Function,"TestMidiMapping::midiMapping8",tst_midimapping.cpp,1,1,
+Private Function,"TestMidiMapping::midiMapping9",tst_midimapping.cpp,1,1,
+Private Function,"TestMidiMapping::testReadChangeOrderWrite",tst_midimapping.cpp,22,4,
+Private Function,"TestMidiMapping::testReadChangeWrite",tst_midimapping.cpp,11,1,
+Private Function,"TestMidiMapping::testReadChangeWrite2",tst_midimapping.cpp,14,2,
+Private Function,"TestMidiMapping::testReadWrite",tst_midimapping.cpp,9,1,
+Private Function,"TestMidiMapping::testReadWriteMusicXML",tst_midimapping.cpp,13,1,
+Private Function,"TestMidiMapping::testReadWriteOther",tst_midimapping.cpp,17,2,
+Class,"TestMxmlIO",tst_mxml_io.cpp,209,,129
+Private Function,"TestMxmlIO::accidentals1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::accidentals2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::accidentals3",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::arpGliss1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::arpGliss2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::arpGliss3",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::barStyles",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::barStyles2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::chordDiagrams1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::chordNoVoice",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::clefs1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::completeMeasureRests",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::cueNotes",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::dalSegno",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::dcalCoda",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::dcalFine",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::directions1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::divisionsDefinedTooLate1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::divisionsDefinedTooLate2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::doubleClefError",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::drumset1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::durationRoundingError",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::dynamics1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::dynamics2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::dynamics3",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::emptyMeasure",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::emptyVoice1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::extendedLyrics",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::figuredBass1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::figuredBass2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::figuredBass3",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::formattedThings",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::grace1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::grace2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::harmony1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::harmony2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::harmony3",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::harmony4",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::harmony5",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::hello",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::helloReadCompr",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::helloReadWriteCompr",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::implicitMeasure1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::incorrectStaffNumber1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::incorrectStaffNumber2",tst_mxml_io.cpp,1,1,
+Public Function,"TestMxmlIO::initTestCase",tst_mxml_io.cpp,4,1,
+Private Function,"TestMxmlIO::instrumentChangeMIDIportExport",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::instrumentSound",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::invalidTimesig",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::invisibleElements",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::keysig1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::keysig2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::lines1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::lines2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::lyricColor",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::lyrics1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::lyricsVoice2a",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::lyricsVoice2b",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::manualBreaks",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::measureLength",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::midiPortExport",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::multiInstrumentPart1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::multiInstrumentPart2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::multiMeasureRest1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::multiMeasureRest2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::multiMeasureRest3",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::multiMeasureRest4",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::multipleNotations",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::mxmlIoTest",tst_mxml_io.cpp,14,1,
+Private Function,"TestMxmlIO::mxmlIoTestRef",tst_mxml_io.cpp,13,1,
+Private Function,"TestMxmlIO::mxmlMscxExportTestRef",tst_mxml_io.cpp,13,1,
+Private Function,"TestMxmlIO::mxmlReadTestCompr",tst_mxml_io.cpp,13,1,
+Private Function,"TestMxmlIO::mxmlReadWriteTestCompr",tst_mxml_io.cpp,18,1,
+Private Function,"TestMxmlIO::nonStandardKeySig1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::nonStandardKeySig2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::nonUniqueThings",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::noteAttributes1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::noteAttributes2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::noteAttributes3",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::noteColor",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::noteheadParentheses",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::noteheads",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::noteheadsFilled",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::notesRests1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::notesRests2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::numberedLyrics",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::overlappingSpanners",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::printSpacingNo",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::repeatCounts",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::repeatSingleMeasure",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::restNotations",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::restsNoType",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::restsTypeWhole",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::slurTieLineStyle",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::slurs",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::slurs2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::sound1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::sound2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::specialCharacters",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::staffTwoKeySigs",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::stringVoiceName",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::systemBrackets1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::systemBrackets2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::tablature1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::tablature2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::tablature3",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::tablature4",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::tempo1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::tempo2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::tempo3",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::timesig1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::timesig3",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::tremolo",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::tuplets1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::tuplets2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::tuplets3",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::tuplets4",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::uninitializedDivisions",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::unusualDurations",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::virtualInstruments",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::voiceMapper1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::voiceMapper2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::voiceMapper3",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::voicePiano1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::volta1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::wedge1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::wedge2",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::words1",tst_mxml_io.cpp,1,1,
+Private Function,"TestMxmlIO::words2",tst_mxml_io.cpp,1,1,
+Class,"TestNote",tst_note.cpp,327,,17
+Private Function,"TestNote::LongNoteAfterShort_183746",tst_note.cpp,21,2,
+Private Function,"TestNote::grace",tst_note.cpp,26,1,
+Public Function,"TestNote::initTestCase",tst_note.cpp,4,1,
+Private Function,"TestNote::note",tst_note.cpp,178,5,
+Private Function,"TestNote::noteLimits",tst_note.cpp,24,4,
+Private Function,"TestNote::tpc",tst_note.cpp,19,1,
+Private Function,"TestNote::tpcDegrees",tst_note.cpp,8,1,
+Private Function,"TestNote::tpcTranspose",tst_note.cpp,18,1,
+Private Function,"TestNote::tpcTranspose2",tst_note.cpp,15,1,
+Class,"TestNotes",tst_notes.cpp,22,,2
+Public Function,"TestNotes::initTestCase",tst_notes.cpp,4,1,
+Private Function,"TestNotes::omrFileTest",tst_notes.cpp,11,1,
+Class,"TestOpcodes",tst_sfzopcodes.cpp,94,,2
+Public Function,"TestOpcodes::initTestCase",tst_sfzopcodes.cpp,4,1,
+Private Function,"TestOpcodes::testOpcodes",tst_sfzopcodes.cpp,83,1,
+Class,"TestOveIO",tst_ove_structure.cpp,25,,3
+Class,"TestOveIO",tst_ove_ove3.cpp,26,,4
+Class,"TestOveIO",tst_ove_bdat.cpp,55,,33
+Public Function,"TestOveIO::initTestCase",tst_ove_bdat.cpp,4,1,
+Public Function,"TestOveIO::initTestCase",tst_ove_ove3.cpp,4,1,
+Public Function,"TestOveIO::initTestCase",tst_ove_structure.cpp,4,1,
+Private Function,"TestOveIO::ove3HarmonyTest",tst_ove_ove3.cpp,1,1,
+Private Function,"TestOveIO::ove3UntitledTest",tst_ove_ove3.cpp,1,1,
+Private Function,"TestOveIO::oveAccidentalsTest",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveArpeggioTest",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveBeam2Test",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveBeamMultipleVoicesTest",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveBeamTest",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveBeamWinstonTest",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveClef2Test",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveClefChangeTest",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveCrossStaff2Test",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveCrossStaffTest",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveCueTest",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveFermataRestTest",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveHarmony2Test",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveKeyTest",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveLyricsTest",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveNoteDotTest",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveNoteTest",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveReadTest",tst_ove_bdat.cpp,13,1,
+Private Function,"TestOveIO::oveReadTest",tst_ove_ove3.cpp,13,1,
+Private Function,"TestOveIO::oveReadTest",tst_ove_structure.cpp,13,1,
+Private Function,"TestOveIO::oveScaleTest",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveSlur2Test",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveSlurTest",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveTieTest",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveTime24Test",tst_ove_structure.cpp,1,1,
+Private Function,"TestOveIO::oveTremoloTest",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveTrillTest",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveTuplet2Test",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveTuplet3Test",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveTuplet5Test",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveTuplet7Test",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveVoices3Test",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveVoices4Test",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveVoices5Test",tst_ove_bdat.cpp,1,1,
+Private Function,"TestOveIO::oveVoicesTest",tst_ove_bdat.cpp,1,1,
+Class,"TestParts",tst_parts.cpp,487,,49
+Private Function,"TestParts::addBreath",tst_parts.cpp,6,1,
+Private Function,"TestParts::addChordline",tst_parts.cpp,6,1,
+Private Function,"TestParts::addFingering",tst_parts.cpp,6,1,
+Private Function,"TestParts::addSymbol",tst_parts.cpp,6,1,
+Private Function,"TestParts::appendMeasure",tst_parts.cpp,13,1,
+Private Function,"TestParts::createPart1",tst_parts.cpp,4,1,
+Private Function,"TestParts::createPart2",tst_parts.cpp,4,1,
+Private Function,"TestParts::createPart3",tst_parts.cpp,3,1,
+Private Function,"TestParts::createPartBreath",tst_parts.cpp,4,1,
+Private Function,"TestParts::createPartChordline",tst_parts.cpp,4,1,
+Private Function,"TestParts::createPartFingering",tst_parts.cpp,4,1,
+Private Function,"TestParts::createPartSymbol",tst_parts.cpp,4,1,
+Private Function,"TestParts::createParts",tst_parts.cpp,24,1,
+Private Function,"TestParts::doAddBreath",tst_parts.cpp,16,1,
+Private Function,"TestParts::doAddChordline",tst_parts.cpp,16,1,
+Private Function,"TestParts::doAddFingering",tst_parts.cpp,16,1,
+Private Function,"TestParts::doAddSymbol",tst_parts.cpp,16,1,
+Private Function,"TestParts::doRemoveBreath",tst_parts.cpp,13,1,
+Private Function,"TestParts::doRemoveChordline",tst_parts.cpp,20,2,
+Private Function,"TestParts::doRemoveFingering",tst_parts.cpp,21,2,
+Private Function,"TestParts::doRemoveSymbol",tst_parts.cpp,21,2,
+Public Function,"TestParts::initTestCase",tst_parts.cpp,4,1,
+Private Function,"TestParts::insertMeasure",tst_parts.cpp,13,1,
+Private Function,"TestParts::measureProperties",tst_parts.cpp,3,1,
+Private Function,"TestParts::removeBreath",tst_parts.cpp,6,1,
+Private Function,"TestParts::removeChordline",tst_parts.cpp,6,1,
+Private Function,"TestParts::removeFingering",tst_parts.cpp,6,1,
+Private Function,"TestParts::removeSymbol",tst_parts.cpp,6,1,
+Private Function,"TestParts::testPartCreation",tst_parts.cpp,9,1,
+Private Function,"TestParts::undoAddBreath",tst_parts.cpp,7,1,
+Private Function,"TestParts::undoAddChordline",tst_parts.cpp,7,1,
+Private Function,"TestParts::undoAddFingering",tst_parts.cpp,7,1,
+Private Function,"TestParts::undoAddSymbol",tst_parts.cpp,7,1,
+Private Function,"TestParts::undoRedoAddBreath",tst_parts.cpp,8,1,
+Private Function,"TestParts::undoRedoAddChordline",tst_parts.cpp,8,1,
+Private Function,"TestParts::undoRedoAddFingering",tst_parts.cpp,8,1,
+Private Function,"TestParts::undoRedoAddSymbol",tst_parts.cpp,8,1,
+Private Function,"TestParts::undoRedoRemoveBreath",tst_parts.cpp,8,1,
+Private Function,"TestParts::undoRedoRemoveChordline",tst_parts.cpp,8,1,
+Private Function,"TestParts::undoRedoRemoveFingering",tst_parts.cpp,8,1,
+Private Function,"TestParts::undoRedoRemoveSymbol",tst_parts.cpp,8,1,
+Private Function,"TestParts::undoRemoveBreath",tst_parts.cpp,7,1,
+Private Function,"TestParts::undoRemoveChordline",tst_parts.cpp,7,1,
+Private Function,"TestParts::undoRemoveFingering",tst_parts.cpp,7,1,
+Private Function,"TestParts::undoRemoveSymbol",tst_parts.cpp,7,1,
+Private Function,"TestParts::voicesExcerpt",tst_parts.cpp,37,1,
+Class,"TestRemove",tst_remove.cpp,24,,3
+Public Function,"TestRemove::initTestCase",tst_remove.cpp,4,1,
+Private Function,"TestRemove::removeStaff",tst_remove.cpp,13,2,
+Class,"TestRepeat",tst_repeat.cpp,84,,56
+Public Function,"TestRepeat::initTestCase",tst_repeat.cpp,4,1,
+Private Function,"TestRepeat::repeat",tst_repeat.cpp,22,4,
+Private Function,"TestRepeat::repeat01",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat02",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat03",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat04",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat05",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat06",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat07",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat08",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat09",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat10",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat11",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat12",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat13",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat14",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat15",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat16",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat17",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat18",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat19",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat20",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat21",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat22",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat23",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat24",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat25",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat26",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat27",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat28",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat29",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat30",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat31",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat32",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat33",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat34",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat35",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat36",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat37",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat38",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat39",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat40",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat41",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat42",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat43",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat44",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat45",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat46",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat47",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat48",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat49",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat50",tst_repeat.cpp,1,1,
+Private Function,"TestRepeat::repeat51",tst_repeat.cpp,1,1,
+Class,"TestRhythmicGrouping",tst_rhythmicGrouping.cpp,37,,12
+Private Function,"TestRhythmicGrouping::group",tst_rhythmicGrouping.cpp,18,3,
+Private Function,"TestRhythmicGrouping::group8ths44",tst_rhythmicGrouping.cpp,1,1,
+Private Function,"TestRhythmicGrouping::group8thsCompound",tst_rhythmicGrouping.cpp,1,1,
+Private Function,"TestRhythmicGrouping::group8thsSimple",tst_rhythmicGrouping.cpp,1,1,
+Private Function,"TestRhythmicGrouping::groupArticulationsTies",tst_rhythmicGrouping.cpp,1,1,
+Private Function,"TestRhythmicGrouping::groupConflicts",tst_rhythmicGrouping.cpp,1,1,
+Private Function,"TestRhythmicGrouping::groupShortenNotes",tst_rhythmicGrouping.cpp,1,1,
+Private Function,"TestRhythmicGrouping::groupSubbeats",tst_rhythmicGrouping.cpp,1,1,
+Private Function,"TestRhythmicGrouping::groupVoices",tst_rhythmicGrouping.cpp,1,1,
+Public Function,"TestRhythmicGrouping::initTestCase",tst_rhythmicGrouping.cpp,4,1,
+Class,"TestScripting",tst_scripting.cpp,104,,14
+Public Function,"TestScripting::initTestCase",tst_scripting.cpp,7,1,
+Private Function,"TestScripting::loadPlugin",tst_scripting.cpp,12,2,
+Private Function,"TestScripting::plugins01",tst_scripting.cpp,18,2,
+Private Function,"TestScripting::plugins02",tst_scripting.cpp,19,2,
+Private Function,"TestScripting::read1",tst_scripting.cpp,26,3,
+Private Function,"TestScripting::runPlugin",tst_scripting.cpp,8,3,
+Private Function,"TestScripting::test1",tst_scripting.cpp,1,1,
+Class,"TestSelectionFilter",tst_selectionfilter.cpp,68,,21
+Private Function,"TestSelectionFilter::filterArpeggio",tst_selectionfilter.cpp,1,1,
+Private Function,"TestSelectionFilter::filterArticulation",tst_selectionfilter.cpp,1,1,
+Private Function,"TestSelectionFilter::filterBreath",tst_selectionfilter.cpp,1,1,
+Private Function,"TestSelectionFilter::filterChordSymbol",tst_selectionfilter.cpp,1,1,
+Private Function,"TestSelectionFilter::filterDynamic",tst_selectionfilter.cpp,1,1,
+Private Function,"TestSelectionFilter::filterFiguredBass",tst_selectionfilter.cpp,1,1,
+Private Function,"TestSelectionFilter::filterFingering",tst_selectionfilter.cpp,1,1,
+Private Function,"TestSelectionFilter::filterFretDiagram",tst_selectionfilter.cpp,1,1,
+Private Function,"TestSelectionFilter::filterGlissando",tst_selectionfilter.cpp,1,1,
+Private Function,"TestSelectionFilter::filterLyrics",tst_selectionfilter.cpp,1,1,
+Private Function,"TestSelectionFilter::filterOtherLine",tst_selectionfilter.cpp,1,1,
+Private Function,"TestSelectionFilter::filterOtherText",tst_selectionfilter.cpp,1,1,
+Private Function,"TestSelectionFilter::filterOttava",tst_selectionfilter.cpp,1,1,
+Private Function,"TestSelectionFilter::filterPedalLine",tst_selectionfilter.cpp,1,1,
+Private Function,"TestSelectionFilter::filterSlur",tst_selectionfilter.cpp,1,1,
+Private Function,"TestSelectionFilter::filterTremolo",tst_selectionfilter.cpp,1,1,
+Private Function,"TestSelectionFilter::filterVoice1",tst_selectionfilter.cpp,1,1,
+Private Function,"TestSelectionFilter::filterVoice2",tst_selectionfilter.cpp,1,1,
+Public Function,"TestSelectionFilter::initTestCase",tst_selectionfilter.cpp,4,1,
+Private Function,"TestSelectionFilter::testFilter",tst_selectionfilter.cpp,18,1,
+Private Function,"TestSelectionFilter::testFilterSpanner",tst_selectionfilter.cpp,20,1,
+Class,"TestSelectionRangeDelete",tst_selectionrangedelete.cpp,112,,9
+Private Function,"TestSelectionRangeDelete::deleteSegmentWithSlur",tst_selectionrangedelete.cpp,23,1,
+Private Function,"TestSelectionRangeDelete::deleteSegmentWithSpanner",tst_selectionrangedelete.cpp,21,1,
+Private Function,"TestSelectionRangeDelete::deleteSkipAnnotations",tst_selectionrangedelete.cpp,16,1,
+Private Function,"TestSelectionRangeDelete::deleteVoice",tst_selectionrangedelete.cpp,16,1,
+Private Function,"TestSelectionRangeDelete::deleteVoice1",tst_selectionrangedelete.cpp,1,1,
+Private Function,"TestSelectionRangeDelete::deleteVoice2",tst_selectionrangedelete.cpp,1,1,
+Public Function,"TestSelectionRangeDelete::initTestCase",tst_selectionrangedelete.cpp,4,1,
+Private Function,"TestSelectionRangeDelete::verifyDelete",tst_selectionrangedelete.cpp,9,1,
+Private Function,"TestSelectionRangeDelete::verifyNoDelete",tst_selectionrangedelete.cpp,9,1,
+Class,"TestSfzComments",tst_sfzcomments.cpp,30,,2
+Public Function,"TestSfzComments::initTestCase",tst_sfzcomments.cpp,4,1,
+Private Function,"TestSfzComments::testcomments",tst_sfzcomments.cpp,19,1,
+Class,"TestSfzEnvelopes",tst_sfzenvelopes.cpp,51,,4
+Public Function,"TestSfzEnvelopes::initTestCase",tst_sfzenvelopes.cpp,8,1,
+Private Function,"TestSfzEnvelopes::testEnvelopesAudio",tst_sfzenvelopes.cpp,16,1,
+Private Function,"TestSfzEnvelopes::testEnvelopesParsing",tst_sfzenvelopes.cpp,11,1,
+Public Function,"TestSfzEnvelopes::~TestSfzEnvelopes",tst_sfzenvelopes.cpp,4,1,
+Class,"TestSfzGlobal",tst_sfzglobal.cpp,24,,2
+Public Function,"TestSfzGlobal::initTestCase",tst_sfzglobal.cpp,4,1,
+Private Function,"TestSfzGlobal::testglobal",tst_sfzglobal.cpp,13,1,
+Class,"TestSfzIncludes",tst_sfzincludes.cpp,24,,2
+Public Function,"TestSfzIncludes::initTestCase",tst_sfzincludes.cpp,4,1,
+Private Function,"TestSfzIncludes::testincludes",tst_sfzincludes.cpp,13,1,
+Class,"TestSfzInputControls",tst_sfzinputcontrols.cpp,142,,14
+Public Function,"TestSfzInputControls::initTestCase",tst_sfzinputcontrols.cpp,10,1,
+Private Function,"TestSfzInputControls::testInputCCFilter",tst_sfzinputcontrols.cpp,11,2,
+Private Function,"TestSfzInputControls::testInputCCTrigger",tst_sfzinputcontrols.cpp,11,2,
+Private Function,"TestSfzInputControls::testInputGroupOffBy",tst_sfzinputcontrols.cpp,20,1,
+Private Function,"TestSfzInputControls::testInputKeys",tst_sfzinputcontrols.cpp,12,2,
+Private Function,"TestSfzInputControls::testInputRand",tst_sfzinputcontrols.cpp,9,1,
+Private Function,"TestSfzInputControls::testInputRtDecay",tst_sfzinputcontrols.cpp,10,1,
+Private Function,"TestSfzInputControls::testInputSeq",tst_sfzinputcontrols.cpp,10,1,
+Private Function,"TestSfzInputControls::testInputTrigger",tst_sfzinputcontrols.cpp,23,1,
+Private Function,"TestSfzInputControls::testInputVolume",tst_sfzinputcontrols.cpp,8,2,
+Class,"TestSfzLoop",tst_sfzloop.cpp,118,,4
+Public Function,"TestSfzLoop::initTestCase",tst_sfzloop.cpp,8,1,
+Private Function,"TestSfzLoop::testEnvelopesParsing",tst_sfzloop.cpp,25,1,
+Private Function,"TestSfzLoop::testLoopAudio",tst_sfzloop.cpp,69,1,
+Public Function,"TestSfzLoop::~TestSfzLoop",tst_sfzloop.cpp,4,1,
+Class,"TestSpanners",tst_spanners.cpp,314,,13
+Public Function,"TestSpanners::initTestCase",tst_spanners.cpp,4,1,
+Private Function,"TestSpanners::spanners01",tst_spanners.cpp,69,1,
+Private Function,"TestSpanners::spanners02",tst_spanners.cpp,7,1,
+Private Function,"TestSpanners::spanners03",tst_spanners.cpp,51,1,
+Private Function,"TestSpanners::spanners04",tst_spanners.cpp,17,1,
+Private Function,"TestSpanners::spanners05",tst_spanners.cpp,17,1,
+Private Function,"TestSpanners::spanners06",tst_spanners.cpp,21,1,
+Private Function,"TestSpanners::spanners07",tst_spanners.cpp,21,1,
+Private Function,"TestSpanners::spanners09",tst_spanners.cpp,18,1,
+Private Function,"TestSpanners::spanners10",tst_spanners.cpp,18,1,
+Private Function,"TestSpanners::spanners11",tst_spanners.cpp,18,1,
+Private Function,"TestSpanners::spanners12",tst_spanners.cpp,18,1,
+Private Function,"TestSpanners::spanners14",tst_spanners.cpp,17,1,
+Class,"TestSplit",tst_split.cpp,62,,14
+Public Function,"TestSplit::initTestCase",tst_split.cpp,4,1,
+Private Function,"TestSplit::split",tst_split.cpp,13,1,
+Private Function,"TestSplit::split",tst_split.cpp,13,2,
+Private Function,"TestSplit::split01",tst_split.cpp,1,1,
+Private Function,"TestSplit::split02",tst_split.cpp,1,1,
+Private Function,"TestSplit::split03",tst_split.cpp,1,1,
+Private Function,"TestSplit::split04",tst_split.cpp,1,1,
+Private Function,"TestSplit::split05",tst_split.cpp,1,1,
+Private Function,"TestSplit::split06",tst_split.cpp,1,1,
+Private Function,"TestSplit::split07",tst_split.cpp,1,1,
+Private Function,"TestSplit::split08",tst_split.cpp,1,1,
+Private Function,"TestSplit::split183846",tst_split.cpp,9,1,
+Private Function,"TestSplit::split184061",tst_split.cpp,7,1,
+Class,"TestSplitStaff",tst_splitstaff.cpp,26,,7
+Public Function,"TestSplitStaff::initTestCase",tst_splitstaff.cpp,4,1,
+Private Function,"TestSplitStaff::splitstaff",tst_splitstaff.cpp,10,1,
+Private Function,"TestSplitStaff::splitstaff01",tst_splitstaff.cpp,1,1,
+Private Function,"TestSplitStaff::splitstaff02",tst_splitstaff.cpp,1,1,
+Private Function,"TestSplitStaff::splitstaff03",tst_splitstaff.cpp,1,1,
+Private Function,"TestSplitStaff::splitstaff04",tst_splitstaff.cpp,1,1,
+Private Function,"TestSplitStaff::splitstaff05",tst_splitstaff.cpp,1,1,
+Class,"TestStringUtils",tst_stringutils.cpp,80,,4
+Public Function,"TestStringUtils::initTestCase",tst_stringutils.cpp,4,1,
+Private Function,"TestStringUtils::tst_stringutils",tst_stringutils.cpp,69,3,
+Class,"TestText",tst_text.cpp,568,,21
+Public Function,"TestText::initTestCase",tst_text.cpp,4,1,
+Private Function,"TestText::testBasicUnicodeDeletePreviousChar",tst_text.cpp,12,1,
+Private Function,"TestText::testChineseBasicSupplemental",tst_text.cpp,36,1,
+Private Function,"TestText::testCompatibility",tst_text.cpp,39,1,
+Private Function,"TestText::testDelete",tst_text.cpp,14,1,
+Private Function,"TestText::testDropBasicUnicodeWhenNotInEditMode",tst_text.cpp,13,1,
+Private Function,"TestText::testDropSupplementaryUnicodeWhenNotInEditMode",tst_text.cpp,13,1,
+Private Function,"TestText::testDropUnicodeAfterSMUFLwhenCursorSetToSymbol",tst_text.cpp,22,1,
+Private Function,"TestText::testMixedSelectionDelete",tst_text.cpp,31,1,
+Private Function,"TestText::testMixedTypesDeletePreviousChar",tst_text.cpp,17,1,
+Private Function,"TestText::testPaste",tst_text.cpp,39,1,
+Private Function,"TestText::testPasteSymbolAndSupplemental",tst_text.cpp,23,1,
+Private Function,"TestText::testReadWrite",tst_text.cpp,35,1,
+Private Function,"TestText::testRightToLeftWithSupplementaryUnicode",tst_text.cpp,29,1,
+Private Function,"TestText::testSpecialSymbols",tst_text.cpp,41,1,
+Private Function,"TestText::testSupplementaryUnicodeDeletePreviousChar",tst_text.cpp,12,1,
+Private Function,"TestText::testSupplementaryUnicodeInsert1",tst_text.cpp,12,1,
+Private Function,"TestText::testSupplementaryUnicodeInsert2",tst_text.cpp,13,1,
+Private Function,"TestText::testSupplementaryUnicodePaste",tst_text.cpp,23,1,
+Private Function,"TestText::testText",tst_text.cpp,60,1,
+Private Function,"TestText::testTextProperties",tst_text.cpp,53,1,
+Class,"TestTimesig",tst_timesig.cpp,69,,5
+Public Function,"TestTimesig::timesig01",tst_timesig.cpp,15,1,
+Public Function,"TestTimesig::timesig02",tst_timesig.cpp,14,1,
+Public Function,"TestTimesig::timesig03",tst_timesig.cpp,12,1,
+Public Function,"TestTimesig::timesig04",tst_timesig.cpp,12,1,
+Public Function,"TestTimesig::timesig_78216",tst_timesig.cpp,11,1,
+Class,"TestTools",tst_tools.cpp,143,,8
+Public Function,"TestTools::initTestCase",tst_tools.cpp,4,1,
+Private Function,"TestTools::undoAddLineBreaks",tst_tools.cpp,20,1,
+Private Function,"TestTools::undoResequenceAlpha",tst_tools.cpp,17,1,
+Private Function,"TestTools::undoResequenceMeasure",tst_tools.cpp,17,1,
+Private Function,"TestTools::undoResequenceNumeric",tst_tools.cpp,17,1,
+Private Function,"TestTools::undoResequencePart",tst_tools.cpp,17,1,
+Private Function,"TestTools::undoSlashFill",tst_tools.cpp,18,1,
+Private Function,"TestTools::undoSlashRhythm",tst_tools.cpp,20,1,
+Class,"TestTranspose",tst_transpose.cpp,49,,3
+Public Function,"TestTranspose::initTestCase",tst_transpose.cpp,4,1,
+Private Function,"TestTranspose::undoDiatonicTranspose",tst_transpose.cpp,19,1,
+Private Function,"TestTranspose::undoTranspose",tst_transpose.cpp,18,1,
+Class,"TestTuplet",tst_tuplet.cpp,78,,12
+Private Function,"TestTuplet::createTuplet",tst_tuplet.cpp,28,4,
+Public Function,"TestTuplet::initTestCase",tst_tuplet.cpp,4,1,
+Private Function,"TestTuplet::join1",tst_tuplet.cpp,1,1,
+Private Function,"TestTuplet::split",tst_tuplet.cpp,16,1,
+Private Function,"TestTuplet::split1",tst_tuplet.cpp,1,1,
+Private Function,"TestTuplet::split2",tst_tuplet.cpp,1,1,
+Private Function,"TestTuplet::split3",tst_tuplet.cpp,1,1,
+Private Function,"TestTuplet::split4",tst_tuplet.cpp,1,1,
+Private Function,"TestTuplet::tuplet",tst_tuplet.cpp,16,1,
+Class,"TestUtils",tst_utils.cpp,33,,2
+Public Function,"TestUtils::initTestCase",tst_utils.cpp,4,1,
+Private Function,"TestUtils::tst_compareVersion",tst_utils.cpp,22,1,
+File,"build.xml",build.xml,25,0,0
+File,"c1.xml",c1.xml,1120,0,0
+Function,"checkData",tst_remove.cpp,1,1,
+Function,"chordFactory",tst_importmidi.cpp,12,4,
+Function,"chordRestAtBeat",tst_selectionrangedelete.cpp,6,1,
+File,"cl.xml",cl.xml,3668,0,0
+Function,"cmp_msg",qtest.c,13,3,
+Function,"compareElements",tst_midi.cpp,49,13,
+Function,"compareScores",tst_midi.cpp,37,9,
+File,"config.h",config.h,0,,0
+File,"container.xml",container.xml,7,0,0
+Class,"diff_match_patch_test",diff_match_patch_test.h,899,,105
+File,"diff_match_patch_test.cpp",diff_match_patch_test.cpp,855,,106
+File,"diff_match_patch_test.h",diff_match_patch_test.h,53,,0
+Private Function,"diff_match_patch_test::assertEmpty",diff_match_patch_test.cpp,5,2,
+Private Function,"diff_match_patch_test::assertEquals",diff_match_patch_test.cpp,7,2,
+Private Function,"diff_match_patch_test::assertEquals",diff_match_patch_test.cpp,8,2,
+Private Function,"diff_match_patch_test::assertEquals",diff_match_patch_test.cpp,8,2,
+Private Function,"diff_match_patch_test::assertEquals",diff_match_patch_test.cpp,8,2,
+Private Function,"diff_match_patch_test::assertEquals",diff_match_patch_test.cpp,25,5,
+Private Function,"diff_match_patch_test::assertEquals",diff_match_patch_test.cpp,8,2,
+Private Function,"diff_match_patch_test::assertEquals",diff_match_patch_test.cpp,42,6,
+Private Function,"diff_match_patch_test::assertEquals",diff_match_patch_test.cpp,42,6,
+Private Function,"diff_match_patch_test::assertFalse",diff_match_patch_test.cpp,7,2,
+Private Function,"diff_match_patch_test::assertTrue",diff_match_patch_test.cpp,7,2,
+Private Function,"diff_match_patch_test::diffList",diff_match_patch_test.cpp,45,11,
+Public Function,"diff_match_patch_test::diff_match_patch_test",diff_match_patch_test.cpp,2,1,
+Private Function,"diff_match_patch_test::diff_rebuildtexts",diff_match_patch_test.cpp,13,3,
+Public Function,"diff_match_patch_test::run_all_tests",diff_match_patch_test.cpp,38,2,
+Public Function,"diff_match_patch_test::testDiffBisect",diff_match_patch_test.cpp,8,1,
+Public Function,"diff_match_patch_test::testDiffCharsToLines",diff_match_patch_test.cpp,29,2,
+Public Function,"diff_match_patch_test::testDiffCleanupEfficiency",diff_match_patch_test.cpp,23,1,
+Public Function,"diff_match_patch_test::testDiffCleanupMerge",diff_match_patch_test.cpp,38,1,
+Public Function,"diff_match_patch_test::testDiffCleanupSemantic",diff_match_patch_test.cpp,29,1,
+Public Function,"diff_match_patch_test::testDiffCleanupSemanticLossless",diff_match_patch_test.cpp,23,1,
+Public Function,"diff_match_patch_test::testDiffCommonOverlap",diff_match_patch_test.cpp,6,1,
+Public Function,"diff_match_patch_test::testDiffCommonPrefix",diff_match_patch_test.cpp,5,1,
+Public Function,"diff_match_patch_test::testDiffCommonSuffix",diff_match_patch_test.cpp,5,1,
+Public Function,"diff_match_patch_test::testDiffDelta",diff_match_patch_test.cpp,30,3,
+Public Function,"diff_match_patch_test::testDiffHalfmatch",diff_match_patch_test.cpp,15,1,
+Public Function,"diff_match_patch_test::testDiffLevenshtein",diff_match_patch_test.cpp,8,1,
+Public Function,"diff_match_patch_test::testDiffLinesToChars",diff_match_patch_test.cpp,47,2,
+Public Function,"diff_match_patch_test::testDiffMain",diff_match_patch_test.cpp,58,3,
+Public Function,"diff_match_patch_test::testDiffPrettyHtml",diff_match_patch_test.cpp,4,1,
+Public Function,"diff_match_patch_test::testDiffText",diff_match_patch_test.cpp,5,1,
+Public Function,"diff_match_patch_test::testDiffXIndex",diff_match_patch_test.cpp,6,1,
+Public Function,"diff_match_patch_test::testMatchAlphabet",diff_match_patch_test.cpp,12,1,
+Public Function,"diff_match_patch_test::testMatchBitap",diff_match_patch_test.cpp,27,1,
+Public Function,"diff_match_patch_test::testMatchMain",diff_match_patch_test.cpp,14,2,
+Public Function,"diff_match_patch_test::testPatchAddContext",diff_match_patch_test.cpp,16,1,
+Public Function,"diff_match_patch_test::testPatchAddPadding",diff_match_patch_test.cpp,15,1,
+Public Function,"diff_match_patch_test::testPatchApply",diff_match_patch_test.cpp,73,18,
+Public Function,"diff_match_patch_test::testPatchFromText",diff_match_patch_test.cpp,13,2,
+Public Function,"diff_match_patch_test::testPatchMake",diff_match_patch_test.cpp,37,3,
+Public Function,"diff_match_patch_test::testPatchObj",diff_match_patch_test.cpp,10,1,
+Public Function,"diff_match_patch_test::testPatchSplitMax",diff_match_patch_test.cpp,16,1,
+Public Function,"diff_match_patch_test::testPatchToText",diff_match_patch_test.cpp,9,1,
+File,"different_keysigs_1.xml",different_keysigs_1.xml,46,0,0
+File,"different_keysigs_2.xml",different_keysigs_2.xml,46,0,0
+Function,"doSomethingReallyStupid",test.c,4,1,
+Function,"doSomethingStupid",test.c,3,1,
+Static Function,"doascii",mm.c,73,41,
+Static Function,"doascii",midiclock.c,24,9,
+Static Function,"dropClef",tst_clef_courtesy.cpp,11,1,
+Function,"dropNormalBarline",tst_barline.cpp,10,1,
+Function,"dummy_get_index",test_afm.c,10,2,
+Function,"dump_fontinfo",test_afm.c,40,6,
+Static Function,"dump_outline",test_bbox.c,17,1,
+Function,"exit_with_message",midithread.c,7,1,
+Function,"exit_with_message",midithru.c,7,1,
+File,"fast.c",fast.c,146,,27
+Function,"fast_test",fast.c,48,6,
+Function,"finalize",midithru.c,12,2,
+Static Function,"findColByHeader",tst_importmidi.cpp,11,3,
+Static Function,"fixupScore",tst_bww_io.cpp,8,1,
+Static Function,"fixupScore",tst_mxml_io.cpp,7,1,
+Static Function,"getMeasure",tst_clef_courtesy.cpp,7,2,
+Function,"get_number",midiclock.c,11,2,
+Function,"get_number",latency.c,11,2,
+Function,"get_number",test.c,11,2,
+Function,"get_number",sysex.c,11,2,
+Function,"get_number",fast.c,11,2,
+Static Function,"get_number",mm.c,11,2,
+Static Function,"get_time",test_bbox.c,5,1,
+File,"harmony1.xml",harmony1.xml,2880,0,0
+File,"harmony2.xml",harmony2.xml,106,0,0
+Static Function,"inStaff",tst_remove.cpp,8,2,
+File,"index.html",index.html,0,0,0
+Function,"initMyResources",testutils.cpp,9,1,
+Function,"initialize",midithru.c,40,3,
+File,"inner_func_decl.h",inner_func_decl.h,29,,0
+File,"interval_tree_test.cpp",interval_tree_test.cpp,59,,10
+Function,"isChordCountInTupletAllowed",tst_importmidi.cpp,22,2,
+Static Function,"isLayoutDone",tst_layout_elements.cpp,17,5,
+Function,"isSingleNoteInTupletAllowed",tst_importmidi.cpp,22,1,
+Function,"isTupletErrorAllowed",tst_importmidi.cpp,19,1,
+File,"latency.c",latency.c,159,,32
+Function,"loopback_test",sysex.c,94,14,
+File,"ltest.cpp",ltest.cpp,6,,1
+File,"m1.xml",m1.xml,21,0,0
+File,"m2.xml",m2.xml,19,0,0
+File,"m3.xml",m3.xml,21,0,0
+File,"m4.xml",m4.xml,21,0,0
+File,"m5.xml",m5.xml,22,0,0
+Function,"main",mm.c,41,8,
+Function,"main",interval_tree_test.cpp,44,8,
+Function,"main",ltest.cpp,6,1,
+Function,"main",diff_match_patch_test.cpp,9,1,
+Function,"main",midiclock.c,41,8,
+Function,"main",latency.c,100,20,
+Function,"main",test_trig.c,13,2,
+Function,"main",fast.c,73,18,
+Function,"main",qtest.c,111,28,
+Function,"main",midithru.c,26,5,
+Function,"main",test_bbox.c,10,1,
+Function,"main",midithread.c,109,15,
+Function,"main",test_afm.c,35,7,
+Function,"main",sysex.c,40,11,
+Function,"main",test.c,101,25,
+Function,"main",mtest.cpp,13,2,
+Function,"main_test_both",test.c,53,5,
+Function,"main_test_input",test.c,45,7,
+Function,"main_test_output",test.c,63,6,
+Function,"main_test_stream",test.c,42,1,
+Function,"make_msg",qtest.c,7,2,
+File,"midiclock.c",midiclock.c,182,,41
+File,"midithread.c",midithread.c,175,,32
+File,"midithru.c",midithru.c,166,,30
+Function,"midithru_time_proc",midithru.c,4,1,
+File,"mm.c",mm.c,402,,120
+Static Function,"mmexit",mm.c,4,1,
+Function,"mode",tst_layout_elements.cpp,1,1,
+File,"mscoreapi.h",mscoreapi.h,20,,3
+File,"mtest.cpp",mtest.cpp,63,,4
+Function,"noteFactory",tst_importmidi.cpp,7,1,
+File,"openscore.h",openscore.h,20,,3
+Static Function,"output",mm.c,164,57,
+Function,"parse_afm",test_afm.c,26,4,
+Function,"print_msg",qtest.c,7,2,
+Static Function,"process",mtest.cpp,10,2,
+Function,"process_midi",midithread.c,51,16,
+Function,"process_midi",midithru.c,67,18,
+Static Function,"profile_outline",test_bbox.c,32,3,
+Function,"pt_callback",latency.c,37,10,
+Static Function,"put_pitch",mm.c,10,1,
+File,"qtest.c",qtest.c,138,,35
+Function Template,"randKey",interval_tree_test.cpp,4,1,
+Function Template,"randomInterval",interval_tree_test.cpp,5,1,
+Function,"receive_multiple_test",sysex.c,33,4,
+Function,"receive_poll",mm.c,10,4,
+Function,"receive_poll",sysex.c,58,15,
+Function,"receive_sysex",sysex.c,39,9,
+Function,"saveMidi",tst_midi.cpp,5,1,
+File,"selectionfilter1-base-ref.xml",selectionfilter1-base-ref.xml,58,0,0
+File,"selectionfilter1-ref.xml",selectionfilter1-ref.xml,36,0,0
+File,"selectionfilter10-base-ref.xml",selectionfilter10-base-ref.xml,81,0,0
+File,"selectionfilter10-ref.xml",selectionfilter10-ref.xml,72,0,0
+File,"selectionfilter11-base-ref.xml",selectionfilter11-base-ref.xml,76,0,0
+File,"selectionfilter11-ref.xml",selectionfilter11-ref.xml,56,0,0
+File,"selectionfilter12-base-ref.xml",selectionfilter12-base-ref.xml,75,0,0
+File,"selectionfilter12-ref.xml",selectionfilter12-ref.xml,36,0,0
+File,"selectionfilter13-base-ref.xml",selectionfilter13-base-ref.xml,42,0,0
+File,"selectionfilter13-ref.xml",selectionfilter13-ref.xml,36,0,0
+File,"selectionfilter14-base-ref.xml",selectionfilter14-base-ref.xml,39,0,0
+File,"selectionfilter14-ref.xml",selectionfilter14-ref.xml,36,0,0
+File,"selectionfilter15-base-ref.xml",selectionfilter15-base-ref.xml,66,0,0
+File,"selectionfilter15-ref.xml",selectionfilter15-ref.xml,49,0,0
+File,"selectionfilter16-base-ref.xml",selectionfilter16-base-ref.xml,47,0,0
+File,"selectionfilter16-ref.xml",selectionfilter16-ref.xml,41,0,0
+File,"selectionfilter17-base-ref.xml",selectionfilter17-base-ref.xml,55,0,0
+File,"selectionfilter17-ref.xml",selectionfilter17-ref.xml,25,0,0
+File,"selectionfilter18-base-ref.xml",selectionfilter18-base-ref.xml,55,0,0
+File,"selectionfilter18-ref.xml",selectionfilter18-ref.xml,36,0,0
+File,"selectionfilter2-base-ref.xml",selectionfilter2-base-ref.xml,59,0,0
+File,"selectionfilter2-ref.xml",selectionfilter2-ref.xml,36,0,0
+File,"selectionfilter3-base-ref.xml",selectionfilter3-base-ref.xml,52,0,0
+File,"selectionfilter3-ref.xml",selectionfilter3-ref.xml,36,0,0
+File,"selectionfilter4-base-ref.xml",selectionfilter4-base-ref.xml,48,0,0
+File,"selectionfilter4-ref.xml",selectionfilter4-ref.xml,36,0,0
+File,"selectionfilter5-base-ref.xml",selectionfilter5-base-ref.xml,49,0,0
+File,"selectionfilter5-ref.xml",selectionfilter5-ref.xml,36,0,0
+File,"selectionfilter6-base-ref.xml",selectionfilter6-base-ref.xml,68,0,0
+File,"selectionfilter6-ref.xml",selectionfilter6-ref.xml,36,0,0
+File,"selectionfilter7-base-ref.xml",selectionfilter7-base-ref.xml,69,0,0
+File,"selectionfilter7-ref.xml",selectionfilter7-ref.xml,36,0,0
+File,"selectionfilter8-base-ref.xml",selectionfilter8-base-ref.xml,53,0,0
+File,"selectionfilter8-ref.xml",selectionfilter8-ref.xml,36,0,0
+File,"selectionfilter9-base-ref.xml",selectionfilter9-base-ref.xml,53,0,0
+File,"selectionfilter9-ref.xml",selectionfilter9-ref.xml,36,0,0
+Function,"send_multiple_test",sysex.c,41,7,
+Function,"send_sysex",sysex.c,41,8,
+Function,"show_usage",test.c,5,1,
+Function,"show_usage",fast.c,9,1,
+Static Function,"showbytes",mm.c,18,3,
+Static Function,"showhelp",midiclock.c,9,1,
+Static Function,"showhelp",mm.c,33,1,
+Static Function,"showstatus",mm.c,4,2,
+Static Function,"staffHasElements",tst_remove.cpp,19,5,
+File,"style.css",style.css,0,0,0
+File,"sysex.c",sysex.c,366,,70
+File,"test-harmony.xml",test-harmony.xml,667,0,0
+File,"test.c",test.c,328,,49
+File,"test10-ref.xml",test10-ref.xml,1655,0,0
+File,"test10.xml",test10.xml,1742,0,0
+File,"test11.xml",test11.xml,1652,0,0
+File,"test12-ref.xml",test12-ref.xml,1215,0,0
+File,"test12.xml",test12.xml,6093,0,0
+File,"test13-ref.xml",test13-ref.xml,1655,0,0
+File,"test13.xml",test13.xml,1634,0,0
+File,"test98.xml",test98.xml,110,0,0
+File,"testAccidentals1.xml",testAccidentals1.xml,119,0,0
+File,"testAccidentals2.xml",testAccidentals2.xml,192,0,0
+File,"testAccidentals3.xml",testAccidentals3.xml,195,0,0
+File,"testAllTextsArial.xml",testAllTextsArial.xml,766,0,0
+File,"testAllTextsArial18.xml",testAllTextsArial18.xml,766,0,0
+File,"testAllTextsDefault.xml",testAllTextsDefault.xml,763,0,0
+File,"testArpGliss1.xml",testArpGliss1.xml,267,0,0
+File,"testArpGliss2.xml",testArpGliss2.xml,325,0,0
+File,"testArpGliss3.xml",testArpGliss3.xml,166,0,0
+File,"testBarStyles.xml",testBarStyles.xml,145,0,0
+File,"testBarStyles2.xml",testBarStyles2.xml,123,0,0
+File,"testBeams.xml",testBeams.xml,220,0,0
+File,"testChordDiagrams1.xml",testChordDiagrams1.xml,165,0,0
+File,"testChordNoVoice.xml",testChordNoVoice.xml,109,0,0
+File,"testChordNoVoice_ref.xml",testChordNoVoice_ref.xml,109,0,0
+File,"testClefs1.xml",testClefs1.xml,343,0,0
+File,"testCompleteMeasureRests.xml",testCompleteMeasureRests.xml,81,0,0
+File,"testCueNotes.xml",testCueNotes.xml,196,0,0
+File,"testDCalCoda.xml",testDCalCoda.xml,134,0,0
+File,"testDCalFine.xml",testDCalFine.xml,100,0,0
+File,"testDalSegno.xml",testDalSegno.xml,95,0,0
+File,"testDirections1.xml",testDirections1.xml,327,0,0
+File,"testDivsDefinedTooLate1.xml",testDivsDefinedTooLate1.xml,82,0,0
+File,"testDivsDefinedTooLate1_ref.xml",testDivsDefinedTooLate1_ref.xml,81,0,0
+File,"testDivsDefinedTooLate2.xml",testDivsDefinedTooLate2.xml,137,0,0
+File,"testDivsDefinedTooLate2_ref.xml",testDivsDefinedTooLate2_ref.xml,139,0,0
+File,"testDoubleClefError.xml",testDoubleClefError.xml,155,0,0
+File,"testDoubleClefError_ref.xml",testDoubleClefError_ref.xml,143,0,0
+File,"testDoublings.xml",testDoublings.xml,13742,0,0
+File,"testDoublingsShort.xml",testDoublingsShort.xml,185,0,0
+File,"testDrumset1.xml",testDrumset1.xml,216,0,0
+File,"testDrumset2.xml",testDrumset2.xml,300,0,0
+File,"testDuration.xml",testDuration.xml,178,0,0
+File,"testDurationRoundingError.xml",testDurationRoundingError.xml,174,0,0
+File,"testDurationRoundingError_ref.xml",testDurationRoundingError_ref.xml,172,0,0
+File,"testDynamics1.xml",testDynamics1.xml,198,0,0
+File,"testDynamics2.xml",testDynamics2.xml,262,0,0
+File,"testDynamics3.xml",testDynamics3.xml,402,0,0
+File,"testDynamics3_ref.xml",testDynamics3_ref.xml,439,0,0
+File,"testEmptyMeasure.xml",testEmptyMeasure.xml,89,0,0
+File,"testEmptyMeasure_ref.xml",testEmptyMeasure_ref.xml,82,0,0
+File,"testEmptyVoice1.xml",testEmptyVoice1.xml,351,0,0
+File,"testEmptyVoice1_ref.xml",testEmptyVoice1_ref.xml,363,0,0
+File,"testExtendedLyrics.xml",testExtendedLyrics.xml,342,0,0
+File,"testExtendedLyrics_ref.xml",testExtendedLyrics_ref.xml,326,0,0
+File,"testFiguredBass1.xml",testFiguredBass1.xml,197,0,0
+File,"testFiguredBass2.xml",testFiguredBass2.xml,432,0,0
+File,"testFiguredBass3.xml",testFiguredBass3.xml,672,0,0
+File,"testFormattedThings.xml",testFormattedThings.xml,264,0,0
+File,"testGrace1.xml",testGrace1.xml,166,0,0
+File,"testGrace2.xml",testGrace2.xml,350,0,0
+File,"testGraceAfter1.xml",testGraceAfter1.xml,76,0,0
+File,"testGraceAfter2.xml",testGraceAfter2.xml,91,0,0
+File,"testGraceAfter3.xml",testGraceAfter3.xml,112,0,0
+File,"testGraceAfter4.xml",testGraceAfter4.xml,111,0,0
+File,"testGraces.xml",testGraces.xml,206,0,0
+File,"testHarmony1.xml",testHarmony1.xml,883,0,0
+File,"testHarmony2.xml",testHarmony2.xml,231,0,0
+File,"testHarmony3.xml",testHarmony3.xml,96,0,0
+File,"testHarmony4.xml",testHarmony4.xml,84,0,0
+File,"testHarmony5.xml",testHarmony5.xml,69,0,0
+File,"testHello.xml",testHello.xml,52,0,0
+File,"testImplicitMeasure1.xml",testImplicitMeasure1.xml,95,0,0
+File,"testIncorrectMidiProgram.xml",testIncorrectMidiProgram.xml,122,0,0
+File,"testIncorrectMidiProgram_ref.xml",testIncorrectMidiProgram_ref.xml,115,0,0
+File,"testIncorrectStaffNumber1.xml",testIncorrectStaffNumber1.xml,118,0,0
+File,"testIncorrectStaffNumber1_ref.xml",testIncorrectStaffNumber1_ref.xml,123,0,0
+File,"testIncorrectStaffNumber2.xml",testIncorrectStaffNumber2.xml,102,0,0
+File,"testIncorrectStaffNumber2_ref.xml",testIncorrectStaffNumber2_ref.xml,97,0,0
+File,"testInstrumentChangeMIDIportExport_ref.xml",testInstrumentChangeMIDIportExport_ref.xml,1089,0,0
+File,"testInstrumentSound.xml",testInstrumentSound.xml,151,0,0
+File,"testInstrumentSound_ref.xml",testInstrumentSound_ref.xml,149,0,0
+File,"testInvalid.xml",testInvalid.xml,60,0,0
+File,"testInvalidTimesig.xml",testInvalidTimesig.xml,88,0,0
+File,"testInvalidTimesig_ref.xml",testInvalidTimesig_ref.xml,78,0,0
+File,"testInvisibleElements.xml",testInvisibleElements.xml,135,0,0
+File,"testKeysig1.xml",testKeysig1.xml,117,0,0
+File,"testKeysig2.xml",testKeysig2.xml,121,0,0
+File,"testLineBreaks.xml",testLineBreaks.xml,674,0,0
+File,"testLines1.xml",testLines1.xml,365,0,0
+File,"testLines1_ref.xml",testLines1_ref.xml,360,0,0
+File,"testLines2.xml",testLines2.xml,371,0,0
+File,"testLines2_ref.xml",testLines2_ref.xml,365,0,0
+File,"testLyricColor.xml",testLyricColor.xml,194,0,0
+File,"testLyrics1.xml",testLyrics1.xml,175,0,0
+File,"testLyrics1_ref.xml",testLyrics1_ref.xml,157,0,0
+File,"testLyricsVoice2a.xml",testLyricsVoice2a.xml,213,0,0
+File,"testLyricsVoice2b.xml",testLyricsVoice2b.xml,205,0,0
+File,"testLyricsVoice2b_ref.xml",testLyricsVoice2b_ref.xml,200,0,0
+File,"testManualBreaks.xml",testManualBreaks.xml,595,0,0
+File,"testMeasureLength.xml",testMeasureLength.xml,244,0,0
+File,"testMeasureLength_ref.xml",testMeasureLength_ref.xml,251,0,0
+File,"testMetaData.xml",testMetaData.xml,116,0,0
+File,"testMidMeasureRepeat.xml",testMidMeasureRepeat.xml,171,0,0
+File,"testMidiPortExport_ref.xml",testMidiPortExport_ref.xml,4725,0,0
+File,"testMultiInstrumentPart1.xml",testMultiInstrumentPart1.xml,118,0,0
+File,"testMultiInstrumentPart2.xml",testMultiInstrumentPart2.xml,281,0,0
+File,"testMultiMeasureRest1.xml",testMultiMeasureRest1.xml,105,0,0
+File,"testMultiMeasureRest1_ref.xml",testMultiMeasureRest1_ref.xml,104,0,0
+File,"testMultiMeasureRest2.xml",testMultiMeasureRest2.xml,161,0,0
+File,"testMultiMeasureRest2_ref.xml",testMultiMeasureRest2_ref.xml,147,0,0
+File,"testMultiMeasureRest3.xml",testMultiMeasureRest3.xml,103,0,0
+File,"testMultiMeasureRest3_ref.xml",testMultiMeasureRest3_ref.xml,92,0,0
+File,"testMultiMeasureRest4.xml",testMultiMeasureRest4.xml,410,0,0
+File,"testMultiMeasureRest4_ref.xml",testMultiMeasureRest4_ref.xml,403,0,0
+File,"testMultipleNotations.xml",testMultipleNotations.xml,115,0,0
+File,"testMultipleNotations_ref.xml",testMultipleNotations_ref.xml,106,0,0
+File,"testNoTimeSig1.xml",testNoTimeSig1.xml,146,0,0
+File,"testNoTimeSig2.xml",testNoTimeSig2.xml,99,0,0
+File,"testNonStandardKeySig1.xml",testNonStandardKeySig1.xml,72,0,0
+File,"testNonStandardKeySig2.xml",testNonStandardKeySig2.xml,265,0,0
+File,"testNonStandardKeySig3.xml",testNonStandardKeySig3.xml,78,0,0
+File,"testNonUniqueThings.xml",testNonUniqueThings.xml,171,0,0
+File,"testNonUniqueThings_ref.xml",testNonUniqueThings_ref.xml,152,0,0
+File,"testNoteAttributes1.xml",testNoteAttributes1.xml,311,0,0
+File,"testNoteAttributes2.xml",testNoteAttributes2.xml,676,0,0
+File,"testNoteAttributes2_ref.xml",testNoteAttributes2_ref.xml,671,0,0
+File,"testNoteAttributes3.xml",testNoteAttributes3.xml,270,0,0
+File,"testNoteColor.xml",testNoteColor.xml,62,0,0
+File,"testNoteheadParentheses.xml",testNoteheadParentheses.xml,92,0,0
+File,"testNoteheads.xml",testNoteheads.xml,326,0,0
+File,"testNoteheadsFilled.xml",testNoteheadsFilled.xml,227,0,0
+File,"testNotes.xml",testNotes.xml,319,0,0
+File,"testNotesRests1.xml",testNotesRests1.xml,316,0,0
+File,"testNotesRests2.xml",testNotesRests2.xml,407,0,0
+File,"testNumberedLyrics.xml",testNumberedLyrics.xml,522,0,0
+File,"testNumberedLyrics_ref.xml",testNumberedLyrics_ref.xml,514,0,0
+File,"testOverlappingSpanners.xml",testOverlappingSpanners.xml,905,0,0
+File,"testPartsSpecialCases.xml",testPartsSpecialCases.xml,94,0,0
+File,"testPartsSpecialCases_ref.xml",testPartsSpecialCases_ref.xml,97,0,0
+File,"testPrintSpacingNo.xml",testPrintSpacingNo.xml,159,0,0
+File,"testPrintSpacingNo_ref.xml",testPrintSpacingNo_ref.xml,77,0,0
+File,"testRepeatCounts.xml",testRepeatCounts.xml,292,0,0
+File,"testRepeatSingleMeasure.xml",testRepeatSingleMeasure.xml,151,0,0
+File,"testRepeats.xml",testRepeats.xml,163,0,0
+File,"testRestNotations.xml",testRestNotations.xml,132,0,0
+File,"testRestNotations_ref.xml",testRestNotations_ref.xml,100,0,0
+File,"testRestsNoType.xml",testRestsNoType.xml,89,0,0
+File,"testRestsNoType_ref.xml",testRestsNoType_ref.xml,84,0,0
+File,"testRestsTypeWhole.xml",testRestsTypeWhole.xml,76,0,0
+File,"testRestsTypeWhole_ref.xml",testRestsTypeWhole_ref.xml,68,0,0
+File,"testSlurTieLineStyle.xml",testSlurTieLineStyle.xml,217,0,0
+File,"testSlurs.xml",testSlurs.xml,293,0,0
+File,"testSlurs2.xml",testSlurs2.xml,364,0,0
+File,"testSound1.xml",testSound1.xml,106,0,0
+File,"testSound1_ref.xml",testSound1_ref.xml,149,0,0
+File,"testSound2.xml",testSound2.xml,111,0,0
+File,"testSound2_ref.xml",testSound2_ref.xml,149,0,0
+File,"testSpecialCharacters.xml",testSpecialCharacters.xml,292,0,0
+File,"testStaffTwoKeySigs.xml",testStaffTwoKeySigs.xml,117,0,0
+File,"testStringVoiceName.xml",testStringVoiceName.xml,76,0,0
+File,"testStringVoiceName_ref.xml",testStringVoiceName_ref.xml,76,0,0
+File,"testSystemBrackets1.xml",testSystemBrackets1.xml,422,0,0
+File,"testSystemBrackets2.xml",testSystemBrackets2.xml,139,0,0
+File,"testTablature1.xml",testTablature1.xml,177,0,0
+File,"testTablature2.xml",testTablature2.xml,182,0,0
+File,"testTablature3.xml",testTablature3.xml,188,0,0
+File,"testTablature4.xml",testTablature4.xml,217,0,0
+File,"testTempo1.xml",testTempo1.xml,517,0,0
+File,"testTempo120.xml",testTempo120.xml,133,0,0
+File,"testTempo2.xml",testTempo2.xml,212,0,0
+File,"testTempo2_ref.xml",testTempo2_ref.xml,209,0,0
+File,"testTempo3.xml",testTempo3.xml,113,0,0
+File,"testTempo3_ref.xml",testTempo3_ref.xml,80,0,0
+File,"testTempo60.xml",testTempo60.xml,141,0,0
+File,"testTieTriplet.xml",testTieTriplet.xml,381,0,0
+File,"testTimesig1.xml",testTimesig1.xml,259,0,0
+File,"testTimesig3.xml",testTimesig3.xml,125,0,0
+File,"testTremolo.xml",testTremolo.xml,443,0,0
+File,"testTriplets.xml",testTriplets.xml,353,0,0
+File,"testTuplets1.xml",testTuplets1.xml,692,0,0
+File,"testTuplets1_ref.xml",testTuplets1_ref.xml,711,0,0
+File,"testTuplets2.xml",testTuplets2.xml,317,0,0
+File,"testTuplets2_ref.xml",testTuplets2_ref.xml,400,0,0
+File,"testTuplets3.xml",testTuplets3.xml,430,0,0
+File,"testTuplets3_ref.xml",testTuplets3_ref.xml,416,0,0
+File,"testTuplets4.xml",testTuplets4.xml,223,0,0
+File,"testUninitializedDivisions.xml",testUninitializedDivisions.xml,83,0,0
+File,"testUninitializedDivisions_ref.xml",testUninitializedDivisions_ref.xml,80,0,0
+File,"testUnusualDurations.xml",testUnusualDurations.xml,109,0,0
+File,"testUnusualDurations_ref.xml",testUnusualDurations_ref.xml,102,0,0
+File,"testVirtualInstruments.xml",testVirtualInstruments.xml,366,0,0
+File,"testVirtualInstruments_ref.xml",testVirtualInstruments_ref.xml,348,0,0
+File,"testVoiceMapper1.xml",testVoiceMapper1.xml,140,0,0
+File,"testVoiceMapper1_ref.xml",testVoiceMapper1_ref.xml,140,0,0
+File,"testVoiceMapper2.xml",testVoiceMapper2.xml,141,0,0
+File,"testVoiceMapper2_ref.xml",testVoiceMapper2_ref.xml,130,0,0
+File,"testVoiceMapper3.xml",testVoiceMapper3.xml,277,0,0
+File,"testVoiceMapper3_ref.xml",testVoiceMapper3_ref.xml,243,0,0
+File,"testVoicePiano1.xml",testVoicePiano1.xml,175,0,0
+File,"testVolta1.xml",testVolta1.xml,184,0,0
+File,"testWedge1.xml",testWedge1.xml,234,0,0
+File,"testWedge2.xml",testWedge2.xml,391,0,0
+File,"testWedge2_ref.xml",testWedge2_ref.xml,376,0,0
+File,"testWords1.xml",testWords1.xml,78,0,0
+File,"testWords2.xml",testWords2.xml,223,0,0
+File,"test_afm.c",test_afm.c,111,,19
+Static Function,"test_atan2",test_trig.c,25,4,
+File,"test_bbox.c",test_bbox.c,123,,6
+Static Function,"test_cos",test_trig.c,19,3,
+Static Function,"test_length",test_trig.c,20,3,
+Static Function,"test_rotate",test_trig.c,39,4,
+Static Function,"test_sin",test_trig.c,19,3,
+Static Function,"test_tan",test_trig.c,19,3,
+File,"test_trig.c",test_trig.c,181,,25
+Static Function,"test_unit",test_trig.c,26,3,
+File,"testutils.cpp",testutils.cpp,204,,33
+File,"testutils.h",testutils.h,25,,0
+Function,"timer_poll",midiclock.c,89,21,
+File,"tst_album.cpp",tst_album.cpp,83,,7
+File,"tst_barline.cpp",tst_barline.cpp,227,,23
+File,"tst_beam.cpp",tst_beam.cpp,31,,13
+File,"tst_benchmark.cpp",tst_benchmark.cpp,49,,5
+File,"tst_biab.cpp",tst_biab.cpp,30,,3
+File,"tst_breath.cpp",tst_breath.cpp,39,,4
+File,"tst_bww_io.cpp",tst_bww_io.cpp,66,,19
+File,"tst_capella_io.cpp",tst_capella_io.cpp,54,,27
+File,"tst_chordsymbol.cpp",tst_chordsymbol.cpp,129,,10
+File,"tst_clef.cpp",tst_clef.cpp,33,,3
+File,"tst_clef_courtesy.cpp",tst_clef_courtesy.cpp,141,,10
+File,"tst_compat114.cpp",tst_compat114.cpp,53,,3
+File,"tst_compat206.cpp",tst_compat206.cpp,37,,17
+File,"tst_concertpitchbenchmark.cpp",tst_concertpitchbenchmark.cpp,23,,2
+File,"tst_copypaste.cpp",tst_copypaste.cpp,275,,33
+File,"tst_copypastesymbollist.cpp",tst_copypastesymbollist.cpp,79,,15
+File,"tst_cursor.cpp",tst_cursor.cpp,33,,2
+File,"tst_durationtype.cpp",tst_durationtype.cpp,76,,9
+File,"tst_dynamic.cpp",tst_dynamic.cpp,79,,2
+File,"tst_earlymusic.cpp",tst_earlymusic.cpp,56,,2
+File,"tst_element.cpp",tst_element.cpp,75,,2
+File,"tst_exchangevoices.cpp",tst_exchangevoices.cpp,66,,6
+File,"tst_guitarpro.cpp",tst_guitarpro.cpp,108,,88
+File,"tst_hairpin.cpp",tst_hairpin.cpp,25,,2
+File,"tst_implodeExplode.cpp",tst_implodeExplode.cpp,113,,7
+File,"tst_importmidi.cpp",tst_importmidi.cpp,919,,134
+File,"tst_instrumentchange.cpp",tst_instrumentchange.cpp,106,,8
+File,"tst_join.cpp",tst_join.cpp,66,,14
+File,"tst_keysig.cpp",tst_keysig.cpp,77,,5
+File,"tst_layout_elements.cpp",tst_layout_elements.cpp,46,,12
+File,"tst_links.cpp",tst_links.cpp,308,,7
+File,"tst_measure.cpp",tst_measure.cpp,254,,16
+File,"tst_midi.cpp",tst_midi.cpp,286,,36
+File,"tst_midimapping.cpp",tst_midimapping.cpp,125,,30
+File,"tst_mxml_io.cpp",tst_mxml_io.cpp,221,,130
+File,"tst_note.cpp",tst_note.cpp,329,,17
+File,"tst_notes.cpp",tst_notes.cpp,24,,2
+File,"tst_ove_bdat.cpp",tst_ove_bdat.cpp,57,,33
+File,"tst_ove_ove3.cpp",tst_ove_ove3.cpp,28,,4
+File,"tst_ove_structure.cpp",tst_ove_structure.cpp,27,,3
+File,"tst_parts.cpp",tst_parts.cpp,489,,49
+File,"tst_remove.cpp",tst_remove.cpp,57,,11
+File,"tst_repeat.cpp",tst_repeat.cpp,86,,56
+File,"tst_rhythmicGrouping.cpp",tst_rhythmicGrouping.cpp,39,,12
+File,"tst_scripting.cpp",tst_scripting.cpp,106,,14
+File,"tst_selectionfilter.cpp",tst_selectionfilter.cpp,70,,21
+File,"tst_selectionrangedelete.cpp",tst_selectionrangedelete.cpp,120,,10
+File,"tst_sfzcomments.cpp",tst_sfzcomments.cpp,32,,2
+File,"tst_sfzenvelopes.cpp",tst_sfzenvelopes.cpp,53,,4
+File,"tst_sfzglobal.cpp",tst_sfzglobal.cpp,26,,2
+File,"tst_sfzincludes.cpp",tst_sfzincludes.cpp,26,,2
+File,"tst_sfzinputcontrols.cpp",tst_sfzinputcontrols.cpp,144,,14
+File,"tst_sfzloop.cpp",tst_sfzloop.cpp,120,,4
+File,"tst_sfzopcodes.cpp",tst_sfzopcodes.cpp,96,,2
+File,"tst_spanners.cpp",tst_spanners.cpp,316,,13
+File,"tst_split.cpp",tst_split.cpp,64,,14
+File,"tst_splitstaff.cpp",tst_splitstaff.cpp,28,,7
+File,"tst_stringutils.cpp",tst_stringutils.cpp,82,,4
+File,"tst_text.cpp",tst_text.cpp,570,,21
+File,"tst_timesig.cpp",tst_timesig.cpp,77,,5
+File,"tst_tools.cpp",tst_tools.cpp,145,,8
+File,"tst_transpose.cpp",tst_transpose.cpp,51,,3
+File,"tst_tuplet.cpp",tst_tuplet.cpp,80,,12
+File,"tst_utils.cpp",tst_utils.cpp,35,,2

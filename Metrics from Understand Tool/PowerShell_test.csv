@@ -1,0 +1,207 @@
+Kind,Name,File,CountLineCode,Cyclomatic,SumCyclomatic
+File,"CatalogTestFile2.xml",CatalogTestFile2.xml,49,0,0
+Namespace,"Microsoft",,1085,,249
+Namespace,"Microsoft.PowerShell",,1085,,185
+Namespace,"Microsoft.PowerShell.Commands",,1085,,185
+Public Class,"Microsoft.PowerShell.Commands.TestConnectionCommand",TestConnectionCommand.cs,621,,72
+Protected Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.BeginProcessing",TestConnectionCommand.cs,10,2,2
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.BufferSize.get",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.BufferSize.set",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.Continues.get",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.Continues.set",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.Count.get",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.Count.set",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.Delay.get",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.Delay.set",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.DontFragment.get",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.DontFragment.set",TestConnectionCommand.cs,0,1,1
+Private Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.GetSendBuffer",TestConnectionCommand.cs,17,4,4
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.IPv4.get",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.IPv4.set",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.IPv6.get",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.IPv6.set",TestConnectionCommand.cs,0,1,1
+Private Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.InitProcessPing",TestConnectionCommand.cs,68,10,10
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.MTUSizeDetect.get",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.MTUSizeDetect.set",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.MaxHops.get",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.MaxHops.set",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.Ping.get",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.Ping.set",TestConnectionCommand.cs,0,1,1
+Public Class,"Microsoft.PowerShell.Commands.TestConnectionCommand.PingReport",TestConnectionCommand.cs,11,,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.PingReport.Destination.get",TestConnectionCommand.cs,0,1,1
+Internal Constructor,"Microsoft.PowerShell.Commands.TestConnectionCommand.PingReport.PingReport",TestConnectionCommand.cs,6,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.PingReport.Replies.get",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.PingReport.Source.get",TestConnectionCommand.cs,0,1,1
+Private Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.ProcessConnectionByTCPPort",TestConnectionCommand.cs,41,6,6
+Private Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.ProcessMTUSize",TestConnectionCommand.cs,90,9,9
+Private Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.ProcessPing",TestConnectionCommand.cs,72,10,10
+Protected Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.ProcessRecord",TestConnectionCommand.cs,22,7,7
+Private Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.ProcessTraceroute",TestConnectionCommand.cs,64,8,8
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.ResolveDestination.get",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.ResolveDestination.set",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.Source.get",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.TCPPort.get",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.TCPPort.set",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.TargetName.get",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.TargetName.set",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.TimeoutSeconds.get",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.TimeoutSeconds.set",TestConnectionCommand.cs,0,1,1
+Public Class,"Microsoft.PowerShell.Commands.TestConnectionCommand.TraceRouteReply",TestConnectionCommand.cs,10,,1
+Internal Constructor,"Microsoft.PowerShell.Commands.TestConnectionCommand.TraceRouteReply.TraceRouteReply",TestConnectionCommand.cs,4,1,1
+Public Class,"Microsoft.PowerShell.Commands.TestConnectionCommand.TraceRouteResult",TestConnectionCommand.cs,14,,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.TraceRouteResult.DestinationAddress.get",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.TraceRouteResult.DestinationHost.get",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.TraceRouteResult.Replies.get",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.TraceRouteResult.Source.get",TestConnectionCommand.cs,0,1,1
+Internal Constructor,"Microsoft.PowerShell.Commands.TestConnectionCommand.TraceRouteResult.TraceRouteResult",TestConnectionCommand.cs,7,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.Traceroute.get",TestConnectionCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.Traceroute.set",TestConnectionCommand.cs,0,1,1
+Private Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.WriteConnectionTestFooter",TestConnectionCommand.cs,6,1,1
+Private Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.WriteConnectionTestHeader",TestConnectionCommand.cs,6,1,1
+Private Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.WriteConnectionTestProgress",TestConnectionCommand.cs,9,1,1
+Private Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.WriteConsoleTraceRouteHeader",TestConnectionCommand.cs,7,1,1
+Private Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.WriteMTUSizeFooter",TestConnectionCommand.cs,6,1,1
+Private Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.WriteMTUSizeHeader",TestConnectionCommand.cs,9,1,1
+Private Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.WriteMTUSizeProgress",TestConnectionCommand.cs,6,1,1
+Private Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.WritePingFooter",TestConnectionCommand.cs,7,1,1
+Private Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.WritePingHeader",TestConnectionCommand.cs,12,1,1
+Private Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.WritePingProgress",TestConnectionCommand.cs,19,2,2
+Private Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.WriteTraceRouteFooter",TestConnectionCommand.cs,7,1,1
+Private Method,"Microsoft.PowerShell.Commands.TestConnectionCommand.WriteTraceRouteProgress",TestConnectionCommand.cs,21,4,4
+Public Class,"Microsoft.PowerShell.Commands.TestJsonCommand",TestJsonCommand.cs,55,,8
+Protected Method,"Microsoft.PowerShell.Commands.TestJsonCommand.BeginProcessing",TestJsonCommand.cs,15,3,3
+Public Method,"Microsoft.PowerShell.Commands.TestJsonCommand.Json.get",TestJsonCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestJsonCommand.Json.set",TestJsonCommand.cs,0,1,1
+Protected Method,"Microsoft.PowerShell.Commands.TestJsonCommand.ProcessRecord",TestJsonCommand.cs,31,5,5
+Public Method,"Microsoft.PowerShell.Commands.TestJsonCommand.Schema.get",TestJsonCommand.cs,0,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestJsonCommand.Schema.set",TestJsonCommand.cs,0,1,1
+Public Class,"Microsoft.PowerShell.Commands.TestModuleManifestCommand",TestModuleManifestCommand.cs,297,,47
+Private Method,"Microsoft.PowerShell.Commands.TestModuleManifestCommand.IsValidFilePath",TestModuleManifestCommand.cs,36,7,7
+Private Method,"Microsoft.PowerShell.Commands.TestModuleManifestCommand.IsValidGacAssembly",TestModuleManifestCommand.cs,28,5,5
+Public Method,"Microsoft.PowerShell.Commands.TestModuleManifestCommand.Path.get",TestModuleManifestCommand.cs,1,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestModuleManifestCommand.Path.set",TestModuleManifestCommand.cs,1,1,1
+Protected Method,"Microsoft.PowerShell.Commands.TestModuleManifestCommand.ProcessRecord",TestModuleManifestCommand.cs,219,34,34
+Public Constructor,"Microsoft.PowerShell.Commands.TestModuleManifestCommand.TestModuleManifestCommand",TestModuleManifestCommand.cs,4,1,1
+Public Class,"Microsoft.PowerShell.Commands.TestPSSessionConfigurationFileCommand",TestPSSessionConfigurationFile.cs,89,,9
+Public Method,"Microsoft.PowerShell.Commands.TestPSSessionConfigurationFileCommand.Path.get",TestPSSessionConfigurationFile.cs,1,1,1
+Public Method,"Microsoft.PowerShell.Commands.TestPSSessionConfigurationFileCommand.Path.set",TestPSSessionConfigurationFile.cs,1,1,1
+Protected Method,"Microsoft.PowerShell.Commands.TestPSSessionConfigurationFileCommand.ProcessRecord",TestPSSessionConfigurationFile.cs,79,9,9
+Namespace,"PSTests",,1047,,88
+Namespace,"PSTests.Parallel",,393,,41
+Public Class,"PSTests.Parallel.FileSystemProviderTests",test_FileSystemProvider.cs,158,,21
+Public Constructor,"PSTests.Parallel.FileSystemProviderTests.FileSystemProviderTests",test_FileSystemProvider.cs,7,2,2
+Private Method,"PSTests.Parallel.FileSystemProviderTests.GetExecutionContext",test_FileSystemProvider.cs,9,1,1
+Private Method,"PSTests.Parallel.FileSystemProviderTests.GetProvider",test_FileSystemProvider.cs,9,1,1
+Private Method,"PSTests.Parallel.FileSystemProviderTests.IDisposable.Dispose",test_FileSystemProvider.cs,4,1,1
+Public Method,"PSTests.Parallel.FileSystemProviderTests.TestClearContent",test_FileSystemProvider.cs,9,1,1
+Public Method,"PSTests.Parallel.FileSystemProviderTests.TestClearProperty",test_FileSystemProvider.cs,8,1,1
+Public Method,"PSTests.Parallel.FileSystemProviderTests.TestCreateJunctionFails",test_FileSystemProvider.cs,11,2,3
+Private Method,"PSTests.Parallel.FileSystemProviderTests.TestCreateJunctionFails.(anon_method_1)",test_FileSystemProvider.cs,0,1,1
+Public Method,"PSTests.Parallel.FileSystemProviderTests.TestGetContentReader",test_FileSystemProvider.cs,10,1,1
+Public Method,"PSTests.Parallel.FileSystemProviderTests.TestGetContentWriter",test_FileSystemProvider.cs,11,1,1
+Public Method,"PSTests.Parallel.FileSystemProviderTests.TestGetHelpMaml",test_FileSystemProvider.cs,7,1,1
+Public Method,"PSTests.Parallel.FileSystemProviderTests.TestGetProperty",test_FileSystemProvider.cs,20,3,3
+Public Method,"PSTests.Parallel.FileSystemProviderTests.TestMode",test_FileSystemProvider.cs,22,2,2
+Public Method,"PSTests.Parallel.FileSystemProviderTests.TestSetProperty",test_FileSystemProvider.cs,17,3,3
+Public Class,"PSTests.Parallel.MshSnapinInfoTests",test_MshSnapinInfo.cs,18,,2
+Public Method,"PSTests.Parallel.MshSnapinInfoTests.TestReadCoreEngineSnapIn",test_MshSnapinInfo.cs,6,1,1
+Public Method,"PSTests.Parallel.MshSnapinInfoTests.TestReadRegistryInfo",test_MshSnapinInfo.cs,7,1,1
+Public Static Class,"PSTests.Parallel.PSEnumerableBinderTests",test_Binders.cs,8,,1
+Public Static Method,"PSTests.Parallel.PSEnumerableBinderTests.TestIsStaticTypePossiblyEnumerable",test_Binders.cs,4,1,1
+Public Static Class,"PSTests.Parallel.PSTypeExtensionsTests",test_ExtensionMethods.cs,8,,1
+Public Static Method,"PSTests.Parallel.PSTypeExtensionsTests.TestIsNumeric",test_ExtensionMethods.cs,4,1,1
+Public Static Class,"PSTests.Parallel.PSVersionInfoTests",test_PSVersionInfo.cs,8,,1
+Public Static Method,"PSTests.Parallel.PSVersionInfoTests.TestVersions",test_PSVersionInfo.cs,4,1,1
+Public Static Class,"PSTests.Parallel.PlatformTests",test_CorePsPlatform.cs,8,,1
+Public Static Method,"PSTests.Parallel.PlatformTests.TestIsCoreCLR",test_CorePsPlatform.cs,4,1,1
+Public Class,"PSTests.Parallel.RunspaceTests",test_Runspace.cs,69,,6
+Public Method,"PSTests.Parallel.RunspaceTests.TestRunspaceWithPipeline",test_Runspace.cs,18,2,2
+Public Method,"PSTests.Parallel.RunspaceTests.TestRunspaceWithPowerShell",test_Runspace.cs,20,2,2
+Public Method,"PSTests.Parallel.RunspaceTests.TestRunspaceWithPowerShellAndInitialSessionState",test_Runspace.cs,23,2,2
+Public Static Class,"PSTests.Parallel.SecuritySupportTests",test_SecuritySupport.cs,18,,3
+Public Static Method,"PSTests.Parallel.SecuritySupportTests.TestCloseSession",test_SecuritySupport.cs,4,1,1
+Public Static Method,"PSTests.Parallel.SecuritySupportTests.TestScanContent",test_SecuritySupport.cs,4,1,1
+Public Static Method,"PSTests.Parallel.SecuritySupportTests.TestUninitialize",test_SecuritySupport.cs,4,1,1
+Public Class,"PSTests.Parallel.SessionStateTests",test_SessionState.cs,16,,1
+Public Method,"PSTests.Parallel.SessionStateTests.TestDrives",test_SessionState.cs,12,1,1
+Public Static Class,"PSTests.Parallel.UtilsTests",test_Utils.cs,52,,9
+Public Static Method,"PSTests.Parallel.UtilsTests.TestBoundedStack",test_Utils.cs,16,3,5
+Lambda Method,"PSTests.Parallel.UtilsTests.TestBoundedStack.(anon_method_1)",test_Utils.cs,1,1,1
+Lambda Method,"PSTests.Parallel.UtilsTests.TestBoundedStack.(anon_method_2)",test_Utils.cs,1,1,1
+Public Static Method,"PSTests.Parallel.UtilsTests.TestHistoryStack",test_Utils.cs,25,1,3
+Lambda Method,"PSTests.Parallel.UtilsTests.TestHistoryStack.(anon_method_1)",test_Utils.cs,1,1,1
+Lambda Method,"PSTests.Parallel.UtilsTests.TestHistoryStack.(anon_method_2)",test_Utils.cs,1,1,1
+Public Static Method,"PSTests.Parallel.UtilsTests.TestIsWinPEHost",test_Utils.cs,5,1,1
+Namespace,"PSTests.Sequential",,654,,47
+Public Class,"PSTests.Sequential.PowerShellPolicyFixture",test_PSConfiguration.cs,254,,34
+Public Method,"PSTests.Sequential.PowerShellPolicyFixture.CleanupConfigFiles",test_PSConfiguration.cs,11,3,3
+Internal Method,"PSTests.Sequential.PowerShellPolicyFixture.CompareConsoleSessionConfiguration",test_PSConfiguration.cs,12,2,2
+Internal Method,"PSTests.Sequential.PowerShellPolicyFixture.CompareModuleLogging",test_PSConfiguration.cs,23,4,4
+Internal Method,"PSTests.Sequential.PowerShellPolicyFixture.CompareProtectedEventLogging",test_PSConfiguration.cs,23,4,4
+Internal Method,"PSTests.Sequential.PowerShellPolicyFixture.CompareScriptBlockLogging",test_PSConfiguration.cs,12,2,2
+Internal Method,"PSTests.Sequential.PowerShellPolicyFixture.CompareScriptExecution",test_PSConfiguration.cs,12,2,2
+Internal Method,"PSTests.Sequential.PowerShellPolicyFixture.CompareTranscription",test_PSConfiguration.cs,13,2,2
+Internal Method,"PSTests.Sequential.PowerShellPolicyFixture.CompareTwoPolicies",test_PSConfiguration.cs,10,1,1
+Internal Method,"PSTests.Sequential.PowerShellPolicyFixture.CompareUpdatableHelp",test_PSConfiguration.cs,11,2,2
+Private Method,"PSTests.Sequential.PowerShellPolicyFixture.CreateEmptyFile",test_PSConfiguration.cs,4,1,1
+Internal Method,"PSTests.Sequential.PowerShellPolicyFixture.CurrentUserPolicies.get",test_PSConfiguration.cs,1,1,1
+Public Method,"PSTests.Sequential.PowerShellPolicyFixture.Dispose",test_PSConfiguration.cs,13,3,3
+Public Constructor,"PSTests.Sequential.PowerShellPolicyFixture.PowerShellPolicyFixture",test_PSConfiguration.cs,48,4,4
+Public Method,"PSTests.Sequential.PowerShellPolicyFixture.SetupConfigFile1",test_PSConfiguration.cs,14,1,1
+Public Class,"PSTests.Sequential.PowerShellPolicyFixture.SetupConfigFile1.(__Anonymous1)",test_PSConfiguration.cs,0,,0
+Public Class,"PSTests.Sequential.PowerShellPolicyFixture.SetupConfigFile1.(__Anonymous2)",test_PSConfiguration.cs,0,,0
+Public Method,"PSTests.Sequential.PowerShellPolicyFixture.SetupConfigFile2",test_PSConfiguration.cs,10,1,1
+Public Class,"PSTests.Sequential.PowerShellPolicyFixture.SetupConfigFile2.(__Anonymous1)",test_PSConfiguration.cs,0,,0
+Public Method,"PSTests.Sequential.PowerShellPolicyFixture.SetupConfigFile3",test_PSConfiguration.cs,10,1,1
+Public Class,"PSTests.Sequential.PowerShellPolicyFixture.SetupConfigFile3.(__Anonymous1)",test_PSConfiguration.cs,0,,0
+Public Method,"PSTests.Sequential.PowerShellPolicyFixture.SetupConfigFile4",test_PSConfiguration.cs,6,1,1
+Internal Method,"PSTests.Sequential.PowerShellPolicyFixture.SystemWidePolicies.get",test_PSConfiguration.cs,1,1,1
+Public Class,"PSTests.Sequential.PowerShellPolicyTests",test_PSConfiguration.cs,397,,11
+Public Method,"PSTests.Sequential.PowerShellPolicyTests.PowerShellConfig_GetPowerShellPolicies_BothConfigFilesEmpty",test_PSConfiguration.cs,8,1,1
+Public Method,"PSTests.Sequential.PowerShellPolicyTests.PowerShellConfig_GetPowerShellPolicies_BothConfigFilesNotEmpty",test_PSConfiguration.cs,10,1,1
+Public Method,"PSTests.Sequential.PowerShellPolicyTests.PowerShellConfig_GetPowerShellPolicies_BothConfigFilesNotExist",test_PSConfiguration.cs,8,1,1
+Public Method,"PSTests.Sequential.PowerShellPolicyTests.PowerShellConfig_GetPowerShellPolicies_EmptySystemConfig",test_PSConfiguration.cs,9,1,1
+Public Method,"PSTests.Sequential.PowerShellPolicyTests.PowerShellConfig_GetPowerShellPolicies_EmptyUserConfig",test_PSConfiguration.cs,9,1,1
+Public Constructor,"PSTests.Sequential.PowerShellPolicyTests.PowerShellPolicyTests",test_PSConfiguration.cs,4,1,1
+Public Method,"PSTests.Sequential.PowerShellPolicyTests.Utils_GetPolicySetting_BothConfigFilesEmpty",test_PSConfiguration.cs,67,1,1
+Public Method,"PSTests.Sequential.PowerShellPolicyTests.Utils_GetPolicySetting_BothConfigFilesNotEmpty",test_PSConfiguration.cs,67,1,1
+Public Method,"PSTests.Sequential.PowerShellPolicyTests.Utils_GetPolicySetting_BothConfigFilesNotExist",test_PSConfiguration.cs,67,1,1
+Public Method,"PSTests.Sequential.PowerShellPolicyTests.Utils_GetPolicySetting_EmptySystemConfig",test_PSConfiguration.cs,67,1,1
+Public Method,"PSTests.Sequential.PowerShellPolicyTests.Utils_GetPolicySetting_EmptyUserConfig",test_PSConfiguration.cs,67,1,1
+Namespace,"PowerShell",,114,,16
+Namespace,"PowerShell.Hosting",,114,,16
+Namespace,"PowerShell.Hosting.SDK",,114,,16
+Namespace,"PowerShell.Hosting.SDK.Tests",,114,,16
+Public Static Class,"PowerShell.Hosting.SDK.Tests.HostingTests",test_HostingBasic.cs,111,,16
+Public Static Method,"PowerShell.Hosting.SDK.Tests.HostingTests.TestCommandFromCore",test_HostingBasic.cs,11,2,2
+Public Static Method,"PowerShell.Hosting.SDK.Tests.HostingTests.TestCommandFromDiagnostics",test_HostingBasic.cs,12,2,2
+Public Static Method,"PowerShell.Hosting.SDK.Tests.HostingTests.TestCommandFromMMI",test_HostingBasic.cs,9,1,1
+Public Static Method,"PowerShell.Hosting.SDK.Tests.HostingTests.TestCommandFromManagement",test_HostingBasic.cs,12,2,2
+Public Static Method,"PowerShell.Hosting.SDK.Tests.HostingTests.TestCommandFromNative",test_HostingBasic.cs,24,4,4
+Public Static Method,"PowerShell.Hosting.SDK.Tests.HostingTests.TestCommandFromSecurity",test_HostingBasic.cs,9,1,1
+Public Static Method,"PowerShell.Hosting.SDK.Tests.HostingTests.TestCommandFromUtility",test_HostingBasic.cs,11,2,2
+Public Static Method,"PowerShell.Hosting.SDK.Tests.HostingTests.TestCommandFromWSMan",test_HostingBasic.cs,12,2,2
+Function,"RunTest",gulpfile.js,50,1,10
+Function,"RunTest.task",gulpfile.js,43,5,9
+Unnamed Function,"RunTest.task.(unnamed_function_1)",gulpfile.js,3,1,1
+Function,"RunTest.task.obj",gulpfile.js,14,1,3
+Function,"RunTest.task.obj.callback",gulpfile.js,7,2,2
+File,"ScriptHelp.Tests.xml",ScriptHelp.Tests.xml,23,0,0
+File,"TestConnectionCommand.cs",TestConnectionCommand.cs,639,,113
+File,"TestJsonCommand.cs",TestJsonCommand.cs,66,,12
+File,"TestModuleManifestCommand.cs",TestModuleManifestCommand.cs,309,,49
+File,"TestPSSessionConfigurationFile.cs",TestPSSessionConfigurationFile.cs,101,,11
+File,"gulpfile.js",gulpfile.js,51,1,11
+File,"scriptHelp1.xml",scriptHelp1.xml,23,0,0
+File,"test_Binders.cs",test_Binders.cs,14,,1
+File,"test_CorePsPlatform.cs",test_CorePsPlatform.cs,16,,1
+File,"test_ExtensionMethods.cs",test_ExtensionMethods.cs,14,,1
+File,"test_FileSystemProvider.cs",test_FileSystemProvider.cs,177,,21
+File,"test_HostingBasic.cs",test_HostingBasic.cs,120,,16
+File,"test_MshSnapinInfo.cs",test_MshSnapinInfo.cs,24,,2
+File,"test_PSConfiguration.cs",test_PSConfiguration.cs,663,,47
+File,"test_PSVersionInfo.cs",test_PSVersionInfo.cs,14,,1
+File,"test_Runspace.cs",test_Runspace.cs,76,,6
+File,"test_SecuritySupport.cs",test_SecuritySupport.cs,24,,3
+File,"test_SessionState.cs",test_SessionState.cs,30,,1
+File,"test_Utils.cs",test_Utils.cs,60,,9

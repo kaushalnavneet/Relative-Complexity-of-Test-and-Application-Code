@@ -1,0 +1,658 @@
+Kind,Name,File,CountLineCode,Cyclomatic,SumCyclomatic
+Function,"AppController",AppController.h,4,1,
+File,"AppController.h",AppController.h,8,,1
+Struct,"Catch::AssertionInfo",catch.hpp,12,,1
+Public Function,"Catch::AssertionInfo::AssertionInfo",catch.hpp,1,1,
+Class,"Catch::AssertionResult",catch.hpp,21,,0
+Struct,"Catch::AssertionResultData",catch.hpp,7,,1
+Public Function,"Catch::AssertionResultData::AssertionResultData",catch.hpp,1,1,
+Struct,"Catch::AutoReg",catch.hpp,23,,1
+Public Function Template,"Catch::AutoReg::AutoReg",catch.hpp,9,1,
+Class Template,"Catch::BetweenGenerator",catch.hpp,13,,3
+Public Function,"Catch::BetweenGenerator::BetweenGenerator",catch.hpp,1,1,
+Public Virtual Const Function,"Catch::BetweenGenerator::getValue",catch.hpp,3,1,
+Public Virtual Const Function,"Catch::BetweenGenerator::size",catch.hpp,3,1,
+Class Template,"Catch::CompositeGenerator",catch.hpp,56,,11
+Public Function,"Catch::CompositeGenerator::CompositeGenerator",catch.hpp,1,1,
+Public Function,"Catch::CompositeGenerator::CompositeGenerator",catch.hpp,6,1,
+Public Function,"Catch::CompositeGenerator::add",catch.hpp,4,1,
+Private Function,"Catch::CompositeGenerator::move",catch.hpp,5,1,
+Public Const Function,"Catch::CompositeGenerator::operator Catch::CompositeGenerator::T",catch.hpp,16,3,
+Public Function,"Catch::CompositeGenerator::setFileInfo",catch.hpp,4,1,
+Public Function,"Catch::CompositeGenerator::then",catch.hpp,4,1,
+Public Function,"Catch::CompositeGenerator::then",catch.hpp,6,1,
+Public Function,"Catch::CompositeGenerator::~CompositeGenerator",catch.hpp,3,1,
+Struct,"Catch::Counts",catch.hpp,19,,4
+Public Function,"Catch::Counts::Counts",catch.hpp,1,1,
+Public Function,"Catch::Counts::operator+=",catch.hpp,5,1,
+Public Const Function,"Catch::Counts::operator-",catch.hpp,6,1,
+Public Const Function,"Catch::Counts::total",catch.hpp,3,1,
+Class,"Catch::Detail::Approx",catch.hpp,39,,7
+Explicit Public Function,"Catch::Detail::Approx::Approx",catch.hpp,5,1,
+Public Function,"Catch::Detail::Approx::Approx",catch.hpp,5,1,
+Public Static Function,"Catch::Detail::Approx::custom",catch.hpp,3,1,
+Public Function,"Catch::Detail::Approx::epsilon",catch.hpp,4,1,
+Public Function,"Catch::Detail::Approx::operator()",catch.hpp,6,1,
+Public Function,"Catch::Detail::Approx::scale",catch.hpp,4,1,
+Public Const Function,"Catch::Detail::Approx::toString",catch.hpp,5,1,
+Struct,"Catch::Detail::BorgType",catch.hpp,3,,0
+Struct,"Catch::Detail::Endianness",catch.hpp,7,,2
+Public Static Function,"Catch::Detail::Endianness::which",catch.hpp,8,2,
+Struct Template,"Catch::Detail::IsStreamInsertable",catch.hpp,5,,0
+Struct Template,"Catch::Detail::StringMakerBase",catch.hpp,4,,1
+Struct Template,"Catch::Detail::StringMakerBase",catch.hpp,8,,1
+Public Static Function Template,"Catch::Detail::StringMakerBase::convert",catch.hpp,5,1,
+Public Static Function Template,"Catch::Detail::StringMakerBase::convert",catch.hpp,1,1,
+Function Template,"Catch::Detail::makeString",catch.hpp,3,1,
+Function Template,"Catch::Detail::rangeToString",catch.hpp,12,3,
+Function Template,"Catch::Detail::rawMemoryToString",catch.hpp,17,3,
+Class,"Catch::ExceptionTranslatorRegistrar",catch.hpp,25,,1
+Private Class Template,"Catch::ExceptionTranslatorRegistrar::ExceptionTranslator",catch.hpp,16,,3
+Public Function,"Catch::ExceptionTranslatorRegistrar::ExceptionTranslator::ExceptionTranslator",catch.hpp,3,1,
+Public Virtual Const Function,"Catch::ExceptionTranslatorRegistrar::ExceptionTranslator::translate",catch.hpp,8,2,
+Public Function Template,"Catch::ExceptionTranslatorRegistrar::ExceptionTranslatorRegistrar",catch.hpp,4,1,
+Class,"Catch::ExpressionDecomposer",catch.hpp,10,,2
+Public Function Template,"Catch::ExpressionDecomposer::operator->*",catch.hpp,3,1,
+Public Function,"Catch::ExpressionDecomposer::operator->*",catch.hpp,3,1,
+Class Template,"Catch::ExpressionLhs",catch.hpp,60,,12
+Public Function,"Catch::ExpressionLhs::ExpressionLhs",catch.hpp,1,1,
+Private Function Template,"Catch::ExpressionLhs::captureExpression",catch.hpp,7,1,
+Public Function,"Catch::ExpressionLhs::endExpression",catch.hpp,7,2,
+Public Function Template,"Catch::ExpressionLhs::operator!=",catch.hpp,3,1,
+Public Function,"Catch::ExpressionLhs::operator!=",catch.hpp,3,1,
+Public Function Template,"Catch::ExpressionLhs::operator<",catch.hpp,3,1,
+Public Function Template,"Catch::ExpressionLhs::operator<=",catch.hpp,3,1,
+Public Function Template,"Catch::ExpressionLhs::operator==",catch.hpp,3,1,
+Public Function,"Catch::ExpressionLhs::operator==",catch.hpp,3,1,
+Public Function Template,"Catch::ExpressionLhs::operator>",catch.hpp,3,1,
+Public Function Template,"Catch::ExpressionLhs::operator>=",catch.hpp,3,1,
+Class,"Catch::ExpressionResultBuilder",catch.hpp,29,,1
+Private Struct,"Catch::ExpressionResultBuilder::ExprComponents",catch.hpp,5,,1
+Public Function,"Catch::ExpressionResultBuilder::ExprComponents::ExprComponents",catch.hpp,1,1,
+Public Function Template,"Catch::ExpressionResultBuilder::operator<<",catch.hpp,4,1,
+Struct,"Catch::FalseType",catch.hpp,5,,0
+Function Template,"Catch::Generators::between",catch.hpp,5,1,
+Function Template,"Catch::Generators::values",catch.hpp,8,1,
+Function Template,"Catch::Generators::values",catch.hpp,9,1,
+Function Template,"Catch::Generators::values",catch.hpp,10,1,
+Abstract Struct,"Catch::IConfig",catch.hpp,13,,0
+Abstract Struct,"Catch::IContext",catch.hpp,9,,0
+Abstract Struct,"Catch::IExceptionTranslator",catch.hpp,4,,0
+Abstract Struct,"Catch::IExceptionTranslatorRegistry",catch.hpp,4,,0
+Abstract Struct Template,"Catch::IGenerator",catch.hpp,5,,1
+Public Virtual Function,"Catch::IGenerator::~IGenerator",catch.hpp,1,1,
+Abstract Struct,"Catch::IGeneratorInfo",catch.hpp,5,,0
+Abstract Struct,"Catch::IGeneratorsForTest",catch.hpp,5,,0
+Abstract Struct,"Catch::IMutableContext",catch.hpp,7,,0
+Abstract Struct,"Catch::IMutableRegistryHub",catch.hpp,6,,0
+Abstract Struct,"Catch::IRegistryHub",catch.hpp,6,,0
+Abstract Struct,"Catch::IResultCapture",catch.hpp,13,,0
+Struct,"Catch::IRunner",catch.hpp,3,,0
+Abstract Struct,"Catch::IShared",catch.hpp,5,,0
+Abstract Struct,"Catch::ITestCase",catch.hpp,5,,0
+Abstract Struct,"Catch::ITestCaseRegistry",catch.hpp,5,,0
+Class Template,"Catch::Internal::Evaluator",catch.hpp,1,,0
+Struct Template,"Catch::Internal::Evaluator",catch.hpp,5,,1
+Struct Template,"Catch::Internal::Evaluator",catch.hpp,5,,1
+Struct Template,"Catch::Internal::Evaluator",catch.hpp,5,,1
+Struct Template,"Catch::Internal::Evaluator",catch.hpp,5,,1
+Struct Template,"Catch::Internal::Evaluator",catch.hpp,5,,1
+Struct Template,"Catch::Internal::Evaluator",catch.hpp,5,,1
+Public Static Function,"Catch::Internal::Evaluator::evaluate",catch.hpp,3,1,
+Public Static Function,"Catch::Internal::Evaluator::evaluate",catch.hpp,3,1,
+Public Static Function,"Catch::Internal::Evaluator::evaluate",catch.hpp,3,1,
+Public Static Function,"Catch::Internal::Evaluator::evaluate",catch.hpp,3,1,
+Public Static Function,"Catch::Internal::Evaluator::evaluate",catch.hpp,3,1,
+Public Static Function,"Catch::Internal::Evaluator::evaluate",catch.hpp,3,1,
+Struct Template,"Catch::Internal::OperatorTraits",catch.hpp,1,,1
+Struct Template,"Catch::Internal::OperatorTraits",catch.hpp,1,,1
+Struct Template,"Catch::Internal::OperatorTraits",catch.hpp,1,,1
+Struct Template,"Catch::Internal::OperatorTraits",catch.hpp,1,,1
+Struct Template,"Catch::Internal::OperatorTraits",catch.hpp,1,,1
+Struct Template,"Catch::Internal::OperatorTraits",catch.hpp,1,,1
+Struct Template,"Catch::Internal::OperatorTraits",catch.hpp,1,,1
+Public Static Function,"Catch::Internal::OperatorTraits::getName",catch.hpp,1,1,
+Public Static Function,"Catch::Internal::OperatorTraits::getName",catch.hpp,1,1,
+Public Static Function,"Catch::Internal::OperatorTraits::getName",catch.hpp,1,1,
+Public Static Function,"Catch::Internal::OperatorTraits::getName",catch.hpp,1,1,
+Public Static Function,"Catch::Internal::OperatorTraits::getName",catch.hpp,1,1,
+Public Static Function,"Catch::Internal::OperatorTraits::getName",catch.hpp,1,1,
+Public Static Function,"Catch::Internal::OperatorTraits::getName",catch.hpp,1,1,
+Function Template,"Catch::Internal::applyEvaluator",catch.hpp,3,1,
+Function Template,"Catch::Internal::compare",catch.hpp,3,1,
+Function Template,"Catch::Internal::compare",catch.hpp,3,1,
+Function Template,"Catch::Internal::compare",catch.hpp,3,1,
+Function Template,"Catch::Internal::compare",catch.hpp,3,1,
+Function Template,"Catch::Internal::compare",catch.hpp,3,1,
+Function Template,"Catch::Internal::compare",catch.hpp,3,1,
+Function Template,"Catch::Internal::compare",catch.hpp,3,1,
+Function Template,"Catch::Internal::compare",catch.hpp,3,1,
+Function Template,"Catch::Internal::compare",catch.hpp,3,1,
+Function Template,"Catch::Internal::compare",catch.hpp,3,1,
+Function Template,"Catch::Internal::compare",catch.hpp,3,1,
+Function Template,"Catch::Internal::compare",catch.hpp,3,1,
+Function Template,"Catch::Internal::compare",catch.hpp,3,1,
+Function Template,"Catch::Internal::compare",catch.hpp,3,1,
+Function Template,"Catch::Internal::compare",catch.hpp,3,1,
+Function Template,"Catch::Internal::compare",catch.hpp,3,1,
+Function Template,"Catch::Internal::compare",catch.hpp,3,1,
+Function Template,"Catch::Internal::opCast",catch.hpp,1,1,
+Function Template,"Catch::Matchers::AllOf",catch.hpp,4,1,
+Function Template,"Catch::Matchers::AllOf",catch.hpp,5,1,
+Function Template,"Catch::Matchers::AnyOf",catch.hpp,4,1,
+Function Template,"Catch::Matchers::AnyOf",catch.hpp,5,1,
+Function,"Catch::Matchers::Contains",catch.hpp,3,1,
+Function,"Catch::Matchers::Contains",catch.hpp,3,1,
+Function,"Catch::Matchers::EndsWith",catch.hpp,3,1,
+Function,"Catch::Matchers::EndsWith",catch.hpp,3,1,
+Function,"Catch::Matchers::Equals",catch.hpp,3,1,
+Function,"Catch::Matchers::Equals",catch.hpp,3,1,
+Class Template,"Catch::Matchers::Impl::Generic::AllOf",catch.hpp,29,,9
+Public Function,"Catch::Matchers::Impl::Generic::AllOf::AllOf",catch.hpp,1,1,
+Public Function,"Catch::Matchers::Impl::Generic::AllOf::AllOf",catch.hpp,1,1,
+Public Function,"Catch::Matchers::Impl::Generic::AllOf::add",catch.hpp,4,1,
+Public Virtual Const Function,"Catch::Matchers::Impl::Generic::AllOf::match",catch.hpp,7,3,
+Public Virtual Const Function,"Catch::Matchers::Impl::Generic::AllOf::toString",catch.hpp,11,3,
+Class Template,"Catch::Matchers::Impl::Generic::AnyOf",catch.hpp,29,,9
+Public Function,"Catch::Matchers::Impl::Generic::AnyOf::AnyOf",catch.hpp,1,1,
+Public Function,"Catch::Matchers::Impl::Generic::AnyOf::AnyOf",catch.hpp,1,1,
+Public Function,"Catch::Matchers::Impl::Generic::AnyOf::add",catch.hpp,4,1,
+Public Virtual Const Function,"Catch::Matchers::Impl::Generic::AnyOf::match",catch.hpp,7,3,
+Public Virtual Const Function,"Catch::Matchers::Impl::Generic::AnyOf::toString",catch.hpp,11,3,
+Abstract Struct Template,"Catch::Matchers::Impl::Matcher",catch.hpp,8,,1
+Public Virtual Function,"Catch::Matchers::Impl::Matcher::~Matcher",catch.hpp,1,1,
+Struct Template,"Catch::Matchers::Impl::MatcherImpl",catch.hpp,5,,1
+Public Virtual Const Function,"Catch::Matchers::Impl::MatcherImpl::clone",catch.hpp,3,1,
+Struct,"Catch::Matchers::Impl::StdString::Contains",catch.hpp,12,,4
+Public Function,"Catch::Matchers::Impl::StdString::Contains::Contains",catch.hpp,1,1,
+Public Function,"Catch::Matchers::Impl::StdString::Contains::Contains",catch.hpp,1,1,
+Public Virtual Const Function,"Catch::Matchers::Impl::StdString::Contains::match",catch.hpp,3,1,
+Public Virtual Const Function,"Catch::Matchers::Impl::StdString::Contains::toString",catch.hpp,3,1,
+Struct,"Catch::Matchers::Impl::StdString::EndsWith",catch.hpp,12,,4
+Public Function,"Catch::Matchers::Impl::StdString::EndsWith::EndsWith",catch.hpp,1,1,
+Public Function,"Catch::Matchers::Impl::StdString::EndsWith::EndsWith",catch.hpp,1,1,
+Public Virtual Const Function,"Catch::Matchers::Impl::StdString::EndsWith::match",catch.hpp,3,1,
+Public Virtual Const Function,"Catch::Matchers::Impl::StdString::EndsWith::toString",catch.hpp,3,1,
+Struct,"Catch::Matchers::Impl::StdString::Equals",catch.hpp,12,,4
+Public Function,"Catch::Matchers::Impl::StdString::Equals::Equals",catch.hpp,1,1,
+Public Function,"Catch::Matchers::Impl::StdString::Equals::Equals",catch.hpp,1,1,
+Public Virtual Const Function,"Catch::Matchers::Impl::StdString::Equals::match",catch.hpp,3,1,
+Public Virtual Const Function,"Catch::Matchers::Impl::StdString::Equals::toString",catch.hpp,3,1,
+Struct,"Catch::Matchers::Impl::StdString::StartsWith",catch.hpp,12,,4
+Public Function,"Catch::Matchers::Impl::StdString::StartsWith::StartsWith",catch.hpp,1,1,
+Public Function,"Catch::Matchers::Impl::StdString::StartsWith::StartsWith",catch.hpp,1,1,
+Public Virtual Const Function,"Catch::Matchers::Impl::StdString::StartsWith::match",catch.hpp,3,1,
+Public Virtual Const Function,"Catch::Matchers::Impl::StdString::StartsWith::toString",catch.hpp,3,1,
+Function,"Catch::Matchers::Impl::StdString::makeString",catch.hpp,1,1,
+Function,"Catch::Matchers::Impl::StdString::makeString",catch.hpp,1,2,
+Function,"Catch::Matchers::StartsWith",catch.hpp,3,1,
+Function,"Catch::Matchers::StartsWith",catch.hpp,3,1,
+Struct,"Catch::MessageBuilder",catch.hpp,14,,2
+Public Function,"Catch::MessageBuilder::MessageBuilder",catch.hpp,5,1,
+Public Function Template,"Catch::MessageBuilder::operator<<",catch.hpp,4,1,
+Struct,"Catch::MessageInfo",catch.hpp,18,,2
+Public Const Function,"Catch::MessageInfo::operator<",catch.hpp,3,1,
+Public Const Function,"Catch::MessageInfo::operator==",catch.hpp,3,1,
+Class Template,"Catch::MethodTestCase",catch.hpp,11,,3
+Public Function,"Catch::MethodTestCase::MethodTestCase",catch.hpp,1,1,
+Public Virtual Const Function,"Catch::MethodTestCase::invoke",catch.hpp,4,1,
+Private Virtual Function,"Catch::MethodTestCase::~MethodTestCase",catch.hpp,1,1,
+Struct,"Catch::NameAndDesc",catch.hpp,7,,1
+Public Function,"Catch::NameAndDesc::NameAndDesc",catch.hpp,3,1,
+Class,"Catch::NonCopyable",catch.hpp,7,,1
+Protected Function,"Catch::NonCopyable::NonCopyable",catch.hpp,1,1,
+Class,"Catch::NotImplementedException",catch.hpp,11,,2
+Public Function,"Catch::NotImplementedException::NotImplementedException",catch.hpp,1,1,
+Public Virtual Function,"Catch::NotImplementedException::~NotImplementedException",catch.hpp,1,1,
+Class Template,"Catch::Ptr",catch.hpp,40,,18
+Public Function,"Catch::Ptr::Ptr",catch.hpp,1,1,
+Public Function,"Catch::Ptr::Ptr",catch.hpp,4,2,
+Public Function,"Catch::Ptr::Ptr",catch.hpp,4,2,
+Public Function,"Catch::Ptr::get",catch.hpp,1,1,
+Public Const Function,"Catch::Ptr::get",catch.hpp,1,1,
+Public Const Function,"Catch::Ptr::operator Catch::SafeBool::type",catch.hpp,1,1,
+Public Const Function,"Catch::Ptr::operator!",catch.hpp,1,1,
+Public Const Function,"Catch::Ptr::operator*",catch.hpp,1,1,
+Public Const Function,"Catch::Ptr::operator->",catch.hpp,1,1,
+Public Function,"Catch::Ptr::operator=",catch.hpp,5,1,
+Public Function,"Catch::Ptr::operator=",catch.hpp,5,1,
+Public Function,"Catch::Ptr::reset",catch.hpp,5,2,
+Public Function,"Catch::Ptr::swap",catch.hpp,1,1,
+Public Function,"Catch::Ptr::~Ptr",catch.hpp,4,2,
+Struct,"Catch::ResultAction",catch.hpp,6,,0
+Struct,"Catch::ResultDisposition",catch.hpp,6,,0
+Struct,"Catch::ResultWas",catch.hpp,12,,0
+Class,"Catch::SafeBool",catch.hpp,9,,3
+Public Static Function,"Catch::SafeBool::makeSafe",catch.hpp,3,2,
+Private Const Function,"Catch::SafeBool::trueValue",catch.hpp,1,1,
+Class,"Catch::ScopedMessage",catch.hpp,7,,0
+Class,"Catch::Section",catch.hpp,14,,0
+Struct,"Catch::SectionInfo",catch.hpp,12,,1
+Public Function,"Catch::SectionInfo::SectionInfo",catch.hpp,7,1,
+Struct Template,"Catch::SharedImpl",catch.hpp,11,,4
+Public Function,"Catch::SharedImpl::SharedImpl",catch.hpp,1,1,
+Public Virtual Const Function,"Catch::SharedImpl::addRef",catch.hpp,3,1,
+Public Virtual Const Function,"Catch::SharedImpl::release",catch.hpp,4,2,
+Struct,"Catch::ShowDurations",catch.hpp,5,,0
+Struct,"Catch::SourceLineInfo",catch.hpp,9,,0
+Struct,"Catch::StreamEndStop",catch.hpp,5,,1
+Public Function,"Catch::StreamEndStop::operator+",catch.hpp,3,1,
+Struct Template,"Catch::StringMaker",catch.hpp,2,,0
+Struct Template,"Catch::StringMaker",catch.hpp,9,,2
+Struct Template,"Catch::StringMaker",catch.hpp,8,,2
+Struct Template,"Catch::StringMaker",catch.hpp,5,,1
+Public Static Function Template,"Catch::StringMaker::convert",catch.hpp,6,2,
+Public Static Function,"Catch::StringMaker::convert",catch.hpp,6,2,
+Public Static Function,"Catch::StringMaker::convert",catch.hpp,3,1,
+Class,"Catch::TestCase",catch.hpp,16,,0
+Struct,"Catch::TestCaseInfo",catch.hpp,18,,0
+Struct,"Catch::TestFailureException",catch.hpp,1,,0
+Class,"Catch::Timer",catch.hpp,10,,1
+Public Function,"Catch::Timer::Timer",catch.hpp,1,1,
+Struct,"Catch::Totals",catch.hpp,23,,4
+Public Const Function,"Catch::Totals::delta",catch.hpp,8,2,
+Public Function,"Catch::Totals::operator+=",catch.hpp,5,1,
+Public Const Function,"Catch::Totals::operator-",catch.hpp,6,1,
+Struct,"Catch::TrueType",catch.hpp,5,,0
+Class Template,"Catch::ValuesGenerator",catch.hpp,15,,4
+Public Function,"Catch::ValuesGenerator::ValuesGenerator",catch.hpp,1,1,
+Public Function,"Catch::ValuesGenerator::add",catch.hpp,3,1,
+Public Virtual Const Function,"Catch::ValuesGenerator::getValue",catch.hpp,3,1,
+Public Virtual Const Function,"Catch::ValuesGenerator::size",catch.hpp,3,1,
+Struct,"Catch::Verbosity",catch.hpp,5,,0
+Struct,"Catch::WarnAbout",catch.hpp,4,,0
+Function Template,"Catch::deleteAll",catch.hpp,6,2,
+Function Template,"Catch::deleteAllValues",catch.hpp,6,2,
+Function Template,"Catch::expressionResultBuilderFromMatcher",catch.hpp,9,2,
+Function Template,"Catch::expressionResultBuilderFromMatcher",catch.hpp,7,1,
+Function Template,"Catch::expressionResultBuilderFromMatcher",catch.hpp,7,1,
+Function,"Catch::getResultCapture",catch.hpp,6,2,
+Function,"Catch::isJustInfo",catch.hpp,3,1,
+Function,"Catch::isOk",catch.hpp,3,1,
+Function,"Catch::isTrue",catch.hpp,1,1,
+Function Template,"Catch::operator+",catch.hpp,3,1,
+Function,"Catch::operator|",catch.hpp,3,1,
+Struct,"Catch::pluralise",catch.hpp,6,,0
+Function,"Catch::shouldContinueOnFailure",catch.hpp,1,1,
+Function,"Catch::shouldNegate",catch.hpp,1,1,
+Function,"Catch::shouldSuppressFailure",catch.hpp,1,1,
+Function Template,"Catch::toString",catch.hpp,3,1,
+Function,"Catch::toString",catch.hpp,3,1,
+Class,"CharClassifyTest",testCharClassify.cxx,33,,11
+Protected Function,"CharClassifyTest::CharClassifyTest",testCharClassify.cxx,13,5,
+Protected Static Function,"CharClassifyTest::GetClassName",testCharClassify.cxx,10,5,
+Protected Function,"CharClassifyTest::~CharClassifyTest",testCharClassify.cxx,4,1,
+Module File,"MessageNumbers.py",MessageNumbers.py,59,2,2
+Public Function,"Platform::Assert",unitTest.cxx,4,1,
+Public Function,"Platform::DebugPrintf",unitTest.cxx,8,1,
+Class,"ScintillaCallable.FINDTEXT",ScintillaCallable.py,8,,0
+Class,"ScintillaCallable.SciCall",ScintillaCallable.py,19,,4
+Function,"ScintillaCallable.SciCall.__call__",ScintillaCallable.py,13,3,
+Function,"ScintillaCallable.SciCall.__init__",ScintillaCallable.py,5,1,
+Class,"ScintillaCallable.ScintillaCallable",ScintillaCallable.py,102,,26
+Function,"ScintillaCallable.ScintillaCallable.ByteRange",ScintillaCallable.py,10,1,
+Function,"ScintillaCallable.ScintillaCallable.Contents",ScintillaCallable.py,2,1,
+Function,"ScintillaCallable.ScintillaCallable.FindBytes",ScintillaCallable.py,9,1,
+Function,"ScintillaCallable.ScintillaCallable.SetContents",ScintillaCallable.py,4,1,
+Function,"ScintillaCallable.ScintillaCallable.StyledTextRange",ScintillaCallable.py,10,1,
+Function,"ScintillaCallable.ScintillaCallable.__getattr__",ScintillaCallable.py,31,8,
+Function,"ScintillaCallable.ScintillaCallable.__init__",ScintillaCallable.py,14,4,
+Function,"ScintillaCallable.ScintillaCallable.__setattr__",ScintillaCallable.py,12,5,
+Function,"ScintillaCallable.ScintillaCallable.getvalue",ScintillaCallable.py,9,4,
+Class,"ScintillaCallable.TEXTRANGE",ScintillaCallable.py,6,,0
+Module File,"ScintillaCallable.py",ScintillaCallable.py,139,1,31
+Module File,"XiteMenu.py",XiteMenu.py,24,1,1
+Class,"XiteQt.Form",XiteQt.py,5,,1
+Function,"XiteQt.Form.__init__",XiteQt.py,4,1,
+Class,"XiteQt.XiteWin",XiteQt.py,22,,4
+Function,"XiteQt.XiteWin.CmdTest",XiteQt.py,6,1,
+Function,"XiteQt.XiteWin.DoEvents",XiteQt.py,2,1,
+Function,"XiteQt.XiteWin.DoStuff",XiteQt.py,3,1,
+Function,"XiteQt.XiteWin.__init__",XiteQt.py,10,1,
+Function,"XiteQt.main",XiteQt.py,6,1,
+Module File,"XiteQt.py",XiteQt.py,45,1,7
+Function,"XiteWin.IsKeyDown",XiteWin.py,2,1,
+Function,"XiteWin.KeyTranslate",XiteWin.py,10,4,
+Class,"XiteWin.OPENFILENAME",XiteWin.py,31,,1
+Function,"XiteWin.OPENFILENAME.__init__",XiteWin.py,7,1,
+Function,"XiteWin.RegisterClass",XiteWin.py,13,1,
+Class,"XiteWin.WNDCLASS",XiteWin.py,13,,0
+Function,"XiteWin.WindowSize",XiteWin.py,4,1,
+Class,"XiteWin.XiteWin",XiteWin.py,324,,95
+Function,"XiteWin.XiteWin.Accelerator",XiteWin.py,7,3,
+Function,"XiteWin.XiteWin.AppLoop",XiteWin.py,9,4,
+Function,"XiteWin.XiteWin.CheckMenuItem",XiteWin.py,6,4,
+Function,"XiteWin.XiteWin.CheckMenus",XiteWin.py,2,1,
+Function,"XiteWin.XiteWin.CmdCopy",XiteWin.py,2,1,
+Function,"XiteWin.XiteWin.CmdCut",XiteWin.py,2,1,
+Function,"XiteWin.XiteWin.CmdDelete",XiteWin.py,2,1,
+Function,"XiteWin.XiteWin.CmdExercised",XiteWin.py,10,1,
+Function,"XiteWin.XiteWin.CmdExit",XiteWin.py,2,1,
+Function,"XiteWin.XiteWin.CmdNew",XiteWin.py,2,1,
+Function,"XiteWin.XiteWin.CmdOpen",XiteWin.py,2,1,
+Function,"XiteWin.XiteWin.CmdPaste",XiteWin.py,2,1,
+Function,"XiteWin.XiteWin.CmdRedo",XiteWin.py,2,1,
+Function,"XiteWin.XiteWin.CmdSave",XiteWin.py,5,2,
+Function,"XiteWin.XiteWin.CmdSaveAs",XiteWin.py,2,1,
+Function,"XiteWin.XiteWin.CmdTest",XiteWin.py,9,3,
+Function,"XiteWin.XiteWin.CmdUndo",XiteWin.py,2,1,
+Function,"XiteWin.XiteWin.Command",XiteWin.py,10,3,
+Function,"XiteWin.XiteWin.DisplayMessage",XiteWin.py,3,1,
+Function,"XiteWin.XiteWin.DoEvents",XiteWin.py,10,4,
+Function,"XiteWin.XiteWin.Exit",XiteWin.py,2,1,
+Function,"XiteWin.XiteWin.FocusOnEditor",XiteWin.py,2,1,
+Function,"XiteWin.XiteWin.GrabFile",XiteWin.py,11,1,
+Function,"XiteWin.XiteWin.Invalidate",XiteWin.py,2,1,
+Function,"XiteWin.XiteWin.KeyDown",XiteWin.py,14,5,
+Function,"XiteWin.XiteWin.MoveSelection",XiteWin.py,7,2,
+Function,"XiteWin.XiteWin.New",XiteWin.py,7,2,
+Function,"XiteWin.XiteWin.NewDocument",XiteWin.py,4,1,
+Function,"XiteWin.XiteWin.OnCreate",XiteWin.py,15,1,
+Function,"XiteWin.XiteWin.OnSize",XiteWin.py,4,1,
+Function,"XiteWin.XiteWin.Open",XiteWin.py,31,8,
+Function,"XiteWin.XiteWin.Save",XiteWin.py,15,3,
+Function,"XiteWin.XiteWin.SaveAs",XiteWin.py,9,2,
+Function,"XiteWin.XiteWin.SaveIfUnsure",XiteWin.py,9,3,
+Function,"XiteWin.XiteWin.SetMenus",XiteWin.py,29,5,
+Function,"XiteWin.XiteWin.SetTitle",XiteWin.py,11,4,
+Function,"XiteWin.XiteWin.Uncalled",XiteWin.py,9,3,
+Function,"XiteWin.XiteWin.WndProc",XiteWin.py,26,10,
+Function,"XiteWin.XiteWin.__init__",XiteWin.py,25,5,
+Function,"XiteWin.main",XiteWin.py,5,1,
+Module File,"XiteWin.py",XiteWin.py,446,1,105
+Union,"_",catch.hpp,4,,0
+Union,"_",catch.hpp,4,,0
+Static Function,"____C_A_T_C_H____T_E_S_T____15",testSparseState.cxx,152,834,
+Static Function,"____C_A_T_C_H____T_E_S_T____17",testUnicodeFromUTF8.cxx,22,71,
+Static Function,"____C_A_T_C_H____T_E_S_T____18",testSplitVector.cxx,163,590,
+Static Function,"____C_A_T_C_H____T_E_S_T____18",testCellBuffer.cxx,109,839,
+Static Function,"____C_A_T_C_H____T_E_S_T____18",testRunStyles.cxx,256,2097,
+Static Function,"____C_A_T_C_H____T_E_S_T____18",testContractionState.cxx,103,705,
+Static Function,"____C_A_T_C_H____T_E_S_T____196",testSparseState.cxx,28,173,
+Static Function,"____C_A_T_C_H____T_E_S_T____21",testDecoration.cxx,20,83,
+Static Function,"____C_A_T_C_H____T_E_S_T____21",testPartitioning.cxx,16,44,
+Static Function,"____C_A_T_C_H____T_E_S_T____44",testPartitioning.cxx,121,678,
+Static Function,"____C_A_T_C_H____T_E_S_T____49",testDecoration.cxx,36,186,
+Struct,"____C_A_T_C_H____T_E_S_T____55",testCharClassify.cxx,11,,16
+Public Function,"____C_A_T_C_H____T_E_S_T____55::test",testCharClassify.cxx,10,16,
+Struct,"____C_A_T_C_H____T_E_S_T____66",testCharClassify.cxx,18,,17
+Public Function,"____C_A_T_C_H____T_E_S_T____66::test",testCharClassify.cxx,17,17,
+Struct,"____C_A_T_C_H____T_E_S_T____84",testCharClassify.cxx,39,,33
+Public Function,"____C_A_T_C_H____T_E_S_T____84::test",testCharClassify.cxx,38,33,
+File,"catch.hpp",catch.hpp,1388,,223
+Package,"ctypes",,0,,0
+Class,"lexTests.TestLexers",lexTests.py,87,,22
+Function,"lexTests.TestLexers.AsStyled",lexTests.py,12,3,
+Function,"lexTests.TestLexers.LexExample",lexTests.py,46,8,
+Function,"lexTests.TestLexers.setUp",lexTests.py,5,1,
+Function,"lexTests.TestLexers.testASP",lexTests.py,2,1,
+Function,"lexTests.TestLexers.testCXX",lexTests.py,2,1,
+Function,"lexTests.TestLexers.testD",lexTests.py,4,1,
+Function,"lexTests.TestLexers.testHTML",lexTests.py,2,1,
+Function,"lexTests.TestLexers.testLua",lexTests.py,2,1,
+Function,"lexTests.TestLexers.testPHP",lexTests.py,2,1,
+Function,"lexTests.TestLexers.testPerl",lexTests.py,2,1,
+Function,"lexTests.TestLexers.testPython",lexTests.py,3,1,
+Function,"lexTests.TestLexers.testRuby",lexTests.py,2,1,
+Function,"lexTests.TestLexers.testVB",lexTests.py,2,1,
+Module File,"lexTests.py",lexTests.py,100,3,25
+Function,"main",x.cxx,5,1,
+Function,"operator!=",catch.hpp,3,1,
+Function,"operator!=",catch.hpp,3,1,
+Function,"operator==",catch.hpp,3,1,
+Function,"operator==",catch.hpp,3,1,
+Class,"performanceTests.TestPerformance",performanceTests.py,102,,14
+Function,"performanceTests.TestPerformance.setUp",performanceTests.py,5,1,
+Function,"performanceTests.TestPerformance.testAddLine",performanceTests.py,11,2,
+Function,"performanceTests.TestPerformance.testAddLineMiddle",performanceTests.py,11,2,
+Function,"performanceTests.TestPerformance.testHuge",performanceTests.py,10,1,
+Function,"performanceTests.TestPerformance.testHugeInserts",performanceTests.py,13,2,
+Function,"performanceTests.TestPerformance.testHugeReplace",performanceTests.py,15,2,
+Function,"performanceTests.TestPerformance.testUTF8CaseSearches",performanceTests.py,18,2,
+Function,"performanceTests.TestPerformance.testUTF8Searches",performanceTests.py,18,2,
+Module File,"performanceTests.py",performanceTests.py,111,3,17
+Class,"simpleTests.TestAnnotation",simpleTests.py,46,,7
+Function,"simpleTests.TestAnnotation.setUp",simpleTests.py,7,1,
+Function,"simpleTests.TestAnnotation.testExtendedStyles",simpleTests.py,10,1,
+Function,"simpleTests.TestAnnotation.testTextAnnotation",simpleTests.py,8,1,
+Function,"simpleTests.TestAnnotation.testTextAnnotationStyle",simpleTests.py,5,1,
+Function,"simpleTests.TestAnnotation.testTextAnnotationStyleOffset",simpleTests.py,3,1,
+Function,"simpleTests.TestAnnotation.testTextAnnotationStyles",simpleTests.py,7,1,
+Function,"simpleTests.TestAnnotation.testTextAnnotationVisible",simpleTests.py,5,1,
+Class,"simpleTests.TestAutoComplete",simpleTests.py,67,,7
+Function,"simpleTests.TestAutoComplete.setUp",simpleTests.py,7,1,
+Function,"simpleTests.TestAutoComplete.testAutoShow",simpleTests.py,11,1,
+Function,"simpleTests.TestAutoComplete.testAutoShowComplete",simpleTests.py,7,1,
+Function,"simpleTests.TestAutoComplete.testAutoShowSelect",simpleTests.py,8,1,
+Function,"simpleTests.TestAutoComplete.testChangeDefaults",simpleTests.py,22,1,
+Function,"simpleTests.TestAutoComplete.testDefaults",simpleTests.py,8,1,
+Function,"simpleTests.TestAutoComplete.testWriteOnly",simpleTests.py,3,1,
+Class,"simpleTests.TestCallTip",simpleTests.py,17,,2
+Function,"simpleTests.TestCallTip.setUp",simpleTests.py,7,1,
+Function,"simpleTests.TestCallTip.testBasics",simpleTests.py,9,1,
+Class,"simpleTests.TestCaseInsensitiveSearch",simpleTests.py,69,,8
+Function,"simpleTests.TestCaseInsensitiveSearch.setUp",simpleTests.py,5,1,
+Function,"simpleTests.TestCaseInsensitiveSearch.tearDown",simpleTests.py,3,1,
+Function,"simpleTests.TestCaseInsensitiveSearch.testASCII",simpleTests.py,9,1,
+Function,"simpleTests.TestCaseInsensitiveSearch.testEmpty",simpleTests.py,9,1,
+Function,"simpleTests.TestCaseInsensitiveSearch.testLatin1",simpleTests.py,9,1,
+Function,"simpleTests.TestCaseInsensitiveSearch.testRussian",simpleTests.py,10,1,
+Function,"simpleTests.TestCaseInsensitiveSearch.testUTF",simpleTests.py,10,1,
+Function,"simpleTests.TestCaseInsensitiveSearch.testUTFDifferentLength",simpleTests.py,13,1,
+Class,"simpleTests.TestCaseMapping",simpleTests.py,78,,11
+Function,"simpleTests.TestCaseMapping.setUp",simpleTests.py,5,1,
+Function,"simpleTests.TestCaseMapping.tearDown",simpleTests.py,3,1,
+Function,"simpleTests.TestCaseMapping.testASCII",simpleTests.py,6,1,
+Function,"simpleTests.TestCaseMapping.testEmpty",simpleTests.py,5,1,
+Function,"simpleTests.TestCaseMapping.testLatin1",simpleTests.py,7,1,
+Function,"simpleTests.TestCaseMapping.testRussian",simpleTests.py,11,2,
+Function,"simpleTests.TestCaseMapping.testUTF",simpleTests.py,8,1,
+Function,"simpleTests.TestCaseMapping.testUTFDifferentLength",simpleTests.py,10,1,
+Function,"simpleTests.TestCaseMapping.testUTFGrows",simpleTests.py,11,1,
+Function,"simpleTests.TestCaseMapping.testUTFShrinks",simpleTests.py,11,1,
+Class,"simpleTests.TestCharacterNavigation",simpleTests.py,40,,7
+Function,"simpleTests.TestCharacterNavigation.setUp",simpleTests.py,6,1,
+Function,"simpleTests.TestCharacterNavigation.tearDown",simpleTests.py,2,1,
+Function,"simpleTests.TestCharacterNavigation.testBeforeAfter",simpleTests.py,11,2,
+Function,"simpleTests.TestCharacterNavigation.testRelative",simpleTests.py,20,3,
+Class,"simpleTests.TestContainerUndo",simpleTests.py,137,,11
+Function,"simpleTests.TestContainerUndo.UndoState",simpleTests.py,4,1,
+Function,"simpleTests.TestContainerUndo.setUp",simpleTests.py,6,1,
+Function,"simpleTests.TestContainerUndo.testContainerActCoalesce",simpleTests.py,9,1,
+Function,"simpleTests.TestContainerUndo.testContainerActCoalesceEnd",simpleTests.py,13,1,
+Function,"simpleTests.TestContainerUndo.testContainerActNoCoalesce",simpleTests.py,12,1,
+Function,"simpleTests.TestContainerUndo.testContainerBetweenDeleteAndDelete",simpleTests.py,14,1,
+Function,"simpleTests.TestContainerUndo.testContainerBetweenInsertAndDelete",simpleTests.py,14,1,
+Function,"simpleTests.TestContainerUndo.testContainerBetweenInsertAndInsert",simpleTests.py,14,1,
+Function,"simpleTests.TestContainerUndo.testContainerMultiStage",simpleTests.py,18,1,
+Function,"simpleTests.TestContainerUndo.testContainerMultiStageNoText",simpleTests.py,12,1,
+Function,"simpleTests.TestContainerUndo.testContainerNoCoalesceBetweenInsertAndInsert",simpleTests.py,20,1,
+Class,"simpleTests.TestDirectAccess",simpleTests.py,26,,3
+Function,"simpleTests.TestDirectAccess.setUp",simpleTests.py,5,1,
+Function,"simpleTests.TestDirectAccess.testCharacterPointerAndRangePointer",simpleTests.py,11,1,
+Function,"simpleTests.TestDirectAccess.testGapPosition",simpleTests.py,9,1,
+Class,"simpleTests.TestExplicitTabStops",simpleTests.py,47,,3
+Function,"simpleTests.TestExplicitTabStops.setUp",simpleTests.py,7,1,
+Function,"simpleTests.TestExplicitTabStops.testAddingAndClearing",simpleTests.py,18,1,
+Function,"simpleTests.TestExplicitTabStops.testLineInsertionDeletion",simpleTests.py,21,1,
+Class,"simpleTests.TestIndicators",simpleTests.py,42,,4
+Function,"simpleTests.TestIndicators.setUp",simpleTests.py,5,1,
+Function,"simpleTests.TestIndicators.testIndicatorAtEnd",simpleTests.py,16,1,
+Function,"simpleTests.TestIndicators.testIndicatorFill",simpleTests.py,13,1,
+Function,"simpleTests.TestIndicators.testSetIndicator",simpleTests.py,7,1,
+Class,"simpleTests.TestKeyCommands",simpleTests.py,72,,7
+Function,"simpleTests.TestKeyCommands.selRange",simpleTests.py,2,1,
+Function,"simpleTests.TestKeyCommands.setUp",simpleTests.py,5,1,
+Function,"simpleTests.TestKeyCommands.testCharMove",simpleTests.py,13,1,
+Function,"simpleTests.TestKeyCommands.testHomeEndMove",simpleTests.py,12,1,
+Function,"simpleTests.TestKeyCommands.testLineMove",simpleTests.py,14,1,
+Function,"simpleTests.TestKeyCommands.testStartEndMove",simpleTests.py,12,1,
+Function,"simpleTests.TestKeyCommands.testWordMove",simpleTests.py,13,1,
+Class,"simpleTests.TestLexer",simpleTests.py,25,,5
+Function,"simpleTests.TestLexer.setUp",simpleTests.py,5,1,
+Function,"simpleTests.TestLexer.testLexerName",simpleTests.py,5,1,
+Function,"simpleTests.TestLexer.testLexerNumber",simpleTests.py,3,1,
+Function,"simpleTests.TestLexer.testPropertyNames",simpleTests.py,8,1,
+Function,"simpleTests.TestLexer.testWordListDescriptions",simpleTests.py,3,1,
+Class,"simpleTests.TestMarkers",simpleTests.py,73,,11
+Function,"simpleTests.TestMarkers.setUp",simpleTests.py,6,1,
+Function,"simpleTests.TestMarkers.testLineState",simpleTests.py,10,1,
+Function,"simpleTests.TestMarkers.testMarker",simpleTests.py,5,1,
+Function,"simpleTests.TestMarkers.testMarkerAddSet",simpleTests.py,5,1,
+Function,"simpleTests.TestMarkers.testMarkerBits",simpleTests.py,6,1,
+Function,"simpleTests.TestMarkers.testMarkerDeleteAll",simpleTests.py,11,1,
+Function,"simpleTests.TestMarkers.testMarkerDeleteHandle",simpleTests.py,5,1,
+Function,"simpleTests.TestMarkers.testMarkerNegative",simpleTests.py,2,1,
+Function,"simpleTests.TestMarkers.testMarkerNext",simpleTests.py,10,1,
+Function,"simpleTests.TestMarkers.testSymbolRetrieval",simpleTests.py,3,1,
+Function,"simpleTests.TestMarkers.testTwiceAddedDelete",simpleTests.py,9,1,
+Class,"simpleTests.TestMultiSelection",simpleTests.py,139,,11
+Function,"simpleTests.TestMultiSelection.setUp",simpleTests.py,7,1,
+Function,"simpleTests.TestMultiSelection.test1Selection",simpleTests.py,13,1,
+Function,"simpleTests.TestMultiSelection.test1SelectionByStartEnd",simpleTests.py,9,1,
+Function,"simpleTests.TestMultiSelection.test1SelectionReversed",simpleTests.py,8,1,
+Function,"simpleTests.TestMultiSelection.test2Selections",simpleTests.py,15,1,
+Function,"simpleTests.TestMultiSelection.testDropSelectionN",simpleTests.py,26,1,
+Function,"simpleTests.TestMultiSelection.testRectangularSelection",simpleTests.py,13,1,
+Function,"simpleTests.TestMultiSelection.testRectangularVirtualSpace",simpleTests.py,16,1,
+Function,"simpleTests.TestMultiSelection.testRectangularVirtualSpaceOptionOff",simpleTests.py,16,1,
+Function,"simpleTests.TestMultiSelection.testSelectionCleared",simpleTests.py,6,1,
+Function,"simpleTests.TestMultiSelection.testVirtualSpace",simpleTests.py,9,1,
+Class,"simpleTests.TestProperties",simpleTests.py,14,,2
+Function,"simpleTests.TestProperties.setUp",simpleTests.py,5,1,
+Function,"simpleTests.TestProperties.testSet",simpleTests.py,8,1,
+Class,"simpleTests.TestRepresentations",simpleTests.py,21,,4
+Function,"simpleTests.TestRepresentations.setUp",simpleTests.py,5,1,
+Function,"simpleTests.TestRepresentations.testClearControl",simpleTests.py,6,1,
+Function,"simpleTests.TestRepresentations.testGetControl",simpleTests.py,3,1,
+Function,"simpleTests.TestRepresentations.testSetOhm",simpleTests.py,6,1,
+Class,"simpleTests.TestScrolling",simpleTests.py,25,,4
+Function,"simpleTests.TestScrolling.setUp",simpleTests.py,6,1,
+Function,"simpleTests.TestScrolling.testLineScroll",simpleTests.py,12,1,
+Function,"simpleTests.TestScrolling.testTop",simpleTests.py,3,1,
+Function,"simpleTests.TestScrolling.testVisibleLine",simpleTests.py,3,1,
+Class,"simpleTests.TestSearch",simpleTests.py,71,,10
+Function,"simpleTests.TestSearch.setUp",simpleTests.py,6,1,
+Function,"simpleTests.TestSearch.testCaseFind",simpleTests.py,5,1,
+Function,"simpleTests.TestSearch.testFind",simpleTests.py,5,1,
+Function,"simpleTests.TestSearch.testFindEmpty",simpleTests.py,3,1,
+Function,"simpleTests.TestSearch.testPhilippeREFind",simpleTests.py,9,1,
+Function,"simpleTests.TestSearch.testPosixREFind",simpleTests.py,12,1,
+Function,"simpleTests.TestSearch.testREFind",simpleTests.py,12,1,
+Function,"simpleTests.TestSearch.testRENonASCII",simpleTests.py,7,1,
+Function,"simpleTests.TestSearch.testWordFind",simpleTests.py,4,1,
+Function,"simpleTests.TestSearch.testWordStartFind",simpleTests.py,7,1,
+Class,"simpleTests.TestSimple",simpleTests.py,516,,64
+Function,"simpleTests.TestSimple.setUp",simpleTests.py,5,1,
+Function,"simpleTests.TestSimple.testAddLine",simpleTests.py,6,2,
+Function,"simpleTests.TestSimple.testAddStyledText",simpleTests.py,12,1,
+Function,"simpleTests.TestSimple.testAddText",simpleTests.py,7,1,
+Function,"simpleTests.TestSimple.testAppend",simpleTests.py,9,1,
+Function,"simpleTests.TestSimple.testBeyonEnd",simpleTests.py,5,1,
+Function,"simpleTests.TestSimple.testCopyAllowLine",simpleTests.py,13,1,
+Function,"simpleTests.TestSimple.testCutCopyPaste",simpleTests.py,17,1,
+Function,"simpleTests.TestSimple.testDeleteRange",simpleTests.py,6,1,
+Function,"simpleTests.TestSimple.testDuplicate",simpleTests.py,5,1,
+Function,"simpleTests.TestSimple.testGetColumn",simpleTests.py,6,1,
+Function,"simpleTests.TestSimple.testGetCurLine",simpleTests.py,6,1,
+Function,"simpleTests.TestSimple.testGetLine",simpleTests.py,5,1,
+Function,"simpleTests.TestSimple.testGetSet",simpleTests.py,6,1,
+Function,"simpleTests.TestSimple.testGoto",simpleTests.py,7,1,
+Function,"simpleTests.TestSimple.testIndent",simpleTests.py,20,1,
+Function,"simpleTests.TestSimple.testInsertNul",simpleTests.py,5,1,
+Function,"simpleTests.TestSimple.testInsertText",simpleTests.py,8,1,
+Function,"simpleTests.TestSimple.testLength",simpleTests.py,2,1,
+Function,"simpleTests.TestSimple.testLineEnds",simpleTests.py,17,3,
+Function,"simpleTests.TestSimple.testLinePositions",simpleTests.py,12,4,
+Function,"simpleTests.TestSimple.testNELBreakApartEOL",simpleTests.py,18,3,
+Function,"simpleTests.TestSimple.testNELFragmentedEOLCompletion",simpleTests.py,8,1,
+Function,"simpleTests.TestSimple.testNELFragmentedEOLStart",simpleTests.py,10,1,
+Function,"simpleTests.TestSimple.testNELLineEnds",simpleTests.py,16,1,
+Function,"simpleTests.TestSimple.testNELRemoveEOLFragment",simpleTests.py,10,2,
+Function,"simpleTests.TestSimple.testPointsAndPositions",simpleTests.py,4,1,
+Function,"simpleTests.TestSimple.testPosition",simpleTests.py,17,1,
+Function,"simpleTests.TestSimple.testReadOnly",simpleTests.py,13,1,
+Function,"simpleTests.TestSimple.testSelection",simpleTests.py,19,1,
+Function,"simpleTests.TestSimple.testSetSelection",simpleTests.py,10,1,
+Function,"simpleTests.TestSimple.testStyling",simpleTests.py,10,1,
+Function,"simpleTests.TestSimple.testTabWidth",simpleTests.py,22,6,
+Function,"simpleTests.TestSimple.testTarget",simpleTests.py,25,1,
+Function,"simpleTests.TestSimple.testTargetEscape",simpleTests.py,7,1,
+Function,"simpleTests.TestSimple.testTransposeLines",simpleTests.py,5,1,
+Function,"simpleTests.TestSimple.testUBreakApartEOL",simpleTests.py,18,3,
+Function,"simpleTests.TestSimple.testUFragmentedEOLCompletion",simpleTests.py,17,1,
+Function,"simpleTests.TestSimple.testUFragmentedEOLStart",simpleTests.py,10,1,
+Function,"simpleTests.TestSimple.testURemoveEOLFragment",simpleTests.py,12,2,
+Function,"simpleTests.TestSimple.testUndoCollection",simpleTests.py,9,1,
+Function,"simpleTests.TestSimple.testUndoRedo",simpleTests.py,22,1,
+Function,"simpleTests.TestSimple.testUndoSavePoint",simpleTests.py,9,1,
+Function,"simpleTests.TestSimple.testUnicodeLineEnds",simpleTests.py,17,1,
+Function,"simpleTests.TestSimple.testUnicodeLineEndsSwitchToUnicodeAndBack",simpleTests.py,10,1,
+Function,"simpleTests.TestSimple.testUnicodeLineEndsWithCodePage0",simpleTests.py,6,1,
+Function,"simpleTests.TestSimple.testWordPositions",simpleTests.py,12,1,
+Class,"simpleTests.TestStyleAttributes",simpleTests.py,65,,15
+Function,"simpleTests.TestStyleAttributes.setUp",simpleTests.py,7,1,
+Function,"simpleTests.TestStyleAttributes.tearDown",simpleTests.py,2,1,
+Function,"simpleTests.TestStyleAttributes.testBack",simpleTests.py,4,1,
+Function,"simpleTests.TestStyleAttributes.testBold",simpleTests.py,6,1,
+Function,"simpleTests.TestStyleAttributes.testCase",simpleTests.py,6,1,
+Function,"simpleTests.TestStyleAttributes.testChangeable",simpleTests.py,4,1,
+Function,"simpleTests.TestStyleAttributes.testCharacterSet",simpleTests.py,3,1,
+Function,"simpleTests.TestStyleAttributes.testEOLFilled",simpleTests.py,4,1,
+Function,"simpleTests.TestStyleAttributes.testFont",simpleTests.py,3,1,
+Function,"simpleTests.TestStyleAttributes.testFore",simpleTests.py,4,1,
+Function,"simpleTests.TestStyleAttributes.testHotSpot",simpleTests.py,4,1,
+Function,"simpleTests.TestStyleAttributes.testItalic",simpleTests.py,3,1,
+Function,"simpleTests.TestStyleAttributes.testSize",simpleTests.py,6,1,
+Function,"simpleTests.TestStyleAttributes.testUnderline",simpleTests.py,4,1,
+Function,"simpleTests.TestStyleAttributes.testVisible",simpleTests.py,4,1,
+Class,"simpleTests.TestSubStyles",simpleTests.py,42,,5
+Function,"simpleTests.TestSubStyles.setUp",simpleTests.py,5,1,
+Function,"simpleTests.TestSubStyles.testAllocate",simpleTests.py,18,1,
+Function,"simpleTests.TestSubStyles.testInactive",simpleTests.py,10,1,
+Function,"simpleTests.TestSubStyles.testInfo",simpleTests.py,5,1,
+Function,"simpleTests.TestSubStyles.testSecondary",simpleTests.py,3,1,
+Class,"simpleTests.TestTextMargin",simpleTests.py,38,,6
+Function,"simpleTests.TestTextMargin.setUp",simpleTests.py,7,1,
+Function,"simpleTests.TestTextMargin.testAscent",simpleTests.py,10,1,
+Function,"simpleTests.TestTextMargin.testTextMargin",simpleTests.py,5,1,
+Function,"simpleTests.TestTextMargin.testTextMarginStyle",simpleTests.py,5,1,
+Function,"simpleTests.TestTextMargin.testTextMarginStyleOffset",simpleTests.py,3,1,
+Function,"simpleTests.TestTextMargin.testTextMarginStyles",simpleTests.py,7,1,
+Class,"simpleTests.TestWordChars",simpleTests.py,69,,13
+Function,"simpleTests.TestWordChars._setChars",simpleTests.py,8,2,
+Function,"simpleTests.TestWordChars.assertCharSetsEqual",simpleTests.py,8,3,
+Function,"simpleTests.TestWordChars.setUp",simpleTests.py,5,1,
+Function,"simpleTests.TestWordChars.tearDown",simpleTests.py,2,1,
+Function,"simpleTests.TestWordChars.testCustomPunctuationChars",simpleTests.py,9,1,
+Function,"simpleTests.TestWordChars.testCustomWhitespaceChars",simpleTests.py,9,1,
+Function,"simpleTests.TestWordChars.testCustomWordChars",simpleTests.py,9,1,
+Function,"simpleTests.TestWordChars.testDefaultPunctuationChars",simpleTests.py,6,1,
+Function,"simpleTests.TestWordChars.testDefaultWhitespaceChars",simpleTests.py,6,1,
+Function,"simpleTests.TestWordChars.testDefaultWordChars",simpleTests.py,6,1,
+Module File,"simpleTests.py",simpleTests.py,1751,3,223
+File,"testCellBuffer.cxx",testCellBuffer.cxx,109,,839
+File,"testCharClassify.cxx",testCharClassify.cxx,98,,77
+File,"testContractionState.cxx",testContractionState.cxx,103,,705
+File,"testDecoration.cxx",testDecoration.cxx,57,,269
+File,"testPartitioning.cxx",testPartitioning.cxx,140,,722
+File,"testRunStyles.cxx",testRunStyles.cxx,256,,2097
+File,"testSparseState.cxx",testSparseState.cxx,180,,1007
+File,"testSplitVector.cxx",testSplitVector.cxx,165,,590
+File,"testUnicodeFromUTF8.cxx",testUnicodeFromUTF8.cxx,22,,71
+Class,"testsepq.Form",testsepq.py,102,,13
+Function,"testsepq.Form.Call",testsepq.py,2,1,
+Function,"testsepq.Form.__init__",testsepq.py,74,1,
+Function,"testsepq.Form.receive_command",testsepq.py,7,3,
+Function,"testsepq.Form.receive_notification",testsepq.py,16,7,
+Function,"testsepq.Form.resizeEvent",testsepq.py,2,1,
+Module File,"testsepq.py",testsepq.py,127,2,16
+Function,"testsepq.uriDropped",testsepq.py,2,1,
+File,"unitTest.cxx",unitTest.cxx,12,,2
+File,"x.cxx",x.cxx,5,,1
+Function,"x.depunctuate",x.py,9,3,
+File,"x.html",x.html,2,1,1
+File,"x.php",x.php,5,1,1
+Module File,"x.py",x.py,9,0,3
+File,"x.vb",x.vb,6,,0
+Module File,"xite.py",xite.py,3,2,2

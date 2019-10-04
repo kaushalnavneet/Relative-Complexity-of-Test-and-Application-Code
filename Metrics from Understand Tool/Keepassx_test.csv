@@ -1,0 +1,287 @@
+Kind,Name,File,CountLineCode,Cyclomatic,SumCyclomatic
+Class,"AutoTypeExecturorTest",AutoTypeTest.h,21,,3
+Explicit Public Function,"AutoTypeExecturorTest::AutoTypeExecturorTest",AutoTypeTest.cpp,4,1,
+Public Function,"AutoTypeExecturorTest::execChar",AutoTypeTest.cpp,4,1,
+Public Function,"AutoTypeExecturorTest::execKey",AutoTypeTest.cpp,4,1,
+Class,"AutoTypePlatformTest",AutoTypeTest.h,109,,17
+Public Function,"AutoTypePlatformTest::actionChars",AutoTypeTest.cpp,4,1,
+Public Function,"AutoTypePlatformTest::actionCount",AutoTypeTest.cpp,4,1,
+Public Function,"AutoTypePlatformTest::activeWindow",AutoTypeTest.cpp,4,1,
+Public Function,"AutoTypePlatformTest::activeWindowTitle",AutoTypeTest.cpp,4,1,
+Public Function,"AutoTypePlatformTest::addActionChar",AutoTypeTest.cpp,5,1,
+Public Function,"AutoTypePlatformTest::addActionKey",AutoTypeTest.cpp,5,1,
+Public Function,"AutoTypePlatformTest::clearActions",AutoTypeTest.cpp,6,1,
+Public Function,"AutoTypePlatformTest::createExecutor",AutoTypeTest.cpp,4,1,
+Public Function,"AutoTypePlatformTest::initialTimeout",AutoTypeTest.cpp,4,1,
+Public Function,"AutoTypePlatformTest::isAvailable",AutoTypeTest.cpp,4,1,
+Public Function,"AutoTypePlatformTest::keyToString",AutoTypeTest.cpp,4,1,
+Public Function,"AutoTypePlatformTest::platformEventFilter",AutoTypeTest.cpp,5,1,
+Public Function,"AutoTypePlatformTest::raiseWindow",AutoTypeTest.cpp,5,1,
+Public Function,"AutoTypePlatformTest::registerGlobalShortcut",AutoTypeTest.cpp,6,1,
+Public Function,"AutoTypePlatformTest::setActiveWindowTitle",AutoTypeTest.cpp,4,1,
+Public Function,"AutoTypePlatformTest::unregisterGlobalShortcut",AutoTypeTest.cpp,5,1,
+Public Function,"AutoTypePlatformTest::windowTitles",AutoTypeTest.cpp,4,1,
+File,"AutoTypeTest.cpp",AutoTypeTest.cpp,89,,20
+File,"AutoTypeTest.h",AutoTypeTest.h,41,,0
+Abstract Class,"AutoTypeTestInterface",AutoTypeTestInterface.h,10,,1
+File,"AutoTypeTestInterface.h",AutoTypeTestInterface.h,11,,1
+Public Virtual Function,"AutoTypeTestInterface::~AutoTypeTestInterface",AutoTypeTestInterface.h,1,1,
+File,"BrokenDeletedObjects.xml",BrokenDeletedObjects.xml,27,0,0
+File,"BrokenDifferentEntryHistoryUuid.xml",BrokenDifferentEntryHistoryUuid.xml,17,0,0
+File,"BrokenGroupReference.xml",BrokenGroupReference.xml,20,0,0
+File,"BrokenNoEntryUuid.xml",BrokenNoEntryUuid.xml,15,0,0
+File,"BrokenNoGroupUuid.xml",BrokenNoGroupUuid.xml,8,0,0
+File,"BrokenNoRootGroup.xml",BrokenNoRootGroup.xml,5,0,0
+File,"BrokenTwoRootGroups.xml",BrokenTwoRootGroups.xml,13,0,0
+File,"BrokenTwoRoots.xml",BrokenTwoRoots.xml,15,0,0
+File,"EmptyUuids.xml",EmptyUuids.xml,44,0,0
+Class,"FailDevice",FailDevice.h,53,,8
+File,"FailDevice.cpp",FailDevice.cpp,39,,8
+File,"FailDevice.h",FailDevice.h,14,,0
+Explicit Private Function,"FailDevice::FailDevice",FailDevice.cpp,7,1,
+Private Function,"FailDevice::open",FailDevice.cpp,4,1,
+Protected Function,"FailDevice::readData",FailDevice.cpp,14,3,
+Protected Function,"FailDevice::writeData",FailDevice.cpp,14,3,
+Class,"ModelTest",modeltest.h,421,,57
+Private Struct,"ModelTest::Changing",modeltest.h,6,,0
+Private Function,"ModelTest::ModelTest",modeltest.cpp,49,2,
+Private Function,"ModelTest::checkChildren",modeltest.cpp,61,10,
+Private Function,"ModelTest::columnCount",modeltest.cpp,8,2,
+Private Function,"ModelTest::data",modeltest.cpp,48,11,
+Protected Function,"ModelTest::dataChanged",modeltest.cpp,13,1,
+Private Function,"ModelTest::hasIndex",modeltest.cpp,12,2,
+Protected Function,"ModelTest::headerDataChanged",modeltest.cpp,9,2,
+Private Function,"ModelTest::index",modeltest.cpp,15,2,
+Protected Function,"ModelTest::layoutAboutToBeChanged",modeltest.cpp,5,2,
+Protected Function,"ModelTest::layoutChanged",modeltest.cpp,8,2,
+Public Function,"ModelTest::nonDestructiveBasicTest",modeltest.cpp,30,1,
+Private Function,"ModelTest::parent",modeltest.cpp,19,4,
+Private Function,"ModelTest::rowCount",modeltest.cpp,15,4,
+Protected Function,"ModelTest::rowsAboutToBeInserted",modeltest.cpp,9,1,
+Protected Function,"ModelTest::rowsAboutToBeMoved",modeltest.cpp,15,1,
+Protected Function,"ModelTest::rowsAboutToBeRemoved",modeltest.cpp,9,1,
+Protected Function,"ModelTest::rowsInserted",modeltest.cpp,14,3,
+Protected Function,"ModelTest::rowsMoved",modeltest.cpp,23,3,
+Protected Function,"ModelTest::rowsRemoved",modeltest.cpp,8,1,
+Public Function,"ModelTest::runAllTests",modeltest.cpp,12,2,
+File,"NewDatabase.xml",NewDatabase.xml,482,0,0
+Function,"QTEST_GUILESS_MAIN",TestKeePass2XmlReader.cpp,26,1,
+Class,"RandomBackendTest",TestRandom.h,28,,4
+Public Function,"RandomBackendTest::RandomBackendTest",TestRandom.cpp,4,1,
+Public Function,"RandomBackendTest::randomize",TestRandom.cpp,9,2,
+Public Function,"RandomBackendTest::setNextBytes",TestRandom.cpp,5,1,
+Class,"TestAutoType",TestAutoType.h,138,,10
+File,"TestAutoType.cpp",TestAutoType.cpp,128,,10
+File,"TestAutoType.h",TestAutoType.h,32,,0
+Private Function,"TestAutoType::cleanup",TestAutoType.cpp,4,1,
+Private Function,"TestAutoType::init",TestAutoType.cpp,34,1,
+Private Function,"TestAutoType::testAutoTypeWithSequence",TestAutoType.cpp,9,1,
+Private Function,"TestAutoType::testAutoTypeWithoutSequence",TestAutoType.cpp,9,1,
+Private Function,"TestAutoType::testGlobalAutoTypeRegExp",TestAutoType.cpp,19,1,
+Private Function,"TestAutoType::testGlobalAutoTypeTitleMatch",TestAutoType.cpp,8,1,
+Private Function,"TestAutoType::testGlobalAutoTypeTitleMatchDisabled",TestAutoType.cpp,7,1,
+Private Function,"TestAutoType::testGlobalAutoTypeWithNoMatch",TestAutoType.cpp,7,1,
+Private Function,"TestAutoType::testGlobalAutoTypeWithOneMatch",TestAutoType.cpp,9,1,
+Private Function,"TestAutoType::testInternal",TestAutoType.cpp,6,1,
+Class,"TestCryptoHash",TestCryptoHash.h,21,,1
+File,"TestCryptoHash.cpp",TestCryptoHash.cpp,19,,1
+File,"TestCryptoHash.h",TestCryptoHash.h,7,,0
+Private Function,"TestCryptoHash::test",TestCryptoHash.cpp,14,1,
+Class,"TestCsvExporter",TestCsvExporter.h,73,,6
+File,"TestCsvExporter.cpp",TestCsvExporter.cpp,59,,6
+File,"TestCsvExporter.h",TestCsvExporter.h,18,,0
+Private Function,"TestCsvExporter::cleanUp",TestCsvExporter.cpp,5,1,
+Public Function,"TestCsvExporter::init",TestCsvExporter.cpp,5,1,
+Private Function,"TestCsvExporter::initTestCase",TestCsvExporter.cpp,4,1,
+Private Function,"TestCsvExporter::testEmptyDatabase",TestCsvExporter.cpp,7,1,
+Private Function,"TestCsvExporter::testExport",TestCsvExporter.cpp,19,1,
+Private Function,"TestCsvExporter::testNestedGroups",TestCsvExporter.cpp,17,1,
+Class,"TestDeletedObjects",TestDeletedObjects.h,114,,4
+File,"TestDeletedObjects.cpp",TestDeletedObjects.cpp,108,,4
+File,"TestDeletedObjects.h",TestDeletedObjects.h,12,,0
+Private Function,"TestDeletedObjects::createAndDelete",TestDeletedObjects.cpp,46,1,
+Private Function,"TestDeletedObjects::testDatabaseChange",TestDeletedObjects.cpp,42,1,
+Private Function,"TestDeletedObjects::testDeletedObjectsFromFile",TestDeletedObjects.cpp,9,1,
+Private Function,"TestDeletedObjects::testDeletedObjectsFromNewDb",TestDeletedObjects.cpp,6,1,
+Class,"TestEntry",TestEntry.h,87,,3
+File,"TestEntry.cpp",TestEntry.cpp,83,,3
+File,"TestEntry.h",TestEntry.h,10,,0
+Private Function,"TestEntry::testClone",TestEntry.cpp,37,1,
+Private Function,"TestEntry::testCopyDataFrom",TestEntry.cpp,28,1,
+Private Function,"TestEntry::testHistoryItemDeletion",TestEntry.cpp,13,1,
+Class,"TestEntryModel",TestEntryModel.h,235,,8
+File,"TestEntryModel.cpp",TestEntryModel.cpp,227,,8
+File,"TestEntryModel.h",TestEntryModel.h,14,,0
+Private Function,"TestEntryModel::test",TestEntryModel.cpp,44,1,
+Private Function,"TestEntryModel::testAttachmentsModel",TestEntryModel.cpp,32,1,
+Private Function,"TestEntryModel::testAttributesModel",TestEntryModel.cpp,33,1,
+Private Function,"TestEntryModel::testAutoTypeAssociationsModel",TestEntryModel.cpp,27,1,
+Private Function,"TestEntryModel::testCustomIconModel",TestEntryModel.cpp,20,1,
+Private Function,"TestEntryModel::testDatabaseDelete",TestEntryModel.cpp,22,1,
+Private Function,"TestEntryModel::testDefaultIconModel",TestEntryModel.cpp,8,1,
+Private Function,"TestEntryModel::testProxyModel",TestEntryModel.cpp,35,1,
+Class,"TestEntrySearcher",TestEntrySearcher.h,99,,4
+File,"TestEntrySearcher.cpp",TestEntrySearcher.cpp,90,,4
+File,"TestEntrySearcher.h",TestEntrySearcher.h,14,,0
+Private Function,"TestEntrySearcher::cleanupTestCase",TestEntrySearcher.cpp,4,1,
+Private Function,"TestEntrySearcher::testAllAttributesAreSearched",TestEntrySearcher.cpp,11,1,
+Private Function,"TestEntrySearcher::testAndConcatenationInSearch",TestEntrySearcher.cpp,19,1,
+Private Function,"TestEntrySearcher::testSearch",TestEntrySearcher.cpp,51,1,
+Class,"TestExporter",TestExporter.h,44,,1
+File,"TestExporter.cpp",TestExporter.cpp,42,,1
+File,"TestExporter.h",TestExporter.h,7,,0
+Private Function,"TestExporter::testToDbExporter",TestExporter.cpp,37,1,
+Class,"TestGroup",TestGroup.h,347,,7
+File,"TestGroup.cpp",TestGroup.cpp,341,,7
+File,"TestGroup.h",TestGroup.h,13,,0
+Private Function,"TestGroup::testClone",TestGroup.cpp,48,1,
+Private Function,"TestGroup::testCopyCustomIcon",TestGroup.cpp,31,1,
+Private Function,"TestGroup::testCopyCustomIcons",TestGroup.cpp,39,1,
+Private Function,"TestGroup::testDeleteSignals",TestGroup.cpp,41,1,
+Private Function,"TestGroup::testEntries",TestGroup.cpp,14,1,
+Private Function,"TestGroup::testParenting",TestGroup.cpp,60,1,
+Private Function,"TestGroup::testSignals",TestGroup.cpp,101,1,
+Class,"TestGroupModel",TestGroupModel.h,103,,1
+File,"TestGroupModel.cpp",TestGroupModel.cpp,102,,1
+File,"TestGroupModel.h",TestGroupModel.h,7,,0
+Private Function,"TestGroupModel::test",TestGroupModel.cpp,96,1,
+Class,"TestGui",TestGui.h,383,,20
+File,"TestGui.cpp",TestGui.cpp,349,,20
+File,"TestGui.h",TestGui.h,40,,0
+Private Function,"TestGui::checkDatabase",TestGui.cpp,10,1,
+Private Function,"TestGui::cleanupTestCase",TestGui.cpp,5,1,
+Private Function,"TestGui::clickIndex",TestGui.cpp,5,1,
+Private Function,"TestGui::dragAndDropGroup",TestGui.cpp,16,1,
+Public Function,"TestGui::initTestCase",TestGui.cpp,18,1,
+Private Function,"TestGui::testAddEntry",TestGui.cpp,41,1,
+Private Function,"TestGui::testCloneEntry",TestGui.cpp,13,1,
+Private Function,"TestGui::testDatabaseLocking",TestGui.cpp,14,1,
+Private Function,"TestGui::testDatabaseSettings",TestGui.cpp,13,1,
+Private Function,"TestGui::testDeleteEntry",TestGui.cpp,31,1,
+Private Function,"TestGui::testDragAndDropEntry",TestGui.cpp,18,1,
+Private Function,"TestGui::testDragAndDropGroup",TestGui.cpp,17,1,
+Private Function,"TestGui::testEditEntry",TestGui.cpp,20,1,
+Private Function,"TestGui::testKeePass1Import",TestGui.cpp,12,1,
+Private Function,"TestGui::testOpenDatabase",TestGui.cpp,10,1,
+Private Function,"TestGui::testSave",TestGui.cpp,8,1,
+Private Function,"TestGui::testSaveAs",TestGui.cpp,16,1,
+Private Function,"TestGui::testSearch",TestGui.cpp,67,1,
+Private Function,"TestGui::testTabs",TestGui.cpp,7,1,
+Private Function,"TestGui::triggerAction",TestGui.cpp,7,1,
+Class,"TestGuiPixmaps",TestGuiPixmaps.h,111,,5
+File,"TestGuiPixmaps.cpp",TestGuiPixmaps.cpp,101,,5
+File,"TestGuiPixmaps.h",TestGuiPixmaps.h,11,,0
+Private Function,"TestGuiPixmaps::compareImages",TestGuiPixmaps.cpp,5,1,
+Public Function,"TestGuiPixmaps::initTestCase",TestGuiPixmaps.cpp,4,1,
+Private Function,"TestGuiPixmaps::testDatabaseIcons",TestGuiPixmaps.cpp,18,1,
+Private Function,"TestGuiPixmaps::testEntryIcons",TestGuiPixmaps.cpp,37,1,
+Private Function,"TestGuiPixmaps::testGroupIcons",TestGuiPixmaps.cpp,36,1,
+Class,"TestHashedBlockStream",TestHashedBlockStream.h,67,,3
+File,"TestHashedBlockStream.cpp",TestHashedBlockStream.cpp,63,,3
+File,"TestHashedBlockStream.h",TestHashedBlockStream.h,9,,0
+Private Function,"TestHashedBlockStream::testReset",TestHashedBlockStream.cpp,12,1,
+Private Function,"TestHashedBlockStream::testWriteFailure",TestHashedBlockStream.cpp,12,1,
+Private Function,"TestHashedBlockStream::testWriteRead",TestHashedBlockStream.cpp,34,1,
+Class,"TestKeePass1Reader",TestKeePass1Reader.h,219,,17
+File,"TestKeePass1Reader.cpp",TestKeePass1Reader.cpp,208,,17
+File,"TestKeePass1Reader.h",TestKeePass1Reader.h,22,,0
+Private Function,"TestKeePass1Reader::cleanupTestCase",TestKeePass1Reader.cpp,4,1,
+Private Static Function,"TestKeePass1Reader::genDT",TestKeePass1Reader.cpp,6,1,
+Private Static Function,"TestKeePass1Reader::reopenDatabase",TestKeePass1Reader.cpp,23,3,
+Private Function,"TestKeePass1Reader::testAutoType",TestKeePass1Reader.cpp,27,1,
+Private Function,"TestKeePass1Reader::testBasic",TestKeePass1Reader.cpp,50,1,
+Private Function,"TestKeePass1Reader::testCP1252Password",TestKeePass1Reader.cpp,13,1,
+Private Function,"TestKeePass1Reader::testCompositeKey",TestKeePass1Reader.cpp,14,1,
+Private Function,"TestKeePass1Reader::testCustomIcons",TestKeePass1Reader.cpp,15,3,
+Private Function,"TestKeePass1Reader::testFileKey",TestKeePass1Reader.cpp,15,1,
+Private Function,"TestKeePass1Reader::testFileKey_data",TestKeePass1Reader.cpp,7,1,
+Private Function,"TestKeePass1Reader::testGroupExpanded",TestKeePass1Reader.cpp,7,1,
+Private Function,"TestKeePass1Reader::testMasterKey",TestKeePass1Reader.cpp,5,1,
+Private Function,"TestKeePass1Reader::testTwofish",TestKeePass1Reader.cpp,12,1,
+Class,"TestKeePass2RandomStream",TestKeePass2RandomStream.h,48,,2
+File,"TestKeePass2RandomStream.cpp",TestKeePass2RandomStream.cpp,46,,2
+File,"TestKeePass2RandomStream.h",TestKeePass2RandomStream.h,7,,0
+Private Function,"TestKeePass2RandomStream::test",TestKeePass2RandomStream.cpp,41,2,
+Class,"TestKeePass2Reader",TestKeePass2Reader.h,111,,6
+File,"TestKeePass2Reader.cpp",TestKeePass2Reader.cpp,104,,6
+File,"TestKeePass2Reader.h",TestKeePass2Reader.h,12,,0
+Private Function,"TestKeePass2Reader::testBrokenHeaderHash",TestKeePass2Reader.cpp,11,1,
+Private Function,"TestKeePass2Reader::testCompressed",TestKeePass2Reader.cpp,13,1,
+Private Function,"TestKeePass2Reader::testFormat200",TestKeePass2Reader.cpp,28,1,
+Private Function,"TestKeePass2Reader::testFormat300",TestKeePass2Reader.cpp,13,1,
+Private Function,"TestKeePass2Reader::testNonAscii",TestKeePass2Reader.cpp,13,1,
+Private Function,"TestKeePass2Reader::testProtectedStrings",TestKeePass2Reader.cpp,21,1,
+Class,"TestKeePass2Writer",TestKeePass2Writer.h,85,,7
+File,"TestKeePass2Writer.cpp",TestKeePass2Writer.cpp,105,,7
+File,"TestKeePass2Writer.h",TestKeePass2Writer.h,17,,0
+Private Function,"TestKeePass2Writer::cleanupTestCase",TestKeePass2Writer.cpp,5,1,
+Private Function,"TestKeePass2Writer::testAttachments",TestKeePass2Writer.cpp,7,1,
+Private Function,"TestKeePass2Writer::testBasic",TestKeePass2Writer.cpp,8,1,
+Private Function,"TestKeePass2Writer::testDeviceFailure",TestKeePass2Writer.cpp,19,1,
+Private Function,"TestKeePass2Writer::testNonAsciiPasswords",TestKeePass2Writer.cpp,4,1,
+Private Function,"TestKeePass2Writer::testProtectedAttributes",TestKeePass2Writer.cpp,7,1,
+Private Function,"TestKeePass2Writer::testRepair",TestKeePass2Writer.cpp,19,1,
+Class,"TestKeePass2XmlReader",TestKeePass2XmlReader.h,422,,26
+File,"TestKeePass2XmlReader.cpp",TestKeePass2XmlReader.cpp,422,,31
+File,"TestKeePass2XmlReader.h",TestKeePass2XmlReader.h,27,,0
+Private Function,"TestKeePass2XmlReader::cleanupTestCase",TestKeePass2XmlReader.cpp,4,1,
+Private Static Function,"TestKeePass2XmlReader::genDT",TestKeePass2XmlReader.cpp,6,1,
+Public Function,"TestKeePass2XmlReader::initTestCase",TestKeePass2XmlReader.cpp,10,1,
+Private Static Function,"TestKeePass2XmlReader::strToBytes",TestKeePass2XmlReader.cpp,9,2,
+Private Function,"TestKeePass2XmlReader::testBroken",TestKeePass2XmlReader.cpp,15,2,
+Private Function,"TestKeePass2XmlReader::testBroken_data",TestKeePass2XmlReader.cpp,22,1,
+Private Function,"TestKeePass2XmlReader::testCustomData",TestKeePass2XmlReader.cpp,7,1,
+Private Function,"TestKeePass2XmlReader::testCustomIcons",TestKeePass2XmlReader.cpp,17,3,
+Private Function,"TestKeePass2XmlReader::testDeletedObjects",TestKeePass2XmlReader.cpp,12,1,
+Private Function,"TestKeePass2XmlReader::testEmptyUuids",TestKeePass2XmlReader.cpp,12,2,
+Private Function,"TestKeePass2XmlReader::testEntry1",TestKeePass2XmlReader.cpp,55,1,
+Private Function,"TestKeePass2XmlReader::testEntry2",TestKeePass2XmlReader.cpp,41,1,
+Private Function,"TestKeePass2XmlReader::testEntryHistory",TestKeePass2XmlReader.cpp,23,1,
+Private Function,"TestKeePass2XmlReader::testGroup1",TestKeePass2XmlReader.cpp,14,1,
+Private Function,"TestKeePass2XmlReader::testGroup2",TestKeePass2XmlReader.cpp,15,1,
+Private Function,"TestKeePass2XmlReader::testGroupRoot",TestKeePass2XmlReader.cpp,26,1,
+Private Function,"TestKeePass2XmlReader::testInvalidXmlChars",TestKeePass2XmlReader.cpp,57,2,
+Private Function,"TestKeePass2XmlReader::testMetadata",TestKeePass2XmlReader.cpp,31,1,
+Private Function,"TestKeePass2XmlReader::testRepairUuidHistoryItem",TestKeePass2XmlReader.cpp,20,2,
+Class,"TestKeys",TestKeys.h,130,,7
+File,"TestKeys.cpp",TestKeys.cpp,123,,7
+File,"TestKeys.h",TestKeys.h,12,,0
+Private Function,"TestKeys::benchmarkTransformKey",TestKeys.cpp,17,2,
+Private Function,"TestKeys::testComposite",TestKeys.cpp,32,1,
+Private Function,"TestKeys::testCreateFileKey",TestKeys.cpp,27,1,
+Private Function,"TestKeys::testFileKey",TestKeys.cpp,18,1,
+Private Function,"TestKeys::testFileKeyError",TestKeys.cpp,15,1,
+Private Function,"TestKeys::testFileKey_data",TestKeys.cpp,9,1,
+Class,"TestModified",TestModified.h,352,,5
+File,"TestModified.cpp",TestModified.cpp,347,,5
+File,"TestModified.h",TestModified.h,10,,0
+Private Function,"TestModified::testEntrySets",TestModified.cpp,92,1,
+Private Function,"TestModified::testGroupSets",TestModified.cpp,50,1,
+Private Function,"TestModified::testHistoryItem",TestModified.cpp,145,2,
+Private Function,"TestModified::testSignals",TestModified.cpp,55,1,
+Class,"TestRandom",TestRandom.h,42,,3
+File,"TestRandom.cpp",TestRandom.cpp,56,,7
+File,"TestRandom.h",TestRandom.h,20,,0
+Private Function,"TestRandom::testUInt",TestRandom.cpp,25,2,
+Private Function,"TestRandom::testUIntRange",TestRandom.cpp,7,1,
+Class,"TestSymmetricCipher",TestSymmetricCipher.h,170,,6
+File,"TestSymmetricCipher.cpp",TestSymmetricCipher.cpp,164,,6
+File,"TestSymmetricCipher.h",TestSymmetricCipher.h,11,,0
+Private Function,"TestSymmetricCipher::testAes256CbcDecryption",TestSymmetricCipher.cpp,37,1,
+Private Function,"TestSymmetricCipher::testAes256CbcEncryption",TestSymmetricCipher.cpp,39,1,
+Private Function,"TestSymmetricCipher::testPadding",TestSymmetricCipher.cpp,22,1,
+Private Function,"TestSymmetricCipher::testSalsa20",TestSymmetricCipher.cpp,45,2,
+Private Function,"TestSymmetricCipher::testStreamReset",TestSymmetricCipher.cpp,16,1,
+Class,"TestWildcardMatcher",TestWildcardMatcher.h,65,,7
+File,"TestWildcardMatcher.cpp",TestWildcardMatcher.cpp,53,,7
+File,"TestWildcardMatcher.h",TestWildcardMatcher.h,16,,0
+Private Function,"TestWildcardMatcher::initMatcher",TestWildcardMatcher.cpp,4,1,
+Public Function,"TestWildcardMatcher::testMatcher",TestWildcardMatcher.cpp,8,1,
+Private Function,"TestWildcardMatcher::testMatcher_data",TestWildcardMatcher.cpp,19,1,
+Private Function,"TestWildcardMatcher::verifyMatch",TestWildcardMatcher.cpp,5,1,
+Private Function,"TestWildcardMatcher::verifyMatchResult",TestWildcardMatcher.cpp,9,2,
+Private Function,"TestWildcardMatcher::verifyNoMatch",TestWildcardMatcher.cpp,5,1,
+File,"modeltest.cpp",modeltest.cpp,382,,57
+File,"modeltest.h",modeltest.h,39,,0
+Function,"toString",TestKeePass2XmlReader.cpp,7,1,
+Function,"toString",TestKeePass2XmlReader.cpp,14,3,

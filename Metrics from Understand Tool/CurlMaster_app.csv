@@ -1,0 +1,2228 @@
+Kind,Name,File,CountLineCode,Cyclomatic,SumCyclomatic
+File,"10-at-a-time.c",10-at-a-time.c,132,,14
+Static Function,"AcceptServerConnect",ftp.c,35,5,
+Static Function,"AddFormInfo",formdata.c,21,5,
+Static Function,"AddHttpPost",formdata.c,42,6,
+Static Function,"AllowServerConnect",ftp.c,32,8,
+Static Function,"CONNECT",http_proxy.c,314,73,
+Struct,"CURLMsg",multi.h,8,,0
+Static Function,"Characters",htmltitle.cpp,7,1,
+Struct,"ConnectBits",urldata.h,35,,0
+Static Function,"ConnectionExists",url.c,273,72,
+Struct,"ContentType",mime.c,4,,0
+Struct,"Context",htmltitle.cpp,6,,1
+Public Function,"Context::Context",htmltitle.cpp,1,1,
+Struct,"Cookie",cookie.h,17,,0
+Struct,"CookieInfo",cookie.h,8,,0
+Function,"Curl_GetFTPResponse",ftp.c,55,12,
+Function,"Curl_HMAC_final",hmac.c,13,2,
+Function,"Curl_HMAC_init",hmac.c,40,5,
+Function,"Curl_HMAC_update",hmac.c,7,1,
+Function,"Curl_MD5_final",md5.c,7,1,
+Function,"Curl_MD5_init",md5.c,15,3,
+Function,"Curl_MD5_update",md5.c,7,1,
+Function,"Curl_SOCKS4",socks.c,162,26,
+Function,"Curl_SOCKS5",socks.c,284,49,
+Struct,"Curl_URL",urlapi.c,13,,0
+Function,"Curl_add_buffer",http.c,35,7,
+Function,"Curl_add_buffer_free",http.c,8,2,
+Function,"Curl_add_buffer_init",http.c,4,1,
+Function,"Curl_add_buffer_send",http.c,81,14,
+Function,"Curl_add_bufferf",http.c,18,2,
+Function,"Curl_add_custom_headers",http.c,103,27,
+Function,"Curl_add_handle_to_pipeline",pipeline.c,15,2,
+Function,"Curl_add_timecondition",http.c,42,7,
+Struct,"Curl_addrinfo",curl_addrinfo.h,10,,0
+Function,"Curl_all_content_encodings",content_encoding.c,29,7,
+Struct,"Curl_async",urldata.h,8,,0
+Function,"Curl_auth_build_spn",vauth.c,12,4,
+Function,"Curl_auth_create_cram_md5_message",cram.c,33,5,
+Function,"Curl_auth_create_digest_http_message",digest.c,29,7,
+Function,"Curl_auth_create_digest_md5_message",digest.c,117,15,
+Function,"Curl_auth_create_external_message",cleartext.c,6,1,
+Function,"Curl_auth_create_login_message",cleartext.c,16,3,
+Function,"Curl_auth_create_ntlm_type1_message",ntlm.c,76,2,
+Function,"Curl_auth_create_ntlm_type3_message",ntlm.c,202,30,
+Function,"Curl_auth_create_oauth_bearer_message",oauth2.c,23,4,
+Function,"Curl_auth_create_plain_message",cleartext.c,29,3,
+Function,"Curl_auth_decode_cram_md5_message",cram.c,11,2,
+Function,"Curl_auth_decode_digest_http_message",digest.c,111,36,
+Function,"Curl_auth_decode_ntlm_type2_message",ntlm.c,46,8,
+Function,"Curl_auth_digest_cleanup",digest.c,13,7,
+Function,"Curl_auth_digest_get_pair",digest.c,48,13,
+Function,"Curl_auth_is_digest_supported",digest.c,4,1,
+Function,"Curl_auth_is_ntlm_supported",ntlm.c,4,1,
+Function,"Curl_auth_ntlm_cleanup",ntlm.c,5,2,
+Function,"Curl_auth_user_contains_domain",vauth.c,10,3,
+Function,"Curl_base64_decode",base64.c,45,9,
+Function,"Curl_base64_encode",base64.c,6,1,
+Function,"Curl_base64url_encode",base64.c,6,1,
+Static Function,"Curl_basename",mime.c,15,5,
+Function,"Curl_blockread_all",socks.c,41,8,
+Function,"Curl_build_unencoding_stack",content_encoding.c,36,11,
+Function,"Curl_builtin_scheme",url.c,9,3,
+Function,"Curl_cache_addr",hostip.c,41,7,
+Function,"Curl_checkProxyheaders",http.c,15,4,
+Function,"Curl_checkheaders",transfer.c,13,3,
+Function,"Curl_chunked_strerror",http_chunks.c,19,7,
+Struct,"Curl_chunker",http_chunks.h,7,,0
+Function,"Curl_client_write",sendf.c,18,5,
+Function,"Curl_clone_primary_ssl_config",vtls.c,19,15,
+Function,"Curl_close",url.c,50,17,
+Function,"Curl_closesocket",connect.c,21,4,
+Function,"Curl_compareheader",http.c,29,7,
+Function,"Curl_concat_url",urlapi.c,90,19,
+Function,"Curl_conn_data_pending",connect.c,9,2,
+Function,"Curl_connalive",connect.c,8,3,
+Function,"Curl_conncache_add_conn",conncache.c,34,6,
+Function,"Curl_conncache_bundle_size",conncache.c,8,3,
+Function,"Curl_conncache_close_all_connections",conncache.c,23,7,
+Function,"Curl_conncache_destroy",conncache.c,5,2,
+Function,"Curl_conncache_extract_bundle",conncache.c,33,6,
+Function,"Curl_conncache_extract_oldest",conncache.c,45,9,
+Function,"Curl_conncache_find_bundle",conncache.c,12,3,
+Function,"Curl_conncache_find_first_connection",conncache.c,19,3,
+Function,"Curl_conncache_foreach",conncache.c,30,8,
+Function,"Curl_conncache_init",conncache.c,16,3,
+Function,"Curl_conncache_remove_conn",conncache.c,23,9,
+Function,"Curl_conncache_return_conn",conncache.c,17,5,
+Function,"Curl_conncache_size",conncache.c,8,3,
+Function,"Curl_conncache_unlock",conncache.c,4,2,
+Function,"Curl_conncontrol",connect.c,15,5,
+Function,"Curl_connect",url.c,28,6,
+Function,"Curl_connect_complete",http_proxy.c,5,1,
+Function,"Curl_connect_free",http_proxy.c,9,2,
+Function,"Curl_connect_ongoing",http_proxy.c,5,1,
+Function,"Curl_connected_proxy",url.c,34,12,
+Function,"Curl_connecthost",connect.c,34,7,
+Function,"Curl_cookie_add",cookie.c,382,104,
+Function,"Curl_cookie_cleanup",cookie.c,10,3,
+Function,"Curl_cookie_clearall",cookie.c,11,3,
+Function,"Curl_cookie_clearsess",cookie.c,28,8,
+Function,"Curl_cookie_freelist",cookie.c,9,2,
+Function,"Curl_cookie_getlist",cookie.c,55,12,
+Function,"Curl_cookie_init",cookie.c,65,16,
+Function,"Curl_cookie_list",cookie.c,8,1,
+Function,"Curl_cookie_loadfiles",cookie.c,21,4,
+Function,"Curl_copy_header_value",http.c,30,9,
+Function,"Curl_debug",sendf.c,25,5,
+Function,"Curl_dedotdotify",dotdot.c,86,19,
+Function,"Curl_des_set_odd_parity",curl_des.c,14,3,
+Function,"Curl_digest_cleanup",http_digest.c,5,1,
+Function,"Curl_disconnect",url.c,33,9,
+Struct,"Curl_dns_entry",hostip.h,5,,0
+Function,"Curl_doh",doh.c,11,1,
+Function,"Curl_doh_is_resolved",doh.c,7,1,
+Function,"Curl_doing_getsock",url.c,8,2,
+Struct,"Curl_easy",urldata.h,26,,0
+Function,"Curl_expire",multi.c,34,7,
+Function,"Curl_expire_clear",multi.c,21,5,
+Function,"Curl_expire_done",multi.c,4,1,
+Function,"Curl_failf",sendf.c,21,4,
+Function,"Curl_fetch_addr",hostip.c,16,4,
+Function,"Curl_fileinfo_alloc",fileinfo.c,4,1,
+Function,"Curl_fileinfo_cleanup",fileinfo.c,7,3,
+Function,"Curl_fillreadbuffer",transfer.c,68,10,
+Function,"Curl_flush_cookies",cookie.c,23,6,
+Function,"Curl_fnmatch",curl_fnmatch.c,8,2,
+Function,"Curl_follow",transfer.c,91,26,
+Static Function,"Curl_formadd_convert",ccsidcurl.c,30,7,
+Static Function,"Curl_formadd_release_local",ccsidcurl.c,10,5,
+Static Function,"Curl_formget_callback_ccsid",ccsidcurl.c,22,5,
+Function,"Curl_free_primary_ssl_config",vtls.c,10,8,
+Function,"Curl_free_request_state",url.c,5,3,
+Function,"Curl_freeaddrinfo",curl_addrinfo.c,12,2,
+Function,"Curl_freeset",url.c,18,7,
+Function,"Curl_ftp_parselist",ftplistparser.c,662,147,
+Function,"Curl_ftp_parselist_data_alloc",ftplistparser.c,4,1,
+Function,"Curl_ftp_parselist_data_free",ftplistparser.c,8,2,
+Function,"Curl_ftp_parselist_geterror",ftplistparser.c,4,1,
+Function,"Curl_ftpsend",ftp.c,35,8,
+Function,"Curl_get_pathname",curl_path.c,66,13,
+Function,"Curl_get_upload_buffer",transfer.c,9,3,
+Function,"Curl_getaddressinfo",connect.c,23,3,
+Function,"Curl_getaddrinfo",hostip4.c,12,2,
+Function,"Curl_getaddrinfo_a",os400sys.c,34,5,
+Function,"Curl_getconnectinfo",connect.c,25,6,
+Function,"Curl_getformdata",formdata.c,82,28,
+Function,"Curl_gethostname",curl_gethostname.c,14,3,
+Function,"Curl_getnameinfo_a",os400sys.c,42,8,
+Function,"Curl_getoff_all_pipelines",url.c,20,5,
+Function,"Curl_getworkingpath",curl_path.c,53,10,
+Function,"Curl_global_host_cache_dtor",hostip.c,7,2,
+Function,"Curl_global_host_cache_init",hostip.c,11,4,
+Function,"Curl_gmtime",parsedate.c,10,3,
+Function,"Curl_gsk_attribute_get_buffer_a",os400sys.c,21,5,
+Function,"Curl_gsk_attribute_get_cert_info",os400sys.c,13,2,
+Function,"Curl_gsk_attribute_get_enum",os400sys.c,10,2,
+Function,"Curl_gsk_attribute_get_numeric_value",os400sys.c,10,2,
+Function,"Curl_gsk_attribute_set_buffer_a",os400sys.c,25,6,
+Function,"Curl_gsk_attribute_set_callback",os400sys.c,11,2,
+Function,"Curl_gsk_attribute_set_enum",os400sys.c,10,2,
+Function,"Curl_gsk_attribute_set_numeric_value",os400sys.c,10,2,
+Struct,"Curl_gsk_descriptor",os400sys.c,4,,0
+Function,"Curl_gsk_environment_close",os400sys.c,17,4,
+Function,"Curl_gsk_environment_init",os400sys.c,9,2,
+Function,"Curl_gsk_environment_open",os400sys.c,19,4,
+Function,"Curl_gsk_secure_soc_close",os400sys.c,17,4,
+Function,"Curl_gsk_secure_soc_init",os400sys.c,9,2,
+Function,"Curl_gsk_secure_soc_misc",os400sys.c,9,2,
+Function,"Curl_gsk_secure_soc_open",os400sys.c,23,5,
+Function,"Curl_gsk_secure_soc_read",os400sys.c,10,2,
+Function,"Curl_gsk_secure_soc_startInit",os400sys.c,11,2,
+Function,"Curl_gsk_secure_soc_write",os400sys.c,10,2,
+Function,"Curl_gsk_strerror_a",os400sys.c,5,1,
+Static Function,"Curl_gss_convert_in_place",os400sys.c,20,4,
+Function,"Curl_gss_delete_sec_context_a",os400sys.c,14,3,
+Function,"Curl_gss_display_status_a",os400sys.c,15,3,
+Function,"Curl_gss_import_name_a",os400sys.c,23,4,
+Function,"Curl_gss_init_sec_context_a",os400sys.c,45,7,
+Struct,"Curl_handler",urldata.h,30,,0
+Function,"Curl_hash_add",hash.c,22,4,
+Function,"Curl_hash_clean",hash.c,5,1,
+Function,"Curl_hash_clean_with_criterium",hash.c,24,5,
+Function,"Curl_hash_delete",hash.c,14,3,
+Function,"Curl_hash_destroy",hash.c,11,3,
+Function,"Curl_hash_init",hash.c,25,4,
+Function,"Curl_hash_next_element",hash.c,23,6,
+Function,"Curl_hash_pick",hash.c,16,4,
+Function,"Curl_hash_start_iterate",hash.c,7,1,
+Function,"Curl_hash_str",hash.c,11,2,
+Function,"Curl_he2ai",curl_addrinfo.c,57,11,
+Function,"Curl_hmac_md5",curl_ntlm_core.c,11,2,
+Function,"Curl_hostcache_clean",hostip.c,9,3,
+Function,"Curl_hostcache_prune",hostip.c,14,4,
+Function,"Curl_http",http.c,742,206,
+Struct,"Curl_http2_dep",urldata.h,4,,0
+Function,"Curl_http_auth_act",http.c,59,18,
+Function,"Curl_http_connect",http.c,27,9,
+Function,"Curl_http_done",http.c,39,8,
+Function,"Curl_http_input_auth",http.c,78,18,
+Function,"Curl_http_ntlm_cleanup",http_ntlm.c,5,1,
+Function,"Curl_http_output_auth",http.c,44,8,
+Function,"Curl_http_readwrite_headers",http.c,482,117,
+Function,"Curl_http_setup_conn",http.c,15,5,
+Function,"Curl_httpchunk_init",http_chunks.c,7,1,
+Function,"Curl_httpchunk_read",http_chunks.c,163,39,
+Function,"Curl_if2ip",if2ip.c,12,1,
+Function,"Curl_if_is_interface_name",if2ip.c,5,1,
+Function,"Curl_inet_ntop",inet_ntop.c,10,2,
+Function,"Curl_inet_pton",inet_pton.c,11,2,
+Function,"Curl_infof",sendf.c,20,4,
+Function,"Curl_init_CONNECT",transfer.c,5,1,
+Static Function,"Curl_init_completed",multi.c,5,1,
+Function,"Curl_init_do",url.c,27,5,
+Function,"Curl_init_userdefined",url.c,71,2,
+Function,"Curl_input_digest",http_digest.c,19,4,
+Function,"Curl_input_ntlm",http_ntlm.c,37,9,
+Function,"Curl_ip2addr",curl_addrinfo.c,42,5,
+Function,"Curl_ipv4_resolve_r",hostip4.c,19,4,
+Function,"Curl_ipv6_scope",if2ip.c,5,1,
+Function,"Curl_ipvalid",hostip4.c,6,2,
+Function,"Curl_is_absolute_url",urlapi.c,21,7,
+Function,"Curl_is_connected",connect.c,103,25,
+Static Function,"Curl_is_formadd_string",ccsidcurl.c,15,8,
+Function,"Curl_is_in_callback",multi.c,5,1,
+Function,"Curl_isalnum",curl_ctype.c,6,2,
+Function,"Curl_isalpha",curl_ctype.c,6,2,
+Function,"Curl_iscntrl",curl_ctype.c,6,2,
+Function,"Curl_isdigit",curl_ctype.c,6,2,
+Function,"Curl_isgraph",curl_ctype.c,6,2,
+Function,"Curl_islower",curl_ctype.c,6,2,
+Function,"Curl_isprint",curl_ctype.c,6,2,
+Function,"Curl_isspace",curl_ctype.c,6,2,
+Function,"Curl_isunreserved",escape.c,22,67,
+Function,"Curl_isupper",curl_ctype.c,6,2,
+Function,"Curl_isxdigit",curl_ctype.c,6,2,
+Static Function,"Curl_ldap",ldap.c,243,57,
+Function,"Curl_ldap_err2string_a",os400sys.c,5,1,
+Function,"Curl_ldap_first_attribute_a",os400sys.c,20,3,
+Function,"Curl_ldap_get_dn_a",os400sys.c,19,3,
+Function,"Curl_ldap_get_values_len_a",os400sys.c,21,3,
+Function,"Curl_ldap_init_a",os400sys.c,18,3,
+Function,"Curl_ldap_next_attribute_a",os400sys.c,20,3,
+Function,"Curl_ldap_search_s_a",os400sys.c,66,15,
+Function,"Curl_ldap_simple_bind_s_a",os400sys.c,31,5,
+Function,"Curl_llist_count",llist.c,5,1,
+Function,"Curl_llist_destroy",llist.c,8,3,
+Function,"Curl_llist_init",llist.c,8,1,
+Function,"Curl_llist_insert_next",llist.c,30,6,
+Function,"Curl_llist_move",llist.c,40,7,
+Function,"Curl_llist_remove",llist.c,32,7,
+Function,"Curl_load_library",system_win32.c,35,8,
+Function,"Curl_loadhostpairs",hostip.c,136,27,
+Function,"Curl_md5it",md5.c,8,1,
+Function,"Curl_meets_timecondition",transfer.c,25,6,
+Function,"Curl_memdup",strdup.c,8,2,
+Function,"Curl_memrchr",curl_memrchr.c,15,4,
+Struct,"Curl_message",multihandle.h,4,,0
+Function,"Curl_mime_add_header",mime.c,17,4,
+Function,"Curl_mime_cleanpart",mime.c,11,5,
+Function,"Curl_mime_contenttype",mime.c,30,4,
+Function,"Curl_mime_duppart",mime.c,57,18,
+Function,"Curl_mime_initpart",mime.c,6,1,
+Function,"Curl_mime_prepare_headers",mime.c,115,44,
+Function,"Curl_mime_read",mime.c,6,1,
+Function,"Curl_mime_rewind",mime.c,5,2,
+Function,"Curl_mime_set_subparts",mime.c,34,11,
+Function,"Curl_mime_size",mime.c,15,4,
+Function,"Curl_mk_dnscache",hostip.c,5,1,
+Function,"Curl_move_handle_from_send_to_recv_pipe",pipeline.c,18,4,
+Struct,"Curl_multi",multihandle.h,31,,0
+Function,"Curl_multi_add_perform",multi.c,17,3,
+Function,"Curl_multi_chunk_length_penalty_size",multi.c,4,2,
+Function,"Curl_multi_closed",multi.c,16,5,
+Function,"Curl_multi_connchanged",multi.c,4,1,
+Function,"Curl_multi_content_length_penalty_size",multi.c,4,2,
+Function,"Curl_multi_handle",multi.c,28,5,
+Function,"Curl_multi_handlePipeBreak",multi.c,4,1,
+Function,"Curl_multi_max_host_connections",multi.c,4,2,
+Function,"Curl_multi_max_total_connections",multi.c,4,2,
+Function,"Curl_multi_pipelining_server_bl",multi.c,4,1,
+Function,"Curl_multi_pipelining_site_bl",multi.c,4,1,
+Function,"Curl_now",timeval.c,8,1,
+Function,"Curl_ntlm_core_lm_resp",curl_ntlm_core.c,8,1,
+Function,"Curl_ntlm_core_mk_lm_hash",curl_ntlm_core.c,22,3,
+Function,"Curl_ntlm_core_mk_lmv2_resp",curl_ntlm_core.c,17,2,
+Function,"Curl_ntlm_core_mk_nt_hash",curl_ntlm_core.c,34,7,
+Function,"Curl_ntlm_core_mk_ntlmv2_hash",curl_ntlm_core.c,23,3,
+Function,"Curl_ntlm_core_mk_ntlmv2_resp",curl_ntlm_core.c,37,3,
+Function,"Curl_num_addresses",hostip.c,9,2,
+Function,"Curl_once_resolved",hostip.c,13,3,
+Function,"Curl_open",url.c,50,12,
+Function,"Curl_os400_bind",os400sys.c,10,2,
+Function,"Curl_os400_connect",os400sys.c,10,2,
+Function,"Curl_os400_recvfrom",os400sys.c,41,8,
+Function,"Curl_os400_sendto",os400sys.c,11,2,
+Function,"Curl_output_digest",http_digest.c,66,14,
+Function,"Curl_output_ntlm",http_ntlm.c,86,23,
+Function,"Curl_parse_login_details",url.c,74,25,
+Function,"Curl_parsenetrc",netrc.c,146,37,
+Function,"Curl_persistconninfo",connect.c,9,1,
+Function,"Curl_pgrsDone",progress.c,14,3,
+Function,"Curl_pgrsLimitWaitTime",progress.c,26,5,
+Function,"Curl_pgrsResetTransferSizes",progress.c,5,1,
+Function,"Curl_pgrsSetDownloadCounter",progress.c,4,1,
+Function,"Curl_pgrsSetDownloadSize",progress.c,11,2,
+Function,"Curl_pgrsSetUploadCounter",progress.c,4,1,
+Function,"Curl_pgrsSetUploadSize",progress.c,11,2,
+Function,"Curl_pgrsStartNow",progress.c,12,1,
+Function,"Curl_pgrsTime",progress.c,52,15,
+Function,"Curl_pgrsUpdate",progress.c,166,33,
+Function,"Curl_pipeline_checkget_read",pipeline.c,11,3,
+Function,"Curl_pipeline_checkget_write",pipeline.c,11,3,
+Function,"Curl_pipeline_leave_read",pipeline.c,4,1,
+Function,"Curl_pipeline_leave_write",pipeline.c,4,1,
+Function,"Curl_pipeline_penalized",pipeline.c,28,6,
+Function,"Curl_pipeline_server_blacklisted",pipeline.c,20,5,
+Function,"Curl_pipeline_set_server_blacklist",pipeline.c,22,5,
+Function,"Curl_pipeline_set_site_blacklist",pipeline.c,31,6,
+Function,"Curl_pipeline_site_blacklisted",pipeline.c,24,5,
+Function,"Curl_pipeline_wanted",multi.c,4,2,
+Function,"Curl_poll",select.c,103,34,
+Function,"Curl_pop3_write",pop3.c,77,20,
+Function,"Curl_posttransfer",transfer.c,5,1,
+Function,"Curl_pp_disconnect",pingpong.c,6,1,
+Function,"Curl_pp_flushsend",pingpong.c,20,3,
+Function,"Curl_pp_getsock",pingpong.c,13,3,
+Function,"Curl_pp_init",pingpong.c,8,1,
+Function,"Curl_pp_moredata",pingpong.c,5,2,
+Function,"Curl_pp_readresp",pingpong.c,120,24,
+Function,"Curl_pp_sendf",pingpong.c,10,1,
+Function,"Curl_pp_state_timeout",pingpong.c,16,4,
+Function,"Curl_pp_statemach",pingpong.c,47,14,
+Function,"Curl_pp_vsendf",pingpong.c,53,11,
+Function,"Curl_pretransfer",transfer.c,58,16,
+Function,"Curl_printable_address",hostip.c,16,2,
+Function,"Curl_protocol_connect",url.c,29,9,
+Function,"Curl_protocol_connecting",url.c,12,2,
+Function,"Curl_protocol_doing",url.c,11,2,
+Function,"Curl_protocol_getsock",url.c,9,2,
+Function,"Curl_proxyCONNECT",http_proxy.c,16,4,
+Function,"Curl_proxy_connect",http_proxy.c,39,11,
+Function,"Curl_rand",rand.c,19,6,
+Function,"Curl_rand_hex",rand.c,23,5,
+Function,"Curl_range",curl_range.c,50,13,
+Function,"Curl_ratelimit",progress.c,17,5,
+Function,"Curl_raw_toupper",strcase.c,6,2,
+Function,"Curl_read",sendf.c,43,8,
+Function,"Curl_read16_be",curl_endian.c,5,1,
+Function,"Curl_read16_le",curl_endian.c,5,1,
+Function,"Curl_read32_le",curl_endian.c,5,1,
+Function,"Curl_read_plain",sendf.c,17,3,
+Function,"Curl_readrewind",transfer.c,54,12,
+Function,"Curl_readwrite",transfer.c,103,25,
+Function,"Curl_recv_has_postponed_data",sendf.c,6,1,
+Function,"Curl_recv_plain",sendf.c,28,4,
+Function,"Curl_recvpipe_head",pipeline.c,5,1,
+Function,"Curl_removeHandleFromPipeline",url.c,16,4,
+Function,"Curl_resolv",hostip.c,67,16,
+Function,"Curl_resolv_check",hostip.c,7,2,
+Function,"Curl_resolv_getsock",hostip.c,9,1,
+Function,"Curl_resolv_timeout",hostip.c,15,3,
+Function,"Curl_resolv_unlock",hostip.c,8,3,
+Function,"Curl_retry_request",transfer.c,41,10,
+Function,"Curl_safe_strcasecompare",strcase.c,6,2,
+Function,"Curl_saferealloc",strdup.c,7,2,
+Function,"Curl_sasl_can_authenticate",curl_sasl.c,8,3,
+Function,"Curl_sasl_cleanup",curl_sasl.c,6,2,
+Function,"Curl_sasl_continue",curl_sasl.c,147,30,
+Function,"Curl_sasl_decode_mech",curl_sasl.c,18,6,
+Function,"Curl_sasl_init",curl_sasl.c,11,1,
+Function,"Curl_sasl_parse_url_auth_option",curl_sasl.c,22,5,
+Function,"Curl_sasl_start",curl_sasl.c,110,23,
+Struct,"Curl_sec_client_mech",curl_sec.h,11,,0
+Struct,"Curl_send_buffer",http.h,5,,0
+Function,"Curl_send_plain",sendf.c,26,3,
+Function,"Curl_sendf",sendf.c,34,6,
+Function,"Curl_sendpipe_head",pipeline.c,5,1,
+Function,"Curl_set_dns_interface",hostsyn.c,7,1,
+Function,"Curl_set_dns_local_ip4",hostsyn.c,7,1,
+Function,"Curl_set_dns_local_ip6",hostsyn.c,7,1,
+Function,"Curl_set_dns_servers",hostsyn.c,7,1,
+Function,"Curl_set_in_callback",multi.c,9,4,
+Function,"Curl_setstropt",setopt.c,11,4,
+Function,"Curl_setup_conn",url.c,38,7,
+Function,"Curl_setup_transfer",transfer.c,58,15,
+Struct,"Curl_sh_entry",multi.c,6,,0
+Function,"Curl_sha256it",sha256.c,8,1,
+Struct,"Curl_share",share.h,13,,0
+Function,"Curl_share_lock",share.c,13,4,
+Function,"Curl_share_unlock",share.c,12,4,
+Function,"Curl_shuffle_addr",hostip.c,42,8,
+Function,"Curl_single_getsock",transfer.c,28,9,
+Function,"Curl_slist_append_nodup",slist.c,16,4,
+Function,"Curl_slist_duplicate",slist.c,15,3,
+Function,"Curl_smtp_escape_eob",smtp.c,62,13,
+Function,"Curl_sndbufset",connect.c,20,6,
+Struct,"Curl_sockaddr_ex",connect.h,10,,0
+Struct,"Curl_sockaddr_storage",sockaddr.h,7,,0
+Function,"Curl_socket",connect.c,29,6,
+Function,"Curl_socket_check",select.c,101,32,
+Function,"Curl_speedcheck",speedcheck.c,26,6,
+Function,"Curl_speedinit",speedcheck.c,4,1,
+Function,"Curl_splay",splay.c,49,23,
+Function,"Curl_splaygetbest",splay.c,29,8,
+Function,"Curl_splayinsert",splay.c,38,14,
+Function,"Curl_splayremovebyaddr",splay.c,41,11,
+Struct,"Curl_ssl",vtls.h,30,,0
+Function,"Curl_ssl_backend",vtls.c,4,1,
+Function,"Curl_ssl_config_matches",vtls.c,19,2,
+Function,"Curl_str2addr",curl_addrinfo.c,7,2,
+Function,"Curl_str_key_compare",hash.c,7,2,
+Function,"Curl_strcasecompare",strcase.c,10,3,
+Function,"Curl_strcpy_url",urlapi.c,39,8,
+Function,"Curl_strerror",strerror.c,32,9,
+Function,"Curl_strlen_url",urlapi.c,31,8,
+Function,"Curl_strncasecompare",strcase.c,14,4,
+Static Function,"Curl_strnlen",tftp.c,5,2,
+Function,"Curl_strntoupper",strcase.c,8,3,
+Function,"Curl_strtok_r",strtok.c,20,6,
+Function,"Curl_tcpnodelay",connect.c,5,1,
+Function,"Curl_thread_create",curl_threads.c,13,2,
+Function,"Curl_thread_destroy",curl_threads.c,4,1,
+Function,"Curl_thread_join",curl_threads.c,7,1,
+Function,"Curl_timediff",timeval.c,9,3,
+Function,"Curl_timediff_us",timeval.c,9,3,
+Function,"Curl_timeleft",connect.c,41,12,
+Struct,"Curl_tree",splay.h,8,,0
+Function,"Curl_uc_to_curlcode",url.c,13,4,
+Function,"Curl_unencode_cleanup",content_encoding.c,12,2,
+Function,"Curl_unencode_write",content_encoding.c,7,2,
+Function,"Curl_up_free",url.c,14,9,
+Function,"Curl_updateconninfo",connect.c,40,7,
+Function,"Curl_updatesocket",multi.c,4,1,
+Function,"Curl_upkeep",url.c,9,1,
+Function,"Curl_urldecode",escape.c,46,9,
+Function,"Curl_verboseconnect",url.c,10,5,
+Function,"Curl_verify_windows_version",system_win32.c,57,17,
+Function,"Curl_version_init",version.c,5,1,
+Function,"Curl_vsetopt",setopt.c,1329,434,
+Function,"Curl_wait_ms",select.c,14,4,
+Function,"Curl_wildcard_dtor",wildcard.c,18,4,
+Function,"Curl_wildcard_init",wildcard.c,6,1,
+Function,"Curl_write",sendf.c,23,4,
+Function,"Curl_write32_le",curl_endian.c,7,1,
+Function,"Curl_write64_le",curl_endian.c,5,1,
+Function,"Curl_write_plain",sendf.c,13,1,
+Struct,"DynamicStatic",urldata.h,8,,0
+Static Function,"EndElement",htmltitle.cpp,7,2,
+Struct,"FILEPROTO",file.h,5,,0
+Struct,"FTP",ftp.h,9,,0
+Function,"FindWin32CACert",tool_doswin.c,21,5,
+Static Function,"FormAdd",formdata.c,400,110,
+Struct,"FormInfo",formdata.h,18,,0
+Struct,"FtpFile",ftpget.c,4,,0
+Struct,"FtpFile",ftpsget.c,4,,0
+Struct,"FtpFile",sftpget.c,4,,0
+Function,"GUSISetupDevices",curl_GUSIConfig.cpp,5,1,
+Function,"GUSISetupFactories",curl_GUSIConfig.cpp,5,1,
+Static Function,"GetEnv",tool_homedir.c,18,5,
+Static Function,"GetEnv",getenv.c,10,3,
+Static Function,"GetFileAndPassword",tool_getparam.c,13,4,
+Static Function,"GetSizeParameter",tool_getparam.c,44,15,
+Struct,"GlobalConfig",tool_cfgable.h,21,,0
+Struct,"HTTP",http.h,23,,0
+Public Struct,"HTTP::back",http.h,6,,0
+Struct,"HdrCbData",tool_cb_hdr.h,7,,0
+Struct,"IMAP",imap.h,12,,0
+Struct,"InStruct",tool_sdecls.h,4,,0
+Static Function,"InitiateTransfer",ftp.c,27,4,
+Static Function,"IsPipeliningPossible",url.c,17,4,
+Struct,"LongShort",tool_getparam.c,10,,0
+Static Function,"MD5_Final",md5.c,11,4,
+Static Function,"MD5_Init",md5.c,7,2,
+Static Function,"MD5_Update",md5.c,6,1,
+Struct,"Memory",http2-pushinmemory.c,4,,0
+Struct,"MemoryStruct",xmlstream.c,4,,0
+Struct,"MemoryStruct",postinmemory.c,4,,0
+Struct,"MemoryStruct",getinmemory.c,4,,0
+Struct,"Names",urldata.h,9,,0
+Struct,"OperationConfig",tool_cfgable.h,202,,0
+Struct,"OutStruct",tool_sdecls.h,11,,0
+Struct,"POP3",pop3.h,5,,0
+Struct,"ParserStruct",xmlstream.c,6,,0
+Struct,"Progress",urldata.h,32,,0
+Struct,"ProgressData",tool_cb_prg.h,11,,0
+Struct,"PureInfo",urldata.h,21,,0
+Struct,"RTSP",rtsp.h,5,,0
+Static Function,"ReceivedServerConnect",ftp.c,46,8,
+Struct,"SASL",curl_sasl.h,10,,0
+Struct,"SASLproto",curl_sasl.h,10,,0
+Static Function,"SHA256_Final",sha256.c,24,8,
+Static Function,"SHA256_Init",sha256.c,13,1,
+Static Function,"SHA256_Update",sha256.c,31,8,
+Struct,"SMTP",smtp.h,7,,0
+Struct,"SSHPROTO",ssh.h,3,,0
+Function,"SetHTTPrequest",tool_helpers.c,19,2,
+Function,"SignalHandler",ephiperfifo.c,6,2,
+Struct,"SingleRequest",urldata.h,50,,0
+Static Function,"SocketIsDead",url.c,9,2,
+Static Function,"StartElement",htmltitle.cpp,11,2,
+Function,"SyncTime_CURL_Fetch",synctime.c,18,3,
+Function,"SyncTime_CURL_Init",synctime.c,11,3,
+Function,"SyncTime_CURL_WriteHeader",synctime.c,43,10,
+Function,"SyncTime_CURL_WriteOutput",synctime.c,6,1,
+Struct,"TELNET",telnet.c,19,,0
+Struct,"TerminalSettings",tool_main.c,4,,0
+Struct,"UrlState",urldata.h,56,,0
+Struct,"UserDefined",urldata.h,176,,0
+Struct,"WildcardData",wildcard.h,9,,0
+Static Function,"WriteCallback",chkspeed.c,6,1,
+Static Function,"WriteMemoryCallback",getinmemory.c,16,2,
+Static Function,"WriteMemoryCallback",postinmemory.c,16,2,
+Struct,"WriteThis",post-callback.c,4,,0
+Struct,"WriteThis",ftpuploadfrommem.c,4,,0
+Struct,"_ConnInfo",ghiper.c,6,,0
+Struct,"_ConnInfo",evhiperfifo.c,7,,0
+Struct,"_ConnInfo",hiperfifo.c,7,,0
+Struct,"_ConnInfo",asiohiper.cpp,7,,0
+Struct,"_ConnInfo",ephiperfifo.c,7,,0
+Static Function,"_Curl_auth_create_digest_http_message",digest.c,168,32,
+Struct,"_GlobalInfo",ghiper.c,5,,0
+Struct,"_GlobalInfo",evhiperfifo.c,9,,0
+Struct,"_GlobalInfo",hiperfifo.c,10,,0
+Struct,"_GlobalInfo",asiohiper.cpp,5,,0
+Struct,"_GlobalInfo",ephiperfifo.c,9,,0
+Struct,"_SockInfo",ghiper.c,9,,0
+Struct,"_SockInfo",evhiperfifo.c,10,,0
+Struct,"_SockInfo",hiperfifo.c,9,,0
+Struct,"_SockInfo",ephiperfifo.c,8,,0
+Static Function,"_getch",rtsp.c,12,1,
+Static Function,"_ldap_free_urldesc",ldap.c,14,4,
+Static Function,"_ldap_url_parse",ldap.c,16,3,
+Static Function,"_ldap_url_parse2",ldap.c,125,32,
+Static Function,"_state",ftp.c,7,1,
+Function,"add2list",tool_paramhlp.c,9,2,
+Static Function,"addHandleToPipeline",pipeline.c,7,1,
+Static Function,"add_content_type",mime.c,7,3,
+Static Function,"add_download",multi-uv.c,18,2,
+Function,"add_file_name_to_url",tool_operhlp.c,36,11,
+Static Function,"add_haproxy_protocol_header",http.c,33,4,
+Static Function,"add_next_timeout",multi.c,31,4,
+Static Function,"addbyter",mprintf.c,12,2,
+Static Function,"addsock",ephiperfifo.c,7,1,
+Static Function,"addsock",hiperfifo.c,7,1,
+Static Function,"addsock",evhiperfifo.c,7,1,
+Static Function,"addsock",ghiper.c,8,1,
+Static Function,"addsock",asiohiper.cpp,6,1,
+Static Function,"alloc_addbyter",mprintf.c,29,6,
+Static Function,"allocate_conn",url.c,73,12,
+File,"amigaos.c",amigaos.c,0,,0
+File,"amigaos.h",amigaos.h,0,,0
+File,"anyauthput.c",anyauthput.c,64,,8
+File,"arpa_telnet.h",arpa_telnet.h,20,,0
+Static Function,"ascii_to_unicode_le",curl_ntlm_core.c,9,2,
+Static Function,"ascii_uppercase_to_unicode_le",curl_ntlm_core.c,9,2,
+File,"asiohiper.cpp",asiohiper.cpp,321,,51
+Struct,"asprintf",mprintf.c,6,,0
+File,"asyn-ares.c",asyn-ares.c,0,,0
+File,"asyn-thread.c",asyn-thread.c,0,,0
+File,"asyn.h",asyn.h,21,,0
+Struct,"auth",urldata.h,8,,0
+Static Function,"auth_decode_digest_md5_message",digest.c,37,8,
+Static Function,"auth_digest_get_key_value",digest.c,17,3,
+Static Function,"auth_digest_get_qop_values",digest.c,22,6,
+Static Function,"auth_digest_md5_to_ascii",digest.c,7,2,
+Static Function,"auth_digest_sha256_to_ascii",digest.c,7,2,
+Static Function,"auth_digest_string_quoted",digest.c,26,6,
+Static Function,"bad_domain",cookie.c,4,1,
+File,"base64.c",base64.c,168,,29
+Static Function,"base64_encode",base64.c,75,11,
+Static Function,"bindlocal",connect.c,120,23,
+Struct,"blacklist_node",pipeline.c,4,,0
+Static Function,"buffer_threaded",os400sys.c,18,5,
+Static Function,"buffer_undef",os400sys.c,18,4,
+Static Function,"buffer_unthreaded",os400sys.c,5,1,
+Static Function,"bundle_add_conn",conncache.c,8,1,
+Static Function,"bundle_create",conncache.c,13,3,
+Static Function,"bundle_destroy",conncache.c,7,2,
+Static Function,"bundle_remove_conn",conncache.c,16,3,
+Static Function,"c_escape",tool_setopt.c,44,11,
+File,"cacertinmem.c",cacertinmem.c,102,,12
+Static Function,"cachestring",os400sys.c,29,6,
+Static Function,"call_extract_if_dead",url.c,9,2,
+Struct,"callback_data",ftp-wildcard.c,3,,0
+Static Function,"cb",10-at-a-time.c,6,1,
+Static Function,"cb_delete",smooth-gtk-thread.c,5,1,
+File,"ccsidcurl.c",ccsidcurl.c,972,,296
+File,"ccsidcurl.h",ccsidcurl.h,62,,0
+Static Function,"cdata",htmltitle.cpp,7,1,
+File,"certinfo.c",certinfo.c,38,,7
+Static Function,"characterDataHandler",xmlstream.c,15,2,
+Static Function,"charclass",curl_fnmatch.c,10,4,
+Static Function,"check_multi_info",ephiperfifo.c,23,3,
+Static Function,"check_multi_info",evhiperfifo.c,23,3,
+Static Function,"check_multi_info",multi-uv.c,26,4,
+Static Function,"check_multi_info",ghiper.c,23,3,
+Static Function,"check_multi_info",asiohiper.cpp,23,3,
+Static Function,"check_multi_info",hiperfifo.c,25,4,
+Static Function,"check_noproxy",url.c,47,13,
+Function,"check_protocol",tool_paramhlp.c,12,4,
+Static Function,"check_telnet_options",telnet.c,79,14,
+Static Function,"check_wsock2",telnet.c,22,4,
+Static Function,"checkday",parsedate.c,18,5,
+Static Function,"checkhttpprefix",http.c,18,5,
+Static Function,"checkmonth",parsedate.c,15,4,
+Static Function,"checkpasswd",tool_paramhlp.c,43,7,
+Static Function,"checkprefixmax",http.c,5,2,
+Static Function,"checkprotoprefix",http.c,8,2,
+Static Function,"checkrtspprefix",http.c,11,3,
+Static Function,"checktz",parsedate.c,15,4,
+File,"chkspeed.c",chkspeed.c,123,,27
+Static Function,"chop_write",sendf.c,56,15,
+Static Function,"clean_fifo",ephiperfifo.c,6,1,
+Static Function,"clean_fifo",hiperfifo.c,6,1,
+Function,"clean_getout",tool_operhlp.c,14,6,
+Function,"cleanarg",tool_paramhlp.c,4,1,
+Static Function,"cleanup_encoder_state",mime.c,6,1,
+Static Function,"cleanup_part_content",mime.c,14,2,
+File,"cleartext.c",cleartext.c,51,,7
+Static Function,"client_close_writer",content_encoding.c,6,1,
+Static Function,"client_init_writer",content_encoding.c,6,2,
+Static Function,"client_unencode_write",content_encoding.c,11,2,
+Static Function,"close_secondarysocket",ftp.c,8,2,
+Static Function,"close_socket",asiohiper.cpp,11,2,
+Static Function,"closecb",externalsocket.c,6,1,
+Struct,"cnamestore",doh.h,5,,0
+Function,"conf_init",synctime.c,9,2,
+File,"config-amigaos.h",config-amigaos.h,0,,0
+File,"config-dos.h",config-dos.h,0,,0
+File,"config-mac.h",config-mac.h,0,,0
+File,"config-os400.h",config-os400.h,0,,0
+File,"config-riscos.h",config-riscos.h,0,,0
+File,"config-symbian.h",config-symbian.h,0,,0
+File,"config-tpf.h",config-tpf.h,0,,0
+File,"config-vxworks.h",config-vxworks.h,0,,0
+File,"config-win32.h",config-win32.h,0,,0
+File,"config-win32ce.h",config-win32ce.h,1,,0
+Function,"config_free",tool_cfgable.c,10,2,
+Function,"config_init",tool_cfgable.c,17,1,
+Static Function,"configure_terminal",tool_main.c,12,2,
+Static Function,"conn_free",url.c,49,34,
+Static Function,"conn_is_conn",connect.c,9,2,
+Static Function,"conn_llist_dtor",conncache.c,6,1,
+Static Function,"conn_reset_all_postponed_data",url.c,5,1,
+Static Function,"conn_reset_postponed_data",url.c,23,10,
+Static Function,"conn_state",smb.c,5,1,
+Static Function,"conn_upkeep",url.c,9,2,
+Struct,"conncache",conncache.h,7,,0
+File,"conncache.c",conncache.c,371,,91
+File,"conncache.h",conncache.h,38,,0
+Static Function,"conncache_add_bundle",conncache.c,7,2,
+Static Function,"conncache_remove_bundle",conncache.c,17,4,
+File,"connect.c",connect.c,687,,148
+File,"connect.h",connect.h,35,,0
+Static Function,"connect_done",http_proxy.c,6,1,
+Static Function,"connect_init",http_proxy.c,23,5,
+Struct,"connectbundle",conncache.h,5,,0
+Struct,"connectdata",urldata.h,105,,0
+Public Struct,"connectdata::dynamically_allocated_data",urldata.h,12,,0
+Struct,"connfind",connect.c,4,,0
+Struct,"contenc_writer_s",content_encoding.h,5,,0
+File,"content_encoding.c",content_encoding.c,207,,42
+File,"content_encoding.h",content_encoding.h,22,,0
+Struct,"content_encoding_s",content_encoding.h,9,,0
+Static Function,"control_address",ftp.c,6,2,
+Static Function,"convert",ccsidcurl.c,36,10,
+Static Function,"convert_sockaddr",os400sys.c,27,3,
+Static Function,"convert_version_info_string",ccsidcurl.c,14,3,
+File,"cookie.c",cookie.c,968,,275
+File,"cookie.h",cookie.h,41,,0
+Static Function,"cookie_hash_domain",cookie.c,10,2,
+File,"cookie_interface.c",cookie_interface.c,83,,10
+Static Function,"cookie_list",cookie.c,30,7,
+Static Function,"cookie_output",cookie.c,58,13,
+Static Function,"cookie_sort",cookie.c,19,14,
+Static Function,"cookie_sort_ct",cookie.c,6,2,
+Static Function,"cookiehash",cookie.c,9,2,
+File,"cram.c",cram.c,44,,7
+File,"crawler.c",crawler.c,159,,22
+Static Function,"create_conn",url.c,263,54,
+Static Function,"create_conn_helper_init_proxy",url.c,116,33,
+Static Function,"create_curl_context",multi-uv.c,9,1,
+Function,"create_dir_hierarchy",tool_dirhie.c,43,11,
+Static Function,"create_hostcache_id",hostip.c,13,3,
+Function,"create_thread",smooth-gtk-thread.c,24,4,
+File,"curl.h",curl.h,929,,0
+File,"curl_GUSIConfig.cpp",curl_GUSIConfig.cpp,35,,2
+File,"curl_addrinfo.c",curl_addrinfo.c,125,,20
+File,"curl_addrinfo.h",curl_addrinfo.h,18,,0
+File,"curl_base64.h",curl_base64.h,8,,0
+Struct,"curl_certinfo",curl.h,4,,0
+Function,"curl_certinfo_free_all",ccsidcurl.c,13,4,
+Static Function,"curl_close_cb",multi-uv.c,5,1,
+Struct,"curl_context_s",multi-uv.c,4,,0
+File,"curl_crtl_init.c",curl_crtl_init.c,120,,8
+File,"curl_ctype.c",curl_ctype.c,78,,20
+File,"curl_ctype.h",curl_ctype.h,10,,0
+File,"curl_des.c",curl_des.c,14,,3
+File,"curl_des.h",curl_des.h,1,,0
+Function,"curl_easy_cleanup",easy.c,9,4,
+Function,"curl_easy_duphandle",easy.c,69,22,
+Function,"curl_easy_escape",escape.c,44,9,
+Function,"curl_easy_escape_ccsid",ccsidcurl.c,21,5,
+Function,"curl_easy_getinfo",easy.c,11,1,
+Function,"curl_easy_getinfo_ccsid",ccsidcurl.c,76,19,
+Function,"curl_easy_init",easy.c,18,6,
+Function,"curl_easy_pause",easy.c,41,11,
+Function,"curl_easy_perform",easy.c,4,1,
+Function,"curl_easy_recv",easy.c,19,4,
+Function,"curl_easy_reset",easy.c,14,1,
+Function,"curl_easy_send",easy.c,21,5,
+Function,"curl_easy_setopt",setopt.c,11,2,
+Function,"curl_easy_setopt_ccsid",ccsidcurl.c,160,91,
+Function,"curl_easy_strerror",strerror.c,188,96,
+Function,"curl_easy_strerror_ccsid",ccsidcurl.c,16,4,
+Function,"curl_easy_unescape",escape.c,20,6,
+Function,"curl_easy_unescape_ccsid",ccsidcurl.c,24,6,
+Function,"curl_easy_upkeep",easy.c,11,3,
+File,"curl_endian.c",curl_endian.c,27,,5
+File,"curl_endian.h",curl_endian.h,5,,0
+Function,"curl_escape",escape.c,4,1,
+Struct,"curl_fileinfo",curl.h,21,,0
+File,"curl_fnmatch.c",curl_fnmatch.c,273,,84
+File,"curl_fnmatch.h",curl_fnmatch.h,1,,0
+Function,"curl_form_long_value",ccsidcurl.c,5,1,
+Function,"curl_formadd",formdata.c,11,1,
+Function,"curl_formadd_ccsid",ccsidcurl.c,176,43,
+Function,"curl_formfree",formdata.c,20,5,
+Function,"curl_formget",formdata.c,28,7,
+Function,"curl_formget_ccsid",ccsidcurl.c,10,1,
+Struct,"curl_forms",curl.h,4,,0
+Function,"curl_free",escape.c,4,1,
+Function,"curl_getdate",parsedate.c,12,3,
+Function,"curl_getdate_ccsid",ccsidcurl.c,14,3,
+Function,"curl_getenv",getenv.c,4,1,
+File,"curl_gethostname.c",curl_gethostname.c,14,,3
+File,"curl_gethostname.h",curl_gethostname.h,1,,0
+Function,"curl_global_cleanup",easy.c,14,6,
+Function,"curl_global_init",easy.c,4,1,
+Function,"curl_global_init_mem",easy.c,17,3,
+Function,"curl_global_sslset",vtls.c,8,1,
+File,"curl_gssapi.c",curl_gssapi.c,0,,0
+File,"curl_gssapi.h",curl_gssapi.h,0,,0
+Struct,"curl_hash",hash.h,8,,0
+Struct,"curl_hash_element",hash.h,6,,0
+Struct,"curl_hash_iterator",hash.h,5,,0
+File,"curl_hmac.h",curl_hmac.h,25,,0
+Struct,"curl_httppost",curl.h,16,,0
+Struct,"curl_khkey",curl.h,5,,0
+File,"curl_ldap.h",curl_ldap.h,2,,0
+Struct,"curl_llist",llist.h,6,,0
+Struct,"curl_llist_element",llist.h,5,,0
+Function,"curl_maprintf",mprintf.c,23,4,
+File,"curl_md4.h",curl_md4.h,0,,0
+File,"curl_md5.h",curl_md5.h,25,,0
+File,"curl_memory.h",curl_memory.h,10,,0
+File,"curl_memrchr.c",curl_memrchr.c,15,,4
+File,"curl_memrchr.h",curl_memrchr.h,1,,0
+Function,"curl_mfprintf",mprintf.c,9,1,
+Function,"curl_mime_addpart",mime.c,17,4,
+Function,"curl_mime_data",mime.c,23,6,
+Function,"curl_mime_data_cb",mime.c,18,3,
+Function,"curl_mime_data_ccsid",ccsidcurl.c,15,3,
+Function,"curl_mime_encoder",mime.c,16,5,
+Function,"curl_mime_encoder_ccsid",ccsidcurl.c,6,1,
+Function,"curl_mime_filedata",mime.c,34,8,
+Function,"curl_mime_filedata_ccsid",ccsidcurl.c,6,1,
+Function,"curl_mime_filename",mime.c,13,5,
+Function,"curl_mime_filename_ccsid",ccsidcurl.c,6,1,
+Function,"curl_mime_free",mime.c,15,3,
+Function,"curl_mime_headers",mime.c,15,5,
+Function,"curl_mime_init",mime.c,25,4,
+Function,"curl_mime_name",mime.c,13,5,
+Function,"curl_mime_name_ccsid",ccsidcurl.c,5,1,
+Struct,"curl_mime_s",mime.h,8,,0
+Function,"curl_mime_subparts",mime.c,4,1,
+Function,"curl_mime_type",mime.c,13,5,
+Function,"curl_mime_type_ccsid",ccsidcurl.c,6,1,
+Struct,"curl_mimepart_s",mime.h,22,,0
+Function,"curl_mprintf",mprintf.c,9,1,
+Function,"curl_msnprintf",mprintf.c,9,1,
+Function,"curl_msprintf",mprintf.c,10,1,
+Function,"curl_multi_add_handle",multi.c,56,11,
+Function,"curl_multi_assign",multi.c,12,3,
+Function,"curl_multi_cleanup",multi.c,36,6,
+Function,"curl_multi_fdset",multi.c,36,9,
+Function,"curl_multi_info_read",multi.c,16,2,
+Function,"curl_multi_init",multi.c,5,1,
+Function,"curl_multi_perform",multi.c,31,10,
+Function,"curl_multi_remove_handle",multi.c,71,18,
+Function,"curl_multi_setopt",multi.c,65,18,
+Function,"curl_multi_socket",multi.c,11,3,
+Function,"curl_multi_socket_action",multi.c,11,3,
+Function,"curl_multi_socket_all",multi.c,10,3,
+Function,"curl_multi_strerror",strerror.c,29,12,
+Function,"curl_multi_strerror_ccsid",ccsidcurl.c,16,4,
+Function,"curl_multi_timeout",multi.c,9,3,
+Function,"curl_multi_wait",multi.c,116,30,
+File,"curl_multibyte.c",curl_multibyte.c,0,,0
+File,"curl_multibyte.h",curl_multibyte.h,6,,0
+Function,"curl_mvaprintf",mprintf.c,20,4,
+Function,"curl_mvfprintf",mprintf.c,4,1,
+Function,"curl_mvprintf",mprintf.c,4,1,
+Function,"curl_mvsnprintf",mprintf.c,17,3,
+Function,"curl_mvsprintf",mprintf.c,7,1,
+File,"curl_ntlm_core.c",curl_ntlm_core.c,212,,29
+File,"curl_ntlm_core.h",curl_ntlm_core.h,25,,0
+File,"curl_ntlm_wb.c",curl_ntlm_wb.c,0,,0
+File,"curl_ntlm_wb.h",curl_ntlm_wb.h,0,,0
+File,"curl_path.c",curl_path.c,119,,23
+File,"curl_path.h",curl_path.h,4,,0
+Static Function,"curl_perform",multi-uv.c,14,3,
+File,"curl_printf.h",curl_printf.h,0,,0
+Function,"curl_pushheader_byname",http2.c,6,1,
+Function,"curl_pushheader_byname_ccsid",ccsidcurl.c,17,4,
+Function,"curl_pushheader_bynum",http2.c,6,1,
+Function,"curl_pushheader_bynum_cssid",ccsidcurl.c,10,2,
+File,"curl_range.c",curl_range.c,50,,13
+File,"curl_range.h",curl_range.h,1,,0
+File,"curl_rtmp.c",curl_rtmp.c,0,,0
+File,"curl_rtmp.h",curl_rtmp.h,0,,0
+File,"curl_sasl.c",curl_sasl.c,344,,71
+File,"curl_sasl.h",curl_sasl.h,57,,0
+File,"curl_sec.h",curl_sec.h,11,,0
+File,"curl_setup.h",curl_setup.h,0,,0
+File,"curl_setup_once.h",curl_setup_once.h,4,,0
+File,"curl_sha256.h",curl_sha256.h,2,,0
+Function,"curl_share_cleanup",share.c,23,6,
+Function,"curl_share_init",share.c,13,3,
+Function,"curl_share_setopt",share.c,81,20,
+Function,"curl_share_strerror",strerror.c,21,8,
+Function,"curl_share_strerror_ccsid",ccsidcurl.c,16,4,
+Struct,"curl_slist",curl.h,4,,0
+Function,"curl_slist_append",slist.c,11,3,
+Function,"curl_slist_append_ccsid",ccsidcurl.c,15,3,
+Function,"curl_slist_free_all",slist.c,14,4,
+Struct,"curl_sockaddr",curl.h,7,,0
+Struct,"curl_ssl_session",urldata.h,11,,0
+File,"curl_sspi.c",curl_sspi.c,0,,0
+File,"curl_sspi.h",curl_sspi.h,0,,0
+Function,"curl_strequal",strcase.c,4,1,
+Function,"curl_strnequal",strcase.c,4,1,
+File,"curl_threads.c",curl_threads.c,24,,4
+File,"curl_threads.h",curl_threads.h,4,,0
+Struct,"curl_tlssessioninfo",curl.h,4,,0
+Function,"curl_unescape",escape.c,4,1,
+Function,"curl_url",urlapi.c,4,1,
+Function,"curl_url_cleanup",urlapi.c,7,2,
+Function,"curl_url_dup",urlapi.c,20,20,
+Function,"curl_url_get",urlapi.c,164,54,
+Function,"curl_url_get_ccsid",ccsidcurl.c,0,6,
+Function,"curl_url_set",urlapi.c,222,56,
+Function,"curl_url_set_ccsid",ccsidcurl.c,16,4,
+Function,"curl_version",version.c,24,4,
+Function,"curl_version_ccsid",ccsidcurl.c,17,4,
+Function,"curl_version_info",version.c,9,2,
+Function,"curl_version_info_ccsid",ccsidcurl.c,70,24,
+Struct,"curl_waitfd",multi.h,5,,0
+File,"curlgtk.c",curlgtk.c,69,,7
+File,"curlmsg.h",curlmsg.h,0,,0
+File,"curlmsg_vms.h",curlmsg_vms.h,88,,0
+Struct,"curltime",timeval.h,4,,0
+File,"curlver.h",curlver.h,0,,0
+File,"curlx.c",curlx.c,361,,70
+File,"curlx.h",curlx.h,0,,0
+Function,"curlx_nonblock",nonblock.c,6,2,
+Function,"curlx_read",warnless.c,4,1,
+Function,"curlx_sitosk",warnless.c,4,1,
+Function,"curlx_sitouz",warnless.c,5,2,
+Function,"curlx_sktosi",warnless.c,4,1,
+Function,"curlx_sltosi",warnless.c,5,2,
+Function,"curlx_sltoui",warnless.c,5,2,
+Function,"curlx_sltous",warnless.c,6,3,
+Function,"curlx_sotouz",warnless.c,5,2,
+Function,"curlx_strtoofft",strtoofft.c,24,7,
+Function,"curlx_sztosi",warnless.c,5,2,
+Function,"curlx_uitosi",warnless.c,5,2,
+Function,"curlx_uitouc",warnless.c,5,2,
+Function,"curlx_uitous",warnless.c,5,2,
+Function,"curlx_ultosi",warnless.c,5,2,
+Function,"curlx_ultouc",warnless.c,5,2,
+Function,"curlx_ultous",warnless.c,5,2,
+Function,"curlx_uztosi",warnless.c,5,2,
+Function,"curlx_uztoso",warnless.c,5,2,
+Function,"curlx_uztosz",warnless.c,5,2,
+Function,"curlx_uztoui",warnless.c,4,1,
+Function,"curlx_uztoul",warnless.c,4,1,
+Function,"curlx_write",warnless.c,4,1,
+Function,"customrequest_helper",tool_helpers.c,22,4,
+File,"cyassl.c",cyassl.c,0,,0
+File,"cyassl.h",cyassl.h,0,,0
+File,"darwinssl.c",darwinssl.c,0,,0
+File,"darwinssl.h",darwinssl.h,0,,0
+Struct,"data",debug.c,3,,0
+Static Function,"data_pending",transfer.c,5,1,
+File,"debug.c",debug.c,98,,21
+Static Function,"decodeQuantum",base64.c,32,7,
+Function,"delegation",tool_paramhlp.c,12,4,
+Static Function,"destroy_curl_context",multi-uv.c,4,1,
+Static Function,"detect_proxy",url.c,31,6,
+File,"dict.c",dict.c,178,,29
+File,"dict.h",dict.h,1,,0
+Static Function,"dict_do",dict.c,130,24,
+File,"digest.c",digest.c,606,,138
+File,"digest.h",digest.h,10,,0
+File,"digest_sspi.c",digest_sspi.c,0,,0
+Struct,"digestdata",urldata.h,12,,0
+Static Function,"discardfunc",ftpuploadresume.c,6,1,
+Struct,"dnsprobe",urldata.h,7,,0
+Static Function,"do_complete",multi.c,7,2,
+File,"doh.c",doh.c,18,,2
+File,"doh.h",doh.h,48,,0
+Struct,"dohaddr",doh.h,7,,0
+Struct,"dohdata",urldata.h,7,,0
+Struct,"dohentry",doh.h,7,,0
+Struct,"dohresponse",urldata.h,4,,0
+Static Function,"domore_getsock",multi.c,8,2,
+Static Function,"done_sending",transfer.c,12,3,
+File,"dotdot.c",dotdot.c,86,,19
+File,"dotdot.h",dotdot.h,1,,0
+Static Function,"dprintf_DollarString",mprintf.c,14,3,
+Static Function,"dprintf_IsQualifierNoDollar",mprintf.c,13,23,
+Static Function,"dprintf_Pass1",mprintf.c,232,68,
+Static Function,"dprintf_formatf",mprintf.c,294,136,
+Static Function,"dump",http2-serverpush.c,37,10,
+Static Function,"dump",multi-debugcallback.c,39,10,
+Static Function,"dump",tool_cb_dbg.c,40,10,
+Static Function,"dump",http2-download.c,37,10,
+Static Function,"dump",http2-upload.c,37,10,
+Static Function,"dump",debug.c,39,10,
+Function,"dumpNode",htmltidy.c,25,6,
+Function,"dumpeasysrc",tool_easysrc.c,50,15,
+Static Function,"dup_cookie",cookie.c,24,26,
+Static Function,"dupset",easy.c,25,6,
+Static Function,"dynconvert",ccsidcurl.c,33,8,
+File,"easy.c",easy.c,427,,115
+File,"easy.h",easy.h,12,,0
+Static Function,"easy_connection",easy.c,17,4,
+Static Function,"easy_perform",easy.c,39,12,
+Static Function,"easy_transfer",easy.c,35,10,
+File,"easyif.h",easyif.h,0,,0
+Function,"easysrc_add",tool_easysrc.c,12,2,
+Function,"easysrc_addf",tool_easysrc.c,17,2,
+Function,"easysrc_cleanup",tool_easysrc.c,6,5,
+Static Function,"easysrc_free",tool_easysrc.c,13,1,
+Function,"easysrc_init",tool_easysrc.c,6,3,
+Function,"easysrc_perform",tool_easysrc.c,23,21,
+Static Function,"encoder_7bit_read",mime.c,16,5,
+Static Function,"encoder_base64_read",mime.c,51,9,
+Static Function,"encoder_base64_size",mime.c,8,2,
+Static Function,"encoder_nop_read",mime.c,13,3,
+Static Function,"encoder_nop_size",mime.c,4,1,
+Static Function,"encoder_qp_read",mime.c,80,16,
+Static Function,"encoder_qp_size",mime.c,4,2,
+Static Function,"encrypt_des",curl_ntlm_core.c,31,3,
+Static Function,"endElement",xmlstream.c,6,1,
+File,"ephiperfifo.c",ephiperfifo.c,356,,58
+Static Function,"error_close_writer",content_encoding.c,6,1,
+Static Function,"error_init_writer",content_encoding.c,6,2,
+Static Function,"error_unencode_write",content_encoding.c,15,2,
+File,"escape.c",escape.c,144,,94
+File,"escape.h",escape.h,5,,0
+Static Function,"escape_string",mime.c,20,6,
+Static Function,"event_cb",ephiperfifo.c,15,4,
+Static Function,"event_cb",hiperfifo.c,17,5,
+Static Function,"event_cb",evhiperfifo.c,15,4,
+Static Function,"event_cb",asiohiper.cpp,36,8,
+Static Function,"event_cb",ghiper.c,22,5,
+File,"evhiperfifo.c",evhiperfifo.c,294,,44
+Static Function,"expect100",http.c,22,4,
+Static Function,"extend_key_56_to_64",curl_ntlm_core.c,11,1,
+File,"externalsocket.c",externalsocket.c,72,,10
+Static Function,"extract_if_dead",url.c,24,4,
+Struct,"fcurl_data",fopen.c,12,,0
+Static Function,"fd_key_compare",multi.c,5,1,
+Struct,"feat",tool_help.c,4,,0
+Static Function,"fetch_addr",hostip.c,27,4,
+Static Function,"fifo_cb",ghiper.c,49,9,
+Static Function,"fifo_cb",ephiperfifo.c,16,3,
+Static Function,"fifo_cb",hiperfifo.c,23,5,
+Static Function,"fifo_cb",evhiperfifo.c,17,3,
+File,"file.c",file.c,304,,65
+File,"file.h",file.h,6,,0
+Function,"file2memory",tool_paramhlp.c,42,13,
+Function,"file2string",tool_paramhlp.c,29,7,
+Static Function,"file_connect",file.c,40,8,
+Static Function,"file_disconnect",file.c,14,4,
+Static Function,"file_do",file.c,124,31,
+Static Function,"file_done",file.c,15,4,
+Static Function,"file_is_coming",ftp-wildcard.c,29,6,
+Static Function,"file_is_downloaded",ftp-wildcard.c,9,2,
+Static Function,"file_or_stdin",tool_formparse.c,42,11,
+Static Function,"file_setup_connection",file.c,7,2,
+Static Function,"file_upload",file.c,77,16,
+Struct,"fileinfo",fileinfo.h,4,,0
+File,"fileinfo.c",fileinfo.c,11,,4
+File,"fileinfo.h",fileinfo.h,6,,0
+Static Function,"fileinfo_dtor",wildcard.c,5,1,
+File,"fileupload.c",fileupload.c,39,,5
+Static Function,"fill_buffer",fopen.c,49,9,
+Static Function,"find_encoding",content_encoding.c,11,3,
+Static Function,"find_host_sep",urlapi.c,17,5,
+Static Function,"findprotocol",url.c,19,3,
+Static Function,"fix_hostname",url.c,24,5,
+Static Function,"fly",tool_cb_prg.c,29,5,
+Function,"follow_links",crawler.c,42,9,
+File,"fopen.c",fopen.c,324,,51
+File,"formdata.c",formdata.c,619,,165
+File,"formdata.h",formdata.h,22,,0
+Function,"formparse",tool_formparse.c,264,83,
+Static Function,"free_bundle_hash_entry",conncache.c,5,1,
+Static Function,"free_config_fields",tool_cfgable.c,96,72,
+Static Function,"free_config_fields",tool_main.c,11,5,
+Static Function,"free_fixed_hostname",url.c,4,1,
+Static Function,"free_urlhandle",urlapi.c,13,1,
+Static Function,"freecookie",cookie.c,12,1,
+Static Function,"freedirs",ftp.c,15,5,
+Static Function,"freednsentry",hostip.c,10,3,
+File,"ftp-wildcard.c",ftp-wildcard.c,86,,14
+File,"ftp.c",ftp.c,2722,,625
+File,"ftp.h",ftp.h,91,,0
+Static Function,"ftp_block_statemach",ftp.c,12,3,
+Struct,"ftp_conn",ftp.h,27,,0
+Static Function,"ftp_connect",ftp.c,22,3,
+Static Function,"ftp_disconnect",ftp.c,23,4,
+Static Function,"ftp_do",ftp.c,23,5,
+Static Function,"ftp_do_more",ftp.c,100,30,
+Static Function,"ftp_doing",ftp.c,12,5,
+Static Function,"ftp_domore_getsock",ftp.c,27,6,
+Static Function,"ftp_done",ftp.c,154,44,
+Static Function,"ftp_dophase_done",ftp.c,20,5,
+Static Function,"ftp_endofresp",ftp.c,10,2,
+Static Function,"ftp_epsv_disable",ftp.c,15,3,
+Static Function,"ftp_getsock",ftp.c,6,1,
+Static Function,"ftp_multi_statemach",ftp.c,8,2,
+Static Function,"ftp_nb_type",ftp.c,15,4,
+Static Function,"ftp_need_type",ftp.c,5,2,
+Static Function,"ftp_parse_url_path",ftp.c,137,30,
+Struct,"ftp_parselist_data",ftplistparser.c,29,,0
+Static Function,"ftp_pasv_verbose",ftp.c,10,1,
+Static Function,"ftp_perform",ftp.c,22,6,
+Static Function,"ftp_pl_get_permission",ftplistparser.c,59,25,
+Static Function,"ftp_pl_insert_finfo",ftplistparser.c,45,9,
+Static Function,"ftp_quit",ftp.c,18,3,
+Static Function,"ftp_readresp",ftp.c,20,3,
+Static Function,"ftp_regular_transfer",ftp.c,28,4,
+Static Function,"ftp_sendquote",ftp.c,32,7,
+Static Function,"ftp_setup_connection",ftp.c,43,9,
+Static Function,"ftp_state_acct_resp",ftp.c,13,2,
+Static Function,"ftp_state_cwd",ftp.c,29,8,
+Static Function,"ftp_state_get_resp",ftp.c,73,17,
+Static Function,"ftp_state_list",ftp.c,37,10,
+Static Function,"ftp_state_loggedin",ftp.c,12,3,
+Static Function,"ftp_state_mdtm",ftp.c,13,3,
+Static Function,"ftp_state_mdtm_resp",ftp.c,86,15,
+Static Function,"ftp_state_pasv_resp",ftp.c,129,29,
+Static Function,"ftp_state_port_resp",ftp.c,27,4,
+Static Function,"ftp_state_prepare_transfer",ftp.c,34,11,
+Static Function,"ftp_state_pwd",ftp.c,7,2,
+Static Function,"ftp_state_quote",ftp.c,81,21,
+Static Function,"ftp_state_rest",ftp.c,13,3,
+Static Function,"ftp_state_rest_resp",ftp.c,30,7,
+Static Function,"ftp_state_retr",ftp.c,56,10,
+Static Function,"ftp_state_retr_prequote",ftp.c,6,1,
+Static Function,"ftp_state_size",ftp.c,13,3,
+Static Function,"ftp_state_size_resp",ftp.c,32,7,
+Static Function,"ftp_state_stor_prequote",ftp.c,6,1,
+Static Function,"ftp_state_stor_resp",ftp.c,26,5,
+Static Function,"ftp_state_type",ftp.c,17,3,
+Static Function,"ftp_state_type_resp",ftp.c,23,7,
+Static Function,"ftp_state_ul_setup",ftp.c,59,14,
+Static Function,"ftp_state_use_pasv",ftp.c,13,3,
+Static Function,"ftp_state_use_port",ftp.c,231,42,
+Static Function,"ftp_state_user",ftp.c,9,3,
+Static Function,"ftp_state_user_resp",ftp.c,42,10,
+Static Function,"ftp_statemach_act",ftp.c,308,97,
+Static Function,"ftp_timeleft_accept",ftp.c,18,4,
+Struct,"ftp_wc",ftp.h,7,,0
+Function,"ftpcccmethod",tool_paramhlp.c,10,3,
+Function,"ftpfilemethod",tool_paramhlp.c,12,4,
+File,"ftpget.c",ftpget.c,41,,7
+File,"ftpgetinfo.c",ftpgetinfo.c,42,,6
+File,"ftpgetresp.c",ftpgetresp.c,30,,4
+File,"ftplistparser.c",ftplistparser.c,889,,185
+File,"ftplistparser.h",ftplistparser.h,6,,0
+File,"ftpsget.c",ftpsget.c,43,,7
+File,"ftpupload.c",ftpupload.c,49,,5
+File,"ftpuploadfrommem.c",ftpuploadfrommem.c,64,,8
+File,"ftpuploadresume.c",ftpuploadresume.c,85,,13
+Function,"fwrite_xattr",tool_xattr.c,6,1,
+Function,"get_args",tool_paramhlp.c,23,8,
+Static Function,"get_buffer",os400sys.c,25,8,
+Static Function,"get_char",strtoofft.c,17,5,
+Static Function,"get_http_string",http.c,7,2,
+Function,"get_libcurl_info",tool_libinfo.c,49,6,
+Static Function,"get_line",cookie.c,21,5,
+Static Function,"get_media_control_attribute",rtsp.c,15,3,
+Static Function,"get_netscape_format",cookie.c,21,8,
+Static Function,"get_param_part",tool_formparse.c,171,50,
+Static Function,"get_param_word",tool_formparse.c,44,12,
+Static Function,"get_posix_time",smb.c,11,3,
+Static Function,"get_pre_recved",sendf.c,27,9,
+Static Function,"get_protocol_family",url.c,76,29,
+Static Function,"get_sdp_filename",rtsp.c,12,3,
+Static Function,"get_top_domain",cookie.c,17,6,
+Function,"get_url_file_name",tool_operhlp.c,30,7,
+Static Function,"get_winsock_error",strerror.c,166,53,
+Static Function,"getcontentlengthfunc",ftpuploadresume.c,10,2,
+File,"getenv.c",getenv.c,14,,4
+Function,"getfiletime",tool_filetime.c,37,5,
+Static Function,"gethandleathead",url.c,8,2,
+File,"getinfo.c",getinfo.c,18,,4
+File,"getinfo.h",getinfo.h,2,,0
+File,"getinmemory.c",getinmemory.c,46,,4
+Struct,"getout",tool_sdecls.h,7,,0
+Function,"getparameter",tool_getparam.c,1367,740,
+Function,"getpass_r",tool_getpass.c,19,6,
+File,"getredirect.c",getredirect.c,30,,5
+Static Function,"getrpacketblock",tftp.c,4,1,
+Static Function,"getrpacketevent",tftp.c,4,1,
+File,"ghiper.c",ghiper.c,300,,52
+Function,"glob_cleanup",tool_urlglob.c,18,8,
+Static Function,"glob_fixed",tool_urlglob.c,17,3,
+Function,"glob_match_url",tool_urlglob.c,94,18,
+Function,"glob_next_url",tool_urlglob.c,85,17,
+Static Function,"glob_parse",tool_urlglob.c,61,13,
+Static Function,"glob_range",tool_urlglob.c,114,21,
+Static Function,"glob_set",tool_urlglob.c,71,17,
+Function,"glob_url",tool_urlglob.c,43,7,
+Static Function,"global_init",easy.c,31,11,
+File,"gopher.c",gopher.c,79,,11
+File,"gopher.h",gopher.h,1,,0
+Static Function,"gopher_do",gopher.c,58,11,
+Function,"grow_buffer",crawler.c,14,2,
+Static Function,"gsk_free_handle",os400sys.c,11,2,
+File,"gskit.c",gskit.c,0,,0
+File,"gskit.h",gskit.h,0,,0
+Struct,"gskstrlist",os400sys.c,5,,0
+File,"gtls.c",gtls.c,0,,0
+File,"gtls.h",gtls.h,0,,0
+Static Function,"handleCharacters",htmltitle.cpp,7,2,
+Function,"handle_error",opensslthreadlock.c,5,1,
+Static Function,"handle_socket",multi-uv.c,30,9,
+File,"hash.c",hash.c,189,,39
+File,"hash.h",hash.h,51,,0
+Static Function,"hash_element_dtor",hash.c,12,2,
+Static Function,"hash_fd",multi.c,6,1,
+Static Function,"hashkey",conncache.c,15,5,
+Static Function,"header_append",http.c,30,5,
+Function,"helpf",tool_msgs.c,13,2,
+Struct,"helptxt",tool_help.c,4,,0
+File,"hiperfifo.c",hiperfifo.c,286,,47
+File,"hmac.c",hmac.c,62,,8
+Static Function,"hnd2num",http2-download.c,9,3,
+Static Function,"hnd2num",http2-upload.c,9,3,
+Function,"homedir",tool_homedir.c,14,4,
+File,"hostasyn.c",hostasyn.c,0,,0
+Static Function,"hostcache_prune",hostip.c,10,1,
+Struct,"hostcache_prune_data",hostip.c,4,,0
+Static Function,"hostcache_timestamp_remove",hostip.c,9,1,
+File,"hostcheck.c",hostcheck.c,0,,0
+File,"hostcheck.h",hostcheck.h,1,,0
+File,"hostip.c",hostip.c,501,,104
+File,"hostip.h",hostip.h,57,,0
+File,"hostip4.c",hostip4.c,37,,8
+File,"hostip6.c",hostip6.c,0,,0
+Struct,"hostname",urldata.h,6,,0
+Static Function,"hostname_check",urlapi.c,23,5,
+File,"hostsyn.c",hostsyn.c,28,,4
+File,"href_extractor.c",href_extractor.c,40,,7
+File,"htmltidy.c",htmltidy.c,79,,13
+File,"htmltitle.cpp",htmltitle.cpp,156,,23
+File,"http-post.c",http-post.c,18,,3
+File,"http.c",http.c,2324,,570
+File,"http.h",http.h,76,,0
+File,"http2-download.c",http2-download.c,165,,34
+File,"http2-pushinmemory.c",http2-pushinmemory.c,99,,14
+File,"http2-serverpush.c",http2-serverpush.c,183,,32
+File,"http2-upload.c",http2-upload.c,209,,37
+File,"http2.c",http2.c,12,,2
+File,"http2.h",http2.h,0,,0
+File,"http_chunks.c",http_chunks.c,189,,47
+File,"http_chunks.h",http_chunks.h,29,,0
+Struct,"http_conn",http.h,3,,0
+Struct,"http_connect_state",urldata.h,15,,0
+File,"http_digest.c",http_digest.c,90,,19
+File,"http_digest.h",http_digest.h,7,,0
+Static Function,"http_getsock_do",http.c,8,1,
+File,"http_negotiate.c",http_negotiate.c,0,,0
+File,"http_negotiate.h",http_negotiate.h,0,,0
+File,"http_ntlm.c",http_ntlm.c,128,,33
+File,"http_ntlm.h",http_ntlm.h,4,,0
+Static Function,"http_output_basic",http.c,43,7,
+Static Function,"http_output_bearer",http.c,15,2,
+Static Function,"http_perhapsrewind",http.c,68,18,
+File,"http_proxy.c",http_proxy.c,423,,99
+File,"http_proxy.h",http_proxy.h,7,,0
+Static Function,"http_should_fail",http.c,21,9,
+File,"httpcustomheader.c",httpcustomheader.c,23,,3
+File,"httpput.c",httpput.c,44,,5
+File,"https.c",https.c,17,,3
+Static Function,"https_proxy_connect",http_proxy.c,6,1,
+Static Function,"ia5string",curlx.c,10,2,
+Static Function,"iconv_open_CCSID",ccsidcurl.c,13,2,
+Static Function,"id_function",opensslthreadlock.c,4,1,
+Static Function,"identity_close_writer",content_encoding.c,6,1,
+Static Function,"identity_init_writer",content_encoding.c,6,2,
+Static Function,"identity_unencode_write",content_encoding.c,6,1,
+File,"idn_win32.c",idn_win32.c,0,,0
+File,"if2ip.c",if2ip.c,22,,3
+File,"if2ip.h",if2ip.h,10,,0
+File,"imap-append.c",imap-append.c,63,,7
+File,"imap-copy.c",imap-copy.c,18,,3
+File,"imap-create.c",imap-create.c,18,,3
+File,"imap-delete.c",imap-delete.c,18,,3
+File,"imap-examine.c",imap-examine.c,18,,3
+File,"imap-fetch.c",imap-fetch.c,18,,3
+File,"imap-list.c",imap-list.c,17,,3
+File,"imap-lsub.c",imap-lsub.c,18,,3
+File,"imap-multi.c",imap-multi.c,85,,13
+File,"imap-noop.c",imap-noop.c,18,,3
+File,"imap-search.c",imap-search.c,18,,3
+File,"imap-ssl.c",imap-ssl.c,19,,3
+File,"imap-store.c",imap-store.c,25,,4
+File,"imap-tls.c",imap-tls.c,21,,3
+File,"imap.c",imap.c,1211,,361
+File,"imap.h",imap.h,47,,0
+Static Function,"imap_atom",imap.c,53,14,
+Static Function,"imap_block_statemach",imap.c,8,2,
+Struct,"imap_conn",imap.h,15,,0
+Static Function,"imap_connect",imap.c,22,2,
+Static Function,"imap_continue_authenticate",imap.c,6,1,
+Static Function,"imap_disconnect",imap.c,12,5,
+Static Function,"imap_do",imap.c,13,3,
+Static Function,"imap_doing",imap.c,11,5,
+Static Function,"imap_done",imap.c,38,16,
+Static Function,"imap_dophase_done",imap.c,8,2,
+Static Function,"imap_endofresp",imap.c,70,17,
+Static Function,"imap_get_message",imap.c,21,6,
+Static Function,"imap_getsock",imap.c,5,1,
+Static Function,"imap_init",imap.c,10,2,
+Static Function,"imap_is_bchar",imap.c,24,81,
+Static Function,"imap_matchresp",imap.c,18,5,
+Static Function,"imap_multi_statemach",imap.c,13,4,
+Static Function,"imap_parse_custom_request",imap.c,22,6,
+Static Function,"imap_parse_url_options",imap.c,35,8,
+Static Function,"imap_parse_url_path",imap.c,87,24,
+Static Function,"imap_perform",imap.c,39,12,
+Static Function,"imap_perform_append",imap.c,41,10,
+Static Function,"imap_perform_authenticate",imap.c,13,2,
+Static Function,"imap_perform_authentication",imap.c,23,5,
+Static Function,"imap_perform_capability",imap.c,12,2,
+Static Function,"imap_perform_fetch",imap.c,34,10,
+Static Function,"imap_perform_list",imap.c,20,6,
+Static Function,"imap_perform_login",imap.c,19,5,
+Static Function,"imap_perform_logout",imap.c,8,2,
+Static Function,"imap_perform_search",imap.c,13,3,
+Static Function,"imap_perform_select",imap.c,22,6,
+Static Function,"imap_perform_starttls",imap.c,8,2,
+Static Function,"imap_perform_upgrade_tls",imap.c,15,5,
+Static Function,"imap_regular_transfer",imap.c,16,2,
+Static Function,"imap_sendf",imap.c,19,3,
+Static Function,"imap_setup_connection",imap.c,8,2,
+Static Function,"imap_state_append_final_resp",imap.c,12,2,
+Static Function,"imap_state_append_resp",imap.c,16,2,
+Static Function,"imap_state_auth_resp",imap.c,28,5,
+Static Function,"imap_state_capability_resp",imap.c,60,15,
+Static Function,"imap_state_fetch_final_resp",imap.c,12,2,
+Static Function,"imap_state_fetch_resp",imap.c,67,14,
+Static Function,"imap_state_listsearch_resp",imap.c,19,3,
+Static Function,"imap_state_login_resp",imap.c,15,2,
+Static Function,"imap_state_select_resp",imap.c,38,8,
+Static Function,"imap_state_servergreet_resp",imap.c,17,3,
+Static Function,"imap_state_starttls_resp",imap.c,19,3,
+Static Function,"imap_statemach_act",imap.c,65,20,
+File,"inet_ntop.c",inet_ntop.c,29,,5
+File,"inet_ntop.h",inet_ntop.h,1,,0
+Static Function,"inet_ntop4",inet_ntop.c,19,3,
+File,"inet_pton.c",inet_pton.c,52,,12
+File,"inet_pton.h",inet_pton.h,1,,0
+Static Function,"inet_pton4",inet_pton.c,40,10,
+Static Function,"init",10-at-a-time.c,10,1,
+Static Function,"init",htmltitle.cpp,35,7,
+Static Function,"init_fifo",evhiperfifo.c,29,5,
+Function,"init_fifo",ghiper.c,25,5,
+Static Function,"init_fifo",ephiperfifo.c,31,5,
+Static Function,"init_fifo",hiperfifo.c,29,5,
+Static Function,"init_locks",threaded-shared-conn.c,4,1,
+Static Function,"init_locks",threaded-ssl.c,11,2,
+Static Function,"init_memory",http2-pushinmemory.c,5,1,
+Static Function,"init_telnet",telnet.c,18,2,
+Static Function,"init_wc_data",ftp.c,73,13,
+Struct,"initurl",threaded-shared-conn.c,5,,0
+Struct,"input",http2-upload.c,5,,0
+Static Function,"isBadFtpString",ftp.c,5,2,
+Static Function,"is_ASCII_name",url.c,9,3,
+Static Function,"is_fatal_error",tool_operate.c,14,6,
+Function,"is_html",crawler.c,4,1,
+Static Function,"is_pkcs11_uri",tool_operate.c,9,2,
+Static Function,"isip",cookie.c,9,2,
+Struct,"itmlst_3",curl_crtl_init.c,6,,0
+Static Function,"junkscan",urlapi.c,18,3,
+Static Function,"kill_locks",threaded-shared-conn.c,4,1,
+Static Function,"kill_locks",threaded-ssl.c,8,2,
+File,"krb5.c",krb5.c,0,,0
+File,"krb5_gssapi.c",krb5_gssapi.c,0,,0
+File,"krb5_sspi.c",krb5_sspi.c,0,,0
+File,"ldap.c",ldap.c,503,,110
+Static Function,"ldap_win_bind",ldap.c,15,4,
+Static Function,"libcurl_generate_mime",tool_setopt.c,116,78,
+Static Function,"libcurl_generate_slist",tool_setopt.c,21,15,
+File,"llist.c",llist.c,123,,25
+File,"llist.h",llist.h,21,,0
+Static Function,"llist_dtor",url.c,5,1,
+Static Function,"lock_callback",threaded-ssl.c,11,2,
+Static Function,"lock_cb",threaded-shared-conn.c,9,1,
+Static Function,"locking_function",opensslthreadlock.c,7,2,
+Static Function,"loop",curl_fnmatch.c,85,35,
+File,"macos_main.cpp",macos_main.cpp,12,,2
+Function,"main",asiohiper.cpp,17,1,
+Function,"main",macos_main.cpp,9,2,
+Function,"main",htmltitle.cpp,24,4,
+Function,"main",https.c,17,3,
+Function,"main",multi-single.c,36,5,
+Function,"main",sslbackend.c,28,6,
+Function,"main",ephiperfifo.c,66,9,
+Function,"main",smtp-mime.c,47,4,
+Function,"main",pop3-uidl.c,18,3,
+Function,"main",ftpget.c,27,4,
+Function,"main",curlx.c,246,50,
+Function,"main",smtp-tls.c,31,3,
+Function,"main",ghiper.c,21,1,
+Function,"main",crawler.c,59,8,
+Function,"main",ftpuploadresume.c,11,1,
+Function,"main",imap-delete.c,18,3,
+Function,"main",smtp-expn.c,20,3,
+Function,"main",curlgtk.c,26,2,
+Function,"main",cookie_interface.c,57,6,
+Function,"main",httpcustomheader.c,23,3,
+Function,"main",anyauthput.c,37,4,
+Function,"main",multi-uv.c,20,4,
+Function,"main",pop3-retr.c,17,3,
+Function,"main",http-post.c,18,3,
+Function,"main",ftpsget.c,28,4,
+Function,"main",pop3-top.c,18,3,
+Function,"main",htmltidy.c,47,6,
+Function,"main",chkspeed.c,117,26,
+Function,"main",simplessl.c,50,8,
+Function,"main",externalsocket.c,43,6,
+Function,"main",pop3-list.c,17,3,
+Function,"main",imap-fetch.c,18,3,
+Function,"main",imap-create.c,18,3,
+Function,"main",imap-list.c,17,3,
+Function,"main",ftpgetinfo.c,36,5,
+Function,"main",smtp-mail.c,26,3,
+Function,"main",usercertinmem.c,38,3,
+Function,"main",progressfunc.c,20,3,
+Function,"main",certinfo.c,32,6,
+Function,"main",getinfo.c,18,4,
+Function,"main",sftpuploadresume.c,14,2,
+Function,"main",simplepost.c,18,3,
+Function,"main",postit2-formadd.c,41,4,
+Function,"main",imap-ssl.c,19,3,
+Function,"main",sepheaders.c,31,3,
+Function,"main",evhiperfifo.c,21,1,
+Function,"main",xmlstream.c,41,4,
+Function,"main",imap-append.c,29,4,
+Function,"main",multithread.c,22,4,
+Function,"main",imap-lsub.c,18,3,
+Function,"main",href_extractor.c,25,2,
+Function,"main",pop3-tls.c,20,3,
+Function,"main",threaded-ssl.c,26,4,
+Function,"main",multi-debugcallback.c,61,8,
+Function,"main",postinmemory.c,31,3,
+Function,"main",multi-double.c,62,8,
+Function,"main",persistent.c,23,4,
+Function,"main",hiperfifo.c,19,1,
+Function,"main",ftpgetresp.c,24,3,
+Function,"main",pop3-noop.c,19,3,
+Function,"main",pop3-multi.c,73,11,
+Function,"main",postit2.c,36,4,
+Function,"main",imap-store.c,25,4,
+Function,"main",sendrecv.c,68,13,
+Function,"main",fopen.c,67,10,
+Function,"main",url2file.c,25,3,
+Function,"main",getinmemory.c,26,2,
+Function,"main",debug.c,21,3,
+Function,"main",multi-post.c,81,9,
+Function,"main",imap-copy.c,18,3,
+Function,"main",smtp-ssl.c,29,3,
+Function,"main",shared-connection-cache.c,25,4,
+Function,"main",resolve.c,16,2,
+Function,"main",rtsp.c,80,11,
+Function,"main",sftpget.c,28,4,
+Function,"main",sampleconv.c,18,2,
+Function,"main",post-callback.c,30,4,
+Function,"main",smtp-multi.c,82,11,
+Function,"main",pop3-stat.c,19,3,
+Function,"main",http2-pushinmemory.c,40,7,
+Function,"main",http2-upload.c,70,13,
+Function,"main",imap-noop.c,18,3,
+Function,"main",sessioninfo.c,16,2,
+Function,"main",http2-download.c,66,12,
+Function,"main",imap-tls.c,21,3,
+Function,"main",ftp-wildcard.c,28,4,
+Function,"main",synctime.c,95,14,
+Function,"main",imap-search.c,18,3,
+Function,"main",threaded-shared-conn.c,32,4,
+Function,"main",10-at-a-time.c,67,12,
+Function,"main",multi-formadd.c,86,9,
+Function,"main",multi-app.c,83,17,
+Function,"main",simple.c,16,3,
+Function,"main",pop3-dele.c,19,3,
+Function,"main",httpput.c,34,4,
+Function,"main",fileupload.c,39,5,
+Function,"main",ftpuploadfrommem.c,33,4,
+Function,"main",tool_main.c,16,3,
+Function,"main",ftpupload.c,40,4,
+Function,"main",parseurl.c,34,7,
+Function,"main",getredirect.c,30,5,
+Function,"main",cacertinmem.c,35,3,
+Function,"main",http2-serverpush.c,71,10,
+Function,"main",imap-examine.c,18,3,
+Function,"main",smtp-vrfy.c,19,3,
+Function,"main",imap-multi.c,73,11,
+Function,"main",pop3-ssl.c,18,3,
+Function,"main",report_openssl_version.c,43,7,
+Function,"main",smooth-gtk-thread.c,33,2,
+Static Function,"main_checkfds",tool_main.c,3,1,
+Static Function,"main_free",tool_main.c,12,3,
+Static Function,"main_init",tool_main.c,40,5,
+Static Function,"makeOS400IconvCode",ccsidcurl.c,9,2,
+Function,"make_handle",crawler.c,25,1,
+Static Function,"match_header",mime.c,8,3,
+Static Function,"max5data",progress.c,24,8,
+Static Function,"max_pipeline_length",url.c,4,2,
+File,"mbedtls.c",mbedtls.c,0,,0
+File,"mbedtls.h",mbedtls.h,0,,0
+Static Function,"mcode_or_die",ephiperfifo.c,20,9,
+Static Function,"mcode_or_die",hiperfifo.c,20,9,
+Static Function,"mcode_or_die",ghiper.c,18,9,
+Static Function,"mcode_or_die",asiohiper.cpp,38,10,
+Static Function,"mcode_or_die",evhiperfifo.c,35,9,
+File,"md4.c",md4.c,0,,0
+File,"md5.c",md5.c,84,,13
+File,"memdebug.c",memdebug.c,0,,0
+File,"memdebug.h",memdebug.h,0,,0
+File,"mesalink.c",mesalink.c,0,,0
+File,"mesalink.h",mesalink.h,0,,0
+Struct,"metalink_checksum",tool_metalink.h,4,,0
+Struct,"metalink_resource",tool_metalink.h,4,,0
+Struct,"metalinkfile",tool_metalink.h,6,,0
+File,"mime.c",mime.c,1202,,328
+File,"mime.h",mime.h,87,,0
+Static Function,"mime_file_free",mime.c,10,3,
+Static Function,"mime_file_read",mime.c,8,2,
+Static Function,"mime_file_seek",mime.c,10,4,
+Static Function,"mime_mem_free",mime.c,4,2,
+Static Function,"mime_mem_read",mime.c,13,3,
+Static Function,"mime_mem_seek",mime.c,16,4,
+Static Function,"mime_open_file",mime.c,7,3,
+Static Function,"mime_part_rewind",mime.c,29,9,
+Static Function,"mime_string_call",ccsidcurl.c,15,3,
+Static Function,"mime_subparts_free",mime.c,9,2,
+Static Function,"mime_subparts_read",mime.c,54,17,
+Static Function,"mime_subparts_seek",mime.c,18,6,
+Static Function,"mime_subparts_unbind",mime.c,9,2,
+Static Function,"mimesetstate",mime.c,6,1,
+Static Function,"mk_hash_element",hash.c,12,2,
+File,"mprintf.c",mprintf.c,777,,257
+File,"mprintf.h",mprintf.h,12,,0
+Static Function,"mstate",multi.c,33,4,
+File,"multi-app.c",multi-app.c,83,,17
+File,"multi-debugcallback.c",multi-debugcallback.c,130,,24
+File,"multi-double.c",multi-double.c,62,,8
+File,"multi-formadd.c",multi-formadd.c,86,,9
+File,"multi-post.c",multi-post.c,81,,9
+File,"multi-single.c",multi-single.c,36,,5
+File,"multi-uv.c",multi-uv.c,152,,29
+File,"multi.c",multi.c,1866,,466
+File,"multi.h",multi.h,104,,0
+Static Function,"multi_addmsg",multi.c,7,1,
+Static Function,"multi_addtimeout",multi.c,26,4,
+Static Function,"multi_deltimeout",multi.c,13,3,
+Static Function,"multi_do",multi.c,23,6,
+Static Function,"multi_do_more",multi.c,10,3,
+Static Function,"multi_done",multi.c,86,25,
+Static Function,"multi_freeamsg",multi.c,5,1,
+Static Function,"multi_getsock",multi.c,33,14,
+Static Function,"multi_ischanged",multi.c,7,2,
+Static Function,"multi_reconnect_request",multi.c,27,6,
+Static Function,"multi_runsingle",multi.c,570,134,
+Static Function,"multi_socket",multi.c,80,23,
+Static Function,"multi_timeout",multi.c,21,8,
+Static Function,"multi_timer_cb",ephiperfifo.c,24,3,
+Static Function,"multi_timer_cb",hiperfifo.c,18,3,
+Static Function,"multi_timer_cb",evhiperfifo.c,13,3,
+Static Function,"multi_timer_cb",asiohiper.cpp,14,3,
+File,"multihandle.h",multihandle.h,57,,0
+File,"multiif.h",multiif.h,20,,0
+Static Function,"multipart_size",mime.c,18,5,
+Static Function,"multiply",tool_urlglob.c,12,3,
+File,"multithread.c",multithread.c,37,,5
+Static Function,"mv_urlhandle",urlapi.c,7,1,
+Static Function,"my_conv_from_ascii_to_ebcdic",sampleconv.c,14,2,
+Static Function,"my_conv_from_ebcdic_to_ascii",sampleconv.c,14,2,
+Static Function,"my_conv_from_utf8_to_ebcdic",sampleconv.c,14,2,
+Static Function,"my_fwrite",sftpget.c,11,3,
+Static Function,"my_fwrite",ftpsget.c,11,3,
+Static Function,"my_fwrite",ftpget.c,10,3,
+Static Function,"my_get_ext",curlx.c,19,5,
+Static Function,"my_get_line",tool_parsecfg.c,30,8,
+Static Function,"my_ioctl",anyauthput.c,15,3,
+Static Function,"my_lock",shared-connection-cache.c,9,1,
+Function,"my_progress_func",curlgtk.c,11,1,
+Function,"my_read_func",curlgtk.c,4,1,
+Function,"my_thread",curlgtk.c,23,2,
+Static Function,"my_timegm",parsedate.c,22,3,
+Struct,"my_tm",parsedate.c,8,,0
+Static Function,"my_trace",http2-serverpush.c,35,8,
+Static Function,"my_trace",http2-download.c,36,8,
+Static Function,"my_trace",http2-upload.c,51,9,
+Static Function,"my_trace",multi-debugcallback.c,29,6,
+Static Function,"my_trace",debug.c,35,8,
+Static Function,"my_unlock",shared-connection-cache.c,7,1,
+Static Function,"my_useragent",tool_paramhlp.c,4,1,
+Function,"my_write_func",curlgtk.c,4,1,
+Struct,"myprogress",progressfunc.c,4,,0
+Struct,"namebuff",curl_addrinfo.c,7,,0
+Static Function,"negotiate",telnet.c,13,5,
+File,"netrc.c",netrc.c,151,,37
+File,"netrc.h",netrc.h,6,,0
+Static Function,"new_conn",ephiperfifo.c,30,2,
+Static Function,"new_conn",hiperfifo.c,28,2,
+Static Function,"new_conn",evhiperfifo.c,29,2,
+Static Function,"new_conn",ghiper.c,30,3,
+Static Function,"new_conn",asiohiper.cpp,30,2,
+Function,"new_getout",tool_paramhlp.c,14,3,
+Static Function,"new_unencoding_writer",content_encoding.c,16,3,
+File,"non-ascii.c",non-ascii.c,0,,0
+File,"non-ascii.h",non-ascii.h,0,,0
+File,"nonblock.c",nonblock.c,6,,2
+File,"nonblock.h",nonblock.h,2,,0
+Function,"notef",tool_msgs.c,8,2,
+Struct,"nsprintf",mprintf.c,5,,0
+File,"nss.c",nss.c,0,,0
+File,"nssg.h",nssg.h,0,,0
+File,"ntlm.c",ntlm.c,367,,50
+File,"ntlm.h",ntlm.h,0,,0
+Static Function,"ntlm_decode_type2_target",ntlm.c,26,5,
+File,"ntlm_sspi.c",ntlm_sspi.c,0,,0
+Struct,"ntlmdata",urldata.h,7,,0
+File,"nwlib.c",nwlib.c,0,,0
+File,"nwos.c",nwos.c,0,,0
+File,"oauth2.c",oauth2.c,23,,4
+Static Function,"older_progress",progressfunc.c,10,1,
+Static Function,"on_timeout",multi-uv.c,7,1,
+File,"openldap.c",openldap.c,0,,0
+Static Function,"opensocket",externalsocket.c,10,1,
+Static Function,"opensocket",asiohiper.cpp,24,3,
+File,"openssl.c",openssl.c,0,,0
+File,"openssl.h",openssl.h,0,,0
+File,"opensslthreadlock.c",opensslthreadlock.c,42,,10
+Function,"operate",tool_operate.c,59,16,
+Static Function,"operate_do",tool_operate.c,1161,721,
+File,"os400sys.c",os400sys.c,909,,175
+File,"os400sys.h",os400sys.h,15,,0
+Function,"ourWriteOut",tool_writeout.c,256,76,
+Static Function,"output_auth_headers",http.c,60,17,
+Function,"output_expected",tool_operhlp.c,8,3,
+Static Function,"override_login",url.c,81,21,
+Function,"param2text",tool_helpers.c,32,13,
+Static Function,"parseHtml",htmltitle.cpp,12,1,
+Static Function,"parseStreamCallback",xmlstream.c,15,2,
+Function,"parse_args",tool_getparam.c,56,11,
+Static Function,"parse_cert_parameter",tool_getparam.c,71,13,
+Static Function,"parse_connect_to_host_port",url.c,52,9,
+Static Function,"parse_connect_to_slist",url.c,35,6,
+Static Function,"parse_connect_to_string",url.c,54,10,
+Static Function,"parse_filename",tool_cb_hdr.c,55,15,
+Static Function,"parse_hostname_login",urlapi.c,41,8,
+Static Function,"parse_port",urlapi.c,44,10,
+Static Function,"parse_proxy",url.c,141,42,
+Static Function,"parse_proxy_auth",url.c,23,4,
+Static Function,"parse_remote_port",url.c,14,3,
+Function,"parseconfig",tool_parsecfg.c,152,46,
+Static Function,"parsedate",parsedate.c,150,33,
+File,"parsedate.c",parsedate.c,344,,57
+File,"parsedate.h",parsedate.h,3,,0
+Static Function,"parsekeyword",curl_fnmatch.c,52,18,
+Static Function,"parseurl",urlapi.c,9,2,
+File,"parseurl.c",parseurl.c,34,,7
+Static Function,"parseurlandfillconn",url.c,121,32,
+Static Function,"pathmatch",cookie.c,45,10,
+Static Function,"pausewrite",sendf.c,45,10,
+Static Function,"payload_source",smtp-multi.c,16,3,
+Static Function,"payload_source",smtp-ssl.c,16,3,
+Static Function,"payload_source",imap-append.c,16,3,
+Static Function,"payload_source",smtp-tls.c,16,3,
+Static Function,"payload_source",smtp-mail.c,16,3,
+Static Function,"peek_ipv6",tool_urlglob.c,23,7,
+File,"persistent.c",persistent.c,23,,4
+Static Function,"pickoneauth",http.c,24,7,
+Struct,"pingpong",pingpong.h,16,,0
+File,"pingpong.c",pingpong.c,298,,64
+File,"pingpong.h",pingpong.h,40,,0
+Static Function,"pipe_head",pipeline.c,10,4,
+File,"pipeline.c",pipeline.c,235,,50
+File,"pipeline.h",pipeline.h,24,,0
+File,"polarssl.c",polarssl.c,0,,0
+File,"polarssl.h",polarssl.h,0,,0
+File,"polarssl_threadlock.c",polarssl_threadlock.c,0,,0
+File,"polarssl_threadlock.h",polarssl_threadlock.h,0,,0
+Struct,"pollfd",select.h,6,,0
+File,"pop3-dele.c",pop3-dele.c,19,,3
+File,"pop3-list.c",pop3-list.c,17,,3
+File,"pop3-multi.c",pop3-multi.c,85,,13
+File,"pop3-noop.c",pop3-noop.c,19,,3
+File,"pop3-retr.c",pop3-retr.c,17,,3
+File,"pop3-ssl.c",pop3-ssl.c,18,,3
+File,"pop3-stat.c",pop3-stat.c,19,,3
+File,"pop3-tls.c",pop3-tls.c,20,,3
+File,"pop3-top.c",pop3-top.c,18,,3
+File,"pop3-uidl.c",pop3-uidl.c,18,,3
+File,"pop3.c",pop3.c,825,,183
+File,"pop3.h",pop3.h,34,,0
+Static Function,"pop3_block_statemach",pop3.c,8,2,
+Struct,"pop3_conn",pop3.h,12,,0
+Static Function,"pop3_connect",pop3.c,21,2,
+Static Function,"pop3_continue_auth",pop3.c,6,1,
+Static Function,"pop3_disconnect",pop3.c,11,4,
+Static Function,"pop3_do",pop3.c,13,3,
+Static Function,"pop3_doing",pop3.c,11,5,
+Static Function,"pop3_done",pop3.c,18,5,
+Static Function,"pop3_dophase_done",pop3.c,6,1,
+Static Function,"pop3_endofresp",pop3.c,25,6,
+Static Function,"pop3_get_message",pop3.c,21,6,
+Static Function,"pop3_getsock",pop3.c,5,1,
+Static Function,"pop3_init",pop3.c,10,2,
+Static Function,"pop3_multi_statemach",pop3.c,13,4,
+Static Function,"pop3_parse_custom_request",pop3.c,10,2,
+Static Function,"pop3_parse_url_options",pop3.c,42,10,
+Static Function,"pop3_parse_url_path",pop3.c,7,1,
+Static Function,"pop3_perform",pop3.c,19,6,
+Static Function,"pop3_perform_apop",pop3.c,27,5,
+Static Function,"pop3_perform_auth",pop3.c,14,2,
+Static Function,"pop3_perform_authentication",pop3.c,28,8,
+Static Function,"pop3_perform_capa",pop3.c,12,2,
+Static Function,"pop3_perform_command",pop3.c,25,7,
+Static Function,"pop3_perform_quit",pop3.c,8,2,
+Static Function,"pop3_perform_starttls",pop3.c,8,2,
+Static Function,"pop3_perform_upgrade_tls",pop3.c,15,5,
+Static Function,"pop3_perform_user",pop3.c,13,4,
+Static Function,"pop3_regular_transfer",pop3.c,16,2,
+Static Function,"pop3_setup_connection",pop3.c,8,2,
+Static Function,"pop3_state_apop_resp",pop3.c,14,2,
+Static Function,"pop3_state_auth_resp",pop3.c,31,6,
+Static Function,"pop3_state_capa_resp",pop3.c,62,14,
+Static Function,"pop3_state_command_resp",pop3.c,31,7,
+Static Function,"pop3_state_pass_resp",pop3.c,14,2,
+Static Function,"pop3_state_servergreet_resp",pop3.c,36,7,
+Static Function,"pop3_state_starttls_resp",pop3.c,19,3,
+Static Function,"pop3_state_user_resp",pop3.c,17,4,
+Static Function,"pop3_statemach_act",pop3.c,51,15,
+File,"post-callback.c",post-callback.c,56,,7
+File,"postinmemory.c",postinmemory.c,51,,5
+File,"postit2-formadd.c",postit2-formadd.c,41,,4
+File,"postit2.c",postit2.c,36,,4
+Struct,"postponed_data",urldata.h,6,,0
+Static Function,"pre_receive_plain",sendf.c,31,7,
+Static Function,"print_cookies",cookie_interface.c,26,4,
+Static Function,"print_http_error",http.c,23,5,
+Static Function,"printoption",telnet.c,33,12,
+Static Function,"printsub",telnet.c,106,31,
+Static Function,"process_pending_handles",multi.c,11,3,
+Static Function,"prog_cb",ephiperfifo.c,7,1,
+Static Function,"prog_cb",hiperfifo.c,7,1,
+Static Function,"prog_cb",evhiperfifo.c,9,1,
+Static Function,"prog_cb",ghiper.c,7,1,
+Static Function,"prog_cb",asiohiper.cpp,10,1,
+File,"progress.c",progress.c,370,,81
+File,"progress.h",progress.h,29,,0
+Function,"progressbarinit",tool_cb_prg.c,36,8,
+File,"progressfunc.c",progressfunc.c,54,,7
+Function,"proto2num",tool_paramhlp.c,85,17,
+Struct,"proto_name_pattern",tool_libinfo.c,4,,0
+Struct,"proxy_info",urldata.h,7,,0
+Static Function,"proxy_info_matches",url.c,10,2,
+Static Function,"prune_dead_connections",url.c,15,3,
+Struct,"prunedead",url.c,4,,0
+File,"psl.c",psl.c,0,,0
+File,"psl.h",psl.h,0,,0
+Static Function,"pull_one_url",threaded-ssl.c,11,1,
+Static Function,"pull_one_url",multithread.c,9,1,
+Function,"pull_one_url",smooth-gtk-thread.c,31,3,
+Function,"pulse_bar",smooth-gtk-thread.c,7,1,
+Static Function,"qp_lookahead_eol",mime.c,12,5,
+File,"rand.c",rand.c,64,,14
+File,"rand.h",rand.h,3,,0
+Static Function,"randit",rand.c,22,3,
+Static Function,"read_callback",ftpupload.c,9,1,
+Static Function,"read_callback",ftpuploadfrommem.c,17,4,
+Static Function,"read_callback",httpput.c,10,1,
+Static Function,"read_callback",http2-upload.c,7,1,
+Static Function,"read_callback",anyauthput.c,12,1,
+Static Function,"read_callback",post-callback.c,15,3,
+Static Function,"read_encoded_part_content",mime.c,52,18,
+Static Function,"read_field_headers",tool_formparse.c,56,15,
+Static Function,"read_part_content",mime.c,8,2,
+Static Function,"read_rewind",transfer.c,7,2,
+Static Function,"readback_bytes",mime.c,24,4,
+Static Function,"readback_part",mime.c,69,22,
+Static Function,"readfunc",sftpuploadresume.c,9,2,
+Static Function,"readfunc",ftpuploadresume.c,9,2,
+Static Function,"readmoredata",http.c,31,5,
+Static Function,"readwrite_data",transfer.c,265,67,
+Static Function,"readwrite_upload",transfer.c,127,30,
+Static Function,"rec_do",telnet.c,50,13,
+Static Function,"rec_dont",telnet.c,36,9,
+Static Function,"rec_will",telnet.c,40,10,
+Static Function,"rec_wont",telnet.c,36,9,
+Static Function,"remove_expired",cookie.c,27,5,
+Static Function,"remsock",evhiperfifo.c,9,3,
+Static Function,"remsock",ephiperfifo.c,9,3,
+Static Function,"remsock",asiohiper.cpp,7,2,
+Static Function,"remsock",hiperfifo.c,7,2,
+Static Function,"remsock",ghiper.c,10,3,
+Static Function,"rename_if_reserved_dos_device_name",tool_doswin.c,69,22,
+File,"report_openssl_version.c",report_openssl_version.c,47,,7
+Static Function,"request_state",smb.c,6,1,
+File,"resolve.c",resolve.c,16,,2
+Static Function,"resolve_server",url.c,51,13,
+Static Function,"restore_terminal",tool_main.c,4,1,
+Static Function,"reuse_conn",url.c,57,20,
+File,"rtsp.c",rtsp.c,175,,43
+File,"rtsp.h",rtsp.h,12,,0
+Struct,"rtsp_conn",rtsp.h,5,,0
+Static Function,"rtsp_describe",rtsp.c,21,7,
+Static Function,"rtsp_options",rtsp.c,8,4,
+Static Function,"rtsp_play",rtsp.c,10,6,
+Static Function,"rtsp_setup",rtsp.c,10,5,
+Static Function,"rtsp_teardown",rtsp.c,7,3,
+Static Function,"run_thread",threaded-shared-conn.c,16,2,
+Struct,"s_tls_max",tool_paramhlp.c,4,,0
+File,"sampleconv.c",sampleconv.c,60,,8
+Static Function,"sanitize_cookie_path",cookie.c,25,6,
+Function,"sanitize_file_name",tool_doswin.c,80,21,
+File,"schannel.c",schannel.c,0,,0
+File,"schannel.h",schannel.h,0,,0
+File,"schannel_verify.c",schannel_verify.c,0,,0
+Static Function,"search_header",mime.c,8,2,
+File,"security.c",security.c,0,,0
+File,"select.c",select.c,219,,70
+File,"select.h",select.h,12,,0
+Static Function,"send_negotiation",telnet.c,15,2,
+Static Function,"send_telnet_data",telnet.c,51,11,
+File,"sendf.c",sendf.c,433,,89
+File,"sendf.h",sendf.h,28,,0
+File,"sendrecv.c",sendrecv.c,88,,15
+Static Function,"sendsuboption",telnet.c,41,23,
+File,"sepheaders.c",sepheaders.c,36,,4
+Static Function,"server_blacklist_llist_dtor",pipeline.c,5,1,
+Static Function,"server_push_callback",http2-serverpush.c,29,3,
+Static Function,"server_push_callback",http2-pushinmemory.c,21,3,
+File,"sessioninfo.c",sessioninfo.c,56,,11
+Function,"set_binmode",tool_binmode.c,4,1,
+Static Function,"set_feature_default",curl_crtl_init.c,7,2,
+Static Function,"set_features",curl_crtl_init.c,37,3,
+Static Function,"set_local_option",telnet.c,61,18,
+Static Function,"set_login",url.c,28,8,
+Static Function,"set_remote_option",telnet.c,61,18,
+Static Function,"set_thread_string",os400sys.c,15,3,
+Static Function,"setcharorrange",curl_fnmatch.c,18,6,
+Static Function,"setcharset",curl_fnmatch.c,85,19,
+Function,"setfiletime",tool_filetime.c,37,5,
+Static Function,"setname",formdata.c,15,3,
+File,"setopt.c",setopt.c,1379,,451
+File,"setopt.h",setopt.h,3,,0
+Static Function,"setpacketblock",tftp.c,5,1,
+Static Function,"setpacketevent",tftp.c,5,1,
+Static Function,"setsock",ephiperfifo.c,16,4,
+Static Function,"setsock",hiperfifo.c,12,3,
+Static Function,"setsock",evhiperfifo.c,15,4,
+Static Function,"setsock",asiohiper.cpp,42,9,
+Static Function,"setsock",ghiper.c,13,4,
+Static Function,"setstropt_userpwd",setopt.c,28,11,
+Static Function,"setup",http2-serverpush.c,11,1,
+Static Function,"setup",http2-download.c,15,1,
+Static Function,"setup",http2-upload.c,27,1,
+Static Function,"setup",http2-pushinmemory.c,11,1,
+File,"setup-os400.h",setup-os400.h,88,,0
+File,"setup-vms.h",setup-vms.h,37,,6
+Static Function,"setup_connection_internals",url.c,16,4,
+Static Function,"setup_range",url.c,20,6,
+Static Function,"seturl",urlapi.c,163,48,
+Static Function,"sftpGetRemoteFileSize",sftpuploadresume.c,22,2,
+Static Function,"sftpResumeUpload",sftpuploadresume.c,30,4,
+File,"sftpget.c",sftpget.c,43,,7
+File,"sftpuploadresume.c",sftpuploadresume.c,75,,10
+Static Function,"sh_addentry",multi.c,19,4,
+Static Function,"sh_delentry",multi.c,4,1,
+Static Function,"sh_freeentry",multi.c,5,1,
+Static Function,"sh_getentry",multi.c,7,2,
+Static Function,"sh_init",multi.c,5,1,
+File,"sha256.c",sha256.c,121,,24
+Static Function,"sha256_compress",sha256.c,25,6,
+Struct,"sha256_state",sha256.c,5,,0
+File,"share.c",share.c,142,,37
+File,"share.h",share.h,16,,0
+File,"shared-connection-cache.c",shared-connection-cache.c,41,,6
+Function,"showUsage",synctime.c,19,1,
+Static Function,"show_dir_errno",tool_dirhie.c,15,3,
+Function,"sighandler",crawler.c,4,1,
+File,"sigpipe.h",sigpipe.h,0,,0
+File,"simple.c",simple.c,16,,3
+File,"simplepost.c",simplepost.c,18,,3
+File,"simplessl.c",simplessl.c,50,,8
+Static Function,"singleipconnect",connect.c,93,20,
+Static Function,"singlesocket",multi.c,88,22,
+Struct,"site_blacklist_entry",pipeline.c,5,,0
+Static Function,"site_blacklist_llist_dtor",pipeline.c,6,1,
+Static Function,"skip",parsedate.c,5,2,
+File,"slist.c",slist.c,67,,17
+File,"slist.h",slist.h,3,,0
+Static Function,"slist_append",tool_formparse.c,8,2,
+Static Function,"slist_convert",ccsidcurl.c,14,3,
+Static Function,"slist_get_last",slist.c,11,3,
+Static Function,"slist_size",mime.c,10,4,
+Struct,"slist_wc",slist_wc.h,4,,0
+File,"slist_wc.c",slist_wc.c,27,,6
+File,"slist_wc.h",slist_wc.h,6,,0
+Function,"slist_wc_append",slist_wc.c,20,4,
+Function,"slist_wc_free_all",slist_wc.c,7,2,
+File,"smb.c",smb.c,667,,116
+File,"smb.h",smb.h,23,,0
+Struct,"smb_conn",smb.h,14,,0
+Static Function,"smb_connect",smb.c,30,7,
+Static Function,"smb_connection_state",smb.c,55,10,
+Static Function,"smb_disconnect",smb.c,9,4,
+Static Function,"smb_do",smb.c,14,3,
+Static Function,"smb_done",smb.c,7,2,
+Static Function,"smb_flush",smb.c,19,4,
+Static Function,"smb_format_message",smb.c,19,1,
+Static Function,"smb_getsock",smb.c,8,2,
+Static Function,"smb_parse_url_path",smb.c,28,9,
+Static Function,"smb_pop_message",smb.c,5,1,
+Static Function,"smb_recv_message",smb.c,35,8,
+Struct,"smb_request",smb.c,7,,0
+Static Function,"smb_request_state",smb.c,154,31,
+Static Function,"smb_send",smb.c,17,3,
+Static Function,"smb_send_and_recv",smb.c,27,8,
+Static Function,"smb_send_close",smb.c,9,1,
+Static Function,"smb_send_message",smb.c,12,2,
+Static Function,"smb_send_negotiate",smb.c,5,1,
+Static Function,"smb_send_open",smb.c,26,3,
+Static Function,"smb_send_read",smb.c,15,1,
+Static Function,"smb_send_setup",smb.c,41,2,
+Static Function,"smb_send_tree_connect",smb.c,23,2,
+Static Function,"smb_send_tree_disconnect",smb.c,6,1,
+Static Function,"smb_send_write",smb.c,25,3,
+Static Function,"smb_setup_connection",smb.c,8,2,
+File,"smooth-gtk-thread.c",smooth-gtk-thread.c,118,,12
+File,"smtp-expn.c",smtp-expn.c,20,,3
+File,"smtp-mail.c",smtp-mail.c,60,,6
+File,"smtp-mime.c",smtp-mime.c,69,,4
+File,"smtp-multi.c",smtp-multi.c,128,,16
+File,"smtp-ssl.c",smtp-ssl.c,63,,6
+File,"smtp-tls.c",smtp-tls.c,65,,6
+File,"smtp-vrfy.c",smtp-vrfy.c,19,,3
+File,"smtp.c",smtp.c,903,,187
+File,"smtp.h",smtp.h,36,,0
+Static Function,"smtp_block_statemach",smtp.c,8,2,
+Struct,"smtp_conn",smtp.h,10,,0
+Static Function,"smtp_connect",smtp.c,23,3,
+Static Function,"smtp_continue_auth",smtp.c,5,1,
+Static Function,"smtp_disconnect",smtp.c,11,4,
+Static Function,"smtp_do",smtp.c,10,2,
+Static Function,"smtp_doing",smtp.c,11,5,
+Static Function,"smtp_done",smtp.c,50,9,
+Static Function,"smtp_dophase_done",smtp.c,8,2,
+Static Function,"smtp_endofresp",smtp.c,20,5,
+Static Function,"smtp_get_message",smtp.c,21,6,
+Static Function,"smtp_getsock",smtp.c,5,1,
+Static Function,"smtp_init",smtp.c,10,2,
+Static Function,"smtp_multi_statemach",smtp.c,13,4,
+Static Function,"smtp_parse_custom_request",smtp.c,10,2,
+Static Function,"smtp_parse_url_options",smtp.c,24,6,
+Static Function,"smtp_parse_url_path",smtp.c,14,3,
+Static Function,"smtp_perform",smtp.c,26,7,
+Static Function,"smtp_perform_auth",smtp.c,14,2,
+Static Function,"smtp_perform_authentication",smtp.c,21,4,
+Static Function,"smtp_perform_command",smtp.c,18,5,
+Static Function,"smtp_perform_ehlo",smtp.c,13,2,
+Static Function,"smtp_perform_helo",smtp.c,10,2,
+Static Function,"smtp_perform_mail",smtp.c,72,18,
+Static Function,"smtp_perform_quit",smtp.c,8,2,
+Static Function,"smtp_perform_rcpt_to",smtp.c,15,3,
+Static Function,"smtp_perform_starttls",smtp.c,8,2,
+Static Function,"smtp_perform_upgrade_tls",smtp.c,15,5,
+Static Function,"smtp_regular_transfer",smtp.c,16,2,
+Static Function,"smtp_setup_connection",smtp.c,9,2,
+Static Function,"smtp_state_auth_resp",smtp.c,24,4,
+Static Function,"smtp_state_command_resp",smtp.c,35,6,
+Static Function,"smtp_state_data_resp",smtp.c,17,2,
+Static Function,"smtp_state_ehlo_resp",smtp.c,68,15,
+Static Function,"smtp_state_helo_resp",smtp.c,14,2,
+Static Function,"smtp_state_mail_resp",smtp.c,14,2,
+Static Function,"smtp_state_postdata_resp",smtp.c,11,2,
+Static Function,"smtp_state_rcpt_resp",smtp.c,23,4,
+Static Function,"smtp_state_servergreet_resp",smtp.c,15,2,
+Static Function,"smtp_state_starttls_resp",smtp.c,19,3,
+Static Function,"smtp_statemach_act",smtp.c,60,18,
+Static Function,"sock_cb",ephiperfifo.c,25,3,
+Static Function,"sock_cb",evhiperfifo.c,27,3,
+Static Function,"sock_cb",asiohiper.cpp,26,3,
+Static Function,"sock_cb",ghiper.c,25,5,
+Static Function,"sock_cb",hiperfifo.c,25,3,
+File,"sockaddr.h",sockaddr.h,7,,0
+Static Function,"sockopt_callback",externalsocket.c,8,1,
+File,"socks.c",socks.c,487,,83
+File,"socks.h",socks.h,16,,0
+File,"socks_gssapi.c",socks_gssapi.c,0,,0
+File,"socks_sspi.c",socks_sspi.c,0,,0
+File,"speedcheck.c",speedcheck.c,30,,7
+File,"speedcheck.h",speedcheck.h,3,,0
+File,"splay.c",splay.c,157,,56
+File,"splay.h",splay.h,19,,0
+Static Function,"split_str",ldap.c,22,4,
+File,"spnego_gssapi.c",spnego_gssapi.c,0,,0
+File,"spnego_sspi.c",spnego_sspi.c,0,,0
+Struct,"sprotos",tool_paramhlp.c,4,,0
+File,"ssh-libssh.c",ssh-libssh.c,0,,0
+File,"ssh.c",ssh.c,0,,0
+File,"ssh.h",ssh.h,88,,0
+Struct,"ssh_conn",ssh.h,21,,0
+Static Function,"ssl_app_verify_callback",curlx.c,28,9,
+Struct,"ssl_config_data",urldata.h,17,,0
+Struct,"ssl_connect_data",urldata.h,5,,0
+Struct,"ssl_general_config",urldata.h,3,,0
+Struct,"ssl_primary_config",urldata.h,15,,0
+File,"sslbackend.c",sslbackend.c,28,,6
+Static Function,"sslctx_function",cacertinmem.c,62,8,
+Static Function,"sslctx_function",usercertinmem.c,104,11,
+Static Function,"sslctxfun",curlx.c,29,4,
+Struct,"sslctxparm_st",curlx.c,12,,0
+Static Function,"startElement",xmlstream.c,10,1,
+Static Function,"start_timeout",multi-uv.c,12,3,
+Static Function,"state",pop3.c,5,1,
+Static Function,"state",imap.c,5,1,
+Static Function,"state",smtp.c,5,1,
+Static Function,"state",curl_sasl.c,6,1,
+File,"stdcheaders.h",stdcheaders.h,4,,0
+Static Function,"stdin_free",tool_formparse.c,6,2,
+Static Function,"stdin_read",tool_formparse.c,19,4,
+Static Function,"stdin_seek",tool_formparse.c,20,6,
+Function,"stdin_upload",tool_operhlp.c,5,2,
+Static Function,"storebuffer",mprintf.c,8,1,
+Static Function,"str2double",tool_paramhlp.c,19,5,
+Function,"str2num",tool_paramhlp.c,16,4,
+Function,"str2offset",tool_paramhlp.c,16,5,
+Static Function,"str2scope",ldap.c,14,6,
+Function,"str2tls_max",tool_paramhlp.c,23,4,
+Function,"str2udouble",tool_paramhlp.c,11,3,
+Function,"str2unum",tool_paramhlp.c,9,3,
+File,"strcase.c",strcase.c,52,,16
+File,"strcase.h",strcase.h,5,,0
+File,"strdup.c",strdup.c,15,,4
+File,"strdup.h",strdup.h,2,,0
+File,"strerror.c",strerror.c,436,,178
+File,"strerror.h",strerror.h,1,,0
+Static Function,"strippath",mime.c,11,2,
+Static Function,"strstore",cookie.c,5,1,
+File,"strtok.c",strtok.c,20,,6
+File,"strtok.h",strtok.h,1,,0
+Static Function,"strtooff",strtoofft.c,69,17,
+File,"strtoofft.c",strtoofft.c,111,,29
+File,"strtoofft.h",strtoofft.h,7,,0
+Static Function,"suboption",telnet.c,66,10,
+File,"synctime.c",synctime.c,219,,34
+Static Function,"sys_crelnm",curl_crtl_init.c,26,1,
+Static Function,"sys_trnlnm",curl_crtl_init.c,27,2,
+File,"system.h",system.h,2,,0
+File,"system_win32.c",system_win32.c,93,,25
+File,"system_win32.h",system_win32.h,17,,0
+Static Function,"tailmatch",cookie.c,14,5,
+Struct,"tcp_keepalive",connect.c,5,,0
+Static Function,"tcpkeepalive",connect.c,26,4,
+File,"telnet.c",telnet.c,1153,,284
+File,"telnet.h",telnet.h,1,,0
+Static Function,"telnet_do",telnet.c,210,40,
+Static Function,"telnet_done",telnet.c,13,3,
+Static Function,"telrcv",telnet.c,125,50,
+Struct,"tempbuf",urldata.h,5,,0
+Static Function,"terminate",os400sys.c,14,3,
+File,"tftp.c",tftp.c,914,,173
+File,"tftp.h",tftp.h,1,,0
+Static Function,"tftp_connect",tftp.c,47,10,
+Static Function,"tftp_connect_for_rx",tftp.c,12,2,
+Static Function,"tftp_connect_for_tx",tftp.c,12,2,
+Static Function,"tftp_disconnect",tftp.c,11,4,
+Static Function,"tftp_do",tftp.c,18,5,
+Static Function,"tftp_doing",tftp.c,15,5,
+Static Function,"tftp_done",tftp.c,13,3,
+Static Function,"tftp_getsock",tftp.c,8,2,
+Static Function,"tftp_multi_statemach",tftp.c,41,12,
+Static Function,"tftp_option_add",tftp.c,8,2,
+Static Function,"tftp_option_get",tftp.c,16,3,
+Struct,"tftp_packet",tftp.c,3,,0
+Static Function,"tftp_parse_option_ack",tftp.c,55,11,
+Static Function,"tftp_perform",tftp.c,13,4,
+Static Function,"tftp_receive_packet",tftp.c,73,14,
+Static Function,"tftp_rx",tftp.c,90,12,
+Static Function,"tftp_send_first",tftp.c,99,17,
+Static Function,"tftp_set_timeouts",tftp.c,45,10,
+Static Function,"tftp_setup_connection",tftp.c,26,7,
+Struct,"tftp_state_data",tftp.c,24,,0
+Static Function,"tftp_state_machine",tftp.c,29,9,
+Static Function,"tftp_state_timeout",tftp.c,21,6,
+Static Function,"tftp_translate_code",tftp.c,42,12,
+Static Function,"tftp_tx",tftp.c,102,15,
+Static Function,"thdbufdestroy",os400sys.c,13,3,
+Function,"thread_cleanup",opensslthreadlock.c,13,3,
+Static Function,"thread_id",threaded-ssl.c,6,1,
+Function,"thread_setup",opensslthreadlock.c,12,3,
+File,"threaded-shared-conn.c",threaded-shared-conn.c,85,,11
+File,"threaded-ssl.c",threaded-ssl.c,80,,12
+Static Function,"throw_away",ftpgetinfo.c,6,1,
+Static Function,"time2str",progress.c,24,4,
+Struct,"time_node",urldata.h,5,,0
+Static Function,"timer_cb",ephiperfifo.c,21,4,
+Static Function,"timer_cb",hiperfifo.c,9,1,
+Static Function,"timer_cb",ghiper.c,10,1,
+Static Function,"timer_cb",asiohiper.cpp,11,2,
+Static Function,"timer_cb",evhiperfifo.c,10,1,
+File,"timeval.c",timeval.c,26,,7
+File,"timeval.h",timeval.h,8,,0
+Function,"tool_basename",tool_bname.c,15,5,
+File,"tool_binmode.c",tool_binmode.c,4,,1
+File,"tool_binmode.h",tool_binmode.h,1,,0
+File,"tool_bname.c",tool_bname.c,15,,5
+File,"tool_bname.h",tool_bname.h,1,,0
+File,"tool_cb_dbg.c",tool_cb_dbg.c,172,,44
+File,"tool_cb_dbg.h",tool_cb_dbg.h,3,,0
+File,"tool_cb_hdr.c",tool_cb_hdr.c,144,,39
+File,"tool_cb_hdr.h",tool_cb_hdr.h,8,,0
+File,"tool_cb_prg.c",tool_cb_prg.c,131,,22
+File,"tool_cb_prg.h",tool_cb_prg.h,16,,0
+File,"tool_cb_rea.c",tool_cb_rea.c,16,,3
+File,"tool_cb_rea.h",tool_cb_rea.h,1,,0
+File,"tool_cb_see.c",tool_cb_see.c,30,,11
+File,"tool_cb_see.h",tool_cb_see.h,2,,0
+File,"tool_cb_wrt.c",tool_cb_wrt.c,86,,18
+File,"tool_cb_wrt.h",tool_cb_wrt.h,2,,0
+File,"tool_cfgable.c",tool_cfgable.c,123,,75
+File,"tool_cfgable.h",tool_cfgable.h,231,,0
+File,"tool_convert.c",tool_convert.c,0,,0
+File,"tool_convert.h",tool_convert.h,0,,0
+Function,"tool_create_output_file",tool_cb_wrt.c,31,6,
+Function,"tool_debug_cb",tool_cb_dbg.c,129,34,
+File,"tool_dirhie.c",tool_dirhie.c,58,,14
+File,"tool_dirhie.h",tool_dirhie.h,1,,0
+File,"tool_doswin.c",tool_doswin.c,197,,56
+File,"tool_doswin.h",tool_doswin.h,12,,0
+File,"tool_easysrc.c",tool_easysrc.c,161,,49
+File,"tool_easysrc.h",tool_easysrc.h,14,,0
+File,"tool_filetime.c",tool_filetime.c,74,,10
+File,"tool_filetime.h",tool_filetime.h,3,,0
+File,"tool_formparse.c",tool_formparse.c,636,,185
+File,"tool_formparse.h",tool_formparse.h,5,,0
+Function,"tool_ftruncate64",tool_cb_see.c,9,3,
+File,"tool_getparam.c",tool_getparam.c,1789,,783
+File,"tool_getparam.h",tool_getparam.h,28,,0
+File,"tool_getpass.c",tool_getpass.c,19,,6
+File,"tool_getpass.h",tool_getpass.h,1,,0
+Function,"tool_go_sleep",tool_sleep.c,4,1,
+Function,"tool_header_cb",tool_cb_hdr.c,88,24,
+Function,"tool_help",tool_help.c,8,2,
+File,"tool_help.c",tool_help.c,517,,11
+File,"tool_help.h",tool_help.h,3,,0
+File,"tool_helpers.c",tool_helpers.c,73,,19
+File,"tool_helpers.h",tool_helpers.h,5,,0
+File,"tool_homedir.c",tool_homedir.c,32,,9
+File,"tool_homedir.h",tool_homedir.h,1,,0
+File,"tool_hugehelp.h",tool_hugehelp.h,1,,0
+File,"tool_libinfo.c",tool_libinfo.c,51,,6
+File,"tool_libinfo.h",tool_libinfo.h,3,,0
+Function,"tool_list_engines",tool_help.c,14,3,
+File,"tool_main.c",tool_main.c,102,,20
+File,"tool_main.h",tool_main.h,0,,0
+File,"tool_metalink.c",tool_metalink.c,0,,0
+File,"tool_metalink.h",tool_metalink.h,45,,0
+File,"tool_msgs.c",tool_msgs.c,65,,12
+File,"tool_msgs.h",tool_msgs.h,3,,0
+File,"tool_operate.c",tool_operate.c,1243,,745
+File,"tool_operate.h",tool_operate.h,1,,0
+File,"tool_operhlp.c",tool_operhlp.c,93,,29
+File,"tool_operhlp.h",tool_operhlp.h,6,,0
+File,"tool_panykey.c",tool_panykey.c,0,,0
+File,"tool_panykey.h",tool_panykey.h,0,,0
+File,"tool_paramhlp.c",tool_paramhlp.c,393,,98
+File,"tool_paramhlp.h",tool_paramhlp.h,16,,0
+File,"tool_parsecfg.c",tool_parsecfg.c,215,,62
+File,"tool_parsecfg.h",tool_parsecfg.h,1,,0
+Function,"tool_progress_cb",tool_cb_prg.c,49,9,
+Function,"tool_read_cb",tool_cb_rea.c,16,3,
+File,"tool_sdecls.h",tool_sdecls.h,35,,0
+Function,"tool_seek_cb",tool_cb_see.c,21,8,
+Function,"tool_setopt",tool_setopt.c,80,22,
+File,"tool_setopt.c",tool_setopt.c,495,,170
+File,"tool_setopt.h",tool_setopt.h,36,,0
+Function,"tool_setopt_bitmask",tool_setopt.c,32,12,
+Function,"tool_setopt_enum",tool_setopt.c,24,10,
+Function,"tool_setopt_flags",tool_setopt.c,31,12,
+Function,"tool_setopt_mimepost",tool_setopt.c,15,5,
+Function,"tool_setopt_slist",tool_setopt.c,15,5,
+File,"tool_setup.h",tool_setup.h,0,,0
+File,"tool_sleep.c",tool_sleep.c,4,,1
+File,"tool_sleep.h",tool_sleep.h,1,,0
+File,"tool_strdup.c",tool_strdup.c,0,,0
+File,"tool_strdup.h",tool_strdup.h,0,,0
+File,"tool_urlglob.c",tool_urlglob.c,538,,114
+File,"tool_urlglob.h",tool_urlglob.h,42,,0
+File,"tool_util.c",tool_util.c,13,,2
+File,"tool_util.h",tool_util.h,2,,0
+File,"tool_version.h",tool_version.h,0,,0
+Function,"tool_version_info",tool_help.c,22,6,
+File,"tool_vms.c",tool_vms.c,0,,0
+File,"tool_vms.h",tool_vms.h,0,,0
+Function,"tool_write_cb",tool_cb_wrt.c,55,12,
+File,"tool_writeout.c",tool_writeout.c,328,,76
+File,"tool_writeout.h",tool_writeout.h,1,,0
+File,"tool_xattr.c",tool_xattr.c,6,,1
+File,"tool_xattr.h",tool_xattr.h,1,,0
+File,"transfer.c",transfer.c,986,,242
+File,"transfer.h",transfer.h,36,,0
+Static Function,"truncate_dryrun",tool_doswin.c,22,8,
+Static Function,"trynextip",connect.c,35,9,
+Function,"tvdiff",tool_util.c,5,1,
+Static Function,"tvdiff",imap-multi.c,5,1,
+Static Function,"tvdiff",smtp-multi.c,5,1,
+Static Function,"tvdiff",pop3-multi.c,5,1,
+Function,"tvnow",tool_util.c,8,1,
+Static Function,"tvnow",imap-multi.c,7,1,
+Static Function,"tvnow",pop3-multi.c,7,1,
+Static Function,"tvnow",smtp-multi.c,7,1,
+File,"typecheck-gcc.h",typecheck-gcc.h,136,,0
+Struct,"tzinfo",parsedate.c,4,,0
+Static Function,"unescape_word",dict.c,27,5,
+Static Function,"unicodecpy",ntlm.c,8,2,
+Static Function,"unlock_cb",threaded-shared-conn.c,8,1,
+Static Function,"unslashquote",tool_parsecfg.c,31,8,
+Static Function,"update_timeout_cb",ghiper.c,11,1,
+Static Function,"update_timer",multi.c,21,14,
+Static Function,"upload",ftpuploadresume.c,49,7,
+Struct,"upload_status",smtp-tls.c,3,,0
+Struct,"upload_status",smtp-mail.c,3,,0
+Struct,"upload_status",imap-append.c,3,,0
+Struct,"upload_status",smtp-ssl.c,3,,0
+Struct,"upload_status",smtp-multi.c,3,,0
+File,"url.c",url.c,2447,,631
+File,"url.h",url.h,34,,0
+File,"url2file.c",url2file.c,30,,4
+Function,"url_fclose",fopen.c,20,3,
+Function,"url_feof",fopen.c,18,4,
+Function,"url_fgets",fopen.c,31,7,
+Function,"url_fopen",fopen.c,30,5,
+Function,"url_fread",fopen.c,25,5,
+Function,"url_rewind",fopen.c,18,3,
+File,"urlapi-int.h",urlapi-int.h,4,,0
+File,"urlapi.c",urlapi.c,950,,259
+File,"urlapi.h",urlapi.h,40,,0
+Static Function,"urlchar_needs_escaping",urlapi.c,4,1,
+File,"urldata.h",urldata.h,862,,0
+Struct,"urlpieces",urldata.h,10,,0
+Static Function,"use_buffer",fopen.c,16,2,
+Static Function,"use_http_1_1plus",http.c,11,3,
+File,"usercertinmem.c",usercertinmem.c,147,,15
+Struct,"variable",tool_writeout.c,4,,0
+File,"vauth.c",vauth.c,22,,7
+File,"vauth.h",vauth.h,64,,0
+Static Function,"verifyconnect",connect.c,8,2,
+File,"version.c",version.c,76,,7
+File,"vms_eco_level.h",vms_eco_level.h,0,,0
+Static Function,"vms_getenv",setup-vms.h,12,2,
+Static Function,"vms_getpwuid",setup-vms.h,22,4,
+Static Function,"voutf",tool_msgs.c,37,7,
+File,"vtls.c",vtls.c,60,,27
+File,"vtls.h",vtls.h,57,,0
+Static Function,"wait_on_socket",sendrecv.c,20,2,
+Static Function,"waitconnect_getsock",multi.c,17,4,
+Static Function,"waitproxyconnect_getsock",multi.c,11,3,
+Function,"warnf",tool_msgs.c,7,1,
+File,"warnless.c",warnless.c,100,,37
+File,"warnless.h",warnless.h,21,,0
+Static Function,"wc_data_dtor",ftp.c,7,2,
+Static Function,"wc_statemach",ftp.c,96,26,
+File,"wildcard.c",wildcard.c,29,,6
+File,"wildcard.h",wildcard.h,23,,0
+Static Function,"win32_cleanup",easy.c,4,1,
+Static Function,"win32_init",easy.c,16,3,
+Static Function,"win_update_buffer_size",transfer.c,12,2,
+File,"wolfssl_options.h",wolfssl_options.h,2,,0
+Static Function,"wrfu",sessioninfo.c,39,9,
+Static Function,"wrfu",certinfo.c,6,1,
+Static Function,"write_callback",fopen.c,25,3,
+Static Function,"write_callback",href_extractor.c,15,5,
+Function,"write_cb",htmltidy.c,7,1,
+Static Function,"write_cb",ephiperfifo.c,7,1,
+Static Function,"write_cb",http2-pushinmemory.c,16,2,
+Static Function,"write_cb",hiperfifo.c,7,1,
+Static Function,"write_cb",asiohiper.cpp,10,1,
+Static Function,"write_cb",ghiper.c,8,1,
+Static Function,"write_cb",evhiperfifo.c,8,1,
+Static Function,"write_data",externalsocket.c,5,1,
+Static Function,"write_data",sepheaders.c,5,1,
+Static Function,"write_data",url2file.c,5,1,
+Static Function,"write_db",threaded-shared-conn.c,6,1,
+Function,"write_file",smooth-gtk-thread.c,4,1,
+Static Function,"write_it",ftp-wildcard.c,11,2,
+Static Function,"write_response",ftpgetresp.c,6,1,
+Static Function,"writefunction",usercertinmem.c,5,1,
+Function,"writefunction",cacertinmem.c,5,1,
+Static Function,"writer",htmltitle.cpp,8,2,
+File,"x509asn1.c",x509asn1.c,0,,0
+File,"x509asn1.h",x509asn1.h,0,,0
+Static Function,"xferinfo",progressfunc.c,20,3,
+File,"xmlstream.c",xmlstream.c,97,,10

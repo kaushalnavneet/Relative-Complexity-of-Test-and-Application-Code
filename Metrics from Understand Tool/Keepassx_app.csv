@@ -1,0 +1,1608 @@
+Kind,Name,File,CountLineCode,Cyclomatic,SumCyclomatic
+Class,"AboutDialog",AboutDialog.h,42,,5
+File,"AboutDialog.cpp",AboutDialog.cpp,33,,5
+File,"AboutDialog.h",AboutDialog.h,12,,0
+Explicit Private Function,"AboutDialog::AboutDialog",AboutDialog.cpp,30,4,
+Private Function,"AboutDialog::~AboutDialog",AboutDialog.cpp,3,1,
+Struct Template,"AddConst",Global.h,1,,0
+Class,"Application",Application.h,29,,4
+File,"Application.cpp",Application.cpp,17,,4
+File,"Application.h",Application.h,12,,0
+Private Function,"Application::Application",Application.cpp,5,1,
+Private Function,"Application::event",Application.cpp,8,2,
+Private Function,"Application::setMainWindow",Application.cpp,4,1,
+Class,"AttributesListView",EditEntryWidget_p.h,19,,3
+Explicit Public Function,"AttributesListView::AttributesListView",EditEntryWidget_p.h,5,1,
+Public Virtual Const Function,"AttributesListView::sizeHint",EditEntryWidget_p.h,10,2,
+Class,"AutoType",AutoType.h,512,,119
+File,"AutoType.cpp",AutoType.cpp,472,,118
+File,"AutoType.h",AutoType.h,50,,2
+Explicit Private Function,"AutoType::AutoType",AutoType.cpp,24,3,
+Private Function,"AutoType::autoTypeSequence",AutoType.cpp,62,16,
+Private Function,"AutoType::callEventFilter",AutoType.cpp,7,2,
+Private Function,"AutoType::createActionFromTemplate",AutoType.cpp,155,48,
+Private Static Function,"AutoType::createTestInstance",AutoType.cpp,5,1,
+Private Static Function,"AutoType::instance",AutoType.cpp,7,2,
+Private Function,"AutoType::isAvailable",AutoType.h,3,1,
+Private Function,"AutoType::loadPlugin",AutoType.cpp,21,5,
+Private Function,"AutoType::parseActions",AutoType.cpp,32,7,
+Private Function,"AutoType::performAutoType",AutoType.cpp,37,8,
+Public Function,"AutoType::performAutoTypeFromGlobal",AutoType.cpp,7,1,
+Public Function,"AutoType::performGlobalAutoType",AutoType.cpp,44,8,
+Private Function,"AutoType::registerGlobalShortcut",AutoType.cpp,24,5,
+Private Function,"AutoType::resetInAutoType",AutoType.cpp,5,1,
+Private Function,"AutoType::unloadPlugin",AutoType.cpp,11,3,
+Private Function,"AutoType::unregisterGlobalShortcut",AutoType.cpp,6,2,
+Private Function,"AutoType::windowMatches",AutoType.cpp,10,2,
+Private Function,"AutoType::windowTitles",AutoType.cpp,7,2,
+Private Function,"AutoType::~AutoType",AutoType.cpp,7,2,
+Abstract Class,"AutoTypeAction",AutoTypeAction.h,7,,1
+File,"AutoTypeAction.cpp",AutoTypeAction.cpp,55,,14
+File,"AutoTypeAction.h",AutoTypeAction.h,48,,2
+Public Virtual Function,"AutoTypeAction::~AutoTypeAction",AutoTypeAction.h,1,1,
+Class,"AutoTypeAssociations",AutoTypeAssociations.h,107,,14
+File,"AutoTypeAssociations.cpp",AutoTypeAssociations.cpp,74,,16
+File,"AutoTypeAssociations.h",AutoTypeAssociations.h,34,,0
+Private Struct,"AutoTypeAssociations::Association",AutoTypeAssociations.h,15,,2
+Public Const Function,"AutoTypeAssociations::Association::operator!=",AutoTypeAssociations.cpp,4,1,
+Public Const Function,"AutoTypeAssociations::Association::operator==",AutoTypeAssociations.cpp,4,1,
+Explicit Private Function,"AutoTypeAssociations::AutoTypeAssociations",AutoTypeAssociations.cpp,4,1,
+Private Function,"AutoTypeAssociations::add",AutoTypeAssociations.cpp,8,1,
+Private Function,"AutoTypeAssociations::clear",AutoTypeAssociations.cpp,4,1,
+Private Function,"AutoTypeAssociations::copyDataFrom",AutoTypeAssociations.cpp,10,2,
+Private Const Function,"AutoTypeAssociations::get",AutoTypeAssociations.cpp,5,1,
+Private Const Function,"AutoTypeAssociations::getAll",AutoTypeAssociations.cpp,4,1,
+Private Function,"AutoTypeAssociations::remove",AutoTypeAssociations.cpp,8,1,
+Private Function,"AutoTypeAssociations::removeEmpty",AutoTypeAssociations.cpp,10,3,
+Private Const Function,"AutoTypeAssociations::size",AutoTypeAssociations.cpp,4,1,
+Private Function,"AutoTypeAssociations::update",AutoTypeAssociations.cpp,9,2,
+Class,"AutoTypeAssociationsModel",AutoTypeAssociationsModel.h,121,,22
+File,"AutoTypeAssociationsModel.cpp",AutoTypeAssociationsModel.cpp,100,,22
+File,"AutoTypeAssociationsModel.h",AutoTypeAssociationsModel.h,22,,0
+Explicit Private Function,"AutoTypeAssociationsModel::AutoTypeAssociationsModel",AutoTypeAssociationsModel.cpp,5,1,
+Public Function,"AutoTypeAssociationsModel::aboutToReset",AutoTypeAssociationsModel.cpp,4,1,
+Public Function,"AutoTypeAssociationsModel::associationAboutToAdd",AutoTypeAssociationsModel.cpp,4,1,
+Public Function,"AutoTypeAssociationsModel::associationAboutToRemove",AutoTypeAssociationsModel.cpp,4,1,
+Public Function,"AutoTypeAssociationsModel::associationAdd",AutoTypeAssociationsModel.cpp,4,1,
+Public Function,"AutoTypeAssociationsModel::associationChange",AutoTypeAssociationsModel.cpp,4,1,
+Public Function,"AutoTypeAssociationsModel::associationRemove",AutoTypeAssociationsModel.cpp,4,1,
+Private Const Function,"AutoTypeAssociationsModel::columnCount",AutoTypeAssociationsModel.cpp,5,1,
+Private Const Function,"AutoTypeAssociationsModel::data",AutoTypeAssociationsModel.cpp,21,5,
+Private Const Function,"AutoTypeAssociationsModel::headerData",AutoTypeAssociationsModel.cpp,14,3,
+Public Function,"AutoTypeAssociationsModel::reset",AutoTypeAssociationsModel.cpp,4,1,
+Private Const Function,"AutoTypeAssociationsModel::rowCount",AutoTypeAssociationsModel.cpp,9,2,
+Private Function,"AutoTypeAssociationsModel::setAutoTypeAssociations",AutoTypeAssociationsModel.cpp,18,3,
+Class,"AutoTypeChar",AutoTypeAction.h,20,,3
+Explicit Public Function,"AutoTypeChar::AutoTypeChar",AutoTypeAction.cpp,4,1,
+Public Virtual Function,"AutoTypeChar::accept",AutoTypeAction.cpp,4,1,
+Public Virtual Function,"AutoTypeChar::clone",AutoTypeAction.cpp,4,1,
+Class,"AutoTypeClearField",AutoTypeAction.h,18,,3
+Public Function,"AutoTypeClearField::AutoTypeClearField",AutoTypeAction.cpp,3,1,
+Public Virtual Function,"AutoTypeClearField::accept",AutoTypeAction.cpp,4,1,
+Public Virtual Function,"AutoTypeClearField::clone",AutoTypeAction.cpp,4,1,
+Class,"AutoTypeDelay",AutoTypeAction.h,20,,3
+Explicit Public Function,"AutoTypeDelay::AutoTypeDelay",AutoTypeAction.cpp,4,1,
+Public Virtual Function,"AutoTypeDelay::accept",AutoTypeAction.cpp,4,1,
+Public Virtual Function,"AutoTypeDelay::clone",AutoTypeAction.cpp,4,1,
+Class,"AutoTypeExecturorX11",AutoTypeXCB.h,21,,3
+Explicit Public Function,"AutoTypeExecturorX11::AutoTypeExecturorX11",AutoTypeXCB.cpp,4,1,
+Public Function,"AutoTypeExecturorX11::execChar",AutoTypeXCB.cpp,4,1,
+Public Function,"AutoTypeExecturorX11::execKey",AutoTypeXCB.cpp,4,1,
+Abstract Class,"AutoTypeExecutor",AutoTypeAction.h,17,,3
+Public Virtual Function,"AutoTypeExecutor::execClearField",AutoTypeAction.cpp,4,1,
+Public Virtual Function,"AutoTypeExecutor::execDelay",AutoTypeAction.cpp,4,1,
+Public Virtual Function,"AutoTypeExecutor::~AutoTypeExecutor",AutoTypeAction.h,1,1,
+Class,"AutoTypeKey",AutoTypeAction.h,20,,3
+Explicit Public Function,"AutoTypeKey::AutoTypeKey",AutoTypeAction.cpp,4,1,
+Public Virtual Function,"AutoTypeKey::accept",AutoTypeAction.cpp,4,1,
+Public Virtual Function,"AutoTypeKey::clone",AutoTypeAction.cpp,4,1,
+Abstract Class,"AutoTypePlatformInterface",AutoTypePlatformPlugin.h,16,,2
+Public Virtual Function,"AutoTypePlatformInterface::unload",AutoTypePlatformPlugin.h,1,1,
+Public Virtual Function,"AutoTypePlatformInterface::~AutoTypePlatformInterface",AutoTypePlatformPlugin.h,1,1,
+File,"AutoTypePlatformPlugin.h",AutoTypePlatformPlugin.h,17,,2
+Class,"AutoTypePlatformX11",AutoTypeXCB.h,717,,134
+Private Function,"AutoTypePlatformX11::AddKeysym",AutoTypeXCB.cpp,13,2,
+Public Function,"AutoTypePlatformX11::AutoTypePlatformX11",AutoTypeXCB.cpp,25,1,
+Private Function,"AutoTypePlatformX11::GetKeycode",AutoTypeXCB.cpp,13,3,
+Private Static Function,"AutoTypePlatformX11::MyErrorHandler",AutoTypeXCB.cpp,10,2,
+Private Function,"AutoTypePlatformX11::SendEvent",AutoTypeXCB.cpp,16,2,
+Public Function,"AutoTypePlatformX11::SendKeyPressedEvent",AutoTypeXCB.cpp,59,7,
+Private Function,"AutoTypePlatformX11::SendModifier",AutoTypeXCB.cpp,14,4,
+Public Function,"AutoTypePlatformX11::activeWindow",AutoTypeXCB.cpp,22,4,
+Public Function,"AutoTypePlatformX11::activeWindowTitle",AutoTypeXCB.cpp,4,1,
+Public Function,"AutoTypePlatformX11::charToKeySym",AutoTypeXCB.cpp,19,4,
+Public Function,"AutoTypePlatformX11::createExecutor",AutoTypeXCB.cpp,4,1,
+Private Function,"AutoTypePlatformX11::getKeyboard",AutoTypeXCB.cpp,17,4,
+Public Function,"AutoTypePlatformX11::initialTimeout",AutoTypeXCB.cpp,4,1,
+Public Function,"AutoTypePlatformX11::isAvailable",AutoTypeXCB.cpp,18,5,
+Private Function,"AutoTypePlatformX11::isRemapKeycodeValid",AutoTypeXCB.cpp,10,3,
+Private Function,"AutoTypePlatformX11::isTopLevelWindow",AutoTypeXCB.cpp,19,3,
+Public Function,"AutoTypePlatformX11::keyToKeySym",AutoTypeXCB.cpp,52,22,
+Private Function,"AutoTypePlatformX11::keysymModifiers",AutoTypeXCB.cpp,16,5,
+Public Function,"AutoTypePlatformX11::platformEventFilter",AutoTypeXCB.cpp,39,7,
+Private Function,"AutoTypePlatformX11::qtToNativeModifiers",AutoTypeXCB.cpp,17,5,
+Public Function,"AutoTypePlatformX11::raiseWindow",AutoTypeXCB.cpp,30,3,
+Public Function,"AutoTypePlatformX11::registerGlobalShortcut",AutoTypeXCB.cpp,25,2,
+Private Function,"AutoTypePlatformX11::startCatchXErrors",AutoTypeXCB.cpp,7,1,
+Private Function,"AutoTypePlatformX11::stopCatchXErrors",AutoTypeXCB.cpp,7,1,
+Public Function,"AutoTypePlatformX11::unload",AutoTypeXCB.cpp,13,4,
+Public Function,"AutoTypePlatformX11::unregisterGlobalShortcut",AutoTypeXCB.cpp,13,1,
+Private Function,"AutoTypePlatformX11::updateKeymap",AutoTypeXCB.cpp,42,9,
+Private Function,"AutoTypePlatformX11::widgetsToX11Windows",AutoTypeXCB.cpp,8,2,
+Private Function,"AutoTypePlatformX11::windowClassName",AutoTypeXCB.cpp,17,4,
+Private Function,"AutoTypePlatformX11::windowTitle",AutoTypeXCB.cpp,55,13,
+Public Function,"AutoTypePlatformX11::windowTitles",AutoTypeXCB.cpp,4,1,
+Private Function,"AutoTypePlatformX11::windowTitlesRecursive",AutoTypeXCB.cpp,23,6,
+Private Static Function,"AutoTypePlatformX11::x11ErrorHandler",AutoTypeXCB.cpp,9,1,
+Class,"AutoTypeSelectDialog",AutoTypeSelectDialog.h,73,,7
+File,"AutoTypeSelectDialog.cpp",AutoTypeSelectDialog.cpp,55,,7
+File,"AutoTypeSelectDialog.h",AutoTypeSelectDialog.h,20,,0
+Explicit Private Function,"AutoTypeSelectDialog::AutoTypeSelectDialog",AutoTypeSelectDialog.cpp,28,1,
+Public Function,"AutoTypeSelectDialog::done",AutoTypeSelectDialog.cpp,5,1,
+Public Function,"AutoTypeSelectDialog::emitEntryActivated",AutoTypeSelectDialog.cpp,10,2,
+Private Function,"AutoTypeSelectDialog::entryRemoved",AutoTypeSelectDialog.cpp,6,2,
+Private Function,"AutoTypeSelectDialog::setEntries",AutoTypeSelectDialog.cpp,6,1,
+Class,"AutoTypeSelectView",AutoTypeSelectView.h,39,,5
+File,"AutoTypeSelectView.cpp",AutoTypeSelectView.cpp,29,,5
+File,"AutoTypeSelectView.h",AutoTypeSelectView.h,11,,0
+Explicit Private Function,"AutoTypeSelectView::AutoTypeSelectView",AutoTypeSelectView.cpp,10,1,
+Protected Function,"AutoTypeSelectView::mouseMoveEvent",AutoTypeSelectView.cpp,12,2,
+Public Function,"AutoTypeSelectView::selectFirstEntry",AutoTypeSelectView.cpp,7,2,
+File,"AutoTypeXCB.cpp",AutoTypeXCB.cpp,659,,137
+File,"AutoTypeXCB.h",AutoTypeXCB.h,82,,0
+Class,"CategoryListViewDelegate",EditEntryWidget_p.h,11,,2
+Explicit Public Function,"CategoryListViewDelegate::CategoryListViewDelegate",EditEntryWidget_p.h,1,1,
+Public Const Function,"CategoryListViewDelegate::sizeHint",EditEntryWidget_p.h,6,1,
+Class,"CategoryListWidget",EditEntryWidget_p.h,19,,3
+Explicit Public Function,"CategoryListWidget::CategoryListWidget",EditEntryWidget_p.h,5,1,
+Public Virtual Const Function,"CategoryListWidget::sizeHint",EditEntryWidget_p.h,10,2,
+Class,"ChangeMasterKeyWidget",ChangeMasterKeyWidget.h,116,,18
+File,"ChangeMasterKeyWidget.cpp",ChangeMasterKeyWidget.cpp,95,,18
+File,"ChangeMasterKeyWidget.h",ChangeMasterKeyWidget.h,25,,0
+Explicit Private Function,"ChangeMasterKeyWidget::ChangeMasterKeyWidget",ChangeMasterKeyWidget.cpp,13,1,
+Private Function,"ChangeMasterKeyWidget::browseKeyFile",ChangeMasterKeyWidget.cpp,8,2,
+Private Function,"ChangeMasterKeyWidget::clearForms",ChangeMasterKeyWidget.cpp,10,1,
+Private Function,"ChangeMasterKeyWidget::createKeyFile",ChangeMasterKeyWidget.cpp,15,3,
+Public Function,"ChangeMasterKeyWidget::generateKey",ChangeMasterKeyWidget.cpp,34,7,
+Private Function,"ChangeMasterKeyWidget::headlineLabel",ChangeMasterKeyWidget.cpp,4,1,
+Private Function,"ChangeMasterKeyWidget::newMasterKey",ChangeMasterKeyWidget.cpp,4,1,
+Private Function,"ChangeMasterKeyWidget::reject",ChangeMasterKeyWidget.cpp,4,1,
+Private Function,"ChangeMasterKeyWidget::~ChangeMasterKeyWidget",ChangeMasterKeyWidget.cpp,3,1,
+Class,"Clipboard",Clipboard.h,69,,13
+File,"Clipboard.cpp",Clipboard.cpp,54,,13
+File,"Clipboard.h",Clipboard.h,20,,1
+Explicit Private Function,"Clipboard::Clipboard",Clipboard.cpp,8,1,
+Public Function,"Clipboard::clearClipboard",Clipboard.cpp,16,4,
+Public Function,"Clipboard::clearCopiedText",Clipboard.cpp,7,2,
+Private Static Function,"Clipboard::instance",Clipboard.cpp,7,2,
+Private Function,"Clipboard::setText",Clipboard.cpp,15,4,
+Class,"CompositeKey",CompositeKey.h,124,,19
+File,"CompositeKey.cpp",CompositeKey.cpp,132,,24
+File,"CompositeKey.h",CompositeKey.h,20,,0
+Public Function,"CompositeKey::CompositeKey",CompositeKey.cpp,3,1,
+Public Function,"CompositeKey::CompositeKey",CompositeKey.cpp,4,1,
+Public Function,"CompositeKey::addKey",CompositeKey.cpp,4,1,
+Public Function,"CompositeKey::clear",CompositeKey.cpp,5,1,
+Public Const Function,"CompositeKey::clone",CompositeKey.cpp,4,1,
+Public Const Function,"CompositeKey::isEmpty",CompositeKey.cpp,4,1,
+Public Function,"CompositeKey::operator=",CompositeKey.cpp,11,3,
+Public Const Function,"CompositeKey::rawKey",CompositeKey.cpp,8,2,
+Public Const Function,"CompositeKey::transform",CompositeKey.cpp,27,3,
+Public Static Function,"CompositeKey::transformKeyBenchmark",CompositeKey.cpp,10,1,
+Private Static Function,"CompositeKey::transformKeyRaw",CompositeKey.cpp,20,3,
+Public Function,"CompositeKey::~CompositeKey",CompositeKey.cpp,4,1,
+File,"CompositeKey_p.h",CompositeKey_p.h,12,,0
+Class,"Config",Config.h,94,,11
+File,"Config.cpp",Config.cpp,75,,11
+File,"Config.h",Config.h,24,,1
+Private Function,"Config::Config",Config.cpp,5,1,
+Explicit Private Function,"Config::Config",Config.cpp,10,1,
+Private Static Function,"Config::createConfigFromFile",Config.cpp,5,1,
+Private Static Function,"Config::createTempFileInstance",Config.cpp,10,1,
+Private Function,"Config::get",Config.cpp,4,1,
+Private Function,"Config::get",Config.cpp,4,1,
+Private Function,"Config::init",Config.cpp,22,1,
+Private Static Function,"Config::instance",Config.cpp,7,2,
+Private Function,"Config::set",Config.cpp,4,1,
+Private Function,"Config::~Config",Config.cpp,3,1,
+Class,"Crypto",Crypto.h,243,,43
+File,"Crypto.cpp",Crypto.cpp,224,,43
+File,"Crypto.h",Crypto.h,22,,0
+Private Function,"Crypto::Crypto",Crypto.cpp,3,1,
+Public Static Function,"Crypto::backendSelfTest",Crypto.cpp,4,1,
+Public Static Function,"Crypto::backendVersion",Crypto.cpp,4,1,
+Private Static Function,"Crypto::checkAlgorithms",Crypto.cpp,24,5,
+Public Static Function,"Crypto::errorString",Crypto.cpp,4,1,
+Public Static Function,"Crypto::init",Crypto.cpp,18,4,
+Public Static Function,"Crypto::initalized",Crypto.cpp,4,1,
+Private Static Function,"Crypto::raiseError",Crypto.cpp,5,1,
+Private Static Function,"Crypto::selfTest",Crypto.cpp,4,1,
+Private Static Function,"Crypto::testAes256Cbc",Crypto.cpp,39,7,
+Private Static Function,"Crypto::testAes256Ecb",Crypto.cpp,39,7,
+Private Static Function,"Crypto::testSalsa20",Crypto.cpp,24,4,
+Private Static Function,"Crypto::testSha256",Crypto.cpp,10,2,
+Private Static Function,"Crypto::testTwofish",Crypto.cpp,39,7,
+Class,"CryptoHash",CryptoHash.h,67,,8
+File,"CryptoHash.cpp",CryptoHash.cpp,56,,8
+File,"CryptoHash.h",CryptoHash.h,18,,0
+Explicit Public Function,"CryptoHash::CryptoHash",CryptoHash.cpp,19,2,
+Public Function,"CryptoHash::addData",CryptoHash.cpp,8,2,
+Public Static Function,"CryptoHash::hash",CryptoHash.cpp,6,1,
+Public Function,"CryptoHash::reset",CryptoHash.cpp,5,1,
+Public Const Function,"CryptoHash::result",CryptoHash.cpp,6,1,
+Public Function,"CryptoHash::~CryptoHash",CryptoHash.cpp,6,1,
+Class,"CryptoHashPrivate",CryptoHash.cpp,6,,0
+Class,"CsvExporter",CsvExporter.h,78,,13
+File,"CsvExporter.cpp",CsvExporter.cpp,67,,13
+File,"CsvExporter.h",CsvExporter.h,14,,0
+Private Function,"CsvExporter::addColumn",CsvExporter.cpp,9,2,
+Public Const Function,"CsvExporter::errorString",CsvExporter.cpp,4,1,
+Public Function,"CsvExporter::exportDatabase",CsvExporter.cpp,9,2,
+Public Function,"CsvExporter::exportDatabase",CsvExporter.cpp,16,2,
+Private Function,"CsvExporter::writeGroup",CsvExporter.cpp,29,6,
+Class,"CustomIconModel",IconModels.h,61,,10
+Explicit Private Function,"CustomIconModel::CustomIconModel",IconModels.cpp,4,1,
+Private Const Function,"CustomIconModel::data",IconModels.cpp,11,3,
+Private Const Function,"CustomIconModel::indexFromUuid",IconModels.cpp,10,2,
+Private Const Function,"CustomIconModel::rowCount",IconModels.cpp,9,2,
+Private Function,"CustomIconModel::setIcons",IconModels.cpp,8,1,
+Private Const Function,"CustomIconModel::uuidFromIndex",IconModels.cpp,5,1,
+Class,"Database",Database.h,314,,53
+File,"Database.cpp",Database.cpp,238,,53
+File,"Database.h",Database.h,87,,0
+Private Function,"Database::Database",Database.cpp,19,1,
+Private Struct,"Database::DatabaseData",Database.h,10,,0
+Private Function,"Database::addDeletedObject",Database.cpp,5,1,
+Private Function,"Database::addDeletedObject",Database.cpp,7,1,
+Private Const Function,"Database::cipher",Database.cpp,4,1,
+Private Const Function,"Database::compressionAlgo",Database.cpp,4,1,
+Private Function,"Database::copyAttributesFrom",Database.cpp,5,1,
+Private Function,"Database::createRecycleBin",Database.cpp,6,1,
+Private Static Function,"Database::databaseByUuid",Database.cpp,4,1,
+Private Function,"Database::deletedObjects",Database.cpp,4,1,
+Private Const Function,"Database::hasKey",Database.cpp,4,1,
+Private Function,"Database::metadata",Database.cpp,4,1,
+Private Const Function,"Database::metadata",Database.cpp,4,1,
+Private Function,"Database::recFindEntry",Database.cpp,17,5,
+Private Function,"Database::recFindGroup",Database.cpp,14,4,
+Private Function,"Database::recycleEntry",Database.cpp,12,3,
+Private Function,"Database::recycleGroup",Database.cpp,12,3,
+Private Function,"Database::resolveEntry",Database.cpp,4,1,
+Private Function,"Database::resolveGroup",Database.cpp,4,1,
+Private Function,"Database::rootGroup",Database.cpp,4,1,
+Private Const Function,"Database::rootGroup",Database.cpp,4,1,
+Private Function,"Database::setCipher",Database.cpp,5,1,
+Private Function,"Database::setCompressionAlgo",Database.cpp,5,1,
+Private Function,"Database::setEmitModified",Database.cpp,7,2,
+Private Function,"Database::setKey",Database.cpp,20,3,
+Private Function,"Database::setKey",Database.cpp,4,1,
+Private Function,"Database::setRootGroup",Database.cpp,6,1,
+Private Function,"Database::setTransformRounds",Database.cpp,14,4,
+Public Function,"Database::startModifiedTimer",Database.cpp,10,3,
+Private Const Function,"Database::transformRounds",Database.cpp,4,1,
+Private Const Function,"Database::transformSeed",Database.cpp,4,1,
+Private Const Function,"Database::transformedMasterKey",Database.cpp,4,1,
+Private Function,"Database::uuid",Database.cpp,4,1,
+Private Const Function,"Database::verifyKey",Database.cpp,5,1,
+Private Function,"Database::~Database",Database.cpp,4,1,
+Class,"DatabaseIcons",DatabaseIcons.h,60,,9
+File,"DatabaseIcons.cpp",DatabaseIcons.cpp,118,,9
+File,"DatabaseIcons.h",DatabaseIcons.h,19,,1
+Private Function,"DatabaseIcons::DatabaseIcons",DatabaseIcons.cpp,8,1,
+Public Function,"DatabaseIcons::icon",DatabaseIcons.cpp,16,3,
+Public Function,"DatabaseIcons::iconPixmap",DatabaseIcons.cpp,13,3,
+Public Static Function,"DatabaseIcons::instance",DatabaseIcons.cpp,7,2,
+Struct,"DatabaseManagerStruct",DatabaseTabWidget.h,20,,1
+Public Function,"DatabaseManagerStruct::DatabaseManagerStruct",DatabaseTabWidget.cpp,8,1,
+Class,"DatabaseOpenWidget",DatabaseOpenWidget.h,149,,23
+File,"DatabaseOpenWidget.cpp",DatabaseOpenWidget.cpp,122,,23
+File,"DatabaseOpenWidget.h",DatabaseOpenWidget.h,32,,0
+Explicit Private Function,"DatabaseOpenWidget::DatabaseOpenWidget",DatabaseOpenWidget.cpp,20,1,
+Private Function,"DatabaseOpenWidget::activateKeyFile",DatabaseOpenWidget.cpp,4,1,
+Public Function,"DatabaseOpenWidget::activatePassword",DatabaseOpenWidget.cpp,4,1,
+Private Function,"DatabaseOpenWidget::browseKeyFile",DatabaseOpenWidget.cpp,8,2,
+Private Function,"DatabaseOpenWidget::database",DatabaseOpenWidget.cpp,4,1,
+Protected Function,"DatabaseOpenWidget::databaseKey",DatabaseOpenWidget.cpp,26,5,
+Private Function,"DatabaseOpenWidget::enterKey",DatabaseOpenWidget.cpp,10,3,
+Private Function,"DatabaseOpenWidget::load",DatabaseOpenWidget.cpp,14,3,
+Public Function,"DatabaseOpenWidget::openDatabase",DatabaseOpenWidget.cpp,25,4,
+Protected Function,"DatabaseOpenWidget::reject",DatabaseOpenWidget.cpp,4,1,
+Private Function,"DatabaseOpenWidget::~DatabaseOpenWidget",DatabaseOpenWidget.cpp,3,1,
+Class,"DatabaseRepairWidget",DatabaseRepairWidget.h,80,,13
+File,"DatabaseRepairWidget.cpp",DatabaseRepairWidget.cpp,67,,13
+File,"DatabaseRepairWidget.h",DatabaseRepairWidget.h,13,,0
+Explicit Private Function,"DatabaseRepairWidget::DatabaseRepairWidget",DatabaseRepairWidget.cpp,6,1,
+Protected Function,"DatabaseRepairWidget::openDatabase",DatabaseRepairWidget.cpp,52,10,
+Public Function,"DatabaseRepairWidget::processEditFinished",DatabaseRepairWidget.cpp,9,2,
+Class,"DatabaseSettingsWidget",DatabaseSettingsWidget.h,124,,17
+File,"DatabaseSettingsWidget.cpp",DatabaseSettingsWidget.cpp,105,,17
+File,"DatabaseSettingsWidget.h",DatabaseSettingsWidget.h,23,,0
+Explicit Private Function,"DatabaseSettingsWidget::DatabaseSettingsWidget",DatabaseSettingsWidget.cpp,14,1,
+Private Function,"DatabaseSettingsWidget::load",DatabaseSettingsWidget.cpp,28,3,
+Private Function,"DatabaseSettingsWidget::reject",DatabaseSettingsWidget.cpp,4,1,
+Public Function,"DatabaseSettingsWidget::save",DatabaseSettingsWidget.cpp,40,7,
+Private Function,"DatabaseSettingsWidget::transformRoundsBenchmark",DatabaseSettingsWidget.cpp,9,2,
+Private Function,"DatabaseSettingsWidget::truncateHistories",DatabaseSettingsWidget.cpp,7,2,
+Private Function,"DatabaseSettingsWidget::~DatabaseSettingsWidget",DatabaseSettingsWidget.cpp,3,1,
+Class,"DatabaseTabWidget",DatabaseTabWidget.h,673,,120
+File,"DatabaseTabWidget.cpp",DatabaseTabWidget.cpp,628,,121
+File,"DatabaseTabWidget.h",DatabaseTabWidget.h,72,,0
+Explicit Private Function,"DatabaseTabWidget::DatabaseTabWidget",DatabaseTabWidget.cpp,12,1,
+Private Function,"DatabaseTabWidget::changeDatabase",DatabaseTabWidget.cpp,12,1,
+Public Function,"DatabaseTabWidget::changeDatabaseSettings",DatabaseTabWidget.cpp,4,1,
+Public Function,"DatabaseTabWidget::changeMasterKey",DatabaseTabWidget.cpp,4,1,
+Public Function,"DatabaseTabWidget::closeAllDatabases",DatabaseTabWidget.cpp,9,3,
+Public Function,"DatabaseTabWidget::closeDatabase",DatabaseTabWidget.cpp,8,2,
+Private Function,"DatabaseTabWidget::closeDatabase",DatabaseTabWidget.cpp,45,10,
+Public Function,"DatabaseTabWidget::closeDatabaseFromSender",DatabaseTabWidget.cpp,9,1,
+Private Function,"DatabaseTabWidget::connectDatabase",DatabaseTabWidget.cpp,9,2,
+Private Function,"DatabaseTabWidget::currentDatabaseWidget",DatabaseTabWidget.cpp,10,2,
+Private Function,"DatabaseTabWidget::databaseFromDatabaseWidget",DatabaseTabWidget.cpp,11,3,
+Private Function,"DatabaseTabWidget::databaseIndex",DatabaseTabWidget.cpp,5,1,
+Private Function,"DatabaseTabWidget::deleteDatabase",DatabaseTabWidget.cpp,16,2,
+Private Function,"DatabaseTabWidget::emitActivateDatabaseChanged",DatabaseTabWidget.cpp,4,1,
+Public Function,"DatabaseTabWidget::exportToCsv",DatabaseTabWidget.cpp,19,4,
+Private Const Function,"DatabaseTabWidget::hasLockableDatabases",DatabaseTabWidget.cpp,13,3,
+Public Function,"DatabaseTabWidget::importKeePass1Database",DatabaseTabWidget.cpp,14,2,
+Private Function,"DatabaseTabWidget::indexDatabase",DatabaseTabWidget.cpp,12,3,
+Private Function,"DatabaseTabWidget::indexDatabaseManagerStruct",DatabaseTabWidget.cpp,12,3,
+Private Function,"DatabaseTabWidget::insertDatabase",DatabaseTabWidget.cpp,13,1,
+Public Function,"DatabaseTabWidget::lockDatabases",DatabaseTabWidget.cpp,59,14,
+Private Function,"DatabaseTabWidget::modified",DatabaseTabWidget.cpp,14,3,
+Public Function,"DatabaseTabWidget::newDatabase",DatabaseTabWidget.cpp,9,1,
+Public Function,"DatabaseTabWidget::openDatabase",DatabaseTabWidget.cpp,9,2,
+Private Function,"DatabaseTabWidget::openDatabase",DatabaseTabWidget.cpp,66,11,
+Public Function,"DatabaseTabWidget::performGlobalAutoType",DatabaseTabWidget.cpp,13,3,
+Public Function,"DatabaseTabWidget::readOnly",DatabaseTabWidget.cpp,7,2,
+Public Function,"DatabaseTabWidget::saveDatabase",DatabaseTabWidget.cpp,7,2,
+Private Function,"DatabaseTabWidget::saveDatabase",DatabaseTabWidget.cpp,31,5,
+Public Function,"DatabaseTabWidget::saveDatabaseAs",DatabaseTabWidget.cpp,7,2,
+Private Function,"DatabaseTabWidget::saveDatabaseAs",DatabaseTabWidget.cpp,76,11,
+Private Function,"DatabaseTabWidget::toggleTabbar",DatabaseTabWidget.cpp,13,4,
+Private Function,"DatabaseTabWidget::updateLastDatabases",DatabaseTabWidget.cpp,15,3,
+Public Function,"DatabaseTabWidget::updateTabName",DatabaseTabWidget.cpp,32,6,
+Private Function,"DatabaseTabWidget::updateTabNameFromDbSender",DatabaseTabWidget.cpp,5,1,
+Private Function,"DatabaseTabWidget::updateTabNameFromDbWidgetSender",DatabaseTabWidget.cpp,7,1,
+Private Function,"DatabaseTabWidget::~DatabaseTabWidget",DatabaseTabWidget.cpp,8,2,
+Class,"DatabaseWidget",DatabaseWidget.h,953,,150
+File,"DatabaseWidget.cpp",DatabaseWidget.cpp,828,,150
+File,"DatabaseWidget.h",DatabaseWidget.h,143,,0
+Explicit Private Function,"DatabaseWidget::DatabaseWidget",DatabaseWidget.cpp,106,1,
+Private Function,"DatabaseWidget::addWidget",DatabaseWidget.cpp,7,1,
+Private Const Function,"DatabaseWidget::canDeleteCurrentGroup",DatabaseWidget.cpp,5,1,
+Private Function,"DatabaseWidget::clearAllWidgets",DatabaseWidget.cpp,6,1,
+Private Function,"DatabaseWidget::clearLastGroup",DatabaseWidget.cpp,7,2,
+Public Function,"DatabaseWidget::cloneEntry",DatabaseWidget.cpp,12,2,
+Private Function,"DatabaseWidget::closeSearch",DatabaseWidget.cpp,8,1,
+Public Function,"DatabaseWidget::copyAttribute",DatabaseWidget.cpp,9,2,
+Public Function,"DatabaseWidget::copyNotes",DatabaseWidget.cpp,9,2,
+Public Function,"DatabaseWidget::copyPassword",DatabaseWidget.cpp,9,2,
+Public Function,"DatabaseWidget::copyTitle",DatabaseWidget.cpp,9,2,
+Public Function,"DatabaseWidget::copyURL",DatabaseWidget.cpp,9,2,
+Public Function,"DatabaseWidget::copyUsername",DatabaseWidget.cpp,9,2,
+Public Function,"DatabaseWidget::createEntry",DatabaseWidget.cpp,13,2,
+Public Function,"DatabaseWidget::createGroup",DatabaseWidget.cpp,11,2,
+Private Function,"DatabaseWidget::currentEntryHasNotes",DatabaseWidget.cpp,9,2,
+Private Function,"DatabaseWidget::currentEntryHasPassword",DatabaseWidget.cpp,9,2,
+Private Function,"DatabaseWidget::currentEntryHasTitle",DatabaseWidget.cpp,9,2,
+Private Function,"DatabaseWidget::currentEntryHasUrl",DatabaseWidget.cpp,9,2,
+Private Function,"DatabaseWidget::currentEntryHasUsername",DatabaseWidget.cpp,9,2,
+Private Const Function,"DatabaseWidget::currentMode",DatabaseWidget.cpp,15,4,
+Private Const Function,"DatabaseWidget::customEntryAttributes",DatabaseWidget.cpp,8,2,
+Private Function,"DatabaseWidget::database",DatabaseWidget.cpp,4,1,
+Private Const Function,"DatabaseWidget::dbHasKey",DatabaseWidget.cpp,4,1,
+Public Function,"DatabaseWidget::deleteEntries",DatabaseWidget.cpp,57,10,
+Public Function,"DatabaseWidget::deleteGroup",DatabaseWidget.cpp,24,4,
+Private Function,"DatabaseWidget::emitCurrentModeChanged",DatabaseWidget.cpp,4,1,
+Private Function,"DatabaseWidget::emitEntryContextMenuRequested",DatabaseWidget.cpp,4,1,
+Private Function,"DatabaseWidget::emitGroupContextMenuRequested",DatabaseWidget.cpp,4,1,
+Public Function,"DatabaseWidget::entryActivationSignalReceived",DatabaseWidget.cpp,9,2,
+Private Const Function,"DatabaseWidget::entryHeaderViewSizes",DatabaseWidget.cpp,8,2,
+Protected Function,"DatabaseWidget::eventFilter",DatabaseWidget.cpp,23,7,
+Private Const Function,"DatabaseWidget::isEditWidgetModified",DatabaseWidget.cpp,9,2,
+Private Const Function,"DatabaseWidget::isGroupSelected",DatabaseWidget.cpp,4,1,
+Private Const Function,"DatabaseWidget::isInEditMode",DatabaseWidget.cpp,4,1,
+Private Const Function,"DatabaseWidget::isInSearchMode",DatabaseWidget.cpp,4,1,
+Private Function,"DatabaseWidget::lock",DatabaseWidget.cpp,19,3,
+Private Const Function,"DatabaseWidget::numberOfSelectedEntries",DatabaseWidget.cpp,4,1,
+Private Function,"DatabaseWidget::openDatabase",DatabaseWidget.cpp,17,3,
+Public Function,"DatabaseWidget::openSearch",DatabaseWidget.cpp,13,3,
+Public Function,"DatabaseWidget::openUrl",DatabaseWidget.cpp,9,2,
+Public Function,"DatabaseWidget::openUrlForEntry",DatabaseWidget.cpp,16,4,
+Public Function,"DatabaseWidget::performAutoType",DatabaseWidget.cpp,9,2,
+Private Function,"DatabaseWidget::replaceDatabase",DatabaseWidget.cpp,8,1,
+Private Function,"DatabaseWidget::search",DatabaseWidget.cpp,24,4,
+Private Function,"DatabaseWidget::setClipboardTextAndMinimize",DatabaseWidget.cpp,7,2,
+Private Function,"DatabaseWidget::setCurrentIndex",DatabaseWidget.cpp,5,1,
+Private Function,"DatabaseWidget::setCurrentWidget",DatabaseWidget.cpp,11,3,
+Private Function,"DatabaseWidget::setEntryViewHeaderSizes",DatabaseWidget.cpp,10,3,
+Private Function,"DatabaseWidget::setIconFromParent",DatabaseWidget.cpp,15,4,
+Private Function,"DatabaseWidget::setSplitterSizes",DatabaseWidget.cpp,4,1,
+Private Function,"DatabaseWidget::showSearch",DatabaseWidget.cpp,33,2,
+Private Const Function,"DatabaseWidget::splitterSizes",DatabaseWidget.cpp,4,1,
+Private Function,"DatabaseWidget::startSearch",DatabaseWidget.cpp,7,2,
+Private Function,"DatabaseWidget::startSearchTimer",DatabaseWidget.cpp,7,2,
+Private Function,"DatabaseWidget::switchBackToEntryEdit",DatabaseWidget.cpp,4,1,
+Public Function,"DatabaseWidget::switchToDatabaseSettings",DatabaseWidget.cpp,5,1,
+Public Function,"DatabaseWidget::switchToEntryEdit",DatabaseWidget.cpp,9,2,
+Private Function,"DatabaseWidget::switchToEntryEdit",DatabaseWidget.cpp,4,1,
+Private Function,"DatabaseWidget::switchToEntryEdit",DatabaseWidget.cpp,11,2,
+Public Function,"DatabaseWidget::switchToGroupEdit",DatabaseWidget.cpp,9,2,
+Private Function,"DatabaseWidget::switchToGroupEdit",DatabaseWidget.cpp,5,1,
+Private Function,"DatabaseWidget::switchToHistoryView",DatabaseWidget.cpp,5,1,
+Public Function,"DatabaseWidget::switchToImportKeepass1",DatabaseWidget.cpp,6,1,
+Public Function,"DatabaseWidget::switchToMasterKeyChange",DatabaseWidget.cpp,5,1,
+Public Function,"DatabaseWidget::switchToOpenDatabase",DatabaseWidget.cpp,6,1,
+Public Function,"DatabaseWidget::switchToOpenDatabase",DatabaseWidget.cpp,7,1,
+Private Function,"DatabaseWidget::switchToView",DatabaseWidget.cpp,28,5,
+Private Function,"DatabaseWidget::unlockDatabase",DatabaseWidget.cpp,19,4,
+Private Function,"DatabaseWidget::updateFilename",DatabaseWidget.cpp,4,1,
+Private Function,"DatabaseWidget::updateMasterKey",DatabaseWidget.cpp,17,4,
+Private Function,"DatabaseWidget::~DatabaseWidget",DatabaseWidget.cpp,3,1,
+Class,"DatabaseWidgetStateSync",DatabaseWidgetStateSync.h,132,,22
+File,"DatabaseWidgetStateSync.cpp",DatabaseWidgetStateSync.cpp,109,,22
+File,"DatabaseWidgetStateSync.h",DatabaseWidgetStateSync.h,23,,0
+Explicit Private Function,"DatabaseWidgetStateSync::DatabaseWidgetStateSync",DatabaseWidgetStateSync.cpp,9,1,
+Public Function,"DatabaseWidgetStateSync::blockUpdates",DatabaseWidgetStateSync.cpp,4,1,
+Private Static Function,"DatabaseWidgetStateSync::intListToVariant",DatabaseWidgetStateSync.cpp,8,2,
+Public Function,"DatabaseWidgetStateSync::restoreListView",DatabaseWidgetStateSync.cpp,7,2,
+Public Function,"DatabaseWidgetStateSync::restoreSearchView",DatabaseWidgetStateSync.cpp,7,2,
+Public Function,"DatabaseWidgetStateSync::setActive",DatabaseWidgetStateSync.cpp,32,5,
+Private Function,"DatabaseWidgetStateSync::updateColumnSizes",DatabaseWidgetStateSync.cpp,12,3,
+Private Function,"DatabaseWidgetStateSync::updateSplitterSizes",DatabaseWidgetStateSync.cpp,7,2,
+Private Static Function,"DatabaseWidgetStateSync::variantToIntList",DatabaseWidgetStateSync.cpp,17,3,
+Private Function,"DatabaseWidgetStateSync::~DatabaseWidgetStateSync",DatabaseWidgetStateSync.cpp,6,1,
+Class,"DefaultIconModel",IconModels.h,32,,6
+Explicit Private Function,"DefaultIconModel::DefaultIconModel",IconModels.cpp,4,1,
+Private Const Function,"DefaultIconModel::data",IconModels.cpp,11,3,
+Private Const Function,"DefaultIconModel::rowCount",IconModels.cpp,9,2,
+Struct,"DeletedObject",Database.h,5,,0
+Class,"DialogyWidget",DialogyWidget.h,60,,14
+File,"DialogyWidget.cpp",DialogyWidget.cpp,50,,14
+File,"DialogyWidget.h",DialogyWidget.h,10,,0
+Explicit Private Function,"DialogyWidget::DialogyWidget",DialogyWidget.cpp,4,1,
+Private Function,"DialogyWidget::clickButton",DialogyWidget.cpp,21,5,
+Protected Function,"DialogyWidget::keyPressEvent",DialogyWidget.cpp,25,8,
+Class,"DragTabBar",DragTabBar.h,85,,13
+File,"DragTabBar.cpp",DragTabBar.cpp,68,,13
+File,"DragTabBar.h",DragTabBar.h,17,,0
+Explicit Private Function,"DragTabBar::DragTabBar",DragTabBar.cpp,9,1,
+Protected Function,"DragTabBar::dragEnterEvent",DragTabBar.cpp,14,3,
+Protected Function,"DragTabBar::dragLeaveEvent",DragTabBar.cpp,6,1,
+Protected Function,"DragTabBar::dragMoveEvent",DragTabBar.cpp,19,4,
+Public Function,"DragTabBar::dragSwitchTab",DragTabBar.cpp,8,2,
+Protected Function,"DragTabBar::dropEvent",DragTabBar.cpp,6,1,
+Protected Function,"DragTabBar::tabLayoutChange",DragTabBar.cpp,6,1,
+Class,"EditEntryWidget",EditEntryWidget.h,776,,99
+File,"EditEntryWidget.cpp",EditEntryWidget.cpp,694,,99
+File,"EditEntryWidget.h",EditEntryWidget.h,104,,0
+Explicit Private Function,"EditEntryWidget::EditEntryWidget",EditEntryWidget.cpp,33,1,
+Private Function,"EditEntryWidget::applyCurrentAssoc",EditEntryWidget.cpp,13,3,
+Private Function,"EditEntryWidget::cancel",EditEntryWidget.cpp,14,3,
+Private Function,"EditEntryWidget::clear",EditEntryWidget.cpp,10,1,
+Private Function,"EditEntryWidget::clearCurrentAssoc",EditEntryWidget.cpp,7,1,
+Private Function,"EditEntryWidget::createPresetsMenu",EditEntryWidget.cpp,16,1,
+Private Function,"EditEntryWidget::deleteAllHistoryEntries",EditEntryWidget.cpp,10,2,
+Private Function,"EditEntryWidget::deleteHistoryEntry",EditEntryWidget.cpp,13,3,
+Private Function,"EditEntryWidget::editCurrentAttribute",EditEntryWidget.cpp,8,2,
+Private Function,"EditEntryWidget::emitHistoryEntryActivated",EditEntryWidget.cpp,6,1,
+Private Const Function,"EditEntryWidget::entryTitle",EditEntryWidget.cpp,9,2,
+Private Const Function,"EditEntryWidget::hasBeenModified",EditEntryWidget.cpp,11,2,
+Private Function,"EditEntryWidget::histEntryActivated",EditEntryWidget.cpp,8,2,
+Private Function,"EditEntryWidget::insertAttachment",EditEntryWidget.cpp,25,5,
+Private Function,"EditEntryWidget::insertAttribute",EditEntryWidget.cpp,14,2,
+Private Function,"EditEntryWidget::insertAutoTypeAssoc",EditEntryWidget.cpp,9,1,
+Private Function,"EditEntryWidget::loadCurrentAssoc",EditEntryWidget.cpp,18,3,
+Private Function,"EditEntryWidget::loadEntry",EditEntryWidget.cpp,23,3,
+Private Function,"EditEntryWidget::openAttachment",EditEntryWidget.cpp,28,5,
+Private Function,"EditEntryWidget::openCurrentAttachment",EditEntryWidget.cpp,5,1,
+Private Function,"EditEntryWidget::passwordsEqual",EditEntryWidget.cpp,4,1,
+Private Function,"EditEntryWidget::removeAutoTypeAssoc",EditEntryWidget.cpp,7,2,
+Private Function,"EditEntryWidget::removeCurrentAttachment",EditEntryWidget.cpp,10,2,
+Private Function,"EditEntryWidget::removeCurrentAttribute",EditEntryWidget.cpp,8,2,
+Private Function,"EditEntryWidget::restoreHistoryEntry",EditEntryWidget.cpp,7,2,
+Private Function,"EditEntryWidget::saveCurrentAttachment",EditEntryWidget.cpp,29,6,
+Public Function,"EditEntryWidget::saveEntry",EditEntryWidget.cpp,29,6,
+Private Function,"EditEntryWidget::setForms",EditEntryWidget.cpp,89,8,
+Private Function,"EditEntryWidget::setGeneratedPassword",EditEntryWidget.cpp,6,1,
+Private Function,"EditEntryWidget::setupAdvanced",EditEntryWidget.cpp,22,1,
+Private Function,"EditEntryWidget::setupAutoType",EditEntryWidget.cpp,31,1,
+Private Function,"EditEntryWidget::setupHistory",EditEntryWidget.cpp,21,1,
+Private Function,"EditEntryWidget::setupIcon",EditEntryWidget.cpp,4,1,
+Private Function,"EditEntryWidget::setupMain",EditEntryWidget.cpp,15,1,
+Private Function,"EditEntryWidget::setupProperties",EditEntryWidget.cpp,4,1,
+Private Function,"EditEntryWidget::showHistoryEntry",EditEntryWidget.cpp,7,2,
+Private Function,"EditEntryWidget::togglePasswordGeneratorButton",EditEntryWidget.cpp,5,1,
+Private Function,"EditEntryWidget::updateAttachmentButtonsEnabled",EditEntryWidget.cpp,7,1,
+Private Function,"EditEntryWidget::updateAutoTypeEnabled",EditEntryWidget.cpp,18,1,
+Private Function,"EditEntryWidget::updateCurrentAttribute",EditEntryWidget.cpp,36,6,
+Private Const Function,"EditEntryWidget::updateEntryData",EditEntryWidget.cpp,30,4,
+Private Function,"EditEntryWidget::updateHistoryButtons",EditEntryWidget.cpp,14,2,
+Private Function,"EditEntryWidget::useExpiryPreset",EditEntryWidget.cpp,8,1,
+Private Function,"EditEntryWidget::~EditEntryWidget",EditEntryWidget.cpp,3,1,
+File,"EditEntryWidget_p.h",EditEntryWidget_p.h,49,,8
+Class,"EditGroupWidget",EditGroupWidget.h,170,,23
+File,"EditGroupWidget.cpp",EditGroupWidget.cpp,145,,23
+File,"EditGroupWidget.h",EditGroupWidget.h,31,,0
+Explicit Private Function,"EditGroupWidget::EditGroupWidget",EditGroupWidget.cpp,19,1,
+Private Function,"EditGroupWidget::addTriStateItems",EditGroupWidget.cpp,14,2,
+Private Function,"EditGroupWidget::cancel",EditGroupWidget.cpp,9,2,
+Private Function,"EditGroupWidget::clear",EditGroupWidget.cpp,6,1,
+Private Function,"EditGroupWidget::indexFromTriState",EditGroupWidget.cpp,14,4,
+Private Function,"EditGroupWidget::loadGroup",EditGroupWidget.cpp,39,4,
+Public Function,"EditGroupWidget::save",EditGroupWidget.cpp,27,4,
+Private Function,"EditGroupWidget::triStateFromIndex",EditGroupWidget.cpp,14,4,
+Private Function,"EditGroupWidget::~EditGroupWidget",EditGroupWidget.cpp,3,1,
+Class,"EditWidget",EditWidget.h,77,,11
+File,"EditWidget.cpp",EditWidget.cpp,56,,11
+File,"EditWidget.h",EditWidget.h,25,,0
+Explicit Private Function,"EditWidget::EditWidget",EditWidget.cpp,15,1,
+Private Function,"EditWidget::add",EditWidget.cpp,5,1,
+Private Function,"EditWidget::headlineLabel",EditWidget.cpp,4,1,
+Private Const Function,"EditWidget::readOnly",EditWidget.cpp,4,1,
+Private Function,"EditWidget::setCurrentRow",EditWidget.cpp,4,1,
+Private Function,"EditWidget::setHeadline",EditWidget.cpp,4,1,
+Private Function,"EditWidget::setReadOnly",EditWidget.cpp,10,2,
+Private Function,"EditWidget::setRowHidden",EditWidget.cpp,7,2,
+Private Function,"EditWidget::~EditWidget",EditWidget.cpp,3,1,
+Class,"EditWidgetIcons",EditWidgetIcons.h,215,,34
+File,"EditWidgetIcons.cpp",EditWidgetIcons.cpp,196,,35
+File,"EditWidgetIcons.h",EditWidgetIcons.h,36,,0
+Explicit Private Function,"EditWidgetIcons::EditWidgetIcons",EditWidgetIcons.cpp,21,1,
+Public Function,"EditWidgetIcons::addCustomIcon",EditWidgetIcons.cpp,26,4,
+Private Function,"EditWidgetIcons::load",EditWidgetIcons.cpp,26,3,
+Private Function,"EditWidgetIcons::removeCustomIcon",EditWidgetIcons.cpp,49,12,
+Private Function,"EditWidgetIcons::reset",EditWidgetIcons.cpp,5,1,
+Private Const Function,"EditWidgetIcons::state",EditWidgetIcons.cpp,23,4,
+Private Function,"EditWidgetIcons::updateRadioButtonCustomIcons",EditWidgetIcons.cpp,4,1,
+Private Function,"EditWidgetIcons::updateRadioButtonDefaultIcons",EditWidgetIcons.cpp,4,1,
+Private Function,"EditWidgetIcons::updateWidgetsCustomIcons",EditWidgetIcons.cpp,15,3,
+Private Function,"EditWidgetIcons::updateWidgetsDefaultIcons",EditWidgetIcons.cpp,15,3,
+Private Function,"EditWidgetIcons::~EditWidgetIcons",EditWidgetIcons.cpp,3,1,
+Class,"EditWidgetProperties",EditWidgetProperties.h,31,,3
+File,"EditWidgetProperties.cpp",EditWidgetProperties.cpp,20,,3
+File,"EditWidgetProperties.h",EditWidgetProperties.h,14,,0
+Explicit Private Function,"EditWidgetProperties::EditWidgetProperties",EditWidgetProperties.cpp,6,1,
+Private Function,"EditWidgetProperties::setFields",EditWidgetProperties.cpp,11,1,
+Private Function,"EditWidgetProperties::~EditWidgetProperties",EditWidgetProperties.cpp,3,1,
+File,"Endian.cpp",Endian.cpp,146,,27
+File,"Endian.h",Endian.h,21,,0
+Function,"Endian::bytesToInt16",Endian.cpp,10,2,
+Function,"Endian::bytesToInt32",Endian.cpp,10,2,
+Function,"Endian::bytesToInt64",Endian.cpp,10,2,
+Function,"Endian::bytesToUInt16",Endian.cpp,4,1,
+Function,"Endian::bytesToUInt32",Endian.cpp,4,1,
+Function,"Endian::bytesToUInt64",Endian.cpp,4,1,
+Function,"Endian::int16ToBytes",Endian.cpp,12,2,
+Function,"Endian::int32ToBytes",Endian.cpp,12,2,
+Function,"Endian::int64ToBytes",Endian.cpp,12,2,
+Function,"Endian::readInt16",Endian.cpp,12,2,
+Function,"Endian::readInt32",Endian.cpp,12,2,
+Function,"Endian::readInt64",Endian.cpp,12,2,
+Function,"Endian::readUInt16",Endian.cpp,4,1,
+Function,"Endian::readUInt32",Endian.cpp,4,1,
+Function,"Endian::readUInt64",Endian.cpp,4,1,
+Function,"Endian::writeInt16",Endian.cpp,6,1,
+Function,"Endian::writeInt32",Endian.cpp,6,1,
+Function,"Endian::writeInt64",Endian.cpp,6,1,
+Class,"Entry",Entry.h,563,,100
+File,"Entry.cpp",Entry.cpp,471,,100
+File,"Entry.h",Entry.h,109,,0
+Private Function,"Entry::Entry",Entry.cpp,18,1,
+Private Function,"Entry::addHistoryItem",Entry.cpp,6,1,
+Private Function,"Entry::attachments",Entry.cpp,4,1,
+Private Const Function,"Entry::attachments",Entry.cpp,4,1,
+Private Function,"Entry::attributes",Entry.cpp,4,1,
+Private Const Function,"Entry::attributes",Entry.cpp,4,1,
+Private Function,"Entry::autoTypeAssociations",Entry.cpp,4,1,
+Private Const Function,"Entry::autoTypeAssociations",Entry.cpp,4,1,
+Private Const Function,"Entry::autoTypeEnabled",Entry.cpp,4,1,
+Private Const Function,"Entry::autoTypeObfuscation",Entry.cpp,4,1,
+Private Const Function,"Entry::backgroundColor",Entry.cpp,4,1,
+Private Function,"Entry::beginUpdate",Entry.cpp,11,1,
+Public Const Function,"Entry::clone",Entry.cpp,33,5,
+Private Function,"Entry::copyDataFrom",Entry.cpp,9,1,
+Private Const Function,"Entry::database",Entry.cpp,9,2,
+Private Const Function,"Entry::defaultAutoTypeSequence",Entry.cpp,4,1,
+Public Function,"Entry::emitDataChanged",Entry.cpp,4,1,
+Private Function,"Entry::endUpdate",Entry.cpp,14,2,
+Private Const Function,"Entry::foregroundColor",Entry.cpp,4,1,
+Private Function,"Entry::group",Entry.cpp,4,1,
+Private Const Function,"Entry::group",Entry.cpp,4,1,
+Private Function,"Entry::historyItems",Entry.cpp,4,1,
+Private Const Function,"Entry::historyItems",Entry.cpp,4,1,
+Private Const Function,"Entry::icon",Entry.cpp,15,3,
+Private Const Function,"Entry::iconNumber",Entry.cpp,4,1,
+Private Const Function,"Entry::iconPixmap",Entry.cpp,15,3,
+Private Const Function,"Entry::iconScaledPixmap",Entry.cpp,10,2,
+Private Const Function,"Entry::iconUuid",Entry.cpp,4,1,
+Private Const Function,"Entry::isExpired",Entry.cpp,4,1,
+Private Const Function,"Entry::notes",Entry.cpp,4,1,
+Private Const Function,"Entry::overrideUrl",Entry.cpp,4,1,
+Private Const Function,"Entry::password",Entry.cpp,4,1,
+Private Function,"Entry::removeHistoryItems",Entry.cpp,14,3,
+Private Const Function,"Entry::resolvePlaceholders",Entry.cpp,10,1,
+Private Function Template,"Entry::set",Entry.cpp,11,2,
+Private Function,"Entry::setAutoTypeEnabled",Entry.cpp,4,1,
+Private Function,"Entry::setAutoTypeObfuscation",Entry.cpp,4,1,
+Private Function,"Entry::setBackgroundColor",Entry.cpp,4,1,
+Private Function,"Entry::setDefaultAutoTypeSequence",Entry.cpp,4,1,
+Private Function,"Entry::setExpires",Entry.cpp,7,2,
+Private Function,"Entry::setExpiryTime",Entry.cpp,7,2,
+Private Function,"Entry::setForegroundColor",Entry.cpp,4,1,
+Private Function,"Entry::setGroup",Entry.cpp,24,6,
+Private Function,"Entry::setIcon",Entry.cpp,10,2,
+Private Function,"Entry::setIcon",Entry.cpp,10,2,
+Private Function,"Entry::setNotes",Entry.cpp,4,1,
+Private Function,"Entry::setOverrideUrl",Entry.cpp,4,1,
+Private Function,"Entry::setPassword",Entry.cpp,4,1,
+Private Function,"Entry::setTags",Entry.cpp,4,1,
+Private Function,"Entry::setTimeInfo",Entry.cpp,4,1,
+Private Function,"Entry::setTitle",Entry.cpp,4,1,
+Private Function,"Entry::setUpdateTimeinfo",Entry.cpp,4,1,
+Private Function,"Entry::setUrl",Entry.cpp,4,1,
+Private Function,"Entry::setUsername",Entry.cpp,4,1,
+Private Function,"Entry::setUuid",Entry.cpp,5,1,
+Private Const Function,"Entry::tags",Entry.cpp,4,1,
+Private Const Function,"Entry::timeInfo",Entry.cpp,4,1,
+Private Const Function,"Entry::title",Entry.cpp,4,1,
+Private Function,"Entry::truncateHistory",Entry.cpp,43,10,
+Private Function,"Entry::updateModifiedSinceBegin",Entry.cpp,4,1,
+Private Function,"Entry::updateTimeinfo",Entry.cpp,7,2,
+Private Const Function,"Entry::url",Entry.cpp,4,1,
+Private Const Function,"Entry::username",Entry.cpp,4,1,
+Private Const Function,"Entry::uuid",Entry.cpp,4,1,
+Private Function,"Entry::~Entry",Entry.cpp,10,3,
+Class,"EntryAttachments",EntryAttachments.h,106,,18
+File,"EntryAttachments.cpp",EntryAttachments.cpp,79,,18
+File,"EntryAttachments.h",EntryAttachments.h,27,,0
+Explicit Private Function,"EntryAttachments::EntryAttachments",EntryAttachments.cpp,4,1,
+Private Function,"EntryAttachments::clear",EntryAttachments.cpp,10,2,
+Private Function,"EntryAttachments::copyDataFrom",EntryAttachments.cpp,9,2,
+Private Const Function,"EntryAttachments::hasKey",EntryAttachments.cpp,4,1,
+Private Const Function,"EntryAttachments::keys",EntryAttachments.cpp,4,1,
+Private Const Function,"EntryAttachments::operator!=",EntryAttachments.cpp,4,1,
+Private Const Function,"EntryAttachments::operator==",EntryAttachments.cpp,4,1,
+Private Function,"EntryAttachments::remove",EntryAttachments.cpp,11,2,
+Private Function,"EntryAttachments::set",EntryAttachments.cpp,21,5,
+Private Const Function,"EntryAttachments::value",EntryAttachments.cpp,4,1,
+Private Const Function,"EntryAttachments::values",EntryAttachments.cpp,4,1,
+Class,"EntryAttachmentsModel",EntryAttachmentsModel.h,113,,19
+File,"EntryAttachmentsModel.cpp",EntryAttachmentsModel.cpp,92,,19
+File,"EntryAttachmentsModel.h",EntryAttachmentsModel.h,22,,0
+Explicit Private Function,"EntryAttachmentsModel::EntryAttachmentsModel",EntryAttachmentsModel.cpp,5,1,
+Private Function,"EntryAttachmentsModel::aboutToReset",EntryAttachmentsModel.cpp,4,1,
+Private Function,"EntryAttachmentsModel::attachmentAboutToAdd",EntryAttachmentsModel.cpp,8,1,
+Private Function,"EntryAttachmentsModel::attachmentAboutToRemove",EntryAttachmentsModel.cpp,5,1,
+Private Function,"EntryAttachmentsModel::attachmentAdd",EntryAttachmentsModel.cpp,4,1,
+Public Function,"EntryAttachmentsModel::attachmentChange",EntryAttachmentsModel.cpp,5,1,
+Private Function,"EntryAttachmentsModel::attachmentRemove",EntryAttachmentsModel.cpp,4,1,
+Private Const Function,"EntryAttachmentsModel::columnCount",EntryAttachmentsModel.cpp,5,1,
+Private Const Function,"EntryAttachmentsModel::data",EntryAttachmentsModel.cpp,14,3,
+Private Const Function,"EntryAttachmentsModel::keyByIndex",EntryAttachmentsModel.cpp,7,2,
+Private Function,"EntryAttachmentsModel::reset",EntryAttachmentsModel.cpp,4,1,
+Private Const Function,"EntryAttachmentsModel::rowCount",EntryAttachmentsModel.cpp,9,2,
+Private Function,"EntryAttachmentsModel::setEntryAttachments",EntryAttachmentsModel.cpp,18,3,
+Class,"EntryAttributes",EntryAttributes.h,233,,45
+File,"EntryAttributes.cpp",EntryAttributes.cpp,197,,45
+File,"EntryAttributes.h",EntryAttributes.h,43,,0
+Explicit Private Function,"EntryAttributes::EntryAttributes",EntryAttributes.cpp,5,1,
+Private Function,"EntryAttributes::areCustomKeysDifferent",EntryAttributes.cpp,16,5,
+Private Function,"EntryAttributes::attributesSize",EntryAttributes.cpp,10,2,
+Private Function,"EntryAttributes::clear",EntryAttributes.cpp,11,2,
+Private Function,"EntryAttributes::copyCustomKeysFrom",EntryAttributes.cpp,25,7,
+Private Function,"EntryAttributes::copyDataFrom",EntryAttributes.cpp,10,2,
+Private Function,"EntryAttributes::customKeys",EntryAttributes.cpp,11,3,
+Private Const Function,"EntryAttributes::hasKey",EntryAttributes.cpp,4,1,
+Private Static Function,"EntryAttributes::isDefaultAttribute",EntryAttributes.cpp,4,1,
+Private Const Function,"EntryAttributes::isProtected",EntryAttributes.cpp,4,1,
+Private Const Function,"EntryAttributes::keys",EntryAttributes.cpp,4,1,
+Private Const Function,"EntryAttributes::operator!=",EntryAttributes.cpp,5,1,
+Private Const Function,"EntryAttributes::operator==",EntryAttributes.cpp,5,1,
+Private Function,"EntryAttributes::remove",EntryAttributes.cpp,13,2,
+Private Function,"EntryAttributes::rename",EntryAttributes.cpp,24,4,
+Private Function,"EntryAttributes::set",EntryAttributes.cpp,35,10,
+Private Const Function,"EntryAttributes::value",EntryAttributes.cpp,4,1,
+Class,"EntryAttributesModel",EntryAttributesModel.h,212,,35
+File,"EntryAttributesModel.cpp",EntryAttributesModel.cpp,182,,35
+File,"EntryAttributesModel.h",EntryAttributesModel.h,31,,0
+Explicit Private Function,"EntryAttributesModel::EntryAttributesModel",EntryAttributesModel.cpp,6,1,
+Private Function,"EntryAttributesModel::aboutToReset",EntryAttributesModel.cpp,4,1,
+Private Function,"EntryAttributesModel::attributeAboutToAdd",EntryAttributesModel.cpp,8,1,
+Private Function,"EntryAttributesModel::attributeAboutToRemove",EntryAttributesModel.cpp,5,1,
+Private Function,"EntryAttributesModel::attributeAboutToRename",EntryAttributesModel.cpp,20,3,
+Private Function,"EntryAttributesModel::attributeAdd",EntryAttributesModel.cpp,5,1,
+Public Function,"EntryAttributesModel::attributeChange",EntryAttributesModel.cpp,6,1,
+Private Function,"EntryAttributesModel::attributeRemove",EntryAttributesModel.cpp,5,1,
+Private Function,"EntryAttributesModel::attributeRename",EntryAttributesModel.cpp,13,2,
+Private Const Function,"EntryAttributesModel::columnCount",EntryAttributesModel.cpp,5,1,
+Private Const Function,"EntryAttributesModel::data",EntryAttributesModel.cpp,7,2,
+Private Const Function,"EntryAttributesModel::flags",EntryAttributesModel.cpp,9,2,
+Private Const Function,"EntryAttributesModel::headerData",EntryAttributesModel.cpp,9,2,
+Private Const Function,"EntryAttributesModel::indexByKey",EntryAttributesModel.cpp,10,2,
+Private Const Function,"EntryAttributesModel::keyByIndex",EntryAttributesModel.cpp,9,2,
+Private Function,"EntryAttributesModel::reset",EntryAttributesModel.cpp,5,1,
+Private Const Function,"EntryAttributesModel::rowCount",EntryAttributesModel.cpp,9,2,
+Private Function,"EntryAttributesModel::setData",EntryAttributesModel.cpp,15,3,
+Private Function,"EntryAttributesModel::setEntryAttributes",EntryAttributesModel.cpp,22,3,
+Private Function,"EntryAttributesModel::updateAttributes",EntryAttributesModel.cpp,10,3,
+Struct,"EntryData",Entry.h,13,,0
+Class,"EntryHistoryModel",EntryHistoryModel.h,123,,26
+File,"EntryHistoryModel.cpp",EntryHistoryModel.cpp,104,,26
+File,"EntryHistoryModel.h",EntryHistoryModel.h,20,,0
+Explicit Private Function,"EntryHistoryModel::EntryHistoryModel",EntryHistoryModel.cpp,4,1,
+Private Function,"EntryHistoryModel::clear",EntryHistoryModel.cpp,7,1,
+Private Const Function,"EntryHistoryModel::columnCount",EntryHistoryModel.cpp,5,1,
+Private Const Function,"EntryHistoryModel::data",EntryHistoryModel.cpp,27,8,
+Private Function,"EntryHistoryModel::deleteAll",EntryHistoryModel.cpp,10,2,
+Private Function,"EntryHistoryModel::deleteIndex",EntryHistoryModel.cpp,10,2,
+Private Function,"EntryHistoryModel::deletedEntries",EntryHistoryModel.cpp,4,1,
+Private Const Function,"EntryHistoryModel::entryFromIndex",EntryHistoryModel.cpp,5,1,
+Private Const Function,"EntryHistoryModel::headerData",EntryHistoryModel.cpp,16,6,
+Private Const Function,"EntryHistoryModel::rowCount",EntryHistoryModel.cpp,9,2,
+Private Function,"EntryHistoryModel::setEntries",EntryHistoryModel.cpp,7,1,
+Class,"EntryModel",EntryModel.h,285,,61
+File,"EntryModel.cpp",EntryModel.cpp,242,,61
+File,"EntryModel.h",EntryModel.h,45,,0
+Explicit Private Function,"EntryModel::EntryModel",EntryModel.cpp,5,1,
+Private Const Function,"EntryModel::columnCount",EntryModel.cpp,5,1,
+Private Const Function,"EntryModel::data",EntryModel.cpp,46,15,
+Public Function,"EntryModel::entryAboutToAdd",EntryModel.cpp,10,3,
+Private Function,"EntryModel::entryAboutToRemove",EntryModel.cpp,7,2,
+Private Function,"EntryModel::entryAdded",EntryModel.cpp,10,3,
+Private Function,"EntryModel::entryDataChanged",EntryModel.cpp,5,1,
+Private Const Function,"EntryModel::entryFromIndex",EntryModel.cpp,5,1,
+Private Function,"EntryModel::entryRemoved",EntryModel.cpp,7,2,
+Private Const Function,"EntryModel::flags",EntryModel.cpp,9,2,
+Private Const Function,"EntryModel::headerData",EntryModel.cpp,16,6,
+Private Const Function,"EntryModel::indexFromEntry",EntryModel.cpp,6,1,
+Private Function,"EntryModel::makeConnections",EntryModel.cpp,8,1,
+Private Const Function,"EntryModel::mimeData",EntryModel.cpp,28,6,
+Private Const Function,"EntryModel::mimeTypes",EntryModel.cpp,6,1,
+Private Const Function,"EntryModel::rowCount",EntryModel.cpp,9,2,
+Private Function,"EntryModel::setEntryList",EntryModel.cpp,28,6,
+Public Function,"EntryModel::setGroup",EntryModel.cpp,15,2,
+Private Function,"EntryModel::severConnections",EntryModel.cpp,9,3,
+Private Const Function,"EntryModel::supportedDragActions",EntryModel.cpp,4,1,
+Private Const Function,"EntryModel::supportedDropActions",EntryModel.cpp,4,1,
+Class,"EntrySearcher",EntrySearcher.h,51,,10
+File,"EntrySearcher.cpp",EntrySearcher.cpp,42,,10
+File,"EntrySearcher.h",EntrySearcher.h,11,,0
+Private Function,"EntrySearcher::matchEntry",EntrySearcher.cpp,11,3,
+Public Function,"EntrySearcher::search",EntrySearcher.cpp,8,2,
+Private Function,"EntrySearcher::searchEntries",EntrySearcher.cpp,16,4,
+Private Function,"EntrySearcher::wordMatch",EntrySearcher.cpp,7,1,
+Class,"EntryView",EntryView.h,136,,18
+File,"EntryView.cpp",EntryView.cpp,107,,18
+File,"EntryView.h",EntryView.h,33,,0
+Explicit Private Function,"EntryView::EntryView",EntryView.cpp,24,1,
+Private Function,"EntryView::currentEntry",EntryView.cpp,10,2,
+Public Function,"EntryView::emitEntryActivated",EntryView.cpp,5,1,
+Private Function,"EntryView::entryFromIndex",EntryView.cpp,9,2,
+Private Function,"EntryView::inEntryListMode",EntryView.cpp,4,1,
+Protected Function,"EntryView::keyPressEvent",EntryView.cpp,7,2,
+Private Function,"EntryView::numberOfSelectedEntries",EntryView.cpp,4,1,
+Private Function,"EntryView::setCurrentEntry",EntryView.cpp,5,1,
+Private Function,"EntryView::setEntryList",EntryView.cpp,5,1,
+Private Function,"EntryView::setFirstEntryActive",EntryView.cpp,10,2,
+Public Function,"EntryView::setGroup",EntryView.cpp,5,1,
+Private Function,"EntryView::setModel",EntryView.cpp,5,1,
+Private Function,"EntryView::switchToEntryListMode",EntryView.cpp,7,1,
+Private Function,"EntryView::switchToGroupMode",EntryView.cpp,7,1,
+Abstract Class,"Exporter",Exporter.h,6,,1
+File,"Exporter.h",Exporter.h,8,,1
+Public Virtual Function,"Exporter::~Exporter",Exporter.h,1,1,
+Class,"FileDialog",FileDialog.h,94,,17
+File,"FileDialog.cpp",FileDialog.cpp,77,,17
+File,"FileDialog.h",FileDialog.h,21,,1
+Private Function,"FileDialog::FileDialog",FileDialog.cpp,3,1,
+Public Function,"FileDialog::getOpenFileName",FileDialog.cpp,24,5,
+Public Function,"FileDialog::getSaveFileName",FileDialog.cpp,38,8,
+Public Static Function,"FileDialog::instance",FileDialog.cpp,7,2,
+Public Function,"FileDialog::setNextFileName",FileDialog.cpp,4,1,
+Class,"FileKey",FileKey.h,218,,51
+File,"FileKey.cpp",FileKey.cpp,199,,51
+File,"FileKey.h",FileKey.h,20,,0
+Public Function,"FileKey::FileKey",FileKey.cpp,3,1,
+Public Const Function,"FileKey::clone",FileKey.cpp,4,1,
+Public Static Function,"FileKey::create",FileKey.cpp,14,1,
+Public Static Function,"FileKey::create",FileKey.cpp,21,5,
+Public Function,"FileKey::load",FileKey.cpp,34,11,
+Public Function,"FileKey::load",FileKey.cpp,19,5,
+Private Function,"FileKey::loadBinary",FileKey.cpp,14,3,
+Private Function,"FileKey::loadHashed",FileKey.cpp,13,3,
+Private Function,"FileKey::loadHex",FileKey.cpp,19,5,
+Private Function,"FileKey::loadXml",FileKey.cpp,29,7,
+Private Function,"FileKey::loadXmlKey",FileKey.cpp,13,4,
+Private Function,"FileKey::loadXmlMeta",FileKey.cpp,12,4,
+Public Const Function,"FileKey::rawKey",FileKey.cpp,4,1,
+Class,"FilePath",FilePath.h,162,,31
+File,"FilePath.cpp",FilePath.cpp,146,,31
+File,"FilePath.h",FilePath.h,20,,1
+Private Function,"FilePath::FilePath",FilePath.cpp,14,3,
+Public Function,"FilePath::applicationIcon",FilePath.cpp,4,1,
+Public Function,"FilePath::dataPath",FilePath.cpp,9,2,
+Public Function,"FilePath::icon",FilePath.cpp,28,7,
+Public Static Function,"FilePath::instance",FilePath.cpp,7,2,
+Public Function,"FilePath::onOffIcon",FilePath.cpp,36,7,
+Public Function,"FilePath::pluginPath",FilePath.cpp,37,7,
+Private Function,"FilePath::testSetDir",FilePath.cpp,10,2,
+File,"Global.h",Global.h,5,,1
+Class,"Group",Group.h,629,,116
+File,"Group.cpp",Group.cpp,528,,116
+File,"Group.h",Group.h,103,,0
+Private Function,"Group::Group",Group.cpp,8,1,
+Private Struct,"Group::GroupData",Group.h,12,,0
+Private Function,"Group::addEntry",Group.cpp,13,2,
+Private Const Function,"Group::autoTypeEnabled",Group.cpp,4,1,
+Private Function,"Group::children",Group.cpp,4,1,
+Private Const Function,"Group::children",Group.cpp,4,1,
+Private Function,"Group::cleanupParent",Group.cpp,9,2,
+Private Const Function,"Group::clone",Group.cpp,24,3,
+Private Function,"Group::copyDataFrom",Group.cpp,5,1,
+Private Static Function,"Group::createRecycleBin",Group.cpp,10,1,
+Private Const Function,"Group::customIconsRecursive",Group.cpp,17,5,
+Private Function,"Group::database",Group.cpp,4,1,
+Private Const Function,"Group::database",Group.cpp,4,1,
+Private Const Function,"Group::defaultAutoTypeSequence",Group.cpp,4,1,
+Private Function,"Group::entries",Group.cpp,4,1,
+Private Const Function,"Group::entries",Group.cpp,4,1,
+Private Const Function,"Group::entriesRecursive",Group.cpp,14,4,
+Private Const Function,"Group::groupsRecursive",Group.cpp,11,3,
+Private Function,"Group::groupsRecursive",Group.cpp,11,3,
+Private Const Function,"Group::icon",Group.cpp,15,3,
+Private Const Function,"Group::iconNumber",Group.cpp,4,1,
+Private Const Function,"Group::iconPixmap",Group.cpp,15,3,
+Private Const Function,"Group::iconScaledPixmap",Group.cpp,15,3,
+Private Const Function,"Group::iconUuid",Group.cpp,4,1,
+Private Const Function,"Group::isExpanded",Group.cpp,4,1,
+Private Const Function,"Group::isExpired",Group.cpp,4,1,
+Private Const Function,"Group::lastTopVisibleEntry",Group.cpp,4,1,
+Private Const Function,"Group::name",Group.cpp,4,1,
+Private Const Function,"Group::notes",Group.cpp,4,1,
+Private Function,"Group::parentGroup",Group.cpp,4,1,
+Private Const Function,"Group::parentGroup",Group.cpp,4,1,
+Private Function,"Group::recCreateDelObjects",Group.cpp,12,4,
+Private Function,"Group::recSetDatabase",Group.cpp,35,7,
+Private Function,"Group::removeEntry",Group.cpp,12,2,
+Private Const Function,"Group::resolveAutoTypeEnabled",Group.cpp,19,5,
+Private Const Function,"Group::resolveSearchingEnabled",Group.cpp,19,5,
+Private Const Function,"Group::searchingEnabled",Group.cpp,4,1,
+Private Function Template,"Group::set",Group.cpp,11,2,
+Private Function,"Group::setAutoTypeEnabled",Group.cpp,4,1,
+Private Function,"Group::setDefaultAutoTypeSequence",Group.cpp,4,1,
+Private Function,"Group::setExpanded",Group.cpp,8,2,
+Private Function,"Group::setExpires",Group.cpp,8,2,
+Private Function,"Group::setExpiryTime",Group.cpp,8,2,
+Private Function,"Group::setIcon",Group.cpp,11,2,
+Private Function,"Group::setIcon",Group.cpp,11,2,
+Private Function,"Group::setLastTopVisibleEntry",Group.cpp,4,1,
+Private Function,"Group::setName",Group.cpp,6,2,
+Private Function,"Group::setNotes",Group.cpp,4,1,
+Private Function,"Group::setParent",Group.cpp,53,10,
+Private Function,"Group::setParent",Group.cpp,9,1,
+Private Function,"Group::setSearchingEnabled",Group.cpp,4,1,
+Private Function,"Group::setTimeInfo",Group.cpp,4,1,
+Private Function,"Group::setUpdateTimeinfo",Group.cpp,4,1,
+Private Function,"Group::setUuid",Group.cpp,4,1,
+Private Const Function,"Group::timeInfo",Group.cpp,4,1,
+Private Function,"Group::updateTimeinfo",Group.cpp,7,2,
+Private Const Function,"Group::uuid",Group.cpp,4,1,
+Private Function,"Group::~Group",Group.cpp,18,4,
+Class,"GroupModel",GroupModel.h,346,,63
+File,"GroupModel.cpp",GroupModel.cpp,313,,63
+File,"GroupModel.h",GroupModel.h,35,,0
+Explicit Private Function,"GroupModel::GroupModel",GroupModel.cpp,6,1,
+Private Function,"GroupModel::changeDatabase",GroupModel.cpp,16,2,
+Private Const Function,"GroupModel::columnCount",GroupModel.cpp,5,1,
+Private Const Function,"GroupModel::data",GroupModel.cpp,28,7,
+Private Function,"GroupModel::dropMimeData",GroupModel.cpp,92,19,
+Private Const Function,"GroupModel::flags",GroupModel.cpp,12,3,
+Private Function,"GroupModel::groupAboutToAdd",GroupModel.cpp,6,1,
+Private Function,"GroupModel::groupAboutToMove",GroupModel.cpp,13,2,
+Private Function,"GroupModel::groupAboutToRemove",GroupModel.cpp,9,1,
+Private Function,"GroupModel::groupAdded",GroupModel.cpp,4,1,
+Public Function,"GroupModel::groupDataChanged",GroupModel.cpp,5,1,
+Private Const Function,"GroupModel::groupFromIndex",GroupModel.cpp,5,1,
+Private Function,"GroupModel::groupMoved",GroupModel.cpp,4,1,
+Private Function,"GroupModel::groupRemoved",GroupModel.cpp,4,1,
+Private Const Function,"GroupModel::headerData",GroupModel.cpp,7,1,
+Private Const Function,"GroupModel::index",GroupModel.cpp,14,3,
+Private Const Function,"GroupModel::index",GroupModel.cpp,11,2,
+Private Const Function,"GroupModel::mimeData",GroupModel.cpp,28,6,
+Private Const Function,"GroupModel::mimeTypes",GroupModel.cpp,7,1,
+Private Const Function,"GroupModel::parent",GroupModel.cpp,7,2,
+Private Const Function,"GroupModel::parent",GroupModel.cpp,16,3,
+Private Const Function,"GroupModel::rowCount",GroupModel.cpp,10,2,
+Private Const Function,"GroupModel::supportedDropActions",GroupModel.cpp,4,1,
+Class,"GroupView",GroupView.h,123,,19
+File,"GroupView.cpp",GroupView.cpp,98,,19
+File,"GroupView.h",GroupView.h,28,,0
+Explicit Private Function,"GroupView::GroupView",GroupView.cpp,19,1,
+Private Function,"GroupView::changeDatabase",GroupView.cpp,4,1,
+Private Function,"GroupView::currentGroup",GroupView.cpp,9,2,
+Protected Function,"GroupView::dragMoveEvent",GroupView.cpp,14,3,
+Private Function,"GroupView::emitGroupChanged",GroupView.cpp,4,1,
+Private Function,"GroupView::emitGroupChanged",GroupView.cpp,4,1,
+Private Function,"GroupView::expandGroup",GroupView.cpp,5,1,
+Public Function,"GroupView::expandedChanged",GroupView.cpp,8,2,
+Private Function,"GroupView::modelReset",GroupView.cpp,5,1,
+Private Function,"GroupView::recInitExpanded",GroupView.cpp,10,2,
+Private Function,"GroupView::setCurrentGroup",GroupView.cpp,4,1,
+Private Function,"GroupView::setModel",GroupView.cpp,5,1,
+Private Function,"GroupView::syncExpandedState",GroupView.cpp,7,2,
+Class,"HashedBlockStream",HashedBlockStream.h,208,,40
+File,"HashedBlockStream.cpp",HashedBlockStream.cpp,185,,40
+File,"HashedBlockStream.h",HashedBlockStream.h,24,,0
+Explicit Private Function,"HashedBlockStream::HashedBlockStream",HashedBlockStream.cpp,6,1,
+Private Function,"HashedBlockStream::HashedBlockStream",HashedBlockStream.cpp,6,1,
+Private Function,"HashedBlockStream::close",HashedBlockStream.cpp,10,3,
+Private Function,"HashedBlockStream::init",HashedBlockStream.cpp,8,1,
+Protected Function,"HashedBlockStream::readData",HashedBlockStream.cpp,29,7,
+Private Function,"HashedBlockStream::readHashedBlock",HashedBlockStream.cpp,45,8,
+Private Function,"HashedBlockStream::reset",HashedBlockStream.cpp,15,5,
+Protected Function,"HashedBlockStream::writeData",HashedBlockStream.cpp,26,6,
+Private Function,"HashedBlockStream::writeHashedBlock",HashedBlockStream.cpp,35,7,
+Private Function,"HashedBlockStream::~HashedBlockStream",HashedBlockStream.cpp,4,1,
+File,"IconModels.cpp",IconModels.cpp,71,,16
+File,"IconModels.h",IconModels.h,22,,0
+Struct,"IconStruct",EditWidgetIcons.h,11,,1
+Public Function,"IconStruct::IconStruct",EditWidgetIcons.cpp,5,1,
+Class,"InactivityTimer",InactivityTimer.h,66,,10
+File,"InactivityTimer.cpp",InactivityTimer.cpp,47,,10
+File,"InactivityTimer.h",InactivityTimer.h,20,,0
+Explicit Private Function,"InactivityTimer::InactivityTimer",InactivityTimer.cpp,8,1,
+Private Function,"InactivityTimer::activate",InactivityTimer.cpp,8,2,
+Private Function,"InactivityTimer::deactivate",InactivityTimer.cpp,6,1,
+Protected Function,"InactivityTimer::eventFilter",InactivityTimer.cpp,10,2,
+Private Function,"InactivityTimer::setInactivityTimeout",InactivityTimer.cpp,5,1,
+Public Function,"InactivityTimer::timeout",InactivityTimer.cpp,10,3,
+File,"KeePass1.h",KeePass1.h,14,,0
+Class,"KeePass1Key",KeePass1Reader.cpp,40,,6
+Public Virtual Function,"KeePass1Key::clear",KeePass1Reader.cpp,6,1,
+Public Virtual Const Function,"KeePass1Key::rawKey",KeePass1Reader.cpp,15,3,
+Public Function,"KeePass1Key::setKeyfileData",KeePass1Reader.cpp,4,1,
+Public Function,"KeePass1Key::setPassword",KeePass1Reader.cpp,4,1,
+Class,"KeePass1OpenWidget",KeePass1OpenWidget.h,46,,7
+File,"KeePass1OpenWidget.cpp",KeePass1OpenWidget.cpp,38,,7
+File,"KeePass1OpenWidget.h",KeePass1OpenWidget.h,8,,0
+Explicit Private Function,"KeePass1OpenWidget::KeePass1OpenWidget",KeePass1OpenWidget.cpp,5,1,
+Protected Function,"KeePass1OpenWidget::openDatabase",KeePass1OpenWidget.cpp,33,6,
+Class,"KeePass1Reader",KeePass1Reader.h,870,,174
+File,"KeePass1Reader.cpp",KeePass1Reader.cpp,859,,180
+File,"KeePass1Reader.h",KeePass1Reader.h,56,,0
+Private Function,"KeePass1Reader::KeePass1Reader",KeePass1Reader.cpp,9,1,
+Private Function,"KeePass1Reader::constructGroupTree",KeePass1Reader.cpp,24,7,
+Private Static Function,"KeePass1Reader::dateFromPackedStruct",KeePass1Reader.cpp,22,2,
+Private Function,"KeePass1Reader::errorString",KeePass1Reader.cpp,4,1,
+Private Function,"KeePass1Reader::hasError",KeePass1Reader.cpp,4,1,
+Private Static Function,"KeePass1Reader::isMetaStream",KeePass1Reader.cpp,9,1,
+Private Function,"KeePass1Reader::key",KeePass1Reader.cpp,19,2,
+Private Function,"KeePass1Reader::parseCustomIcons4",KeePass1Reader.cpp,57,12,
+Private Function,"KeePass1Reader::parseGroupTreeState",KeePass1Reader.cpp,22,5,
+Private Function,"KeePass1Reader::parseMetaStream",KeePass1Reader.cpp,17,5,
+Private Function,"KeePass1Reader::parseNotes",KeePass1Reader.cpp,52,9,
+Private Function,"KeePass1Reader::raiseError",KeePass1Reader.cpp,5,1,
+Private Function,"KeePass1Reader::readDatabase",KeePass1Reader.cpp,159,33,
+Private Function,"KeePass1Reader::readDatabase",KeePass1Reader.cpp,14,3,
+Private Function,"KeePass1Reader::readDatabase",KeePass1Reader.cpp,15,3,
+Private Function,"KeePass1Reader::readEntry",KeePass1Reader.cpp,138,33,
+Private Function,"KeePass1Reader::readGroup",KeePass1Reader.cpp,129,28,
+Private Static Function,"KeePass1Reader::readKeyfile",KeePass1Reader.cpp,34,9,
+Private Function,"KeePass1Reader::testKeys",KeePass1Reader.cpp,74,15,
+Private Function,"KeePass1Reader::verifyKey",KeePass1Reader.cpp,12,3,
+File,"KeePass2.h",KeePass2.h,30,,0
+Class,"KeePass2RandomStream",KeePass2RandomStream.h,86,,15
+File,"KeePass2RandomStream.cpp",KeePass2RandomStream.cpp,71,,15
+File,"KeePass2RandomStream.h",KeePass2RandomStream.h,15,,0
+Public Function,"KeePass2RandomStream::KeePass2RandomStream",KeePass2RandomStream.cpp,5,1,
+Public Const Function,"KeePass2RandomStream::errorString",KeePass2RandomStream.cpp,4,1,
+Public Function,"KeePass2RandomStream::init",KeePass2RandomStream.cpp,5,1,
+Private Function,"KeePass2RandomStream::loadBlock",KeePass2RandomStream.cpp,10,2,
+Public Function,"KeePass2RandomStream::process",KeePass2RandomStream.cpp,16,3,
+Public Function,"KeePass2RandomStream::processInPlace",KeePass2RandomStream.cpp,12,3,
+Public Function,"KeePass2RandomStream::randomBytes",KeePass2RandomStream.cpp,19,4,
+Class,"KeePass2Reader",KeePass2Reader.h,372,,68
+File,"KeePass2Reader.cpp",KeePass2Reader.cpp,334,,68
+File,"KeePass2Reader.h",KeePass2Reader.h,40,,0
+Private Function,"KeePass2Reader::KeePass2Reader",KeePass2Reader.cpp,9,1,
+Private Function,"KeePass2Reader::errorString",KeePass2Reader.cpp,4,1,
+Private Function,"KeePass2Reader::hasError",KeePass2Reader.cpp,4,1,
+Private Function,"KeePass2Reader::raiseError",KeePass2Reader.cpp,5,1,
+Private Function,"KeePass2Reader::readDatabase",KeePass2Reader.cpp,129,21,
+Private Function,"KeePass2Reader::readDatabase",KeePass2Reader.cpp,14,3,
+Private Function,"KeePass2Reader::readHeaderField",KeePass2Reader.cpp,59,15,
+Private Function,"KeePass2Reader::setCipher",KeePass2Reader.cpp,15,3,
+Private Function,"KeePass2Reader::setCompressionFlags",KeePass2Reader.cpp,15,3,
+Private Function,"KeePass2Reader::setEncryptionIV",KeePass2Reader.cpp,9,2,
+Private Function,"KeePass2Reader::setInnerRandomStreamID",KeePass2Reader.cpp,12,3,
+Private Function,"KeePass2Reader::setMasterSeed",KeePass2Reader.cpp,9,2,
+Private Function,"KeePass2Reader::setProtectedStreamKey",KeePass2Reader.cpp,9,2,
+Private Function,"KeePass2Reader::setSaveXml",KeePass2Reader.cpp,4,1,
+Private Function,"KeePass2Reader::setStreamStartBytes",KeePass2Reader.cpp,9,2,
+Private Function,"KeePass2Reader::setTansformRounds",KeePass2Reader.cpp,11,3,
+Private Function,"KeePass2Reader::setTransformSeed",KeePass2Reader.cpp,9,2,
+Private Function,"KeePass2Reader::streamKey",KeePass2Reader.cpp,4,1,
+Private Function,"KeePass2Reader::xmlData",KeePass2Reader.cpp,4,1,
+Class,"KeePass2Repair",KeePass2Repair.h,85,,12
+File,"KeePass2Repair.cpp",KeePass2Repair.cpp,66,,12
+File,"KeePass2Repair.h",KeePass2Repair.h,19,,0
+Private Function,"KeePass2Repair::KeePass2Repair",KeePass2Repair.cpp,4,1,
+Private Const Function,"KeePass2Repair::database",KeePass2Repair.cpp,4,1,
+Private Const Function,"KeePass2Repair::errorString",KeePass2Repair.cpp,4,1,
+Private Function,"KeePass2Repair::repairDatabase",KeePass2Repair.cpp,54,9,
+Class,"KeePass2Writer",KeePass2Writer.h,153,,37
+File,"KeePass2Writer.cpp",KeePass2Writer.cpp,137,,37
+File,"KeePass2Writer.h",KeePass2Writer.h,18,,0
+Public Function,"KeePass2Writer::KeePass2Writer",KeePass2Writer.cpp,5,1,
+Public Function,"KeePass2Writer::errorString",KeePass2Writer.cpp,4,1,
+Public Function,"KeePass2Writer::hasError",KeePass2Writer.cpp,4,1,
+Private Function,"KeePass2Writer::raiseError",KeePass2Writer.cpp,5,1,
+Private Function,"KeePass2Writer::writeData",KeePass2Writer.cpp,10,2,
+Public Function,"KeePass2Writer::writeDatabase",KeePass2Writer.cpp,89,25,
+Public Function,"KeePass2Writer::writeDatabase",KeePass2Writer.cpp,9,2,
+Private Function,"KeePass2Writer::writeHeaderField",KeePass2Writer.cpp,11,4,
+Class,"KeePass2XmlReader",KeePass2XmlReader.h,1081,,240
+File,"KeePass2XmlReader.cpp",KeePass2XmlReader.cpp,1024,,240
+File,"KeePass2XmlReader.h",KeePass2XmlReader.h,63,,0
+Private Function,"KeePass2XmlReader::KeePass2XmlReader",KeePass2XmlReader.cpp,9,1,
+Private Function,"KeePass2XmlReader::errorString",KeePass2XmlReader.cpp,15,3,
+Private Function,"KeePass2XmlReader::getEntry",KeePass2XmlReader.cpp,17,3,
+Private Function,"KeePass2XmlReader::getGroup",KeePass2XmlReader.cpp,17,3,
+Private Function,"KeePass2XmlReader::hasError",KeePass2XmlReader.cpp,4,1,
+Private Function,"KeePass2XmlReader::headerHash",KeePass2XmlReader.cpp,4,1,
+Private Function,"KeePass2XmlReader::parseAutoType",KeePass2XmlReader.cpp,21,6,
+Private Function,"KeePass2XmlReader::parseAutoTypeAssoc",KeePass2XmlReader.cpp,26,5,
+Private Function,"KeePass2XmlReader::parseBinaries",KeePass2XmlReader.cpp,25,5,
+Private Function,"KeePass2XmlReader::parseCustomData",KeePass2XmlReader.cpp,12,3,
+Private Function,"KeePass2XmlReader::parseCustomDataItem",KeePass2XmlReader.cpp,27,5,
+Private Function,"KeePass2XmlReader::parseCustomIcons",KeePass2XmlReader.cpp,12,3,
+Private Function,"KeePass2XmlReader::parseDeletedObject",KeePass2XmlReader.cpp,30,8,
+Private Function,"KeePass2XmlReader::parseDeletedObjects",KeePass2XmlReader.cpp,12,3,
+Private Function,"KeePass2XmlReader::parseEntry",KeePass2XmlReader.cpp,112,29,
+Private Function,"KeePass2XmlReader::parseEntryBinary",KeePass2XmlReader.cpp,48,9,
+Private Function,"KeePass2XmlReader::parseEntryHistory",KeePass2XmlReader.cpp,14,3,
+Private Function,"KeePass2XmlReader::parseEntryString",KeePass2XmlReader.cpp,54,9,
+Private Function,"KeePass2XmlReader::parseGroup",KeePass2XmlReader.cpp,128,34,
+Private Function,"KeePass2XmlReader::parseIcon",KeePass2XmlReader.cpp,27,5,
+Private Function,"KeePass2XmlReader::parseKeePassFile",KeePass2XmlReader.cpp,25,5,
+Private Function,"KeePass2XmlReader::parseMemoryProtection",KeePass2XmlReader.cpp,24,7,
+Private Function,"KeePass2XmlReader::parseMeta",KeePass2XmlReader.cpp,99,30,
+Private Function,"KeePass2XmlReader::parseRoot",KeePass2XmlReader.cpp,30,6,
+Private Function,"KeePass2XmlReader::parseTimes",KeePass2XmlReader.cpp,32,9,
+Private Function,"KeePass2XmlReader::raiseError",KeePass2XmlReader.cpp,5,1,
+Private Function,"KeePass2XmlReader::readBinary",KeePass2XmlReader.cpp,4,1,
+Private Function,"KeePass2XmlReader::readBool",KeePass2XmlReader.cpp,14,3,
+Private Function,"KeePass2XmlReader::readColor",KeePass2XmlReader.cpp,35,9,
+Private Function,"KeePass2XmlReader::readCompressedBinary",KeePass2XmlReader.cpp,14,2,
+Private Function,"KeePass2XmlReader::readDatabase",KeePass2XmlReader.cpp,6,1,
+Private Function,"KeePass2XmlReader::readDatabase",KeePass2XmlReader.cpp,63,14,
+Private Function,"KeePass2XmlReader::readDatabase",KeePass2XmlReader.cpp,6,1,
+Private Function,"KeePass2XmlReader::readDateTime",KeePass2XmlReader.cpp,14,3,
+Private Function,"KeePass2XmlReader::readNumber",KeePass2XmlReader.cpp,9,2,
+Private Function,"KeePass2XmlReader::readString",KeePass2XmlReader.cpp,4,1,
+Private Function,"KeePass2XmlReader::readUuid",KeePass2XmlReader.cpp,16,4,
+Private Function,"KeePass2XmlReader::setStrictMode",KeePass2XmlReader.cpp,4,1,
+Private Function,"KeePass2XmlReader::skipCurrentElement",KeePass2XmlReader.cpp,5,1,
+Class,"KeePass2XmlWriter",KeePass2XmlWriter.h,491,,71
+File,"KeePass2XmlWriter.cpp",KeePass2XmlWriter.cpp,442,,71
+File,"KeePass2XmlWriter.h",KeePass2XmlWriter.h,51,,0
+Public Function,"KeePass2XmlWriter::KeePass2XmlWriter",KeePass2XmlWriter.cpp,10,1,
+Private Function,"KeePass2XmlWriter::colorPartToString",KeePass2XmlWriter.cpp,8,2,
+Public Function,"KeePass2XmlWriter::errorString",KeePass2XmlWriter.cpp,4,1,
+Private Function,"KeePass2XmlWriter::generateIdMap",KeePass2XmlWriter.cpp,14,4,
+Public Function,"KeePass2XmlWriter::hasError",KeePass2XmlWriter.cpp,4,1,
+Private Function,"KeePass2XmlWriter::raiseError",KeePass2XmlWriter.cpp,5,1,
+Private Function,"KeePass2XmlWriter::stripInvalidXml10Chars",KeePass2XmlWriter.cpp,21,4,
+Private Function,"KeePass2XmlWriter::writeAutoType",KeePass2XmlWriter.cpp,12,2,
+Private Function,"KeePass2XmlWriter::writeAutoTypeAssoc",KeePass2XmlWriter.cpp,7,1,
+Private Function,"KeePass2XmlWriter::writeBinaries",KeePass2XmlWriter.cpp,32,4,
+Private Function,"KeePass2XmlWriter::writeBinary",KeePass2XmlWriter.cpp,4,1,
+Private Function,"KeePass2XmlWriter::writeBool",KeePass2XmlWriter.cpp,9,2,
+Private Function,"KeePass2XmlWriter::writeColor",KeePass2XmlWriter.cpp,10,2,
+Private Function,"KeePass2XmlWriter::writeCustomData",KeePass2XmlWriter.cpp,10,2,
+Private Function,"KeePass2XmlWriter::writeCustomDataItem",KeePass2XmlWriter.cpp,7,1,
+Private Function,"KeePass2XmlWriter::writeCustomIcons",KeePass2XmlWriter.cpp,9,2,
+Public Function,"KeePass2XmlWriter::writeDatabase",KeePass2XmlWriter.cpp,19,2,
+Public Function,"KeePass2XmlWriter::writeDatabase",KeePass2XmlWriter.cpp,6,1,
+Private Function,"KeePass2XmlWriter::writeDateTime",KeePass2XmlWriter.cpp,10,2,
+Private Function,"KeePass2XmlWriter::writeDeletedObject",KeePass2XmlWriter.cpp,7,1,
+Private Function,"KeePass2XmlWriter::writeDeletedObjects",KeePass2XmlWriter.cpp,9,2,
+Private Function,"KeePass2XmlWriter::writeEntry",KeePass2XmlWriter.cpp,65,9,
+Private Function,"KeePass2XmlWriter::writeEntryHistory",KeePass2XmlWriter.cpp,9,2,
+Private Function,"KeePass2XmlWriter::writeGroup",KeePass2XmlWriter.cpp,27,4,
+Private Function,"KeePass2XmlWriter::writeIcon",KeePass2XmlWriter.cpp,12,1,
+Private Function,"KeePass2XmlWriter::writeMemoryProtection",KeePass2XmlWriter.cpp,10,1,
+Private Function,"KeePass2XmlWriter::writeMetadata",KeePass2XmlWriter.cpp,33,2,
+Private Function,"KeePass2XmlWriter::writeNumber",KeePass2XmlWriter.cpp,4,1,
+Private Function,"KeePass2XmlWriter::writeRoot",KeePass2XmlWriter.cpp,8,1,
+Private Function,"KeePass2XmlWriter::writeString",KeePass2XmlWriter.cpp,9,2,
+Private Function,"KeePass2XmlWriter::writeTimes",KeePass2XmlWriter.cpp,12,1,
+Private Function,"KeePass2XmlWriter::writeTriState",KeePass2XmlWriter.cpp,14,3,
+Private Function,"KeePass2XmlWriter::writeUuid",KeePass2XmlWriter.cpp,4,1,
+Private Function,"KeePass2XmlWriter::writeUuid",KeePass2XmlWriter.cpp,9,2,
+Private Function,"KeePass2XmlWriter::writeUuid",KeePass2XmlWriter.cpp,9,2,
+Abstract Class,"Key",Key.h,7,,1
+File,"Key.h",Key.h,7,,1
+Public Virtual Function,"Key::~Key",Key.h,1,1,
+File,"KeySymMap.h",KeySymMap.h,163,,0
+Class,"LayeredStream",LayeredStream.h,75,,13
+File,"LayeredStream.cpp",LayeredStream.cpp,60,,13
+File,"LayeredStream.h",LayeredStream.h,15,,0
+Explicit Private Function,"LayeredStream::LayeredStream",LayeredStream.cpp,6,1,
+Public Function,"LayeredStream::closeStream",LayeredStream.cpp,4,1,
+Private Const Function,"LayeredStream::isSequential",LayeredStream.cpp,4,1,
+Private Function,"LayeredStream::open",LayeredStream.cpp,34,7,
+Protected Function,"LayeredStream::readData",LayeredStream.cpp,4,1,
+Protected Function,"LayeredStream::writeData",LayeredStream.cpp,4,1,
+Private Virtual Function,"LayeredStream::~LayeredStream",LayeredStream.cpp,4,1,
+Class,"LineEdit",LineEdit.h,57,,7
+File,"LineEdit.cpp",LineEdit.cpp,45,,7
+File,"LineEdit.h",LineEdit.h,13,,0
+Explicit Private Function,"LineEdit::LineEdit",LineEdit.cpp,28,4,
+Protected Function,"LineEdit::resizeEvent",LineEdit.cpp,13,2,
+Public Function,"LineEdit::updateCloseButton",LineEdit.cpp,4,1,
+Class Template,"ListDeleter",ListDeleter.h,10,,2
+File,"ListDeleter.h",ListDeleter.h,11,,2
+Explicit Public Function,"ListDeleter::ListDeleter",ListDeleter.h,1,1,
+Public Function,"ListDeleter::~ListDeleter",ListDeleter.h,3,1,
+Class,"MainWindow",MainWindow.h,571,,70
+File,"MainWindow.cpp",MainWindow.cpp,522,,70
+File,"MainWindow.h",MainWindow.h,54,,0
+Private Function,"MainWindow::MainWindow",MainWindow.cpp,153,2,
+Private Function,"MainWindow::applySettingsChanges",MainWindow.cpp,15,3,
+Protected Function,"MainWindow::changeEvent",MainWindow.cpp,13,2,
+Private Function,"MainWindow::clearLastDatabases",MainWindow.cpp,4,1,
+Protected Function,"MainWindow::closeEvent",MainWindow.cpp,12,2,
+Private Function,"MainWindow::databaseTabChanged",MainWindow.cpp,10,3,
+Private Const Function,"MainWindow::isTrayIconEnabled",MainWindow.cpp,5,1,
+Private Function,"MainWindow::lockDatabasesAfterInactivity",MainWindow.cpp,7,2,
+Public Function,"MainWindow::openDatabase",MainWindow.cpp,4,1,
+Private Function,"MainWindow::openRecentDatabase",MainWindow.cpp,4,1,
+Private Function,"MainWindow::rememberOpenDatabases",MainWindow.cpp,4,1,
+Private Function,"MainWindow::repairDatabase",MainWindow.cpp,27,5,
+Private Function,"MainWindow::saveLastDatabases",MainWindow.cpp,22,4,
+Private Function,"MainWindow::saveToolbarState",MainWindow.cpp,4,1,
+Private Function,"MainWindow::saveWindowInformation",MainWindow.cpp,4,1,
+Public Function,"MainWindow::setMenuActionState",MainWindow.cpp,99,10,
+Private Static Function,"MainWindow::setShortcut",MainWindow.cpp,9,3,
+Private Function,"MainWindow::showAboutDialog",MainWindow.cpp,5,1,
+Private Function,"MainWindow::showEntryContextMenu",MainWindow.cpp,4,1,
+Private Function,"MainWindow::showGroupContextMenu",MainWindow.cpp,4,1,
+Private Function,"MainWindow::switchToDatabases",MainWindow.cpp,9,2,
+Private Function,"MainWindow::switchToSettings",MainWindow.cpp,5,1,
+Private Function,"MainWindow::toggleWindow",MainWindow.cpp,13,2,
+Private Function,"MainWindow::trayIconTriggered",MainWindow.cpp,6,2,
+Private Function,"MainWindow::updateCopyAttributesMenu",MainWindow.cpp,19,5,
+Private Function,"MainWindow::updateLastDatabasesMenu",MainWindow.cpp,12,2,
+Private Function,"MainWindow::updateTrayIcon",MainWindow.cpp,24,4,
+Private Function,"MainWindow::updateWindowTitle",MainWindow.cpp,21,5,
+Private Function,"MainWindow::~MainWindow",MainWindow.cpp,3,1,
+Class,"MessageBox",MessageBox.h,83,,9
+File,"MessageBox.cpp",MessageBox.cpp,61,,9
+File,"MessageBox.h",MessageBox.h,23,,0
+Public Static Function,"MessageBox::critical",MessageBox.cpp,14,2,
+Public Static Function,"MessageBox::information",MessageBox.cpp,14,2,
+Public Static Function,"MessageBox::question",MessageBox.cpp,14,2,
+Public Static Function,"MessageBox::setNextAnswer",MessageBox.cpp,4,1,
+Public Static Function,"MessageBox::warning",MessageBox.cpp,14,2,
+Class,"Metadata",Metadata.h,507,,84
+File,"Metadata.cpp",Metadata.cpp,390,,84
+File,"Metadata.h",Metadata.h,121,,0
+Explicit Private Function,"Metadata::Metadata",Metadata.cpp,24,1,
+Private Struct,"Metadata::MetadataData",Metadata.h,22,,0
+Private Function,"Metadata::addCustomField",Metadata.cpp,6,1,
+Private Function,"Metadata::addCustomIcon",Metadata.cpp,11,1,
+Private Function,"Metadata::addCustomIconScaled",Metadata.cpp,12,2,
+Private Const Function,"Metadata::color",Metadata.cpp,4,1,
+Private Const Function,"Metadata::containsCustomIcon",Metadata.cpp,4,1,
+Private Function,"Metadata::copyAttributesFrom",Metadata.cpp,4,1,
+Private Function,"Metadata::copyCustomIcons",Metadata.cpp,9,3,
+Private Const Function,"Metadata::customFields",Metadata.cpp,4,1,
+Private Const Function,"Metadata::customIcon",Metadata.cpp,4,1,
+Private Const Function,"Metadata::customIconPixmap",Metadata.cpp,13,3,
+Private Const Function,"Metadata::customIconScaledPixmap",Metadata.cpp,14,3,
+Private Const Function,"Metadata::customIcons",Metadata.cpp,4,1,
+Private Const Function,"Metadata::customIconsOrder",Metadata.cpp,4,1,
+Private Const Function,"Metadata::customIconsScaledPixmaps",Metadata.cpp,8,2,
+Private Const Function,"Metadata::defaultUserName",Metadata.cpp,4,1,
+Private Const Function,"Metadata::defaultUserNameChanged",Metadata.cpp,4,1,
+Private Const Function,"Metadata::description",Metadata.cpp,4,1,
+Private Const Function,"Metadata::descriptionChanged",Metadata.cpp,4,1,
+Private Const Function,"Metadata::entryTemplatesGroup",Metadata.cpp,4,1,
+Private Const Function,"Metadata::entryTemplatesGroupChanged",Metadata.cpp,4,1,
+Private Const Function,"Metadata::generator",Metadata.cpp,4,1,
+Private Const Function,"Metadata::historyMaxItems",Metadata.cpp,4,1,
+Private Const Function,"Metadata::historyMaxSize",Metadata.cpp,4,1,
+Private Const Function,"Metadata::lastSelectedGroup",Metadata.cpp,4,1,
+Private Const Function,"Metadata::lastTopVisibleGroup",Metadata.cpp,4,1,
+Private Const Function,"Metadata::maintenanceHistoryDays",Metadata.cpp,4,1,
+Private Const Function,"Metadata::masterKeyChangeForce",Metadata.cpp,4,1,
+Private Const Function,"Metadata::masterKeyChangeRec",Metadata.cpp,4,1,
+Private Const Function,"Metadata::masterKeyChanged",Metadata.cpp,4,1,
+Private Const Function,"Metadata::name",Metadata.cpp,4,1,
+Private Const Function,"Metadata::nameChanged",Metadata.cpp,4,1,
+Private Const Function,"Metadata::protectNotes",Metadata.cpp,4,1,
+Private Const Function,"Metadata::protectPassword",Metadata.cpp,4,1,
+Private Const Function,"Metadata::protectTitle",Metadata.cpp,4,1,
+Private Const Function,"Metadata::protectUrl",Metadata.cpp,4,1,
+Private Const Function,"Metadata::protectUsername",Metadata.cpp,4,1,
+Private Function,"Metadata::recycleBin",Metadata.cpp,4,1,
+Private Const Function,"Metadata::recycleBin",Metadata.cpp,4,1,
+Private Const Function,"Metadata::recycleBinChanged",Metadata.cpp,4,1,
+Private Const Function,"Metadata::recycleBinEnabled",Metadata.cpp,4,1,
+Private Function,"Metadata::removeCustomField",Metadata.cpp,6,1,
+Private Function,"Metadata::removeCustomIcon",Metadata.cpp,13,1,
+Private Function Template,"Metadata::set",Metadata.cpp,11,2,
+Private Function Template,"Metadata::set",Metadata.cpp,13,3,
+Private Function,"Metadata::setColor",Metadata.cpp,4,1,
+Private Function,"Metadata::setDefaultUserName",Metadata.cpp,4,1,
+Private Function,"Metadata::setDefaultUserNameChanged",Metadata.cpp,5,1,
+Private Function,"Metadata::setDescription",Metadata.cpp,4,1,
+Private Function,"Metadata::setDescriptionChanged",Metadata.cpp,5,1,
+Private Function,"Metadata::setEntryTemplatesGroup",Metadata.cpp,4,1,
+Private Function,"Metadata::setEntryTemplatesGroupChanged",Metadata.cpp,5,1,
+Private Function,"Metadata::setGenerator",Metadata.cpp,4,1,
+Private Function,"Metadata::setHistoryMaxItems",Metadata.cpp,4,1,
+Private Function,"Metadata::setHistoryMaxSize",Metadata.cpp,4,1,
+Private Function,"Metadata::setLastSelectedGroup",Metadata.cpp,4,1,
+Private Function,"Metadata::setLastTopVisibleGroup",Metadata.cpp,4,1,
+Private Function,"Metadata::setMaintenanceHistoryDays",Metadata.cpp,4,1,
+Private Function,"Metadata::setMasterKeyChangeForce",Metadata.cpp,4,1,
+Private Function,"Metadata::setMasterKeyChangeRec",Metadata.cpp,4,1,
+Private Function,"Metadata::setMasterKeyChanged",Metadata.cpp,5,1,
+Private Function,"Metadata::setName",Metadata.cpp,6,2,
+Private Function,"Metadata::setNameChanged",Metadata.cpp,5,1,
+Private Function,"Metadata::setProtectNotes",Metadata.cpp,4,1,
+Private Function,"Metadata::setProtectPassword",Metadata.cpp,4,1,
+Private Function,"Metadata::setProtectTitle",Metadata.cpp,4,1,
+Private Function,"Metadata::setProtectUrl",Metadata.cpp,4,1,
+Private Function,"Metadata::setProtectUsername",Metadata.cpp,4,1,
+Private Function,"Metadata::setRecycleBin",Metadata.cpp,4,1,
+Private Function,"Metadata::setRecycleBinChanged",Metadata.cpp,5,1,
+Private Function,"Metadata::setRecycleBinEnabled",Metadata.cpp,4,1,
+Private Function,"Metadata::setUpdateDatetime",Metadata.cpp,4,1,
+Class,"PasswordComboBox",PasswordComboBox.h,65,,11
+File,"PasswordComboBox.cpp",PasswordComboBox.cpp,50,,11
+File,"PasswordComboBox.h",PasswordComboBox.h,16,,0
+Explicit Private Function,"PasswordComboBox::PasswordComboBox",PasswordComboBox.cpp,8,1,
+Public Function,"PasswordComboBox::setEcho",PasswordComboBox.cpp,14,3,
+Private Function,"PasswordComboBox::setGenerator",PasswordComboBox.cpp,4,1,
+Private Function,"PasswordComboBox::setNumberAlternatives",PasswordComboBox.cpp,4,1,
+Private Function,"PasswordComboBox::showPopup",PasswordComboBox.cpp,17,4,
+Private Function,"PasswordComboBox::~PasswordComboBox",PasswordComboBox.cpp,3,1,
+Class,"PasswordEdit",PasswordEdit.h,59,,9
+File,"PasswordEdit.cpp",PasswordEdit.cpp,43,,9
+File,"PasswordEdit.h",PasswordEdit.h,18,,0
+Explicit Private Function,"PasswordEdit::PasswordEdit",PasswordEdit.cpp,5,1,
+Private Function,"PasswordEdit::enableVerifyMode",PasswordEdit.cpp,8,1,
+Private Const Function,"PasswordEdit::passwordsEqual",PasswordEdit.cpp,4,1,
+Public Function,"PasswordEdit::setShowPassword",PasswordEdit.cpp,6,2,
+Public Function,"PasswordEdit::updateStylesheet",PasswordEdit.cpp,18,4,
+Class,"PasswordGenerator",PasswordGenerator.h,169,,38
+File,"PasswordGenerator.cpp",PasswordGenerator.cpp,137,,37
+File,"PasswordGenerator.h",PasswordGenerator.h,35,,1
+Public Function,"PasswordGenerator::PasswordGenerator",PasswordGenerator.cpp,6,1,
+Public Function,"PasswordGenerator::Q_DECLARE_FLAGS",PasswordGenerator.h,6,1,
+Public Const Function,"PasswordGenerator::generatePassword",PasswordGenerator.cpp,35,8,
+Public Const Function,"PasswordGenerator::isValid",PasswordGenerator.cpp,13,4,
+Private Const Function,"PasswordGenerator::numCharClasses",PasswordGenerator.cpp,17,5,
+Private Const Function,"PasswordGenerator::passwordGroups",PasswordGenerator.cpp,54,16,
+Public Function,"PasswordGenerator::setCharClasses",PasswordGenerator.cpp,4,1,
+Public Function,"PasswordGenerator::setFlags",PasswordGenerator.cpp,4,1,
+Public Function,"PasswordGenerator::setLength",PasswordGenerator.cpp,4,1,
+Class,"PasswordGeneratorWidget",PasswordGeneratorWidget.h,167,,28
+File,"PasswordGeneratorWidget.cpp",PasswordGeneratorWidget.cpp,142,,28
+File,"PasswordGeneratorWidget.h",PasswordGeneratorWidget.h,29,,0
+Explicit Private Function,"PasswordGeneratorWidget::PasswordGeneratorWidget",PasswordGeneratorWidget.cpp,19,1,
+Private Function,"PasswordGeneratorWidget::charClasses",PasswordGeneratorWidget.cpp,17,5,
+Private Function,"PasswordGeneratorWidget::emitNewPassword",PasswordGeneratorWidget.cpp,4,1,
+Private Function,"PasswordGeneratorWidget::generatorFlags",PasswordGeneratorWidget.cpp,11,3,
+Private Function,"PasswordGeneratorWidget::loadSettings",PasswordGeneratorWidget.cpp,10,1,
+Private Function,"PasswordGeneratorWidget::regeneratePassword",PasswordGeneratorWidget.cpp,7,2,
+Private Function,"PasswordGeneratorWidget::reset",PasswordGeneratorWidget.cpp,6,1,
+Private Function,"PasswordGeneratorWidget::saveSettings",PasswordGeneratorWidget.cpp,10,1,
+Private Function,"PasswordGeneratorWidget::sliderMoved",PasswordGeneratorWidget.cpp,8,2,
+Private Function,"PasswordGeneratorWidget::spinBoxChanged",PasswordGeneratorWidget.cpp,10,2,
+Public Function,"PasswordGeneratorWidget::updateApplyEnabled",PasswordGeneratorWidget.cpp,4,1,
+Private Function,"PasswordGeneratorWidget::updateGenerator",PasswordGeneratorWidget.cpp,33,7,
+Private Function,"PasswordGeneratorWidget::~PasswordGeneratorWidget",PasswordGeneratorWidget.cpp,3,1,
+Class,"PasswordKey",PasswordKey.h,30,,5
+File,"PasswordKey.cpp",PasswordKey.cpp,19,,5
+File,"PasswordKey.h",PasswordKey.h,11,,0
+Public Function,"PasswordKey::PasswordKey",PasswordKey.cpp,3,1,
+Explicit Public Function,"PasswordKey::PasswordKey",PasswordKey.cpp,4,1,
+Public Const Function,"PasswordKey::clone",PasswordKey.cpp,4,1,
+Public Const Function,"PasswordKey::rawKey",PasswordKey.cpp,4,1,
+Public Function,"PasswordKey::setPassword",PasswordKey.cpp,4,1,
+Class,"QtIOCompressor",qtiocompressor.h,256,,59
+Private Function,"QtIOCompressor::QtIOCompressor",qtiocompressor.cpp,3,1,
+Private Const Function,"QtIOCompressor::bytesAvailable",qtiocompressor.cpp,25,7,
+Private Static Function,"QtIOCompressor::checkGzipSupport",qtiocompressor.cpp,8,3,
+Private Function,"QtIOCompressor::close",qtiocompressor.cpp,19,5,
+Private Function,"QtIOCompressor::flush",qtiocompressor.cpp,7,2,
+Private Static Function,"QtIOCompressor::isGzipSupported",qtiocompressor.cpp,4,1,
+Private Const Function,"QtIOCompressor::isSequential",qtiocompressor.cpp,4,1,
+Private Function,"QtIOCompressor::open",qtiocompressor.cpp,70,14,
+Protected Function,"QtIOCompressor::readData",qtiocompressor.cpp,47,15,
+Private Function,"QtIOCompressor::setStreamFormat",qtiocompressor.cpp,9,2,
+Private Const Function,"QtIOCompressor::streamFormat",qtiocompressor.cpp,5,1,
+Protected Function,"QtIOCompressor::writeData",qtiocompressor.cpp,25,6,
+Private Function,"QtIOCompressor::~QtIOCompressor",qtiocompressor.cpp,6,1,
+Class,"QtIOCompressorPrivate",qtiocompressor.cpp,93,,12
+Private Function,"QtIOCompressorPrivate::QtIOCompressorPrivate",qtiocompressor.cpp,13,1,
+Private Function,"QtIOCompressorPrivate::flushZlib",qtiocompressor.cpp,23,5,
+Private Function,"QtIOCompressorPrivate::setZlibError",qtiocompressor.cpp,11,2,
+Private Function,"QtIOCompressorPrivate::writeBytes",qtiocompressor.cpp,15,3,
+Private Function,"QtIOCompressorPrivate::~QtIOCompressorPrivate",qtiocompressor.cpp,4,1,
+Class,"Random",Random.h,58,,9
+File,"Random.cpp",Random.cpp,54,,10
+File,"Random.h",Random.h,24,,2
+Explicit Private Function,"Random::Random",Random.cpp,4,1,
+Public Static Function,"Random::createWithBackend",Random.cpp,6,1,
+Public Static Function,"Random::instance",Random.cpp,7,2,
+Public Function,"Random::randomArray",Random.cpp,7,1,
+Public Function,"Random::randomUInt",Random.cpp,11,2,
+Public Function,"Random::randomUIntRange",Random.cpp,4,1,
+Public Function,"Random::randomize",Random.cpp,4,1,
+Abstract Class,"RandomBackend",Random.h,6,,1
+Public Virtual Function,"RandomBackend::~RandomBackend",Random.h,1,1,
+Class,"RandomBackendGcrypt",Random.cpp,10,,1
+Public Virtual Function,"RandomBackendGcrypt::randomize",Random.cpp,5,1,
+Class,"SettingsWidget",SettingsWidget.h,130,,12
+File,"SettingsWidget.cpp",SettingsWidget.cpp,109,,12
+File,"SettingsWidget.h",SettingsWidget.h,25,,0
+Explicit Private Function,"SettingsWidget::SettingsWidget",SettingsWidget.cpp,27,1,
+Private Function,"SettingsWidget::enableAutoSaveOnExit",SettingsWidget.cpp,4,1,
+Private Function,"SettingsWidget::loadSettings",SettingsWidget.cpp,37,5,
+Private Function,"SettingsWidget::reject",SettingsWidget.cpp,7,2,
+Public Function,"SettingsWidget::saveSettings",SettingsWidget.cpp,31,2,
+Private Function,"SettingsWidget::~SettingsWidget",SettingsWidget.cpp,3,1,
+Class,"ShortcutWidget",ShortcutWidget.h,112,,21
+File,"ShortcutWidget.cpp",ShortcutWidget.cpp,93,,21
+File,"ShortcutWidget.h",ShortcutWidget.h,19,,0
+Explicit Private Function,"ShortcutWidget::ShortcutWidget",ShortcutWidget.cpp,8,1,
+Private Function,"ShortcutWidget::displayShortcut",ShortcutWidget.cpp,4,1,
+Private Const Function,"ShortcutWidget::key",ShortcutWidget.cpp,4,1,
+Private Function,"ShortcutWidget::keyEvent",ShortcutWidget.cpp,45,12,
+Protected Function,"ShortcutWidget::keyPressEvent",ShortcutWidget.cpp,4,1,
+Protected Function,"ShortcutWidget::keyReleaseEvent",ShortcutWidget.cpp,4,1,
+Private Const Function,"ShortcutWidget::modifiers",ShortcutWidget.cpp,4,1,
+Private Function,"ShortcutWidget::resetShortcut",ShortcutWidget.cpp,7,1,
+Private Function,"ShortcutWidget::setShortcut",ShortcutWidget.cpp,13,2,
+Class,"SignalMultiplexer",SignalMultiplexer.h,129,,26
+File,"SignalMultiplexer.cpp",SignalMultiplexer.cpp,104,,26
+File,"SignalMultiplexer.h",SignalMultiplexer.h,25,,0
+Private Struct,"SignalMultiplexer::Connection",SignalMultiplexer.h,7,,0
+Public Function,"SignalMultiplexer::SignalMultiplexer",SignalMultiplexer.cpp,3,1,
+Public Function,"SignalMultiplexer::connect",SignalMultiplexer.cpp,12,2,
+Public Function,"SignalMultiplexer::connect",SignalMultiplexer.cpp,12,2,
+Private Function,"SignalMultiplexer::connect",SignalMultiplexer.cpp,10,2,
+Public Const Function,"SignalMultiplexer::currentObject",SignalMultiplexer.cpp,4,1,
+Public Function,"SignalMultiplexer::disconnect",SignalMultiplexer.cpp,14,4,
+Public Function,"SignalMultiplexer::disconnect",SignalMultiplexer.cpp,14,4,
+Private Function,"SignalMultiplexer::disconnect",SignalMultiplexer.cpp,10,2,
+Public Function,"SignalMultiplexer::setCurrentObject",SignalMultiplexer.cpp,21,7,
+Public Function,"SignalMultiplexer::~SignalMultiplexer",SignalMultiplexer.cpp,4,1,
+Class,"SortFilterHideProxyModel",SortFilterHideProxyModel.h,31,,4
+File,"SortFilterHideProxyModel.cpp",SortFilterHideProxyModel.cpp,19,,4
+File,"SortFilterHideProxyModel.h",SortFilterHideProxyModel.h,12,,0
+Explicit Private Function,"SortFilterHideProxyModel::SortFilterHideProxyModel",SortFilterHideProxyModel.cpp,4,1,
+Protected Const Function,"SortFilterHideProxyModel::filterAcceptsColumn",SortFilterHideProxyModel.cpp,5,1,
+Private Function,"SortFilterHideProxyModel::hideColumn",SortFilterHideProxyModel.cpp,6,1,
+Private Const Function,"SortFilterHideProxyModel::supportedDragActions",SortFilterHideProxyModel.cpp,4,1,
+Class,"StoreDataStream",StoreDataStream.h,38,,6
+File,"StoreDataStream.cpp",StoreDataStream.cpp,26,,6
+File,"StoreDataStream.h",StoreDataStream.h,12,,0
+Explicit Private Function,"StoreDataStream::StoreDataStream",StoreDataStream.cpp,4,1,
+Private Function,"StoreDataStream::open",StoreDataStream.cpp,8,2,
+Protected Function,"StoreDataStream::readData",StoreDataStream.cpp,10,2,
+Private Const Function,"StoreDataStream::storedData",StoreDataStream.cpp,4,1,
+Class,"SymmetricCipher",SymmetricCipher.h,97,,17
+File,"SymmetricCipher.cpp",SymmetricCipher.cpp,52,,14
+File,"SymmetricCipher.h",SymmetricCipher.h,45,,3
+Public Function,"SymmetricCipher::SymmetricCipher",SymmetricCipher.cpp,6,1,
+Public Const Function,"SymmetricCipher::blockSize",SymmetricCipher.cpp,4,1,
+Private Static Function,"SymmetricCipher::createBackend",SymmetricCipher.cpp,13,4,
+Public Const Function,"SymmetricCipher::errorString",SymmetricCipher.cpp,4,1,
+Public Function,"SymmetricCipher::init",SymmetricCipher.cpp,14,4,
+Public Const Function,"SymmetricCipher::isInitalized",SymmetricCipher.cpp,4,1,
+Public Function,"SymmetricCipher::process",SymmetricCipher.h,3,1,
+Public Function,"SymmetricCipher::processInPlace",SymmetricCipher.h,3,1,
+Public Function,"SymmetricCipher::processInPlace",SymmetricCipher.h,4,1,
+Public Function,"SymmetricCipher::reset",SymmetricCipher.cpp,4,1,
+Public Function,"SymmetricCipher::~SymmetricCipher",SymmetricCipher.cpp,3,1,
+Abstract Class,"SymmetricCipherBackend",SymmetricCipherBackend.h,14,,1
+File,"SymmetricCipherBackend.h",SymmetricCipherBackend.h,14,,1
+Public Virtual Function,"SymmetricCipherBackend::~SymmetricCipherBackend",SymmetricCipherBackend.h,1,1,
+Class,"SymmetricCipherGcrypt",SymmetricCipherGcrypt.h,196,,35
+File,"SymmetricCipherGcrypt.cpp",SymmetricCipherGcrypt.cpp,168,,35
+File,"SymmetricCipherGcrypt.h",SymmetricCipherGcrypt.h,28,,0
+Public Function,"SymmetricCipherGcrypt::SymmetricCipherGcrypt",SymmetricCipherGcrypt.cpp,9,1,
+Public Const Function,"SymmetricCipherGcrypt::blockSize",SymmetricCipherGcrypt.cpp,4,1,
+Public Const Function,"SymmetricCipherGcrypt::errorString",SymmetricCipherGcrypt.cpp,4,1,
+Private Static Function,"SymmetricCipherGcrypt::gcryptAlgo",SymmetricCipherGcrypt.cpp,14,4,
+Private Static Function,"SymmetricCipherGcrypt::gcryptMode",SymmetricCipherGcrypt.cpp,14,4,
+Public Function,"SymmetricCipherGcrypt::init",SymmetricCipherGcrypt.cpp,18,3,
+Public Function,"SymmetricCipherGcrypt::process",SymmetricCipherGcrypt.cpp,19,3,
+Public Function,"SymmetricCipherGcrypt::processInPlace",SymmetricCipherGcrypt.cpp,15,3,
+Public Function,"SymmetricCipherGcrypt::processInPlace",SymmetricCipherGcrypt.cpp,25,6,
+Public Function,"SymmetricCipherGcrypt::reset",SymmetricCipherGcrypt.cpp,15,3,
+Private Function,"SymmetricCipherGcrypt::setErrorString",SymmetricCipherGcrypt.cpp,7,1,
+Public Function,"SymmetricCipherGcrypt::setIv",SymmetricCipherGcrypt.cpp,10,2,
+Public Function,"SymmetricCipherGcrypt::setKey",SymmetricCipherGcrypt.cpp,10,2,
+Public Function,"SymmetricCipherGcrypt::~SymmetricCipherGcrypt",SymmetricCipherGcrypt.cpp,4,1,
+Class,"SymmetricCipherSalsa20",SymmetricCipherSalsa20.h,92,,12
+File,"SymmetricCipherSalsa20.cpp",SymmetricCipherSalsa20.cpp,69,,12
+File,"SymmetricCipherSalsa20.h",SymmetricCipherSalsa20.h,23,,0
+Public Function,"SymmetricCipherSalsa20::SymmetricCipherSalsa20",SymmetricCipherSalsa20.cpp,9,1,
+Public Const Function,"SymmetricCipherSalsa20::blockSize",SymmetricCipherSalsa20.cpp,4,1,
+Public Const Function,"SymmetricCipherSalsa20::errorString",SymmetricCipherSalsa20.cpp,4,1,
+Public Function,"SymmetricCipherSalsa20::init",SymmetricCipherSalsa20.cpp,4,1,
+Public Function,"SymmetricCipherSalsa20::process",SymmetricCipherSalsa20.cpp,10,1,
+Public Function,"SymmetricCipherSalsa20::processInPlace",SymmetricCipherSalsa20.cpp,7,1,
+Public Function,"SymmetricCipherSalsa20::processInPlace",SymmetricCipherSalsa20.cpp,9,2,
+Public Function,"SymmetricCipherSalsa20::reset",SymmetricCipherSalsa20.cpp,5,1,
+Public Function,"SymmetricCipherSalsa20::setIv",SymmetricCipherSalsa20.cpp,7,1,
+Public Function,"SymmetricCipherSalsa20::setKey",SymmetricCipherSalsa20.cpp,7,1,
+Public Function,"SymmetricCipherSalsa20::~SymmetricCipherSalsa20",SymmetricCipherSalsa20.cpp,3,1,
+Class,"SymmetricCipherStream",SymmetricCipherStream.h,215,,37
+File,"SymmetricCipherStream.cpp",SymmetricCipherStream.cpp,189,,37
+File,"SymmetricCipherStream.h",SymmetricCipherStream.h,26,,0
+Private Function,"SymmetricCipherStream::SymmetricCipherStream",SymmetricCipherStream.cpp,11,1,
+Private Function,"SymmetricCipherStream::close",SymmetricCipherStream.cpp,8,2,
+Private Function,"SymmetricCipherStream::init",SymmetricCipherStream.cpp,8,2,
+Private Function,"SymmetricCipherStream::open",SymmetricCipherStream.cpp,7,2,
+Private Function,"SymmetricCipherStream::readBlock",SymmetricCipherStream.cpp,54,8,
+Protected Function,"SymmetricCipherStream::readData",SymmetricCipherStream.cpp,27,6,
+Private Function,"SymmetricCipherStream::reset",SymmetricCipherStream.cpp,10,3,
+Private Function,"SymmetricCipherStream::resetInternalState",SymmetricCipherStream.cpp,9,1,
+Private Function,"SymmetricCipherStream::writeBlock",SymmetricCipherStream.cpp,24,5,
+Protected Function,"SymmetricCipherStream::writeData",SymmetricCipherStream.cpp,27,6,
+Private Function,"SymmetricCipherStream::~SymmetricCipherStream",SymmetricCipherStream.cpp,4,1,
+Class,"TimeDelta",TimeDelta.h,52,,8
+File,"TimeDelta.cpp",TimeDelta.cpp,41,,8
+File,"TimeDelta.h",TimeDelta.h,20,,0
+Public Function,"TimeDelta::TimeDelta",TimeDelta.cpp,6,1,
+Public Function,"TimeDelta::TimeDelta",TimeDelta.cpp,6,1,
+Public Static Function,"TimeDelta::fromDays",TimeDelta.cpp,4,1,
+Public Static Function,"TimeDelta::fromMonths",TimeDelta.cpp,4,1,
+Public Static Function,"TimeDelta::fromYears",TimeDelta.cpp,4,1,
+Public Const Function,"TimeDelta::getDays",TimeDelta.cpp,4,1,
+Public Const Function,"TimeDelta::getMonths",TimeDelta.cpp,4,1,
+Public Const Function,"TimeDelta::getYears",TimeDelta.cpp,4,1,
+Class,"TimeInfo",TimeInfo.h,99,,15
+File,"TimeInfo.cpp",TimeInfo.cpp,72,,15
+File,"TimeInfo.h",TimeInfo.h,27,,0
+Public Function,"TimeInfo::TimeInfo",TimeInfo.cpp,11,1,
+Public Const Function,"TimeInfo::creationTime",TimeInfo.cpp,4,1,
+Public Const Function,"TimeInfo::expires",TimeInfo.cpp,4,1,
+Public Const Function,"TimeInfo::expiryTime",TimeInfo.cpp,4,1,
+Public Const Function,"TimeInfo::lastAccessTime",TimeInfo.cpp,4,1,
+Public Const Function,"TimeInfo::lastModificationTime",TimeInfo.cpp,4,1,
+Public Const Function,"TimeInfo::locationChanged",TimeInfo.cpp,4,1,
+Public Function,"TimeInfo::setCreationTime",TimeInfo.cpp,5,1,
+Public Function,"TimeInfo::setExpires",TimeInfo.cpp,4,1,
+Public Function,"TimeInfo::setExpiryTime",TimeInfo.cpp,5,1,
+Public Function,"TimeInfo::setLastAccessTime",TimeInfo.cpp,5,1,
+Public Function,"TimeInfo::setLastModificationTime",TimeInfo.cpp,5,1,
+Public Function,"TimeInfo::setLocationChanged",TimeInfo.cpp,5,1,
+Public Function,"TimeInfo::setUsageCount",TimeInfo.cpp,4,1,
+Public Const Function,"TimeInfo::usageCount",TimeInfo.cpp,4,1,
+Class,"ToDbExporter",ToDbExporter.h,17,,1
+File,"ToDbExporter.cpp",ToDbExporter.cpp,12,,1
+File,"ToDbExporter.h",ToDbExporter.h,7,,0
+Public Function,"ToDbExporter::exportGroup",ToDbExporter.cpp,12,1,
+File,"Tools.cpp",Tools.cpp,136,,30
+File,"Tools.h",Tools.h,25,,2
+Function Template,"Tools::binaryFind",Tools.h,10,2,
+Function,"Tools::disableCoreDumps",Tools.cpp,7,2,
+Function,"Tools::hasChild",Tools.cpp,13,4,
+Function,"Tools::humanReadableFileSize",Tools.cpp,12,2,
+Function,"Tools::imageReaderFilter",Tools.cpp,14,4,
+Function,"Tools::isBase64",Tools.cpp,7,1,
+Function,"Tools::isHex",Tools.cpp,9,3,
+Function,"Tools::readAllFromDevice",Tools.cpp,21,4,
+Function,"Tools::readFromDevice",Tools.cpp,14,2,
+Function,"Tools::setupSearchPaths",Tools.cpp,3,1,
+Function,"Tools::sleep",Tools.cpp,11,2,
+Function,"Tools::wait",Tools.cpp,23,5,
+Class,"TransformKeyBenchmarkThread",CompositeKey_p.h,40,,5
+Explicit Private Function,"TransformKeyBenchmarkThread::TransformKeyBenchmarkThread",CompositeKey.cpp,6,1,
+Private Function,"TransformKeyBenchmarkThread::rounds",CompositeKey.cpp,4,1,
+Protected Function,"TransformKeyBenchmarkThread::run",CompositeKey.cpp,18,3,
+Class,"Translator",Translator.h,89,,17
+File,"Translator.cpp",Translator.cpp,79,,17
+File,"Translator.h",Translator.h,10,,0
+Public Static Function,"Translator::availableLanguages",Translator.cpp,29,6,
+Private Static Function,"Translator::installQtTranslator",Translator.cpp,12,2,
+Public Static Function,"Translator::installTranslator",Translator.cpp,14,4,
+Private Static Function,"Translator::installTranslator",Translator.cpp,12,3,
+Private Static Function,"Translator::installTranslator",Translator.cpp,12,2,
+Class,"UnlockDatabaseWidget",UnlockDatabaseWidget.h,21,,2
+File,"UnlockDatabaseWidget.cpp",UnlockDatabaseWidget.cpp,14,,2
+File,"UnlockDatabaseWidget.h",UnlockDatabaseWidget.h,7,,0
+Explicit Private Function,"UnlockDatabaseWidget::UnlockDatabaseWidget",UnlockDatabaseWidget.cpp,5,1,
+Private Function,"UnlockDatabaseWidget::clearForms",UnlockDatabaseWidget.cpp,9,1,
+Class,"Uuid",Uuid.h,70,,13
+File,"Uuid.cpp",Uuid.cpp,70,,17
+File,"Uuid.h",Uuid.h,22,,0
+Public Function,"Uuid::Uuid",Uuid.cpp,4,1,
+Explicit Public Function,"Uuid::Uuid",Uuid.cpp,5,1,
+Public Static Function,"Uuid::fromBase64",Uuid.cpp,5,1,
+Public Const Function,"Uuid::isNull",Uuid.cpp,9,3,
+Public Const Function,"Uuid::operator!=",Uuid.cpp,4,1,
+Public Function,"Uuid::operator=",Uuid.cpp,5,1,
+Public Const Function,"Uuid::operator==",Uuid.cpp,4,1,
+Public Static Function,"Uuid::random",Uuid.cpp,4,1,
+Public Const Function,"Uuid::toBase64",Uuid.cpp,4,1,
+Public Const Function,"Uuid::toByteArray",Uuid.cpp,4,1,
+Public Const Function,"Uuid::toHex",Uuid.cpp,4,1,
+Class,"WelcomeWidget",WelcomeWidget.h,18,,2
+File,"WelcomeWidget.cpp",WelcomeWidget.cpp,9,,2
+File,"WelcomeWidget.h",WelcomeWidget.h,12,,0
+Explicit Private Function,"WelcomeWidget::WelcomeWidget",WelcomeWidget.cpp,6,1,
+Private Function,"WelcomeWidget::~WelcomeWidget",WelcomeWidget.cpp,3,1,
+Class,"WildcardMatcher",WildcardMatcher.h,79,,14
+File,"WildcardMatcher.cpp",WildcardMatcher.cpp,62,,14
+File,"WildcardMatcher.h",WildcardMatcher.h,19,,0
+Explicit Public Function,"WildcardMatcher::WildcardMatcher",WildcardMatcher.cpp,4,1,
+Private Function,"WildcardMatcher::calculateNewIndex",WildcardMatcher.cpp,4,1,
+Private Function,"WildcardMatcher::getMatchIndex",WildcardMatcher.cpp,4,1,
+Public Function,"WildcardMatcher::match",WildcardMatcher.cpp,10,2,
+Private Function,"WildcardMatcher::matchWithWildcards",WildcardMatcher.cpp,9,2,
+Private Function,"WildcardMatcher::noMatchFound",WildcardMatcher.cpp,4,1,
+Private Function,"WildcardMatcher::partsMatch",WildcardMatcher.cpp,12,3,
+Private Function,"WildcardMatcher::patternContainsWildcard",WildcardMatcher.cpp,4,1,
+Private Function,"WildcardMatcher::patternEqualsText",WildcardMatcher.cpp,4,1,
+Private Function,"WildcardMatcher::startOrEndDoesNotMatch",WildcardMatcher.cpp,5,1,
+Class,"WindowSelectComboBox",WindowSelectComboBox.h,46,,7
+File,"WindowSelectComboBox.cpp",WindowSelectComboBox.cpp,36,,7
+File,"WindowSelectComboBox.h",WindowSelectComboBox.h,10,,0
+Explicit Private Function,"WindowSelectComboBox::WindowSelectComboBox",WindowSelectComboBox.cpp,8,1,
+Private Const Function,"WindowSelectComboBox::minimumSizeHint",WindowSelectComboBox.cpp,6,1,
+Private Function,"WindowSelectComboBox::refreshWindowList",WindowSelectComboBox.cpp,8,2,
+Private Function,"WindowSelectComboBox::showPopup",WindowSelectComboBox.cpp,8,2,
+Private Const Function,"WindowSelectComboBox::sizeHint",WindowSelectComboBox.cpp,6,1,
+Function Template,"asConst",Global.h,1,1,
+Function,"autoType",AutoType.h,3,1,
+Function,"clipboard",Clipboard.h,3,1,
+Function,"config",Config.h,3,1,
+Function,"databaseIcons",DatabaseIcons.h,3,1,
+Function,"fileDialog",FileDialog.h,3,1,
+Function,"filePath",FilePath.h,3,1,
+File,"kdbx-extract.cpp",kdbx-extract.cpp,48,,8
+File,"keepassx.xml",keepassx.xml,8,0,0
+File,"keepassx_cs.ts",keepassx_cs.ts,1364,1,1
+File,"keepassx_da.ts",keepassx_da.ts,1359,3,3
+File,"keepassx_de.ts",keepassx_de.ts,1357,1,1
+File,"keepassx_el.ts",keepassx_el.ts,1286,1,1
+File,"keepassx_en.ts",keepassx_en.ts,1385,1,1
+File,"keepassx_en_plurals.ts",keepassx_en_plurals.ts,41,0,0
+File,"keepassx_es.ts",keepassx_es.ts,1360,1,1
+File,"keepassx_fr.ts",keepassx_fr.ts,1360,5,5
+File,"keepassx_id.ts",keepassx_id.ts,1360,1,1
+File,"keepassx_it.ts",keepassx_it.ts,1360,1,1
+File,"keepassx_ja.ts",keepassx_ja.ts,1360,3,3
+File,"keepassx_ko.ts",keepassx_ko.ts,1357,1,1
+File,"keepassx_lt.ts",keepassx_lt.ts,1360,1,1
+File,"keepassx_nl_NL.ts",keepassx_nl_NL.ts,1360,1,1
+File,"keepassx_pl.ts",keepassx_pl.ts,1360,1,1
+File,"keepassx_pt_BR.ts",keepassx_pt_BR.ts,1360,1,1
+File,"keepassx_pt_PT.ts",keepassx_pt_PT.ts,1355,1,1
+File,"keepassx_ru.ts",keepassx_ru.ts,1359,1,1
+File,"keepassx_sl_SI.ts",keepassx_sl_SI.ts,1355,1,1
+File,"keepassx_sv.ts",keepassx_sv.ts,1360,1,1
+File,"keepassx_uk.ts",keepassx_uk.ts,1358,1,1
+File,"keepassx_zh_CN.ts",keepassx_zh_CN.ts,1360,1,1
+File,"keepassx_zh_TW.ts",keepassx_zh_TW.ts,1359,1,1
+Module File,"keysymmap.py",keysymmap.py,62,15,15
+Function,"main",kdbx-extract.cpp,48,8,
+Function,"main",main.cpp,54,8,
+File,"main.cpp",main.cpp,54,,8
+Function,"operator<<",Uuid.cpp,4,1,
+Function,"operator>>",Uuid.cpp,9,2,
+Function,"qHash",Uuid.cpp,4,1,
+File,"qtiocompressor.cpp",qtiocompressor.cpp,327,,71
+File,"qtiocompressor.h",qtiocompressor.h,25,,0
+Function,"randomGen",Random.h,3,1,
